@@ -1,0 +1,102 @@
+.TH "ShowPackageBox" 3 "Vendredi 8 Mai 2015" "Version 1.2.2" "Locker_Control" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+ShowPackageBox \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <showpackagebox\&.h>\fP
+.PP
+Est dérivée de QWidget\&.
+.SS "Connecteurs publics"
+
+.in +1c
+.ti -1c
+.RI "void \fBManageListBox\fP (QList< int > list)"
+.br
+.ti -1c
+.RI "void \fBReturnHome\fP ()"
+.br
+.ti -1c
+.RI "void \fBReceiveCode\fP (QString)"
+.br
+.ti -1c
+.RI "void \fBTermitedThreadCode\fP (int, bool)"
+.br
+.ti -1c
+.RI "bool \fBisNumBoxExist\fP (int box)"
+.br
+.ti -1c
+.RI "void \fBOpenDoor\fP (int)"
+.br
+.ti -1c
+.RI "void \fBStatusDoors\fP (\fBstruct_DoorsStatus\fP doorstatus)"
+.br
+.in -1c
+.SS "Signaux"
+
+.in +1c
+.ti -1c
+.RI "void \fBSendCodeThread\fP (QString)"
+.br
+.in -1c
+.SS "Fonctions membres publiques"
+
+.in +1c
+.ti -1c
+.RI "\fBShowPackageBox\fP (\fBCustomer\fP *Wcustomer, \fBCSQLite_Local_DB\fP *bd, \fBCDoors\fP *Doors, QWidget *parent=0)"
+.br
+.ti -1c
+.RI "void \fBSetShowWidgets\fP (\fBShowWidgets\fP *TShowWidgets)"
+.br
+.ti -1c
+.RI "void \fBResetAttribut\fP ()"
+.br
+.ti -1c
+.RI "\fB~ShowPackageBox\fP ()"
+.br
+.ti -1c
+.RI "bool \fBisCloseDoors\fP ()"
+.br
+.ti -1c
+.RI "void \fBretranslateUi\fP ()"
+.br
+.in -1c
+.SH "Documentation des constructeurs et destructeur"
+.PP 
+.SS "ShowPackageBox::ShowPackageBox (\fBCustomer\fP * Wcustomer, \fBCSQLite_Local_DB\fP * bd, \fBCDoors\fP * Doors, QWidget * parent = \fC0\fP)\fC [explicit]\fP"
+
+.SS "ShowPackageBox::~ShowPackageBox ()"
+
+.SH "Documentation des fonctions membres"
+.PP 
+.SS "bool ShowPackageBox::isCloseDoors ()"
+
+.SS "bool ShowPackageBox::isNumBoxExist (int box)\fC [slot]\fP"
+
+.SS "void ShowPackageBox::ManageListBox (QList< int > list)\fC [slot]\fP"
+
+.SS "void ShowPackageBox::OpenDoor (int door)\fC [slot]\fP"
+
+.SS "void ShowPackageBox::ReceiveCode (QString code)\fC [slot]\fP"
+
+.SS "void ShowPackageBox::ResetAttribut ()"
+
+.SS "void ShowPackageBox::retranslateUi ()"
+
+.SS "void ShowPackageBox::ReturnHome ()\fC [slot]\fP"
+
+.SS "void ShowPackageBox::SendCodeThread (QString)\fC [signal]\fP"
+
+.SS "void ShowPackageBox::SetShowWidgets (\fBShowWidgets\fP * TShowWidgets)\fC [inline]\fP"
+
+.SS "void ShowPackageBox::StatusDoors (\fBstruct_DoorsStatus\fP doorstatus)\fC [slot]\fP"
+
+.SS "void ShowPackageBox::TermitedThreadCode (int id, bool result)\fC [slot]\fP"
+
+
+.SH "Auteur"
+.PP 
+Généré automatiquement par Doxygen pour Locker_Control à partir du code source\&.

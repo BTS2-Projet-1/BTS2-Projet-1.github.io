@@ -1,0 +1,63 @@
+.TH "drawBox" 3 "Vendredi 8 Mai 2015" "Version 1.2.2" "Locker_Control" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+drawBox \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <drawbox\&.h>\fP
+.PP
+Est dérivée de QObject, et QGraphicsRectItem\&.
+.SS "Signaux"
+
+.in +1c
+.ti -1c
+.RI "void \fBMyId\fP (int)"
+.br
+.in -1c
+.SS "Fonctions membres publiques"
+
+.in +1c
+.ti -1c
+.RI "\fBdrawBox\fP (int id=0, QGraphicsItem *parent=0)"
+.br
+.ti -1c
+.RI "\fB~drawBox\fP ()"
+.br
+.ti -1c
+.RI "int \fBgetIdRect\fP ()"
+.br
+.ti -1c
+.RI "void \fBmousePressEvent\fP (QGraphicsSceneMouseEvent *event)"
+.br
+.ti -1c
+.RI "void \fBsetColor\fP (int)"
+.br
+.ti -1c
+.RI "void \fBdrawRect\fP (int, int, int, int)"
+.br
+.in -1c
+.SH "Documentation des constructeurs et destructeur"
+.PP 
+.SS "drawBox::drawBox (int id = \fC0\fP, QGraphicsItem * parent = \fC0\fP)\fC [explicit]\fP"
+
+.SS "drawBox::~drawBox ()"
+
+.SH "Documentation des fonctions membres"
+.PP 
+.SS "void drawBox::drawRect (int x, int y, int width, int height)"
+
+.SS "int drawBox::getIdRect ()\fC [inline]\fP"
+
+.SS "void drawBox::mousePressEvent (QGraphicsSceneMouseEvent * event)"
+
+.SS "void drawBox::MyId (int)\fC [signal]\fP"
+
+.SS "void drawBox::setColor (int status)"
+
+
+.SH "Auteur"
+.PP 
+Généré automatiquement par Doxygen pour Locker_Control à partir du code source\&.

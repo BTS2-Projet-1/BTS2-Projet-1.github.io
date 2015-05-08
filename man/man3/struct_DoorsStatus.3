@@ -1,0 +1,49 @@
+.TH "struct_DoorsStatus" 3 "Vendredi 8 Mai 2015" "Version 1.2.2" "Locker_Control" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+struct_DoorsStatus \- Structure de donnée de l'application LC, utilisée pour définir l'état des portes des consignes\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <DataStructures\&.h>\fP
+.SS "Attributs publics"
+
+.in +1c
+.ti -1c
+.RI "int \fBBoxNumber\fP"
+.br
+.ti -1c
+.RI "bool \fBBoxIsUsed\fP"
+.br
+.ti -1c
+.RI "bool \fBBoxIsDammaged\fP"
+.br
+.ti -1c
+.RI "bool \fBDoorIsOpen\fP"
+.br
+.ti -1c
+.RI "bool \fBDoorIsLock\fP"
+.br
+.in -1c
+.SH "Description détaillée"
+.PP 
+Structure de donnée de l'application LC, utilisée pour définir l'état des portes des consignes\&. 
+.SH "Documentation des données membres"
+.PP 
+.SS "bool struct_DoorsStatus::BoxIsDammaged"
+Etat de la porte, si elle est endommagée à vrai (true) ou faux (false) sinon 
+.SS "bool struct_DoorsStatus::BoxIsUsed"
+Etat de la porte, si elle est utilisée à vrai (true) ou faux (false) sinon 
+.SS "int struct_DoorsStatus::BoxNumber"
+Identifiant de la porte 
+.SS "bool struct_DoorsStatus::DoorIsLock"
+Etat de la porte, si elle est fermée à vrai (true) ou faux (false) sinon 
+.SS "bool struct_DoorsStatus::DoorIsOpen"
+Etat de la porte, si elle est ouverte à vrai (true) ou faux (false) sinon 
+
+.SH "Auteur"
+.PP 
+Généré automatiquement par Doxygen pour Locker_Control à partir du code source\&.

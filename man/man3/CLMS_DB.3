@@ -1,0 +1,47 @@
+.TH "CLMS_DB" 3 "Vendredi 8 Mai 2015" "Version 1.2.2" "Locker_Control" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+CLMS_DB \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <clms_db\&.h>\fP
+.SS "Fonctions membres publiques"
+
+.in +1c
+.ti -1c
+.RI "\fBCLMS_DB\fP ()"
+.br
+.ti -1c
+.RI "QList< struct \fBstruct_PackagesUseBox\fP > \fBGenerateExtractCode\fP (QString SiteName, QList< struct \fBstruct_PackagesUseBox\fP > PackageStorageListEmpty)"
+.br
+.ti -1c
+.RI "QList< QString > \fBGet_LastDatabase_Save\fP (QString DB_Site)"
+.br
+.ti -1c
+.RI "bool \fBAutoSave_DatabaseLMS\fP (QString DB_Site, QString FilePath)"
+.br
+.ti -1c
+.RI "bool \fBManualSave_DatabaseLMS\fP (QString DB_Site, QString FilePath)"
+.br
+.in -1c
+.SH "Documentation des constructeurs et destructeur"
+.PP 
+.SS "CLMS_DB::CLMS_DB ()"
+
+.SH "Documentation des fonctions membres"
+.PP 
+.SS "bool CLMS_DB::AutoSave_DatabaseLMS (QString DB_Site, QString FilePath)"
+
+.SS "QList< struct \fBstruct_PackagesUseBox\fP > CLMS_DB::GenerateExtractCode (QString SiteName, QList< struct \fBstruct_PackagesUseBox\fP > PackageStorageListEmpty)"
+
+.SS "QList< QString > CLMS_DB::Get_LastDatabase_Save (QString DB_Site)"
+
+.SS "bool CLMS_DB::ManualSave_DatabaseLMS (QString DB_Site, QString FilePath)"
+
+
+.SH "Auteur"
+.PP 
+Généré automatiquement par Doxygen pour Locker_Control à partir du code source\&.

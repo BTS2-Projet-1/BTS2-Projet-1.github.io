@@ -1,0 +1,69 @@
+\hypertarget{sqlite__local__databasemanager_8h}{}\section{Référence du fichier S\+:/\+Q\+T\+\_\+\+C\+R\+E\+A\+T\+O\+R/\+Locker\+\_\+\+Control/sqlite\+\_\+local\+\_\+databasemanager.h}
+\label{sqlite__local__databasemanager_8h}\index{S\+:/\+Q\+T\+\_\+\+C\+R\+E\+A\+T\+O\+R/\+Locker\+\_\+\+Control/sqlite\+\_\+local\+\_\+databasemanager.\+h@{S\+:/\+Q\+T\+\_\+\+C\+R\+E\+A\+T\+O\+R/\+Locker\+\_\+\+Control/sqlite\+\_\+local\+\_\+databasemanager.\+h}}
+{\ttfamily \#include $<$Q\+Widget$>$}\\*
+{\ttfamily \#include $<$Q\+Timer$>$}\\*
+{\ttfamily \#include \char`\"{}showwidgets.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}csqlite\+\_\+local\+\_\+db.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}thread\+\_\+databasemanager.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}thread\+\_\+localdatabase\+\_\+autosave.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}consolewindows.\+h\char`\"{}}\\*
+Graphe des dépendances par inclusion de sqlite\+\_\+local\+\_\+databasemanager.\+h\+:
+% FIG 0
+Ce graphe montre quels fichiers incluent directement ou indirectement ce fichier \+:
+% FIG 1
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_s_q_lite___local___database_manager}{S\+Q\+Lite\+\_\+\+Local\+\_\+\+Database\+Manager}
+\begin{DoxyCompactList}\small\item\em classe \hyperlink{class_s_q_lite___local___database_manager}{S\+Q\+Lite\+\_\+\+Local\+\_\+\+Database\+Manager}, gestion de des actions et interractions entre l\textquotesingle{}interface de maintenance de la base de données et la classe \hyperlink{class_c_s_q_lite___local___d_b}{C\+S\+Q\+Lite\+\_\+\+Local\+\_\+\+D\+B}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Espaces de nommage}
+\begin{DoxyCompactItemize}
+\item 
+ \hyperlink{namespace_ui}{Ui}
+\end{DoxyCompactItemize}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{sqlite__local__databasemanager_8h_a0515d1568f9d90eb5f9971872c2763d0}{W\+I\+N\+D\+E\+X\+\_\+\+D\+B\+\_\+\+M\+A\+N\+A\+G\+E\+R}~0
+\item 
+\#define \hyperlink{sqlite__local__databasemanager_8h_a107291f65128db9a9d27f7b470ce446c}{W\+I\+N\+D\+E\+X\+\_\+\+L\+O\+A\+D\+I\+N\+G}~1
+\item 
+\#define \hyperlink{sqlite__local__databasemanager_8h_aebc7c36153476c6575479b149ed34d05}{W\+I\+N\+D\+E\+X\+\_\+\+C\+O\+N\+F\+I\+R\+M}~2
+\item 
+\#define \hyperlink{sqlite__local__databasemanager_8h_a5bb0f6638bb9c802765113273e6f407c}{C\+B\+I\+N\+D\+E\+X\+\_\+\+D\+B\+\_\+\+L\+A\+S\+T\+\_\+\+S\+A\+V\+E}~0
+\item 
+\#define \hyperlink{sqlite__local__databasemanager_8h_a40fdcb9805895b019d19405083f0fef2}{C\+B\+I\+N\+D\+E\+X\+\_\+\+D\+B\+\_\+\+D\+E\+F\+A\+U\+L\+T\+\_\+\+E\+M\+P\+T\+Y}~1
+\item 
+\#define \hyperlink{sqlite__local__databasemanager_8h_ae183faafef0ead372484dd3e64d500b5}{C\+B\+I\+N\+D\+E\+X\+\_\+\+D\+B\+\_\+\+D\+E\+F\+A\+U\+L\+T\+\_\+\+T\+E\+S\+T}~2
+\item 
+\#define \hyperlink{sqlite__local__databasemanager_8h_a88ba339706a36a3fc3609615e87c06f2}{E\+N\+D\+\_\+\+L\+O\+A\+D\+I\+N\+G\+\_\+\+T\+I\+M\+E\+O\+U\+T\+\_\+\+S\+E\+C\+O\+N\+D\+S}~5
+\item 
+\#define \hyperlink{sqlite__local__databasemanager_8h_a335366e89b7542d19eae998cf28e2dce}{A\+U\+T\+O\+S\+A\+V\+E\+\_\+\+D\+A\+T\+A\+B\+A\+S\+E\+\_\+\+T\+I\+M\+E\+O\+U\+T\+\_\+\+S\+E\+C\+O\+N\+D\+S}~900
+\end{DoxyCompactItemize}
+
+
+\subsection{Documentation des macros}
+\hypertarget{sqlite__local__databasemanager_8h_a335366e89b7542d19eae998cf28e2dce}{}\index{sqlite\+\_\+local\+\_\+databasemanager.\+h@{sqlite\+\_\+local\+\_\+databasemanager.\+h}!A\+U\+T\+O\+S\+A\+V\+E\+\_\+\+D\+A\+T\+A\+B\+A\+S\+E\+\_\+\+T\+I\+M\+E\+O\+U\+T\+\_\+\+S\+E\+C\+O\+N\+D\+S@{A\+U\+T\+O\+S\+A\+V\+E\+\_\+\+D\+A\+T\+A\+B\+A\+S\+E\+\_\+\+T\+I\+M\+E\+O\+U\+T\+\_\+\+S\+E\+C\+O\+N\+D\+S}}
+\index{A\+U\+T\+O\+S\+A\+V\+E\+\_\+\+D\+A\+T\+A\+B\+A\+S\+E\+\_\+\+T\+I\+M\+E\+O\+U\+T\+\_\+\+S\+E\+C\+O\+N\+D\+S@{A\+U\+T\+O\+S\+A\+V\+E\+\_\+\+D\+A\+T\+A\+B\+A\+S\+E\+\_\+\+T\+I\+M\+E\+O\+U\+T\+\_\+\+S\+E\+C\+O\+N\+D\+S}!sqlite\+\_\+local\+\_\+databasemanager.\+h@{sqlite\+\_\+local\+\_\+databasemanager.\+h}}
+\subsubsection[{A\+U\+T\+O\+S\+A\+V\+E\+\_\+\+D\+A\+T\+A\+B\+A\+S\+E\+\_\+\+T\+I\+M\+E\+O\+U\+T\+\_\+\+S\+E\+C\+O\+N\+D\+S}]{\setlength{\rightskip}{0pt plus 5cm}\#define A\+U\+T\+O\+S\+A\+V\+E\+\_\+\+D\+A\+T\+A\+B\+A\+S\+E\+\_\+\+T\+I\+M\+E\+O\+U\+T\+\_\+\+S\+E\+C\+O\+N\+D\+S~900}\label{sqlite__local__databasemanager_8h_a335366e89b7542d19eae998cf28e2dce}
+\hypertarget{sqlite__local__databasemanager_8h_a40fdcb9805895b019d19405083f0fef2}{}\index{sqlite\+\_\+local\+\_\+databasemanager.\+h@{sqlite\+\_\+local\+\_\+databasemanager.\+h}!C\+B\+I\+N\+D\+E\+X\+\_\+\+D\+B\+\_\+\+D\+E\+F\+A\+U\+L\+T\+\_\+\+E\+M\+P\+T\+Y@{C\+B\+I\+N\+D\+E\+X\+\_\+\+D\+B\+\_\+\+D\+E\+F\+A\+U\+L\+T\+\_\+\+E\+M\+P\+T\+Y}}
+\index{C\+B\+I\+N\+D\+E\+X\+\_\+\+D\+B\+\_\+\+D\+E\+F\+A\+U\+L\+T\+\_\+\+E\+M\+P\+T\+Y@{C\+B\+I\+N\+D\+E\+X\+\_\+\+D\+B\+\_\+\+D\+E\+F\+A\+U\+L\+T\+\_\+\+E\+M\+P\+T\+Y}!sqlite\+\_\+local\+\_\+databasemanager.\+h@{sqlite\+\_\+local\+\_\+databasemanager.\+h}}
+\subsubsection[{C\+B\+I\+N\+D\+E\+X\+\_\+\+D\+B\+\_\+\+D\+E\+F\+A\+U\+L\+T\+\_\+\+E\+M\+P\+T\+Y}]{\setlength{\rightskip}{0pt plus 5cm}\#define C\+B\+I\+N\+D\+E\+X\+\_\+\+D\+B\+\_\+\+D\+E\+F\+A\+U\+L\+T\+\_\+\+E\+M\+P\+T\+Y~1}\label{sqlite__local__databasemanager_8h_a40fdcb9805895b019d19405083f0fef2}
+\hypertarget{sqlite__local__databasemanager_8h_ae183faafef0ead372484dd3e64d500b5}{}\index{sqlite\+\_\+local\+\_\+databasemanager.\+h@{sqlite\+\_\+local\+\_\+databasemanager.\+h}!C\+B\+I\+N\+D\+E\+X\+\_\+\+D\+B\+\_\+\+D\+E\+F\+A\+U\+L\+T\+\_\+\+T\+E\+S\+T@{C\+B\+I\+N\+D\+E\+X\+\_\+\+D\+B\+\_\+\+D\+E\+F\+A\+U\+L\+T\+\_\+\+T\+E\+S\+T}}
+\index{C\+B\+I\+N\+D\+E\+X\+\_\+\+D\+B\+\_\+\+D\+E\+F\+A\+U\+L\+T\+\_\+\+T\+E\+S\+T@{C\+B\+I\+N\+D\+E\+X\+\_\+\+D\+B\+\_\+\+D\+E\+F\+A\+U\+L\+T\+\_\+\+T\+E\+S\+T}!sqlite\+\_\+local\+\_\+databasemanager.\+h@{sqlite\+\_\+local\+\_\+databasemanager.\+h}}
+\subsubsection[{C\+B\+I\+N\+D\+E\+X\+\_\+\+D\+B\+\_\+\+D\+E\+F\+A\+U\+L\+T\+\_\+\+T\+E\+S\+T}]{\setlength{\rightskip}{0pt plus 5cm}\#define C\+B\+I\+N\+D\+E\+X\+\_\+\+D\+B\+\_\+\+D\+E\+F\+A\+U\+L\+T\+\_\+\+T\+E\+S\+T~2}\label{sqlite__local__databasemanager_8h_ae183faafef0ead372484dd3e64d500b5}
+\hypertarget{sqlite__local__databasemanager_8h_a5bb0f6638bb9c802765113273e6f407c}{}\index{sqlite\+\_\+local\+\_\+databasemanager.\+h@{sqlite\+\_\+local\+\_\+databasemanager.\+h}!C\+B\+I\+N\+D\+E\+X\+\_\+\+D\+B\+\_\+\+L\+A\+S\+T\+\_\+\+S\+A\+V\+E@{C\+B\+I\+N\+D\+E\+X\+\_\+\+D\+B\+\_\+\+L\+A\+S\+T\+\_\+\+S\+A\+V\+E}}
+\index{C\+B\+I\+N\+D\+E\+X\+\_\+\+D\+B\+\_\+\+L\+A\+S\+T\+\_\+\+S\+A\+V\+E@{C\+B\+I\+N\+D\+E\+X\+\_\+\+D\+B\+\_\+\+L\+A\+S\+T\+\_\+\+S\+A\+V\+E}!sqlite\+\_\+local\+\_\+databasemanager.\+h@{sqlite\+\_\+local\+\_\+databasemanager.\+h}}
+\subsubsection[{C\+B\+I\+N\+D\+E\+X\+\_\+\+D\+B\+\_\+\+L\+A\+S\+T\+\_\+\+S\+A\+V\+E}]{\setlength{\rightskip}{0pt plus 5cm}\#define C\+B\+I\+N\+D\+E\+X\+\_\+\+D\+B\+\_\+\+L\+A\+S\+T\+\_\+\+S\+A\+V\+E~0}\label{sqlite__local__databasemanager_8h_a5bb0f6638bb9c802765113273e6f407c}
+\hypertarget{sqlite__local__databasemanager_8h_a88ba339706a36a3fc3609615e87c06f2}{}\index{sqlite\+\_\+local\+\_\+databasemanager.\+h@{sqlite\+\_\+local\+\_\+databasemanager.\+h}!E\+N\+D\+\_\+\+L\+O\+A\+D\+I\+N\+G\+\_\+\+T\+I\+M\+E\+O\+U\+T\+\_\+\+S\+E\+C\+O\+N\+D\+S@{E\+N\+D\+\_\+\+L\+O\+A\+D\+I\+N\+G\+\_\+\+T\+I\+M\+E\+O\+U\+T\+\_\+\+S\+E\+C\+O\+N\+D\+S}}
+\index{E\+N\+D\+\_\+\+L\+O\+A\+D\+I\+N\+G\+\_\+\+T\+I\+M\+E\+O\+U\+T\+\_\+\+S\+E\+C\+O\+N\+D\+S@{E\+N\+D\+\_\+\+L\+O\+A\+D\+I\+N\+G\+\_\+\+T\+I\+M\+E\+O\+U\+T\+\_\+\+S\+E\+C\+O\+N\+D\+S}!sqlite\+\_\+local\+\_\+databasemanager.\+h@{sqlite\+\_\+local\+\_\+databasemanager.\+h}}
+\subsubsection[{E\+N\+D\+\_\+\+L\+O\+A\+D\+I\+N\+G\+\_\+\+T\+I\+M\+E\+O\+U\+T\+\_\+\+S\+E\+C\+O\+N\+D\+S}]{\setlength{\rightskip}{0pt plus 5cm}\#define E\+N\+D\+\_\+\+L\+O\+A\+D\+I\+N\+G\+\_\+\+T\+I\+M\+E\+O\+U\+T\+\_\+\+S\+E\+C\+O\+N\+D\+S~5}\label{sqlite__local__databasemanager_8h_a88ba339706a36a3fc3609615e87c06f2}
+\hypertarget{sqlite__local__databasemanager_8h_aebc7c36153476c6575479b149ed34d05}{}\index{sqlite\+\_\+local\+\_\+databasemanager.\+h@{sqlite\+\_\+local\+\_\+databasemanager.\+h}!W\+I\+N\+D\+E\+X\+\_\+\+C\+O\+N\+F\+I\+R\+M@{W\+I\+N\+D\+E\+X\+\_\+\+C\+O\+N\+F\+I\+R\+M}}
+\index{W\+I\+N\+D\+E\+X\+\_\+\+C\+O\+N\+F\+I\+R\+M@{W\+I\+N\+D\+E\+X\+\_\+\+C\+O\+N\+F\+I\+R\+M}!sqlite\+\_\+local\+\_\+databasemanager.\+h@{sqlite\+\_\+local\+\_\+databasemanager.\+h}}
+\subsubsection[{W\+I\+N\+D\+E\+X\+\_\+\+C\+O\+N\+F\+I\+R\+M}]{\setlength{\rightskip}{0pt plus 5cm}\#define W\+I\+N\+D\+E\+X\+\_\+\+C\+O\+N\+F\+I\+R\+M~2}\label{sqlite__local__databasemanager_8h_aebc7c36153476c6575479b149ed34d05}
+\hypertarget{sqlite__local__databasemanager_8h_a0515d1568f9d90eb5f9971872c2763d0}{}\index{sqlite\+\_\+local\+\_\+databasemanager.\+h@{sqlite\+\_\+local\+\_\+databasemanager.\+h}!W\+I\+N\+D\+E\+X\+\_\+\+D\+B\+\_\+\+M\+A\+N\+A\+G\+E\+R@{W\+I\+N\+D\+E\+X\+\_\+\+D\+B\+\_\+\+M\+A\+N\+A\+G\+E\+R}}
+\index{W\+I\+N\+D\+E\+X\+\_\+\+D\+B\+\_\+\+M\+A\+N\+A\+G\+E\+R@{W\+I\+N\+D\+E\+X\+\_\+\+D\+B\+\_\+\+M\+A\+N\+A\+G\+E\+R}!sqlite\+\_\+local\+\_\+databasemanager.\+h@{sqlite\+\_\+local\+\_\+databasemanager.\+h}}
+\subsubsection[{W\+I\+N\+D\+E\+X\+\_\+\+D\+B\+\_\+\+M\+A\+N\+A\+G\+E\+R}]{\setlength{\rightskip}{0pt plus 5cm}\#define W\+I\+N\+D\+E\+X\+\_\+\+D\+B\+\_\+\+M\+A\+N\+A\+G\+E\+R~0}\label{sqlite__local__databasemanager_8h_a0515d1568f9d90eb5f9971872c2763d0}
+\hypertarget{sqlite__local__databasemanager_8h_a107291f65128db9a9d27f7b470ce446c}{}\index{sqlite\+\_\+local\+\_\+databasemanager.\+h@{sqlite\+\_\+local\+\_\+databasemanager.\+h}!W\+I\+N\+D\+E\+X\+\_\+\+L\+O\+A\+D\+I\+N\+G@{W\+I\+N\+D\+E\+X\+\_\+\+L\+O\+A\+D\+I\+N\+G}}
+\index{W\+I\+N\+D\+E\+X\+\_\+\+L\+O\+A\+D\+I\+N\+G@{W\+I\+N\+D\+E\+X\+\_\+\+L\+O\+A\+D\+I\+N\+G}!sqlite\+\_\+local\+\_\+databasemanager.\+h@{sqlite\+\_\+local\+\_\+databasemanager.\+h}}
+\subsubsection[{W\+I\+N\+D\+E\+X\+\_\+\+L\+O\+A\+D\+I\+N\+G}]{\setlength{\rightskip}{0pt plus 5cm}\#define W\+I\+N\+D\+E\+X\+\_\+\+L\+O\+A\+D\+I\+N\+G~1}\label{sqlite__local__databasemanager_8h_a107291f65128db9a9d27f7b470ce446c}

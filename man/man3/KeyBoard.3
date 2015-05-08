@@ -1,0 +1,97 @@
+.TH "KeyBoard" 3 "Vendredi 8 Mai 2015" "Version 1.2.2" "Locker_Control" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+KeyBoard \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <keyboard\&.h>\fP
+.PP
+Est dérivée de QWidget\&.
+.SS "Connecteurs publics"
+
+.in +1c
+.ti -1c
+.RI "void \fBset_ABC\fP ()"
+.br
+.ti -1c
+.RI "void \fBset_123\fP ()"
+.br
+.in -1c
+.SS "Signaux"
+
+.in +1c
+.ti -1c
+.RI "void \fBSendCarac\fP (QChar)"
+.br
+.ti -1c
+.RI "void \fBSupprLastCaract\fP ()"
+.br
+.ti -1c
+.RI "void \fBButtonOKCliked\fP ()"
+.br
+.in -1c
+.SS "Fonctions membres publiques"
+
+.in +1c
+.ti -1c
+.RI "\fBKeyBoard\fP (QWidget *parent=0, \fBMODE\fP mode=\fBUPPER\fP)"
+.br
+.ti -1c
+.RI "\fB~KeyBoard\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetVisibleB_Ok\fP (bool visible)"
+.br
+.ti -1c
+.RI "void \fBsetTextButtonOK\fP (QString text)"
+.br
+.ti -1c
+.RI "void \fBsetMode\fP (\fBMODE\fP mode)"
+.br
+.ti -1c
+.RI "\fBMODE\fP \fBgetMode\fP ()"
+.br
+.ti -1c
+.RI "void \fBUpdateMode\fP ()"
+.br
+.ti -1c
+.RI "void \fBretranslateUi\fP ()"
+.br
+.in -1c
+.SH "Documentation des constructeurs et destructeur"
+.PP 
+.SS "KeyBoard::KeyBoard (QWidget * parent = \fC0\fP, \fBMODE\fP mode = \fC\fBUPPER\fP\fP)\fC [explicit]\fP"
+
+.SS "KeyBoard::~KeyBoard ()"
+
+.SH "Documentation des fonctions membres"
+.PP 
+.SS "void KeyBoard::ButtonOKCliked ()\fC [signal]\fP"
+
+.SS "\fBMODE\fP KeyBoard::getMode ()\fC [inline]\fP"
+
+.SS "void KeyBoard::retranslateUi ()"
+
+.SS "void KeyBoard::SendCarac (QChar)\fC [signal]\fP"
+
+.SS "void KeyBoard::set_123 ()\fC [slot]\fP"
+
+.SS "void KeyBoard::set_ABC ()\fC [slot]\fP"
+
+.SS "void KeyBoard::setMode (\fBMODE\fP mode)"
+
+.SS "void KeyBoard::setTextButtonOK (QString text)"
+
+.SS "void KeyBoard::setVisibleB_Ok (bool visible)"
+
+.SS "void KeyBoard::SupprLastCaract ()\fC [signal]\fP"
+
+.SS "void KeyBoard::UpdateMode ()"
+
+
+.SH "Auteur"
+.PP 
+Généré automatiquement par Doxygen pour Locker_Control à partir du code source\&.

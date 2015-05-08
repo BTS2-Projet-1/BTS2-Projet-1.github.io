@@ -1,0 +1,121 @@
+\hypertarget{_data_structures_8h}{}\section{Référence du fichier S\+:/\+Q\+T\+\_\+\+C\+R\+E\+A\+T\+O\+R/\+Locker\+\_\+\+Control/\+Data\+Structures.h}
+\label{_data_structures_8h}\index{S\+:/\+Q\+T\+\_\+\+C\+R\+E\+A\+T\+O\+R/\+Locker\+\_\+\+Control/\+Data\+Structures.\+h@{S\+:/\+Q\+T\+\_\+\+C\+R\+E\+A\+T\+O\+R/\+Locker\+\_\+\+Control/\+Data\+Structures.\+h}}
+
+
+Definnitions des formats de communications des données entre les classes de l\textquotesingle{}application L\+C.  
+
+
+{\ttfamily \#include $<$Q\+String$>$}\\*
+{\ttfamily \#include $<$Q\+List$>$}\\*
+Graphe des dépendances par inclusion de Data\+Structures.\+h\+:
+% FIG 0
+Ce graphe montre quels fichiers incluent directement ou indirectement ce fichier \+:
+% FIG 1
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structstruct___packages_use_box}{struct\+\_\+\+Packages\+Use\+Box}
+\begin{DoxyCompactList}\small\item\em Structure de donnée de l\textquotesingle{}application L\+C, utilisée pour l\textquotesingle{}enregistrement des livraisons avec le contenu des consignes. \end{DoxyCompactList}\item 
+struct \hyperlink{structstruct___packages_use_box_1_1struct___box_containment}{struct\+\_\+\+Packages\+Use\+Box\+::struct\+\_\+\+Box\+Containment}
+\begin{DoxyCompactList}\small\item\em Structure de donnée de l\textquotesingle{}application L\+C, inclus dans une \char`\"{}struct\+\_\+\+Packages\+Use\+Box\char`\"{} utilisée pour renseigner le contenu des consignes. \end{DoxyCompactList}\item 
+struct \hyperlink{structstruct___door_geom}{struct\+\_\+\+Door\+Geom}
+\begin{DoxyCompactList}\small\item\em Structure de donnée de l\textquotesingle{}application L\+C, utilisée pour dessiner le plan de l\textquotesingle{}installation des consignes. \end{DoxyCompactList}\item 
+struct \hyperlink{structstruct___database___contains}{struct\+\_\+\+Database\+\_\+\+Contains}
+\begin{DoxyCompactList}\small\item\em Structure de donnée de l\textquotesingle{}application L\+C, utilisée pour l\textquotesingle{}enregistrement et lectures des fichiers de sauvegarde. \end{DoxyCompactList}\item 
+struct \hyperlink{structstruct___doors_status}{struct\+\_\+\+Doors\+Status}
+\begin{DoxyCompactList}\small\item\em Structure de donnée de l\textquotesingle{}application L\+C, utilisée pour définir l\textquotesingle{}état des portes des consignes. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{_data_structures_8h_ad72dbcf6d0153db1b8d8a58001feed83}{D\+E\+B\+U\+G}
+\item 
+\#define \hyperlink{_data_structures_8h_aa9b81cc5e387af1c5751d961dc3a4e7e}{E\+M\+P\+T\+Y\+\_\+\+D\+A\+T\+A\+B\+A\+S\+E}~1
+\item 
+\#define \hyperlink{_data_structures_8h_a2e7c896e28ab967d0e669668e8665e42}{D\+E\+F\+A\+U\+L\+T\+\_\+\+D\+A\+T\+A\+B\+A\+S\+E}~2
+\item 
+\#define \hyperlink{_data_structures_8h_a6478a118967e7092634dc0ad57b65821}{S\+A\+V\+E\+\_\+\+D\+A\+T\+A\+B\+A\+S\+E}~3
+\item 
+\#define \hyperlink{_data_structures_8h_ae6da387dcc33f758c3ecc0eed37b017a}{L\+O\+A\+D\+\_\+\+S\+A\+V\+E\+\_\+\+D\+A\+T\+A\+B\+A\+S\+E}~4
+\item 
+\#define \hyperlink{_data_structures_8h_ac2048dc8217d2d1577294d038d370942}{U\+N\+D\+E\+F\+I\+N\+E\+D\+\_\+\+U\+S\+E\+R}~-\/4
+\item 
+\#define \hyperlink{_data_structures_8h_a63ef3b4612abf91c28f401827c154eb3}{U\+N\+D\+E\+F\+I\+N\+E\+D\+\_\+\+C\+O\+M\+P\+A\+N\+Y\+\_\+\+P\+A\+S\+S}~-\/3
+\item 
+\#define \hyperlink{_data_structures_8h_a8f5ed1538acaccde30f1e061a386d4b1}{U\+N\+D\+E\+F\+I\+N\+E\+D\+\_\+\+P\+E\+R\+S\+O\+N\+A\+L\+\_\+\+P\+A\+S\+S}~-\/2
+\item 
+\#define \hyperlink{_data_structures_8h_aea9fd80c8b768de05ea6b4b3f31e0503}{U\+N\+D\+E\+F\+I\+N\+E\+D\+\_\+\+P\+A\+S\+S\+W\+O\+R\+D}~-\/1
+\item 
+\#define \hyperlink{_data_structures_8h_a5dd814b557fb0b8ca76e56efc0746213}{L\+I\+V\+R\+E\+U\+R}~0
+\item 
+\#define \hyperlink{_data_structures_8h_a20d45223f729a34bbbce376939513b8f}{M\+A\+I\+N\+T\+E\+N\+A\+N\+C\+E}~1
+\item 
+\#define \hyperlink{_data_structures_8h_aba51915c87d64af47fb1cc59348961c9}{O\+K}~0
+\item 
+\#define \hyperlink{_data_structures_8h_acb00992efca56626cdf0907e5edb5b51}{K\+O}~1
+\item 
+\#define \hyperlink{_data_structures_8h_a4274041a72a0c212e4b8851b35fcf8fb}{S\+E\+L\+E\+C\+T\+E\+D}~2
+\item 
+\#define \hyperlink{_data_structures_8h_a91dc7f342013134dcce67f693b539a9c}{N\+O\+C\+H\+E\+C\+K\+E\+D}~3
+\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+Definnitions des formats de communications des données entre les classes de l\textquotesingle{}application L\+C. 
+
+\begin{DoxyAuthor}{Auteur}
+H\+O\+U\+D\+A\+Y\+E\+R Pierre
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+3
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+8 mai 2015 
+\end{DoxyDate}
+
+
+\subsection{Documentation des macros}
+\hypertarget{_data_structures_8h_ad72dbcf6d0153db1b8d8a58001feed83}{}\index{Data\+Structures.\+h@{Data\+Structures.\+h}!D\+E\+B\+U\+G@{D\+E\+B\+U\+G}}
+\index{D\+E\+B\+U\+G@{D\+E\+B\+U\+G}!Data\+Structures.\+h@{Data\+Structures.\+h}}
+\subsubsection[{D\+E\+B\+U\+G}]{\setlength{\rightskip}{0pt plus 5cm}\#define D\+E\+B\+U\+G}\label{_data_structures_8h_ad72dbcf6d0153db1b8d8a58001feed83}
+\hypertarget{_data_structures_8h_a2e7c896e28ab967d0e669668e8665e42}{}\index{Data\+Structures.\+h@{Data\+Structures.\+h}!D\+E\+F\+A\+U\+L\+T\+\_\+\+D\+A\+T\+A\+B\+A\+S\+E@{D\+E\+F\+A\+U\+L\+T\+\_\+\+D\+A\+T\+A\+B\+A\+S\+E}}
+\index{D\+E\+F\+A\+U\+L\+T\+\_\+\+D\+A\+T\+A\+B\+A\+S\+E@{D\+E\+F\+A\+U\+L\+T\+\_\+\+D\+A\+T\+A\+B\+A\+S\+E}!Data\+Structures.\+h@{Data\+Structures.\+h}}
+\subsubsection[{D\+E\+F\+A\+U\+L\+T\+\_\+\+D\+A\+T\+A\+B\+A\+S\+E}]{\setlength{\rightskip}{0pt plus 5cm}\#define D\+E\+F\+A\+U\+L\+T\+\_\+\+D\+A\+T\+A\+B\+A\+S\+E~2}\label{_data_structures_8h_a2e7c896e28ab967d0e669668e8665e42}
+\hypertarget{_data_structures_8h_aa9b81cc5e387af1c5751d961dc3a4e7e}{}\index{Data\+Structures.\+h@{Data\+Structures.\+h}!E\+M\+P\+T\+Y\+\_\+\+D\+A\+T\+A\+B\+A\+S\+E@{E\+M\+P\+T\+Y\+\_\+\+D\+A\+T\+A\+B\+A\+S\+E}}
+\index{E\+M\+P\+T\+Y\+\_\+\+D\+A\+T\+A\+B\+A\+S\+E@{E\+M\+P\+T\+Y\+\_\+\+D\+A\+T\+A\+B\+A\+S\+E}!Data\+Structures.\+h@{Data\+Structures.\+h}}
+\subsubsection[{E\+M\+P\+T\+Y\+\_\+\+D\+A\+T\+A\+B\+A\+S\+E}]{\setlength{\rightskip}{0pt plus 5cm}\#define E\+M\+P\+T\+Y\+\_\+\+D\+A\+T\+A\+B\+A\+S\+E~1}\label{_data_structures_8h_aa9b81cc5e387af1c5751d961dc3a4e7e}
+\hypertarget{_data_structures_8h_acb00992efca56626cdf0907e5edb5b51}{}\index{Data\+Structures.\+h@{Data\+Structures.\+h}!K\+O@{K\+O}}
+\index{K\+O@{K\+O}!Data\+Structures.\+h@{Data\+Structures.\+h}}
+\subsubsection[{K\+O}]{\setlength{\rightskip}{0pt plus 5cm}\#define K\+O~1}\label{_data_structures_8h_acb00992efca56626cdf0907e5edb5b51}
+\hypertarget{_data_structures_8h_a5dd814b557fb0b8ca76e56efc0746213}{}\index{Data\+Structures.\+h@{Data\+Structures.\+h}!L\+I\+V\+R\+E\+U\+R@{L\+I\+V\+R\+E\+U\+R}}
+\index{L\+I\+V\+R\+E\+U\+R@{L\+I\+V\+R\+E\+U\+R}!Data\+Structures.\+h@{Data\+Structures.\+h}}
+\subsubsection[{L\+I\+V\+R\+E\+U\+R}]{\setlength{\rightskip}{0pt plus 5cm}\#define L\+I\+V\+R\+E\+U\+R~0}\label{_data_structures_8h_a5dd814b557fb0b8ca76e56efc0746213}
+\hypertarget{_data_structures_8h_ae6da387dcc33f758c3ecc0eed37b017a}{}\index{Data\+Structures.\+h@{Data\+Structures.\+h}!L\+O\+A\+D\+\_\+\+S\+A\+V\+E\+\_\+\+D\+A\+T\+A\+B\+A\+S\+E@{L\+O\+A\+D\+\_\+\+S\+A\+V\+E\+\_\+\+D\+A\+T\+A\+B\+A\+S\+E}}
+\index{L\+O\+A\+D\+\_\+\+S\+A\+V\+E\+\_\+\+D\+A\+T\+A\+B\+A\+S\+E@{L\+O\+A\+D\+\_\+\+S\+A\+V\+E\+\_\+\+D\+A\+T\+A\+B\+A\+S\+E}!Data\+Structures.\+h@{Data\+Structures.\+h}}
+\subsubsection[{L\+O\+A\+D\+\_\+\+S\+A\+V\+E\+\_\+\+D\+A\+T\+A\+B\+A\+S\+E}]{\setlength{\rightskip}{0pt plus 5cm}\#define L\+O\+A\+D\+\_\+\+S\+A\+V\+E\+\_\+\+D\+A\+T\+A\+B\+A\+S\+E~4}\label{_data_structures_8h_ae6da387dcc33f758c3ecc0eed37b017a}
+\hypertarget{_data_structures_8h_a20d45223f729a34bbbce376939513b8f}{}\index{Data\+Structures.\+h@{Data\+Structures.\+h}!M\+A\+I\+N\+T\+E\+N\+A\+N\+C\+E@{M\+A\+I\+N\+T\+E\+N\+A\+N\+C\+E}}
+\index{M\+A\+I\+N\+T\+E\+N\+A\+N\+C\+E@{M\+A\+I\+N\+T\+E\+N\+A\+N\+C\+E}!Data\+Structures.\+h@{Data\+Structures.\+h}}
+\subsubsection[{M\+A\+I\+N\+T\+E\+N\+A\+N\+C\+E}]{\setlength{\rightskip}{0pt plus 5cm}\#define M\+A\+I\+N\+T\+E\+N\+A\+N\+C\+E~1}\label{_data_structures_8h_a20d45223f729a34bbbce376939513b8f}
+\hypertarget{_data_structures_8h_a91dc7f342013134dcce67f693b539a9c}{}\index{Data\+Structures.\+h@{Data\+Structures.\+h}!N\+O\+C\+H\+E\+C\+K\+E\+D@{N\+O\+C\+H\+E\+C\+K\+E\+D}}
+\index{N\+O\+C\+H\+E\+C\+K\+E\+D@{N\+O\+C\+H\+E\+C\+K\+E\+D}!Data\+Structures.\+h@{Data\+Structures.\+h}}
+\subsubsection[{N\+O\+C\+H\+E\+C\+K\+E\+D}]{\setlength{\rightskip}{0pt plus 5cm}\#define N\+O\+C\+H\+E\+C\+K\+E\+D~3}\label{_data_structures_8h_a91dc7f342013134dcce67f693b539a9c}
+\hypertarget{_data_structures_8h_aba51915c87d64af47fb1cc59348961c9}{}\index{Data\+Structures.\+h@{Data\+Structures.\+h}!O\+K@{O\+K}}
+\index{O\+K@{O\+K}!Data\+Structures.\+h@{Data\+Structures.\+h}}
+\subsubsection[{O\+K}]{\setlength{\rightskip}{0pt plus 5cm}\#define O\+K~0}\label{_data_structures_8h_aba51915c87d64af47fb1cc59348961c9}
+\hypertarget{_data_structures_8h_a6478a118967e7092634dc0ad57b65821}{}\index{Data\+Structures.\+h@{Data\+Structures.\+h}!S\+A\+V\+E\+\_\+\+D\+A\+T\+A\+B\+A\+S\+E@{S\+A\+V\+E\+\_\+\+D\+A\+T\+A\+B\+A\+S\+E}}
+\index{S\+A\+V\+E\+\_\+\+D\+A\+T\+A\+B\+A\+S\+E@{S\+A\+V\+E\+\_\+\+D\+A\+T\+A\+B\+A\+S\+E}!Data\+Structures.\+h@{Data\+Structures.\+h}}
+\subsubsection[{S\+A\+V\+E\+\_\+\+D\+A\+T\+A\+B\+A\+S\+E}]{\setlength{\rightskip}{0pt plus 5cm}\#define S\+A\+V\+E\+\_\+\+D\+A\+T\+A\+B\+A\+S\+E~3}\label{_data_structures_8h_a6478a118967e7092634dc0ad57b65821}
+\hypertarget{_data_structures_8h_a4274041a72a0c212e4b8851b35fcf8fb}{}\index{Data\+Structures.\+h@{Data\+Structures.\+h}!S\+E\+L\+E\+C\+T\+E\+D@{S\+E\+L\+E\+C\+T\+E\+D}}
+\index{S\+E\+L\+E\+C\+T\+E\+D@{S\+E\+L\+E\+C\+T\+E\+D}!Data\+Structures.\+h@{Data\+Structures.\+h}}
+\subsubsection[{S\+E\+L\+E\+C\+T\+E\+D}]{\setlength{\rightskip}{0pt plus 5cm}\#define S\+E\+L\+E\+C\+T\+E\+D~2}\label{_data_structures_8h_a4274041a72a0c212e4b8851b35fcf8fb}
+\hypertarget{_data_structures_8h_a63ef3b4612abf91c28f401827c154eb3}{}\index{Data\+Structures.\+h@{Data\+Structures.\+h}!U\+N\+D\+E\+F\+I\+N\+E\+D\+\_\+\+C\+O\+M\+P\+A\+N\+Y\+\_\+\+P\+A\+S\+S@{U\+N\+D\+E\+F\+I\+N\+E\+D\+\_\+\+C\+O\+M\+P\+A\+N\+Y\+\_\+\+P\+A\+S\+S}}
+\index{U\+N\+D\+E\+F\+I\+N\+E\+D\+\_\+\+C\+O\+M\+P\+A\+N\+Y\+\_\+\+P\+A\+S\+S@{U\+N\+D\+E\+F\+I\+N\+E\+D\+\_\+\+C\+O\+M\+P\+A\+N\+Y\+\_\+\+P\+A\+S\+S}!Data\+Structures.\+h@{Data\+Structures.\+h}}
+\subsubsection[{U\+N\+D\+E\+F\+I\+N\+E\+D\+\_\+\+C\+O\+M\+P\+A\+N\+Y\+\_\+\+P\+A\+S\+S}]{\setlength{\rightskip}{0pt plus 5cm}\#define U\+N\+D\+E\+F\+I\+N\+E\+D\+\_\+\+C\+O\+M\+P\+A\+N\+Y\+\_\+\+P\+A\+S\+S~-\/3}\label{_data_structures_8h_a63ef3b4612abf91c28f401827c154eb3}
+\hypertarget{_data_structures_8h_aea9fd80c8b768de05ea6b4b3f31e0503}{}\index{Data\+Structures.\+h@{Data\+Structures.\+h}!U\+N\+D\+E\+F\+I\+N\+E\+D\+\_\+\+P\+A\+S\+S\+W\+O\+R\+D@{U\+N\+D\+E\+F\+I\+N\+E\+D\+\_\+\+P\+A\+S\+S\+W\+O\+R\+D}}
+\index{U\+N\+D\+E\+F\+I\+N\+E\+D\+\_\+\+P\+A\+S\+S\+W\+O\+R\+D@{U\+N\+D\+E\+F\+I\+N\+E\+D\+\_\+\+P\+A\+S\+S\+W\+O\+R\+D}!Data\+Structures.\+h@{Data\+Structures.\+h}}
+\subsubsection[{U\+N\+D\+E\+F\+I\+N\+E\+D\+\_\+\+P\+A\+S\+S\+W\+O\+R\+D}]{\setlength{\rightskip}{0pt plus 5cm}\#define U\+N\+D\+E\+F\+I\+N\+E\+D\+\_\+\+P\+A\+S\+S\+W\+O\+R\+D~-\/1}\label{_data_structures_8h_aea9fd80c8b768de05ea6b4b3f31e0503}
+\hypertarget{_data_structures_8h_a8f5ed1538acaccde30f1e061a386d4b1}{}\index{Data\+Structures.\+h@{Data\+Structures.\+h}!U\+N\+D\+E\+F\+I\+N\+E\+D\+\_\+\+P\+E\+R\+S\+O\+N\+A\+L\+\_\+\+P\+A\+S\+S@{U\+N\+D\+E\+F\+I\+N\+E\+D\+\_\+\+P\+E\+R\+S\+O\+N\+A\+L\+\_\+\+P\+A\+S\+S}}
+\index{U\+N\+D\+E\+F\+I\+N\+E\+D\+\_\+\+P\+E\+R\+S\+O\+N\+A\+L\+\_\+\+P\+A\+S\+S@{U\+N\+D\+E\+F\+I\+N\+E\+D\+\_\+\+P\+E\+R\+S\+O\+N\+A\+L\+\_\+\+P\+A\+S\+S}!Data\+Structures.\+h@{Data\+Structures.\+h}}
+\subsubsection[{U\+N\+D\+E\+F\+I\+N\+E\+D\+\_\+\+P\+E\+R\+S\+O\+N\+A\+L\+\_\+\+P\+A\+S\+S}]{\setlength{\rightskip}{0pt plus 5cm}\#define U\+N\+D\+E\+F\+I\+N\+E\+D\+\_\+\+P\+E\+R\+S\+O\+N\+A\+L\+\_\+\+P\+A\+S\+S~-\/2}\label{_data_structures_8h_a8f5ed1538acaccde30f1e061a386d4b1}
+\hypertarget{_data_structures_8h_ac2048dc8217d2d1577294d038d370942}{}\index{Data\+Structures.\+h@{Data\+Structures.\+h}!U\+N\+D\+E\+F\+I\+N\+E\+D\+\_\+\+U\+S\+E\+R@{U\+N\+D\+E\+F\+I\+N\+E\+D\+\_\+\+U\+S\+E\+R}}
+\index{U\+N\+D\+E\+F\+I\+N\+E\+D\+\_\+\+U\+S\+E\+R@{U\+N\+D\+E\+F\+I\+N\+E\+D\+\_\+\+U\+S\+E\+R}!Data\+Structures.\+h@{Data\+Structures.\+h}}
+\subsubsection[{U\+N\+D\+E\+F\+I\+N\+E\+D\+\_\+\+U\+S\+E\+R}]{\setlength{\rightskip}{0pt plus 5cm}\#define U\+N\+D\+E\+F\+I\+N\+E\+D\+\_\+\+U\+S\+E\+R~-\/4}\label{_data_structures_8h_ac2048dc8217d2d1577294d038d370942}

@@ -1,0 +1,142 @@
+.TH "ScanPackage" 3 "Vendredi 8 Mai 2015" "Version 1.2.2" "Locker_Control" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+ScanPackage \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <scanpackage\&.h>\fP
+.PP
+Est dérivée de QWidget\&.
+.SS "Connecteurs publics"
+
+.in +1c
+.ti -1c
+.RI "void \fBStockNumberPackage\fP ()"
+.br
+.ti -1c
+.RI "void \fBValidateDelivery\fP ()"
+.br
+.ti -1c
+.RI "void \fBCancelDelivery\fP ()"
+.br
+.ti -1c
+.RI "void \fBConfirmValidate\fP ()"
+.br
+.ti -1c
+.RI "void \fBReturnListPackage\fP ()"
+.br
+.ti -1c
+.RI "void \fBReceiveListBoxSelected\fP (QList< int >)"
+.br
+.ti -1c
+.RI "void \fBDeleteNumPackage\fP (QString package)"
+.br
+.ti -1c
+.RI "void \fBUpper\fP (QString str)"
+.br
+.in -1c
+.SS "Signaux"
+
+.in +1c
+.ti -1c
+.RI "void \fBSendListPackageBox\fP (QList< \fBstruct_PackagesUseBox\fP >)"
+.br
+.ti -1c
+.RI "void \fBShowStowPackage\fP ()"
+.br
+.ti -1c
+.RI "void \fBTextToUpper\fP (QString)"
+.br
+.in -1c
+.SS "Fonctions membres publiques"
+
+.in +1c
+.ti -1c
+.RI "\fBScanPackage\fP (\fBBoxChoice\fP *, QWidget *parent=0)"
+.br
+.ti -1c
+.RI "\fB~ScanPackage\fP ()"
+.br
+.ti -1c
+.RI "void \fBSetShowWidgets\fP (\fBShowWidgets\fP *TShowWidgets)"
+.br
+.ti -1c
+.RI "bool \fBisNumBoxExist\fP (int numbox)"
+.br
+.ti -1c
+.RI "int \fBgetIndexListNumBoxExist\fP (int numbox)"
+.br
+.ti -1c
+.RI "void \fBAddItemListWidget\fP (QString NumPackage)"
+.br
+.ti -1c
+.RI "void \fBRefresh\fP ()"
+.br
+.ti -1c
+.RI "int \fBBuildingListPackages\fP ()"
+.br
+.ti -1c
+.RI "void \fBretranslateUi\fP ()"
+.br
+.ti -1c
+.RI "bool \fBisExistNumPackage\fP (QString NumPackage)"
+.br
+.ti -1c
+.RI "void \fBShowMessageError\fP (QString)"
+.br
+.in -1c
+.SH "Documentation des constructeurs et destructeur"
+.PP 
+.SS "ScanPackage::ScanPackage (\fBBoxChoice\fP * WBoxChoice, QWidget * parent = \fC0\fP)\fC [explicit]\fP"
+
+.SS "ScanPackage::~ScanPackage ()"
+
+.SH "Documentation des fonctions membres"
+.PP 
+.SS "void ScanPackage::AddItemListWidget (QString NumPackage)"
+
+.SS "int ScanPackage::BuildingListPackages ()"
+
+.SS "void ScanPackage::CancelDelivery ()\fC [slot]\fP"
+
+.SS "void ScanPackage::ConfirmValidate ()\fC [slot]\fP"
+
+.SS "void ScanPackage::DeleteNumPackage (QString package)\fC [slot]\fP"
+
+.SS "int ScanPackage::getIndexListNumBoxExist (int numbox)"
+
+.SS "bool ScanPackage::isExistNumPackage (QString NumPackage)"
+
+.SS "bool ScanPackage::isNumBoxExist (int numbox)"
+
+.SS "void ScanPackage::ReceiveListBoxSelected (QList< int > listbox)\fC [slot]\fP"
+
+.SS "void ScanPackage::Refresh ()"
+
+.SS "void ScanPackage::retranslateUi ()"
+
+.SS "void ScanPackage::ReturnListPackage ()\fC [slot]\fP"
+
+.SS "void ScanPackage::SendListPackageBox (QList< \fBstruct_PackagesUseBox\fP >)\fC [signal]\fP"
+
+.SS "void ScanPackage::SetShowWidgets (\fBShowWidgets\fP * TShowWidgets)\fC [inline]\fP"
+
+.SS "void ScanPackage::ShowMessageError (QString mes)"
+
+.SS "void ScanPackage::ShowStowPackage ()\fC [signal]\fP"
+
+.SS "void ScanPackage::StockNumberPackage ()\fC [slot]\fP"
+
+.SS "void ScanPackage::TextToUpper (QString)\fC [signal]\fP"
+
+.SS "void ScanPackage::Upper (QString str)\fC [slot]\fP"
+
+.SS "void ScanPackage::ValidateDelivery ()\fC [slot]\fP"
+
+
+.SH "Auteur"
+.PP 
+Généré automatiquement par Doxygen pour Locker_Control à partir du code source\&.

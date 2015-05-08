@@ -1,0 +1,49 @@
+.TH "struct_DoorGeom" 3 "Vendredi 8 Mai 2015" "Version 1.2.2" "Locker_Control" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+struct_DoorGeom \- Structure de donnée de l'application LC, utilisée pour dessiner le plan de l'installation des consignes\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <DataStructures\&.h>\fP
+.SS "Attributs publics"
+
+.in +1c
+.ti -1c
+.RI "int \fBBoxNumber\fP"
+.br
+.ti -1c
+.RI "QString \fBBoxSize\fP"
+.br
+.ti -1c
+.RI "int \fBstatus\fP"
+.br
+.ti -1c
+.RI "int \fBx\fP"
+.br
+.ti -1c
+.RI "int \fBy\fP"
+.br
+.in -1c
+.SH "Description détaillée"
+.PP 
+Structure de donnée de l'application LC, utilisée pour dessiner le plan de l'installation des consignes\&. 
+.SH "Documentation des données membres"
+.PP 
+.SS "int struct_DoorGeom::BoxNumber"
+Identifiant de la consigne 
+.SS "QString struct_DoorGeom::BoxSize"
+Taille de la consigne (A,AW,CW,CM) 
+.SS "int struct_DoorGeom::status"
+Status de la consigne : Libre (OK = 0) ou occupée/endommagée (KO = 1) 
+.SS "int struct_DoorGeom::x"
+Coordonnées horizontale de la consigne 
+.SS "int struct_DoorGeom::y"
+Coordonnées verticale de la consigne 
+
+.SH "Auteur"
+.PP 
+Généré automatiquement par Doxygen pour Locker_Control à partir du code source\&.

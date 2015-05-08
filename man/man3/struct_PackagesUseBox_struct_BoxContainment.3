@@ -1,0 +1,39 @@
+.TH "struct_PackagesUseBox::struct_BoxContainment" 3 "Vendredi 8 Mai 2015" "Version 1.2.2" "Locker_Control" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+struct_PackagesUseBox::struct_BoxContainment \- Structure de donnée de l'application LC, inclus dans une 'struct_PackagesUseBox' utilisée pour renseigner le contenu des consignes\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <DataStructures\&.h>\fP
+.SS "Attributs publics"
+
+.in +1c
+.ti -1c
+.RI "QString \fBPackagesExtractCode\fP"
+.br
+.ti -1c
+.RI "QString \fBExtractCodeExpiryTime\fP"
+.br
+.ti -1c
+.RI "QList< QString > \fBPackageDeliveryCodeList\fP"
+.br
+.in -1c
+.SH "Description détaillée"
+.PP 
+Structure de donnée de l'application LC, inclus dans une 'struct_PackagesUseBox' utilisée pour renseigner le contenu des consignes\&. 
+.SH "Documentation des données membres"
+.PP 
+.SS "QString struct_PackagesUseBox::struct_BoxContainment::ExtractCodeExpiryTime"
+Date d'expiration du code de retrait 
+.SS "QList<QString> struct_PackagesUseBox::struct_BoxContainment::PackageDeliveryCodeList"
+Liste des numéros de colis 
+.SS "QString struct_PackagesUseBox::struct_BoxContainment::PackagesExtractCode"
+Code de retrtrait du colis 
+
+.SH "Auteur"
+.PP 
+Généré automatiquement par Doxygen pour Locker_Control à partir du code source\&.

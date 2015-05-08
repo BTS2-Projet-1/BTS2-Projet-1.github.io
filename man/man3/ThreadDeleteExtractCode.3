@@ -1,0 +1,57 @@
+.TH "ThreadDeleteExtractCode" 3 "Vendredi 8 Mai 2015" "Version 1.2.2" "Locker_Control" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+ThreadDeleteExtractCode \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <threaddeleteextractcode\&.h>\fP
+.PP
+Est dérivée de QThread\&.
+.SS "Connecteurs publics"
+
+.in +1c
+.ti -1c
+.RI "void \fBstartThread\fP (QString code)"
+.br
+.in -1c
+.SS "Signaux"
+
+.in +1c
+.ti -1c
+.RI "void \fBterminatedThread\fP (int, bool)"
+.br
+.in -1c
+.SS "Fonctions membres publiques"
+
+.in +1c
+.ti -1c
+.RI "\fBThreadDeleteExtractCode\fP (int id, \fBCSQLite_Local_DB\fP *, \fBShowPackageBox\fP *WShowPackageBox)"
+.br
+.ti -1c
+.RI "int \fBgetId\fP ()"
+.br
+.ti -1c
+.RI "void \fBrun\fP ()"
+.br
+.in -1c
+.SH "Documentation des constructeurs et destructeur"
+.PP 
+.SS "ThreadDeleteExtractCode::ThreadDeleteExtractCode (int id, \fBCSQLite_Local_DB\fP * BD, \fBShowPackageBox\fP * WShowPackageBox)"
+
+.SH "Documentation des fonctions membres"
+.PP 
+.SS "int ThreadDeleteExtractCode::getId ()\fC [inline]\fP"
+
+.SS "void ThreadDeleteExtractCode::run ()"
+
+.SS "void ThreadDeleteExtractCode::startThread (QString code)\fC [slot]\fP"
+
+.SS "void ThreadDeleteExtractCode::terminatedThread (int, bool)\fC [signal]\fP"
+
+
+.SH "Auteur"
+.PP 
+Généré automatiquement par Doxygen pour Locker_Control à partir du code source\&.

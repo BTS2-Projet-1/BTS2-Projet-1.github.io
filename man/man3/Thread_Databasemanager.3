@@ -1,0 +1,62 @@
+.TH "Thread_Databasemanager" 3 "Vendredi 8 Mai 2015" "Version 1.2.2" "Locker_Control" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Thread_Databasemanager \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <thread_databasemanager\&.h>\fP
+.PP
+Est dérivée de QThread\&.
+.SS "Connecteurs publics"
+
+.in +1c
+.ti -1c
+.RI "void \fBSlowThread\fP (int Timems)"
+.br
+.ti -1c
+.RI "void \fBstartThreadManager\fP (int opt)"
+.br
+.in -1c
+.SS "Signaux"
+
+.in +1c
+.ti -1c
+.RI "void \fBterminatedThread\fP (bool)"
+.br
+.in -1c
+.SS "Fonctions membres publiques"
+
+.in +1c
+.ti -1c
+.RI "\fBThread_Databasemanager\fP (\fBConsoleWindows\fP *TConsoleWindows=NULL, \fBSQLite_Local_DatabaseManager\fP *DatabaseManager=NULL, \fBCSQLite_Local_DB\fP *BD=NULL)"
+.br
+.ti -1c
+.RI "\fB~Thread_Databasemanager\fP ()"
+.br
+.ti -1c
+.RI "void \fBrun\fP ()"
+.br
+.in -1c
+.SH "Documentation des constructeurs et destructeur"
+.PP 
+.SS "Thread_Databasemanager::Thread_Databasemanager (\fBConsoleWindows\fP * TConsoleWindows = \fCNULL\fP, \fBSQLite_Local_DatabaseManager\fP * DatabaseManager = \fCNULL\fP, \fBCSQLite_Local_DB\fP * BD = \fCNULL\fP)"
+
+.SS "Thread_Databasemanager::~Thread_Databasemanager ()"
+
+.SH "Documentation des fonctions membres"
+.PP 
+.SS "void Thread_Databasemanager::run ()"
+
+.SS "void Thread_Databasemanager::SlowThread (int Timems)\fC [slot]\fP"
+
+.SS "void Thread_Databasemanager::startThreadManager (int opt)\fC [slot]\fP"
+
+.SS "void Thread_Databasemanager::terminatedThread (bool)\fC [signal]\fP"
+
+
+.SH "Auteur"
+.PP 
+Généré automatiquement par Doxygen pour Locker_Control à partir du code source\&.
