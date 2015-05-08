@@ -1,0 +1,175 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.9.1"/>
+<title>Locker_Control:  Fichier source de S:/QT_CREATOR/Locker_Control/cdoors.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logibag.png"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Locker_Control
+   &#160;<span id="projectnumber">1.2.2</span>
+   </div>
+   <div id="projectbrief">Application Locker Control (LC), an automatic boxes manager on Qt in c++.</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.9.1 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Page&#160;principale</span></a></li>
+      <li><a href="pages.html"><span>Pages&#160;associées</span></a></li>
+      <li><a href="namespaces.html"><span>Espaces&#160;de&#160;nommage</span></a></li>
+      <li><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="files.html"><span>Fichiers</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Recherche" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Liste&#160;des&#160;fichiers</span></a></li>
+      <li><a href="globals.html"><span>Membres&#160;de&#160;fichier</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('cdoors_8h_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">S:/QT_CREATOR/Locker_Control/cdoors.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="cdoors_8h.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef CDOORS_H</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define CDOORS_H</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_data_structures_8h.html">DataStructures.h</a>&quot;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="csqlite__local__db_8h.html">csqlite_local_db.h</a>&quot;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div>
+<div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="class_c_doors.html">    7</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_c_doors.html">CDoors</a></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;{</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keyword">private</span> :</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <a class="code" href="class_c_s_q_lite___local___d_b.html">CSQLite_Local_DB</a> *LC_DataBase;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keywordtype">int</span> m_compt;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <a class="code" href="class_c_doors.html#afb1998acfb81a71dafe73282069d57a7">CDoors</a>(<a class="code" href="class_c_s_q_lite___local___d_b.html">CSQLite_Local_DB</a> *BD);</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_c_doors.html#a23e1dec072702bf78eaa05332599e912">OpenDoors</a>(QList&lt;int&gt; DoorsList);</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_c_doors.html#ac68dc2b9ae3f716b09f4c79560a0c047">CloseDoors</a>(QList&lt;int&gt; DoorsList);</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_c_doors.html#a1954feca80181df85e4a59051387ff79">LockDoors</a>(QList&lt;int&gt; DoorsList);</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_c_doors.html#a450ec2a776c3435103323a6e293f093f">UnlockDoors</a>(QList&lt;int&gt; DoorsList);</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_c_doors.html#ab4df5088482fdd8d84e3f1684f618a60">OpenDoor</a>(<span class="keywordtype">int</span> idDoor);</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_c_doors.html#a23416618cd95253a2158df4aed149985">CloseDoor</a>(<span class="keywordtype">int</span> idDoor);</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_c_doors.html#a3face9a42dff6689eca47e6777b1fad6">LockDoor</a>(<span class="keywordtype">int</span> idDoor);</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_c_doors.html#a773178973ccb5bb536a9c84c92e2fb29">UnlockDoor</a>(<span class="keywordtype">int</span> idDoor);</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    QList&lt;struct_DoorsStatus&gt; <a class="code" href="class_c_doors.html#a2d26d6cb0f578452071e7098fa21178d">DoorsStatus</a>(QList&lt;int&gt; DoorsList);</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_c_doors.html#a949bbc01ecb9ecc72ecb40b1b6b0b04c">DoorsIsClosed</a>(QList&lt;int&gt; DoorsList);</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <a class="code" href="structstruct___doors_status.html">struct_DoorsStatus</a> <a class="code" href="class_c_doors.html#a178089d2a36fba6f8903d30c6d0e60ed">DoorStatus</a>(<span class="keywordtype">int</span> idDoor);</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_c_doors.html#aa93e30cb861205dc2e716504fdff1f0e">DoorIsClosed</a>(<span class="keywordtype">int</span> idDoor);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;};</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#endif // CDOORS_H</span></div>
+<div class="ttc" id="class_c_doors_html_a3face9a42dff6689eca47e6777b1fad6"><div class="ttname"><a href="class_c_doors.html#a3face9a42dff6689eca47e6777b1fad6">CDoors::LockDoor</a></div><div class="ttdeci">bool LockDoor(int idDoor)</div><div class="ttdef"><b>Definition:</b> cdoors.cpp:66</div></div>
+<div class="ttc" id="structstruct___doors_status_html"><div class="ttname"><a href="structstruct___doors_status.html">struct_DoorsStatus</a></div><div class="ttdoc">Structure de donnée de l&#39;application LC, utilisée pour définir l&#39;état des portes des consignes...</div><div class="ttdef"><b>Definition:</b> DataStructures.h:94</div></div>
+<div class="ttc" id="class_c_doors_html_a773178973ccb5bb536a9c84c92e2fb29"><div class="ttname"><a href="class_c_doors.html#a773178973ccb5bb536a9c84c92e2fb29">CDoors::UnlockDoor</a></div><div class="ttdeci">bool UnlockDoor(int idDoor)</div><div class="ttdef"><b>Definition:</b> cdoors.cpp:73</div></div>
+<div class="ttc" id="class_c_doors_html_a23416618cd95253a2158df4aed149985"><div class="ttname"><a href="class_c_doors.html#a23416618cd95253a2158df4aed149985">CDoors::CloseDoor</a></div><div class="ttdeci">bool CloseDoor(int idDoor)</div><div class="ttdef"><b>Definition:</b> cdoors.cpp:59</div></div>
+<div class="ttc" id="csqlite__local__db_8h_html"><div class="ttname"><a href="csqlite__local__db_8h.html">csqlite_local_db.h</a></div></div>
+<div class="ttc" id="class_c_doors_html_a178089d2a36fba6f8903d30c6d0e60ed"><div class="ttname"><a href="class_c_doors.html#a178089d2a36fba6f8903d30c6d0e60ed">CDoors::DoorStatus</a></div><div class="ttdeci">struct_DoorsStatus DoorStatus(int idDoor)</div><div class="ttdef"><b>Definition:</b> cdoors.cpp:95</div></div>
+<div class="ttc" id="class_c_doors_html_ab4df5088482fdd8d84e3f1684f618a60"><div class="ttname"><a href="class_c_doors.html#ab4df5088482fdd8d84e3f1684f618a60">CDoors::OpenDoor</a></div><div class="ttdeci">bool OpenDoor(int idDoor)</div><div class="ttdef"><b>Definition:</b> cdoors.cpp:52</div></div>
+<div class="ttc" id="class_c_doors_html_a23e1dec072702bf78eaa05332599e912"><div class="ttname"><a href="class_c_doors.html#a23e1dec072702bf78eaa05332599e912">CDoors::OpenDoors</a></div><div class="ttdeci">bool OpenDoors(QList&lt; int &gt; DoorsList)</div><div class="ttdef"><b>Definition:</b> cdoors.cpp:12</div></div>
+<div class="ttc" id="class_c_doors_html_aa93e30cb861205dc2e716504fdff1f0e"><div class="ttname"><a href="class_c_doors.html#aa93e30cb861205dc2e716504fdff1f0e">CDoors::DoorIsClosed</a></div><div class="ttdeci">bool DoorIsClosed(int idDoor)</div><div class="ttdef"><b>Definition:</b> cdoors.cpp:106</div></div>
+<div class="ttc" id="class_c_doors_html_ac68dc2b9ae3f716b09f4c79560a0c047"><div class="ttname"><a href="class_c_doors.html#ac68dc2b9ae3f716b09f4c79560a0c047">CDoors::CloseDoors</a></div><div class="ttdeci">bool CloseDoors(QList&lt; int &gt; DoorsList)</div><div class="ttdef"><b>Definition:</b> cdoors.cpp:22</div></div>
+<div class="ttc" id="class_c_doors_html_afb1998acfb81a71dafe73282069d57a7"><div class="ttname"><a href="class_c_doors.html#afb1998acfb81a71dafe73282069d57a7">CDoors::CDoors</a></div><div class="ttdeci">CDoors(CSQLite_Local_DB *BD)</div><div class="ttdef"><b>Definition:</b> cdoors.cpp:4</div></div>
+<div class="ttc" id="class_c_doors_html_a450ec2a776c3435103323a6e293f093f"><div class="ttname"><a href="class_c_doors.html#a450ec2a776c3435103323a6e293f093f">CDoors::UnlockDoors</a></div><div class="ttdeci">bool UnlockDoors(QList&lt; int &gt; DoorsList)</div><div class="ttdef"><b>Definition:</b> cdoors.cpp:42</div></div>
+<div class="ttc" id="class_c_doors_html"><div class="ttname"><a href="class_c_doors.html">CDoors</a></div><div class="ttdef"><b>Definition:</b> cdoors.h:7</div></div>
+<div class="ttc" id="class_c_s_q_lite___local___d_b_html"><div class="ttname"><a href="class_c_s_q_lite___local___d_b.html">CSQLite_Local_DB</a></div><div class="ttdoc">classe CSQLite_Local_DB, gestion des communications entre une base de données locale de type SQLite...</div><div class="ttdef"><b>Definition:</b> csqlite_local_db.h:31</div></div>
+<div class="ttc" id="class_c_doors_html_a1954feca80181df85e4a59051387ff79"><div class="ttname"><a href="class_c_doors.html#a1954feca80181df85e4a59051387ff79">CDoors::LockDoors</a></div><div class="ttdeci">bool LockDoors(QList&lt; int &gt; DoorsList)</div><div class="ttdef"><b>Definition:</b> cdoors.cpp:32</div></div>
+<div class="ttc" id="class_c_doors_html_a2d26d6cb0f578452071e7098fa21178d"><div class="ttname"><a href="class_c_doors.html#a2d26d6cb0f578452071e7098fa21178d">CDoors::DoorsStatus</a></div><div class="ttdeci">QList&lt; struct_DoorsStatus &gt; DoorsStatus(QList&lt; int &gt; DoorsList)</div><div class="ttdef"><b>Definition:</b> cdoors.cpp:113</div></div>
+<div class="ttc" id="_data_structures_8h_html"><div class="ttname"><a href="_data_structures_8h.html">DataStructures.h</a></div><div class="ttdoc">Definnitions des formats de communications des données entre les classes de l&#39;application LC...</div></div>
+<div class="ttc" id="class_c_doors_html_a949bbc01ecb9ecc72ecb40b1b6b0b04c"><div class="ttname"><a href="class_c_doors.html#a949bbc01ecb9ecc72ecb40b1b6b0b04c">CDoors::DoorsIsClosed</a></div><div class="ttdeci">bool DoorsIsClosed(QList&lt; int &gt; DoorsList)</div><div class="ttdef"><b>Definition:</b> cdoors.cpp:80</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="cdoors_8h.html">cdoors.h</a></li>
+    <li class="footer">Généré le Samedi 9 Mai 2015 00:34:19 pour Locker_Control par
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
+  </ul>
+</div>
+</body>
+</html>

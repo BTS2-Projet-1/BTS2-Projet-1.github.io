@@ -1,0 +1,214 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.9.1"/>
+<title>Locker_Control:  Fichier source de S:/QT_CREATOR/Locker_Control/DataStructures.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logibag.png"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Locker_Control
+   &#160;<span id="projectnumber">1.2.2</span>
+   </div>
+   <div id="projectbrief">Application Locker Control (LC), an automatic boxes manager on Qt in c++.</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.9.1 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Page&#160;principale</span></a></li>
+      <li><a href="pages.html"><span>Pages&#160;associées</span></a></li>
+      <li><a href="namespaces.html"><span>Espaces&#160;de&#160;nommage</span></a></li>
+      <li><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="files.html"><span>Fichiers</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Recherche" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Liste&#160;des&#160;fichiers</span></a></li>
+      <li><a href="globals.html"><span>Membres&#160;de&#160;fichier</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('_data_structures_8h_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">S:/QT_CREATOR/Locker_Control/DataStructures.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_data_structures_8h.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef DATASTRUCTURES_H</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define DATASTRUCTURES_H</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include&lt;QString&gt;</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#include&lt;QList&gt;</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment">//&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;==================== DEBUG MODE =====================&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="_data_structures_8h.html#ad72dbcf6d0153db1b8d8a58001feed83">   19</a></span>&#160;<span class="preprocessor">#define DEBUG</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment">//&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;=====================================================&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="comment">// RebuildDatabase options</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="_data_structures_8h.html#aa9b81cc5e387af1c5751d961dc3a4e7e">   23</a></span>&#160;<span class="preprocessor">#define EMPTY_DATABASE      1</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="_data_structures_8h.html#a2e7c896e28ab967d0e669668e8665e42">   24</a></span>&#160;<span class="preprocessor">#define DEFAULT_DATABASE    2</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="_data_structures_8h.html#a6478a118967e7092634dc0ad57b65821">   25</a></span>&#160;<span class="preprocessor">#define SAVE_DATABASE       3</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="_data_structures_8h.html#ae6da387dcc33f758c3ecc0eed37b017a">   26</a></span>&#160;<span class="preprocessor">#define LOAD_SAVE_DATABASE  4</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="comment">// Logging errors</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="_data_structures_8h.html#ac2048dc8217d2d1577294d038d370942">   29</a></span>&#160;<span class="preprocessor">#define UNDEFINED_USER          -4</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="_data_structures_8h.html#a63ef3b4612abf91c28f401827c154eb3">   30</a></span>&#160;<span class="preprocessor">#define UNDEFINED_COMPANY_PASS  -3</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="_data_structures_8h.html#a8f5ed1538acaccde30f1e061a386d4b1">   31</a></span>&#160;<span class="preprocessor">#define UNDEFINED_PERSONAL_PASS -2</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="_data_structures_8h.html#aea9fd80c8b768de05ea6b4b3f31e0503">   32</a></span>&#160;<span class="preprocessor">#define UNDEFINED_PASSWORD      -1</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="_data_structures_8h.html#a5dd814b557fb0b8ca76e56efc0746213">   33</a></span>&#160;<span class="preprocessor">#define LIVREUR                  0</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="_data_structures_8h.html#a20d45223f729a34bbbce376939513b8f">   34</a></span>&#160;<span class="preprocessor">#define MAINTENANCE              1</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="comment">// struct_DoorGeom</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="_data_structures_8h.html#aba51915c87d64af47fb1cc59348961c9">   37</a></span>&#160;<span class="preprocessor">#define OK        0</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="_data_structures_8h.html#acb00992efca56626cdf0907e5edb5b51">   38</a></span>&#160;<span class="preprocessor">#define KO        1</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="_data_structures_8h.html#a4274041a72a0c212e4b8851b35fcf8fb">   39</a></span>&#160;<span class="preprocessor">#define SELECTED  2</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="_data_structures_8h.html#a91dc7f342013134dcce67f693b539a9c">   40</a></span>&#160;<span class="preprocessor">#define NOCHECKED 3</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
+<div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="structstruct___packages_use_box.html">   47</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structstruct___packages_use_box.html">struct_PackagesUseBox</a></div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;{</div>
+<div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="structstruct___packages_use_box.html#a4edfedee9f32056cdce6d6908933e136">   49</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structstruct___packages_use_box.html#a4edfedee9f32056cdce6d6908933e136">BoxNumber</a>;                              </div>
+<div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="structstruct___packages_use_box_1_1struct___box_containment.html">   56</a></span>&#160;    <span class="keyword">struct </span><a class="code" href="structstruct___packages_use_box_1_1struct___box_containment.html">struct_BoxContainment</a></div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    {</div>
+<div class="line"><a name="l00058"></a><span class="lineno"><a class="line" href="structstruct___packages_use_box_1_1struct___box_containment.html#a855bb0e314bbf6e36bac0876bc1dd363">   58</a></span>&#160;        QString <a class="code" href="structstruct___packages_use_box_1_1struct___box_containment.html#a855bb0e314bbf6e36bac0876bc1dd363">PackagesExtractCode</a>;            </div>
+<div class="line"><a name="l00059"></a><span class="lineno"><a class="line" href="structstruct___packages_use_box_1_1struct___box_containment.html#a84d48ae9098b43b8a1458a20fd868565">   59</a></span>&#160;        QString <a class="code" href="structstruct___packages_use_box_1_1struct___box_containment.html#a84d48ae9098b43b8a1458a20fd868565">ExtractCodeExpiryTime</a>;          </div>
+<div class="line"><a name="l00060"></a><span class="lineno"><a class="line" href="structstruct___packages_use_box_1_1struct___box_containment.html#aa0ff418a79d449125b33c794337029f0">   60</a></span>&#160;        QList&lt;QString&gt; <a class="code" href="structstruct___packages_use_box_1_1struct___box_containment.html#aa0ff418a79d449125b33c794337029f0">PackageDeliveryCodeList</a>; </div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    }<a class="code" href="structstruct___packages_use_box.html#acf60daf8fe7ce9e18713f0d99a8752dc">BoxContainment</a>;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;};</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
+<div class="line"><a name="l00069"></a><span class="lineno"><a class="line" href="structstruct___door_geom.html">   69</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structstruct___door_geom.html">struct_DoorGeom</a></div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;{</div>
+<div class="line"><a name="l00071"></a><span class="lineno"><a class="line" href="structstruct___door_geom.html#ae476f6d2880c35f8b7d265b2d27c3ecd">   71</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structstruct___door_geom.html#ae476f6d2880c35f8b7d265b2d27c3ecd">BoxNumber</a>;      </div>
+<div class="line"><a name="l00072"></a><span class="lineno"><a class="line" href="structstruct___door_geom.html#a21703f69a6665c22f39a0345945ccf4f">   72</a></span>&#160;    QString <a class="code" href="structstruct___door_geom.html#a21703f69a6665c22f39a0345945ccf4f">BoxSize</a>;    </div>
+<div class="line"><a name="l00073"></a><span class="lineno"><a class="line" href="structstruct___door_geom.html#a3c54841ea5b7833ed2fe9d1627e87b42">   73</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structstruct___door_geom.html#a3c54841ea5b7833ed2fe9d1627e87b42">status</a>;         </div>
+<div class="line"><a name="l00074"></a><span class="lineno"><a class="line" href="structstruct___door_geom.html#ae433a4aa4e4d1949268f5ef7aa84e167">   74</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structstruct___door_geom.html#ae433a4aa4e4d1949268f5ef7aa84e167">x</a>;              </div>
+<div class="line"><a name="l00075"></a><span class="lineno"><a class="line" href="structstruct___door_geom.html#acb67782bde0a0ef062f42df2dda50f78">   75</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structstruct___door_geom.html#acb67782bde0a0ef062f42df2dda50f78">y</a>;              </div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;};</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;</div>
+<div class="line"><a name="l00083"></a><span class="lineno"><a class="line" href="structstruct___database___contains.html">   83</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structstruct___database___contains.html">struct_Database_Contains</a></div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;{</div>
+<div class="line"><a name="l00085"></a><span class="lineno"><a class="line" href="structstruct___database___contains.html#aa4208e8861fa15f84ef93ed8cd6b162e">   85</a></span>&#160;    QString <a class="code" href="structstruct___database___contains.html#aa4208e8861fa15f84ef93ed8cd6b162e">Table</a>;          </div>
+<div class="line"><a name="l00086"></a><span class="lineno"><a class="line" href="structstruct___database___contains.html#ad6a0d26c2252dd085c56c29c438a132c">   86</a></span>&#160;    QList&lt;QString&gt; <a class="code" href="structstruct___database___contains.html#ad6a0d26c2252dd085c56c29c438a132c">Values</a>;  </div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;};</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;</div>
+<div class="line"><a name="l00094"></a><span class="lineno"><a class="line" href="structstruct___doors_status.html">   94</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structstruct___doors_status.html">struct_DoorsStatus</a></div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;{</div>
+<div class="line"><a name="l00096"></a><span class="lineno"><a class="line" href="structstruct___doors_status.html#a139f38ebf1300f853d902b22520eda71">   96</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structstruct___doors_status.html#a139f38ebf1300f853d902b22520eda71">BoxNumber</a>;      </div>
+<div class="line"><a name="l00097"></a><span class="lineno"><a class="line" href="structstruct___doors_status.html#a056929554c348f990417d17b1b66bd8d">   97</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="structstruct___doors_status.html#a056929554c348f990417d17b1b66bd8d">BoxIsUsed</a>;     </div>
+<div class="line"><a name="l00098"></a><span class="lineno"><a class="line" href="structstruct___doors_status.html#a2663f0fa457393e07c10ba1c9843d0ee">   98</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="structstruct___doors_status.html#a2663f0fa457393e07c10ba1c9843d0ee">BoxIsDammaged</a>; </div>
+<div class="line"><a name="l00099"></a><span class="lineno"><a class="line" href="structstruct___doors_status.html#a6c7607cfa6b784ec4558eff3cb48aeaa">   99</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="structstruct___doors_status.html#a6c7607cfa6b784ec4558eff3cb48aeaa">DoorIsOpen</a>;    </div>
+<div class="line"><a name="l00100"></a><span class="lineno"><a class="line" href="structstruct___doors_status.html#a878ee17f7494eb2ada44dd8fc126f271">  100</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="structstruct___doors_status.html#a878ee17f7494eb2ada44dd8fc126f271">DoorIsLock</a>;    </div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;};</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;<span class="preprocessor">#endif // DATASTRUCTURES_H</span></div>
+<div class="ttc" id="structstruct___doors_status_html_a056929554c348f990417d17b1b66bd8d"><div class="ttname"><a href="structstruct___doors_status.html#a056929554c348f990417d17b1b66bd8d">struct_DoorsStatus::BoxIsUsed</a></div><div class="ttdeci">bool BoxIsUsed</div><div class="ttdef"><b>Definition:</b> DataStructures.h:97</div></div>
+<div class="ttc" id="structstruct___doors_status_html_a878ee17f7494eb2ada44dd8fc126f271"><div class="ttname"><a href="structstruct___doors_status.html#a878ee17f7494eb2ada44dd8fc126f271">struct_DoorsStatus::DoorIsLock</a></div><div class="ttdeci">bool DoorIsLock</div><div class="ttdef"><b>Definition:</b> DataStructures.h:100</div></div>
+<div class="ttc" id="structstruct___doors_status_html"><div class="ttname"><a href="structstruct___doors_status.html">struct_DoorsStatus</a></div><div class="ttdoc">Structure de donnée de l&#39;application LC, utilisée pour définir l&#39;état des portes des consignes...</div><div class="ttdef"><b>Definition:</b> DataStructures.h:94</div></div>
+<div class="ttc" id="structstruct___door_geom_html"><div class="ttname"><a href="structstruct___door_geom.html">struct_DoorGeom</a></div><div class="ttdoc">Structure de donnée de l&#39;application LC, utilisée pour dessiner le plan de l&#39;installation des consign...</div><div class="ttdef"><b>Definition:</b> DataStructures.h:69</div></div>
+<div class="ttc" id="structstruct___database___contains_html_aa4208e8861fa15f84ef93ed8cd6b162e"><div class="ttname"><a href="structstruct___database___contains.html#aa4208e8861fa15f84ef93ed8cd6b162e">struct_Database_Contains::Table</a></div><div class="ttdeci">QString Table</div><div class="ttdef"><b>Definition:</b> DataStructures.h:85</div></div>
+<div class="ttc" id="structstruct___door_geom_html_acb67782bde0a0ef062f42df2dda50f78"><div class="ttname"><a href="structstruct___door_geom.html#acb67782bde0a0ef062f42df2dda50f78">struct_DoorGeom::y</a></div><div class="ttdeci">int y</div><div class="ttdef"><b>Definition:</b> DataStructures.h:75</div></div>
+<div class="ttc" id="structstruct___packages_use_box_1_1struct___box_containment_html_aa0ff418a79d449125b33c794337029f0"><div class="ttname"><a href="structstruct___packages_use_box_1_1struct___box_containment.html#aa0ff418a79d449125b33c794337029f0">struct_PackagesUseBox::struct_BoxContainment::PackageDeliveryCodeList</a></div><div class="ttdeci">QList&lt; QString &gt; PackageDeliveryCodeList</div><div class="ttdef"><b>Definition:</b> DataStructures.h:60</div></div>
+<div class="ttc" id="structstruct___database___contains_html_ad6a0d26c2252dd085c56c29c438a132c"><div class="ttname"><a href="structstruct___database___contains.html#ad6a0d26c2252dd085c56c29c438a132c">struct_Database_Contains::Values</a></div><div class="ttdeci">QList&lt; QString &gt; Values</div><div class="ttdef"><b>Definition:</b> DataStructures.h:86</div></div>
+<div class="ttc" id="structstruct___packages_use_box_1_1struct___box_containment_html_a84d48ae9098b43b8a1458a20fd868565"><div class="ttname"><a href="structstruct___packages_use_box_1_1struct___box_containment.html#a84d48ae9098b43b8a1458a20fd868565">struct_PackagesUseBox::struct_BoxContainment::ExtractCodeExpiryTime</a></div><div class="ttdeci">QString ExtractCodeExpiryTime</div><div class="ttdef"><b>Definition:</b> DataStructures.h:59</div></div>
+<div class="ttc" id="structstruct___doors_status_html_a6c7607cfa6b784ec4558eff3cb48aeaa"><div class="ttname"><a href="structstruct___doors_status.html#a6c7607cfa6b784ec4558eff3cb48aeaa">struct_DoorsStatus::DoorIsOpen</a></div><div class="ttdeci">bool DoorIsOpen</div><div class="ttdef"><b>Definition:</b> DataStructures.h:99</div></div>
+<div class="ttc" id="structstruct___database___contains_html"><div class="ttname"><a href="structstruct___database___contains.html">struct_Database_Contains</a></div><div class="ttdoc">Structure de donnée de l&#39;application LC, utilisée pour l&#39;enregistrement et lectures des fichiers de s...</div><div class="ttdef"><b>Definition:</b> DataStructures.h:83</div></div>
+<div class="ttc" id="structstruct___doors_status_html_a139f38ebf1300f853d902b22520eda71"><div class="ttname"><a href="structstruct___doors_status.html#a139f38ebf1300f853d902b22520eda71">struct_DoorsStatus::BoxNumber</a></div><div class="ttdeci">int BoxNumber</div><div class="ttdef"><b>Definition:</b> DataStructures.h:96</div></div>
+<div class="ttc" id="structstruct___packages_use_box_1_1struct___box_containment_html"><div class="ttname"><a href="structstruct___packages_use_box_1_1struct___box_containment.html">struct_PackagesUseBox::struct_BoxContainment</a></div><div class="ttdoc">Structure de donnée de l&#39;application LC, inclus dans une "struct_PackagesUseBox" utilisée pour rensei...</div><div class="ttdef"><b>Definition:</b> DataStructures.h:56</div></div>
+<div class="ttc" id="structstruct___door_geom_html_ae476f6d2880c35f8b7d265b2d27c3ecd"><div class="ttname"><a href="structstruct___door_geom.html#ae476f6d2880c35f8b7d265b2d27c3ecd">struct_DoorGeom::BoxNumber</a></div><div class="ttdeci">int BoxNumber</div><div class="ttdef"><b>Definition:</b> DataStructures.h:71</div></div>
+<div class="ttc" id="structstruct___door_geom_html_ae433a4aa4e4d1949268f5ef7aa84e167"><div class="ttname"><a href="structstruct___door_geom.html#ae433a4aa4e4d1949268f5ef7aa84e167">struct_DoorGeom::x</a></div><div class="ttdeci">int x</div><div class="ttdef"><b>Definition:</b> DataStructures.h:74</div></div>
+<div class="ttc" id="structstruct___packages_use_box_html_a4edfedee9f32056cdce6d6908933e136"><div class="ttname"><a href="structstruct___packages_use_box.html#a4edfedee9f32056cdce6d6908933e136">struct_PackagesUseBox::BoxNumber</a></div><div class="ttdeci">int BoxNumber</div><div class="ttdef"><b>Definition:</b> DataStructures.h:49</div></div>
+<div class="ttc" id="structstruct___door_geom_html_a21703f69a6665c22f39a0345945ccf4f"><div class="ttname"><a href="structstruct___door_geom.html#a21703f69a6665c22f39a0345945ccf4f">struct_DoorGeom::BoxSize</a></div><div class="ttdeci">QString BoxSize</div><div class="ttdef"><b>Definition:</b> DataStructures.h:72</div></div>
+<div class="ttc" id="structstruct___door_geom_html_a3c54841ea5b7833ed2fe9d1627e87b42"><div class="ttname"><a href="structstruct___door_geom.html#a3c54841ea5b7833ed2fe9d1627e87b42">struct_DoorGeom::status</a></div><div class="ttdeci">int status</div><div class="ttdef"><b>Definition:</b> DataStructures.h:73</div></div>
+<div class="ttc" id="structstruct___packages_use_box_html"><div class="ttname"><a href="structstruct___packages_use_box.html">struct_PackagesUseBox</a></div><div class="ttdoc">Structure de donnée de l&#39;application LC, utilisée pour l&#39;enregistrement des livraisons avec le conten...</div><div class="ttdef"><b>Definition:</b> DataStructures.h:47</div></div>
+<div class="ttc" id="structstruct___doors_status_html_a2663f0fa457393e07c10ba1c9843d0ee"><div class="ttname"><a href="structstruct___doors_status.html#a2663f0fa457393e07c10ba1c9843d0ee">struct_DoorsStatus::BoxIsDammaged</a></div><div class="ttdeci">bool BoxIsDammaged</div><div class="ttdef"><b>Definition:</b> DataStructures.h:98</div></div>
+<div class="ttc" id="structstruct___packages_use_box_1_1struct___box_containment_html_a855bb0e314bbf6e36bac0876bc1dd363"><div class="ttname"><a href="structstruct___packages_use_box_1_1struct___box_containment.html#a855bb0e314bbf6e36bac0876bc1dd363">struct_PackagesUseBox::struct_BoxContainment::PackagesExtractCode</a></div><div class="ttdeci">QString PackagesExtractCode</div><div class="ttdef"><b>Definition:</b> DataStructures.h:58</div></div>
+<div class="ttc" id="structstruct___packages_use_box_html_acf60daf8fe7ce9e18713f0d99a8752dc"><div class="ttname"><a href="structstruct___packages_use_box.html#acf60daf8fe7ce9e18713f0d99a8752dc">struct_PackagesUseBox::BoxContainment</a></div><div class="ttdeci">struct struct_PackagesUseBox::struct_BoxContainment BoxContainment</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="_data_structures_8h.html">DataStructures.h</a></li>
+    <li class="footer">Généré le Samedi 9 Mai 2015 00:34:19 pour Locker_Control par
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
+  </ul>
+</div>
+</body>
+</html>

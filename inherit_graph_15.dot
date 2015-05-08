@@ -1,0 +1,17 @@
+digraph "Graphe hiérarchique des classes"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="QThread",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Thread_Databasemanager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thread___databasemanager.html"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Thread_LocalDatabase\l_AutoSave",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thread___local_database___auto_save.html"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Thread_StatusDoors",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thread___status_doors.html"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ThreadDeleteExtractCode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thread_delete_extract_code.html"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ThreadSaveDelivery",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_thread_save_delivery.html"];
+}

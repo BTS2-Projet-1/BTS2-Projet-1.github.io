@@ -1,0 +1,7 @@
+digraph "Graphe hiérarchique des classes"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="struct_PackagesUseBox\l::struct_BoxContainment",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structstruct___packages_use_box_1_1struct___box_containment.html",tooltip="Structure de donnée de l&#39;application LC, inclus dans une \"struct_PackagesUseBox\" utilisée pour rensei..."];
+}

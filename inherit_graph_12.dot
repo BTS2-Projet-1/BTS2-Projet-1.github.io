@@ -1,0 +1,7 @@
+digraph "Graphe hiérarchique des classes"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="struct_DoorsStatus",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structstruct___doors_status.html",tooltip="Structure de donnée de l&#39;application LC, utilisée pour définir l&#39;état des portes des consignes..."];
+}
