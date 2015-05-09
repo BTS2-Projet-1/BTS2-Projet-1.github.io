@@ -1,3 +1,5 @@
 <map id="CLMS_DB::GenerateExtractCode" name="CLMS_DB::GenerateExtractCode">
-<area shape="rect" id="node2" href="$class_thread_save_delivery.html#a4975505f89e79a8cfb90a6a6d7d1f1b0" title="ThreadSaveDelivery::run" alt="" coords="233,5,376,29"/>
+<area shape="rect" id="node2" href="$class_thread_save_delivery.html#ac83d9b16af43c11bf310261efdbd856b" title="ThreadSaveDelivery\l::saveListpackage" alt="" coords="233,5,353,41"/>
+<area shape="rect" id="node4" href="$class_thread_save_delivery.html#a0baa99579742255ab62d8f45fdc49460" title="ThreadSaveDelivery\l::saveListpackages" alt="" coords="233,65,353,101"/>
+<area shape="rect" id="node3" href="$class_thread_save_delivery.html#a4975505f89e79a8cfb90a6a6d7d1f1b0" title="ThreadSaveDelivery::run" alt="" coords="401,42,544,66"/>
 </map>

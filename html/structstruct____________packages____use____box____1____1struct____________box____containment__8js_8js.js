@@ -1,4 +1,0 @@
-var structstruct____________packages____use____box____1____1struct____________box____containment__8js_8js =
-[
-    [ "structstruct______packages__use__box__1__1struct______box__containment_8js", "structstruct____________packages____use____box____1____1struct____________box____containment__8js_8js.html#a903ce28eaa9beb79587a4a3f56f82611", null ]
-];

@@ -33,7 +33,7 @@
   <td id="projectlogo"><img alt="Logo" src="logibag.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Locker_Control (LC)
-   &#160;<span id="projectnumber">1.3.2</span>
+   &#160;<span id="projectnumber">1.3.1</span>
    </div>
    <div id="projectbrief">Application Locker Control (LC), an automatic boxes manager on Qt in c++.</div>
   </td>
@@ -132,6 +132,8 @@ Graphe d'héritage de ThreadSaveDelivery:</div>
 Connecteurs publics</h2></td></tr>
 <tr class="memitem:a95152e21b678effb4c8e281f3676af45"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_thread_save_delivery.html#a95152e21b678effb4c8e281f3676af45">startThread</a> (QList&lt; <a class="el" href="structstruct___packages_use_box.html">struct_PackagesUseBox</a> &gt; listpackage)</td></tr>
 <tr class="separator:a95152e21b678effb4c8e281f3676af45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45a69b5b6e1e62256329ef1f3cb51069"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_thread_save_delivery.html#a45a69b5b6e1e62256329ef1f3cb51069">startThread</a> (QList&lt; QList&lt; <a class="el" href="structstruct___packages_use_box.html">struct_PackagesUseBox</a> &gt; &gt; listpackages)</td></tr>
+<tr class="separator:a45a69b5b6e1e62256329ef1f3cb51069"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="signals"></a>
 Signaux</h2></td></tr>
@@ -146,6 +148,10 @@ Fonctions membres publiques</h2></td></tr>
 <tr class="separator:af1f7fcfa02547a3d29c8e62beaa249ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4975505f89e79a8cfb90a6a6d7d1f1b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_thread_save_delivery.html#a4975505f89e79a8cfb90a6a6d7d1f1b0">run</a> ()</td></tr>
 <tr class="separator:a4975505f89e79a8cfb90a6a6d7d1f1b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac83d9b16af43c11bf310261efdbd856b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_thread_save_delivery.html#ac83d9b16af43c11bf310261efdbd856b">saveListpackage</a> ()</td></tr>
+<tr class="separator:ac83d9b16af43c11bf310261efdbd856b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0baa99579742255ab62d8f45fdc49460"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_thread_save_delivery.html#a0baa99579742255ab62d8f45fdc49460">saveListpackages</a> ()</td></tr>
+<tr class="separator:a0baa99579742255ab62d8f45fdc49460"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Documentation des constructeurs et destructeur</h2>
 <a class="anchor" id="a4146ac3fea2efe4b3606d8d9f6f3cd0e"></a>
@@ -223,7 +229,73 @@ Voici le graphe d'appel pour cette fonction :</div>
 <div class="dyncontent">
 <div class="center"><img src="class_thread_save_delivery_a4975505f89e79a8cfb90a6a6d7d1f1b0_cgraph.png" border="0" usemap="#class_thread_save_delivery_a4975505f89e79a8cfb90a6a6d7d1f1b0_cgraph" alt=""/></div>
 <map name="class_thread_save_delivery_a4975505f89e79a8cfb90a6a6d7d1f1b0_cgraph" id="class_thread_save_delivery_a4975505f89e79a8cfb90a6a6d7d1f1b0_cgraph">
-<area shape="rect" id="node2" href="class_c_l_m_s___d_b.html#aafc3d21a321dd88a7081a1931897e658" title="CLMS_DB::GenerateExtractCode" alt="" coords="196,5,376,29"/><area shape="rect" id="node3" href="class_c_s_q_lite___local___d_b.html#a3d92b3c5a71a60ef86315071268a62b8" title="Récupère le nom du site actuel ou est installée la console de gestion des consignes automatiques..." alt="" coords="218,54,354,90"/><area shape="rect" id="node4" href="class_c_s_q_lite___local___d_b.html#a650c693de81299bb9fd3f0671c0ab9d7" title="Met à jour la base de données locale avec les informations envoyées au serveur LMS lors de la livrais..." alt="" coords="209,114,363,150"/><area shape="rect" id="node5" href="class_c_s_q_lite___local___d_b.html#a25433d7ada1d4173d92fdedfc9f1f253" title="Enregistre dans la base de données l&#39;action suivante qui va être demandée, utilisée pour garder toute..." alt="" coords="424,114,603,150"/></map>
+<area shape="rect" id="node2" href="class_thread_save_delivery.html#ac83d9b16af43c11bf310261efdbd856b" title="ThreadSaveDelivery\l::saveListpackage" alt="" coords="196,27,316,63"/><area shape="rect" id="node7" href="class_thread_save_delivery.html#a0baa99579742255ab62d8f45fdc49460" title="ThreadSaveDelivery\l::saveListpackages" alt="" coords="196,87,316,123"/><area shape="rect" id="node3" href="class_c_l_m_s___d_b.html#aafc3d21a321dd88a7081a1931897e658" title="CLMS_DB::GenerateExtractCode" alt="" coords="364,5,544,29"/><area shape="rect" id="node4" href="class_c_s_q_lite___local___d_b.html#a3d92b3c5a71a60ef86315071268a62b8" title="Récupère le nom du site actuel ou est installée la console de gestion des consignes automatiques..." alt="" coords="386,54,522,90"/><area shape="rect" id="node5" href="class_c_s_q_lite___local___d_b.html#a650c693de81299bb9fd3f0671c0ab9d7" title="Met à jour la base de données locale avec les informations envoyées au serveur LMS lors de la livrais..." alt="" coords="377,114,531,150"/><area shape="rect" id="node6" href="class_c_s_q_lite___local___d_b.html#a25433d7ada1d4173d92fdedfc9f1f253" title="Enregistre dans la base de données l&#39;action suivante qui va être demandée, utilisée pour garder toute..." alt="" coords="592,114,771,150"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ac83d9b16af43c11bf310261efdbd856b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ThreadSaveDelivery::saveListpackage </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_thread_save_delivery_ac83d9b16af43c11bf310261efdbd856b_cgraph.png" border="0" usemap="#class_thread_save_delivery_ac83d9b16af43c11bf310261efdbd856b_cgraph" alt=""/></div>
+<map name="class_thread_save_delivery_ac83d9b16af43c11bf310261efdbd856b_cgraph" id="class_thread_save_delivery_ac83d9b16af43c11bf310261efdbd856b_cgraph">
+<area shape="rect" id="node2" href="class_c_l_m_s___d_b.html#aafc3d21a321dd88a7081a1931897e658" title="CLMS_DB::GenerateExtractCode" alt="" coords="173,5,353,29"/><area shape="rect" id="node3" href="class_c_s_q_lite___local___d_b.html#a3d92b3c5a71a60ef86315071268a62b8" title="Récupère le nom du site actuel ou est installée la console de gestion des consignes automatiques..." alt="" coords="195,54,331,90"/><area shape="rect" id="node4" href="class_c_s_q_lite___local___d_b.html#a650c693de81299bb9fd3f0671c0ab9d7" title="Met à jour la base de données locale avec les informations envoyées au serveur LMS lors de la livrais..." alt="" coords="187,114,340,150"/><area shape="rect" id="node5" href="class_c_s_q_lite___local___d_b.html#a25433d7ada1d4173d92fdedfc9f1f253" title="Enregistre dans la base de données l&#39;action suivante qui va être demandée, utilisée pour garder toute..." alt="" coords="401,114,580,150"/></map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_thread_save_delivery_ac83d9b16af43c11bf310261efdbd856b_icgraph.png" border="0" usemap="#class_thread_save_delivery_ac83d9b16af43c11bf310261efdbd856b_icgraph" alt=""/></div>
+<map name="class_thread_save_delivery_ac83d9b16af43c11bf310261efdbd856b_icgraph" id="class_thread_save_delivery_ac83d9b16af43c11bf310261efdbd856b_icgraph">
+<area shape="rect" id="node2" href="class_thread_save_delivery.html#a4975505f89e79a8cfb90a6a6d7d1f1b0" title="ThreadSaveDelivery::run" alt="" coords="173,11,316,35"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a0baa99579742255ab62d8f45fdc49460"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ThreadSaveDelivery::saveListpackages </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_thread_save_delivery_a0baa99579742255ab62d8f45fdc49460_cgraph.png" border="0" usemap="#class_thread_save_delivery_a0baa99579742255ab62d8f45fdc49460_cgraph" alt=""/></div>
+<map name="class_thread_save_delivery_a0baa99579742255ab62d8f45fdc49460_cgraph" id="class_thread_save_delivery_a0baa99579742255ab62d8f45fdc49460_cgraph">
+<area shape="rect" id="node2" href="class_c_l_m_s___d_b.html#aafc3d21a321dd88a7081a1931897e658" title="CLMS_DB::GenerateExtractCode" alt="" coords="173,5,353,29"/><area shape="rect" id="node3" href="class_c_s_q_lite___local___d_b.html#a3d92b3c5a71a60ef86315071268a62b8" title="Récupère le nom du site actuel ou est installée la console de gestion des consignes automatiques..." alt="" coords="195,54,331,90"/><area shape="rect" id="node4" href="class_c_s_q_lite___local___d_b.html#a650c693de81299bb9fd3f0671c0ab9d7" title="Met à jour la base de données locale avec les informations envoyées au serveur LMS lors de la livrais..." alt="" coords="187,114,340,150"/><area shape="rect" id="node5" href="class_c_s_q_lite___local___d_b.html#a25433d7ada1d4173d92fdedfc9f1f253" title="Enregistre dans la base de données l&#39;action suivante qui va être demandée, utilisée pour garder toute..." alt="" coords="401,114,580,150"/></map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="class_thread_save_delivery_a0baa99579742255ab62d8f45fdc49460_icgraph.png" border="0" usemap="#class_thread_save_delivery_a0baa99579742255ab62d8f45fdc49460_icgraph" alt=""/></div>
+<map name="class_thread_save_delivery_a0baa99579742255ab62d8f45fdc49460_icgraph" id="class_thread_save_delivery_a0baa99579742255ab62d8f45fdc49460_icgraph">
+<area shape="rect" id="node2" href="class_thread_save_delivery.html#a4975505f89e79a8cfb90a6a6d7d1f1b0" title="ThreadSaveDelivery::run" alt="" coords="173,11,316,35"/></map>
 </div>
 </p>
 
@@ -256,7 +328,7 @@ Voici le graphe des appelants de cette fonction :</div>
 <div class="dyncontent">
 <div class="center"><img src="class_thread_save_delivery_a5a581b804e7ee5127255fe86c4badbb7_icgraph.png" border="0" usemap="#class_thread_save_delivery_a5a581b804e7ee5127255fe86c4badbb7_icgraph" alt=""/></div>
 <map name="class_thread_save_delivery_a5a581b804e7ee5127255fe86c4badbb7_icgraph" id="class_thread_save_delivery_a5a581b804e7ee5127255fe86c4badbb7_icgraph">
-<area shape="rect" id="node2" href="class_thread_save_delivery.html#a4975505f89e79a8cfb90a6a6d7d1f1b0" title="ThreadSaveDelivery::run" alt="" coords="173,11,316,35"/></map>
+<area shape="rect" id="node2" href="class_thread_save_delivery.html#ac83d9b16af43c11bf310261efdbd856b" title="ThreadSaveDelivery\l::saveListpackage" alt="" coords="173,5,293,41"/><area shape="rect" id="node4" href="class_thread_save_delivery.html#a0baa99579742255ab62d8f45fdc49460" title="ThreadSaveDelivery\l::saveListpackages" alt="" coords="173,65,293,101"/><area shape="rect" id="node3" href="class_thread_save_delivery.html#a4975505f89e79a8cfb90a6a6d7d1f1b0" title="ThreadSaveDelivery::run" alt="" coords="341,42,484,66"/></map>
 </div>
 </p>
 
@@ -295,6 +367,30 @@ Voici le graphe des appelants de cette fonction :</div>
 
 </div>
 </div>
+<a class="anchor" id="a45a69b5b6e1e62256329ef1f3cb51069"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ThreadSaveDelivery::startThread </td>
+          <td>(</td>
+          <td class="paramtype">QList&lt; QList&lt; <a class="el" href="structstruct___packages_use_box.html">struct_PackagesUseBox</a> &gt; &gt;&#160;</td>
+          <td class="paramname"><em>listpackages</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>La documentation de cette classe a été générée à partir des fichiers suivants :<ul>
 <li>S:/QT_CREATOR/Locker_Control/<a class="el" href="threadsavedelivery_8h_source.html">threadsavedelivery.h</a></li>
 <li>S:/QT_CREATOR/Locker_Control/<a class="el" href="threadsavedelivery_8cpp.html">threadsavedelivery.cpp</a></li>
@@ -305,7 +401,7 @@ Voici le graphe des appelants de cette fonction :</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_thread_save_delivery.html">ThreadSaveDelivery</a></li>
-    <li class="footer">Généré le Samedi 9 Mai 2015 17:58:44 pour Locker_Control (LC) par
+    <li class="footer">Généré le Samedi 9 Mai 2015 23:10:20 pour Locker_Control (LC) par
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

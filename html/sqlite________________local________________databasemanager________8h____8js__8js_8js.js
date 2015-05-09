@@ -1,4 +1,0 @@
-var sqlite________________local________________databasemanager________8h____8js__8js_8js =
-[
-    [ "sqlite________local________databasemanager____8h__8js_8js", "sqlite________________local________________databasemanager________8h____8js__8js_8js.html#a96352aca39196789ea35d2cd1d61f2ff", null ]
-];

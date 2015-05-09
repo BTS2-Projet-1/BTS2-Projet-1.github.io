@@ -33,7 +33,7 @@
   <td id="projectlogo"><img alt="Logo" src="logibag.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Locker_Control (LC)
-   &#160;<span id="projectnumber">1.3.2</span>
+   &#160;<span id="projectnumber">1.3.1</span>
    </div>
    <div id="projectbrief">Application Locker Control (LC), an automatic boxes manager on Qt in c++.</div>
   </td>
@@ -157,6 +157,12 @@ $(document).ready(function(){initNavTree('functions_func_s.html','');});
 <li>SaveDelivery()
 : <a class="el" href="class_delivery_confirm.html#ae504502e775713612893ef5a97b109d3">DeliveryConfirm</a>
 </li>
+<li>saveListpackage()
+: <a class="el" href="class_thread_save_delivery.html#ac83d9b16af43c11bf310261efdbd856b">ThreadSaveDelivery</a>
+</li>
+<li>saveListpackages()
+: <a class="el" href="class_thread_save_delivery.html#a0baa99579742255ab62d8f45fdc49460">ThreadSaveDelivery</a>
+</li>
 <li>SavePerfomAction()
 : <a class="el" href="class_c_s_q_lite___local___d_b.html#a25433d7ada1d4173d92fdedfc9f1f253">CSQLite_Local_DB</a>
 </li>
@@ -188,6 +194,9 @@ $(document).ready(function(){initNavTree('functions_func_s.html','');});
 : <a class="el" href="class_scan_package.html#af3d61ae4476313140053aa4ce19892fd">ScanPackage</a>
 , <a class="el" href="class_stow_packages.html#a7399efb7f4bfafd9e7aed65168ece3c9">StowPackages</a>
 </li>
+<li>SendListPackages()
+: <a class="el" href="class_delivery_confirm.html#a47548538259c4129319e3b3de9961982">DeliveryConfirm</a>
+</li>
 <li>SendQuery()
 : <a class="el" href="class_c_s_q_lite___local___d_b.html#ace38eaa62cc5639b2a7be726d51a70f7">CSQLite_Local_DB</a>
 </li>
@@ -211,6 +220,12 @@ $(document).ready(function(){initNavTree('functions_func_s.html','');});
 </li>
 <li>Set_SiteName()
 : <a class="el" href="class_c_s_q_lite___local___d_b.html#a166919fe85fb0cbb25efcb3a9cf8056d">CSQLite_Local_DB</a>
+</li>
+<li>Set_Temporary_BoxUsed()
+: <a class="el" href="class_c_s_q_lite___local___d_b.html#a10a1a56e3f5ae4a9e6ee69e3485c31ae">CSQLite_Local_DB</a>
+</li>
+<li>setAddressIP()
+: <a class="el" href="class_c_l_m_s___d_b.html#a1b7f4e94009af59fbf25005b9f0b56ee">CLMS_DB</a>
 </li>
 <li>SetCaract()
 : <a class="el" href="class_edit_setting_system.html#a367fea2c8e5aa3c2eb0af5dc6de1f90c">EditSettingSystem</a>
@@ -329,7 +344,7 @@ $(document).ready(function(){initNavTree('functions_func_s.html','');});
 : <a class="el" href="class_setting.html#a419079db5fab959f5b65bf0fd963e4da">Setting</a>
 </li>
 <li>SettingSystem()
-: <a class="el" href="class_setting_system.html#a5e05cfbb06519d77fd4eaaae479f4d2e">SettingSystem</a>
+: <a class="el" href="class_setting_system.html#a8fc2d73888c71d21ff93fba3fd21ff14">SettingSystem</a>
 </li>
 <li>SetValueProgress()
 : <a class="el" href="class_delivery_confirm.html#a3dc78594f1bef55246c31cbcf56dd8fb">DeliveryConfirm</a>
@@ -337,6 +352,9 @@ $(document).ready(function(){initNavTree('functions_func_s.html','');});
 </li>
 <li>setVisibleB_Ok()
 : <a class="el" href="class_key_board.html#a1d3575846e02c1e712a0376c056e700d">KeyBoard</a>
+</li>
+<li>shell()
+: <a class="el" href="class_c_l_m_s___d_b.html#a1c49e7b6e475309742204afe1589bef5">CLMS_DB</a>
 </li>
 <li>Show_WConsole()
 : <a class="el" href="class_console_windows.html#a39f034fa9d01cce4b6d798c42898ffaa">ConsoleWindows</a>
@@ -442,7 +460,7 @@ $(document).ready(function(){initNavTree('functions_func_s.html','');});
 </li>
 <li>startThread()
 : <a class="el" href="class_thread_delete_extract_code.html#a793c867ce2acb8a55ad32f916b7b3bf4">ThreadDeleteExtractCode</a>
-, <a class="el" href="class_thread_save_delivery.html#a95152e21b678effb4c8e281f3676af45">ThreadSaveDelivery</a>
+, <a class="el" href="class_thread_save_delivery.html#a45a69b5b6e1e62256329ef1f3cb51069">ThreadSaveDelivery</a>
 </li>
 <li>StartThread_LocalDatabase_AutoSave()
 : <a class="el" href="class_thread___local_database___auto_save.html#a85303c66b12dd217303f045a1111408a">Thread_LocalDatabase_AutoSave</a>
@@ -486,7 +504,7 @@ $(document).ready(function(){initNavTree('functions_func_s.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Généré le Samedi 9 Mai 2015 17:58:44 pour Locker_Control (LC) par
+    <li class="footer">Généré le Samedi 9 Mai 2015 23:10:20 pour Locker_Control (LC) par
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

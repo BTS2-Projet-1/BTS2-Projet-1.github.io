@@ -1,11 +1,11 @@
 <map id="DeliveryConfirm::DeliveryConfirm" name="DeliveryConfirm::DeliveryConfirm">
-<area shape="rect" id="node2" href="$class_delivery_confirm.html#a3dc78594f1bef55246c31cbcf56dd8fb" title="DeliveryConfirm::SetValue\lProgress" alt="" coords="211,5,359,41"/>
-<area shape="rect" id="node3" href="$class_delivery_confirm.html#a786adf160dbbbf94750c4502d67ef81c" title="DeliveryConfirm::ThreadFinished" alt="" coords="196,66,375,90"/>
-<area shape="rect" id="node7" href="$class_delivery_confirm.html#aedf9ca93a85b463d9e945074ba25a6c2" title="DeliveryConfirm::NewDelivery" alt="" coords="202,114,369,138"/>
-<area shape="rect" id="node9" href="$class_delivery_confirm.html#a624cfb7856fa7fc6d09558306b059958" title="DeliveryConfirm::FinishDelivery" alt="" coords="200,162,371,186"/>
-<area shape="rect" id="node10" href="$class_delivery_confirm.html#ab257c15bc440c22e8e256c2beb791a71" title="DeliveryConfirm::Receive\lListPackageBox" alt="" coords="214,211,357,247"/>
-<area shape="rect" id="node4" href="$class_box_choice.html#a857de1787d4cbcf15c4575b3e72f8dc0" title="BoxChoice::Refresh" alt="" coords="463,18,582,42"/>
-<area shape="rect" id="node5" href="$class_show_widgets.html#ab038ff960339a0f5c89db56992a3235e" title="ShowWidgets::ShowWBoxChoice" alt="" coords="429,66,616,90"/>
-<area shape="rect" id="node6" href="$class_show_widgets.html#af2fbfd95464a3bab01663fe19a80a1a4" title="ShowWidgets::ShowWMenuDelivery" alt="" coords="423,114,623,138"/>
-<area shape="rect" id="node8" href="$class_delivery_confirm.html#ae504502e775713612893ef5a97b109d3" title="DeliveryConfirm::SaveDelivery" alt="" coords="439,162,607,186"/>
+<area shape="rect" id="node2" href="$class_delivery_confirm.html#a3dc78594f1bef55246c31cbcf56dd8fb" title="DeliveryConfirm::SetValue\lProgress" alt="" coords="207,5,355,41"/>
+<area shape="rect" id="node3" href="$class_delivery_confirm.html#a786adf160dbbbf94750c4502d67ef81c" title="DeliveryConfirm::ThreadFinished" alt="" coords="415,69,593,93"/>
+<area shape="rect" id="node7" href="$class_delivery_confirm.html#aedf9ca93a85b463d9e945074ba25a6c2" title="DeliveryConfirm::NewDelivery" alt="" coords="198,165,365,189"/>
+<area shape="rect" id="node9" href="$class_delivery_confirm.html#a624cfb7856fa7fc6d09558306b059958" title="DeliveryConfirm::FinishDelivery" alt="" coords="196,117,367,141"/>
+<area shape="rect" id="node10" href="$class_delivery_confirm.html#ab257c15bc440c22e8e256c2beb791a71" title="DeliveryConfirm::Receive\lListPackageBox" alt="" coords="210,213,353,249"/>
+<area shape="rect" id="node4" href="$class_box_choice.html#a857de1787d4cbcf15c4575b3e72f8dc0" title="BoxChoice::Refresh" alt="" coords="682,45,801,69"/>
+<area shape="rect" id="node5" href="$class_show_widgets.html#ab038ff960339a0f5c89db56992a3235e" title="ShowWidgets::ShowWBoxChoice" alt="" coords="648,93,835,117"/>
+<area shape="rect" id="node6" href="$class_show_widgets.html#af2fbfd95464a3bab01663fe19a80a1a4" title="ShowWidgets::ShowWMenuDelivery" alt="" coords="641,141,841,165"/>
+<area shape="rect" id="node8" href="$class_delivery_confirm.html#ae504502e775713612893ef5a97b109d3" title="DeliveryConfirm::SaveDelivery" alt="" coords="420,117,588,141"/>
 </map>

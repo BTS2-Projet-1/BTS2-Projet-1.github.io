@@ -33,7 +33,7 @@
   <td id="projectlogo"><img alt="Logo" src="logibag.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Locker_Control (LC)
-   &#160;<span id="projectnumber">1.3.2</span>
+   &#160;<span id="projectnumber">1.3.1</span>
    </div>
    <div id="projectbrief">Application Locker Control (LC), an automatic boxes manager on Qt in c++.</div>
   </td>
@@ -179,16 +179,18 @@ $(document).ready(function(){initNavTree('csqlite__local__db_8h_source.html','')
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        <span class="keywordtype">bool</span> Set_SiteName(QString SiteName);</div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        <span class="keywordtype">int</span> Get_NumberOfBoxes();</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        <span class="keywordtype">bool</span> BoxIsDammaged(<span class="keywordtype">int</span> idBox);</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    signals:</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        <span class="keywordtype">bool</span> Set_Temporary_BoxUsed(<span class="keywordtype">int</span> IdBox);</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        <span class="keywordtype">bool</span> Unset_Temporary_BoxUsed(<span class="keywordtype">int</span> IdBox);</div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        <span class="keywordtype">void</span> CurrentProcessLoading(QString,<span class="keywordtype">int</span>);</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        <span class="keywordtype">void</span> SlowProcess(<span class="keywordtype">int</span>);</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;};</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    signals:</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        <span class="keywordtype">void</span> CurrentProcessLoading(QString,<span class="keywordtype">int</span>);</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        <span class="keywordtype">void</span> SlowProcess(<span class="keywordtype">int</span>);</div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;<span class="preprocessor">#endif // CSQLITE_LOCAL_DB_H</span></div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;};</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;<span class="preprocessor">#endif // CSQLITE_LOCAL_DB_H</span></div>
 <div class="ttc" id="class_c_l_m_s___d_b_html"><div class="ttname"><a href="class_c_l_m_s___d_b.html">CLMS_DB</a></div><div class="ttdef"><b>Definition:</b> clms_db.h:6</div></div>
 <div class="ttc" id="structstruct___database___contains_html_aa4208e8861fa15f84ef93ed8cd6b162e"><div class="ttname"><a href="structstruct___database___contains.html#aa4208e8861fa15f84ef93ed8cd6b162e">struct_Database_Contains::Table</a></div><div class="ttdeci">QString Table</div><div class="ttdef"><b>Definition:</b> DataStructures.h:85</div></div>
 <div class="ttc" id="class_login_html"><div class="ttname"><a href="class_login.html">Login</a></div><div class="ttdef"><b>Definition:</b> login.h:14</div></div>
@@ -202,7 +204,7 @@ $(document).ready(function(){initNavTree('csqlite__local__db_8h_source.html','')
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="csqlite__local__db_8h.html">csqlite_local_db.h</a></li>
-    <li class="footer">Généré le Samedi 9 Mai 2015 17:58:41 pour Locker_Control (LC) par
+    <li class="footer">Généré le Samedi 9 Mai 2015 23:10:19 pour Locker_Control (LC) par
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

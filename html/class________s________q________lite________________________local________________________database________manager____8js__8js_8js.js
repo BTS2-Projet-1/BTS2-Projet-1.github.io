@@ -1,4 +1,0 @@
-var class________s________q________lite________________________local________________________database________manager____8js__8js_8js =
-[
-    [ "class____s____q____lite____________local____________database____manager__8js_8js", "class________s________q________lite________________________local________________________database________manager____8js__8js_8js.html#ad5fdfbcf7a20c7bd3c32ac8ceb969fb9", null ]
-];

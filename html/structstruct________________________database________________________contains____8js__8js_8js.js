@@ -1,4 +1,0 @@
-var structstruct________________________database________________________contains____8js__8js_8js =
-[
-    [ "structstruct____________database____________contains__8js_8js", "structstruct________________________database________________________contains____8js__8js_8js.html#aa3834a7bf86e9f8f62d03d944b33d544", null ]
-];

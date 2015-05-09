@@ -1,0 +1,6 @@
+<map id="CLMS_DB::isConnected" name="CLMS_DB::isConnected">
+<area shape="rect" id="node2" href="$class_delivery_confirm.html#ae504502e775713612893ef5a97b109d3" title="DeliveryConfirm::SaveDelivery" alt="" coords="189,29,357,53"/>
+<area shape="rect" id="node3" href="$class_delivery_confirm.html#aedf9ca93a85b463d9e945074ba25a6c2" title="DeliveryConfirm::NewDelivery" alt="" coords="407,5,574,29"/>
+<area shape="rect" id="node5" href="$class_delivery_confirm.html#a624cfb7856fa7fc6d09558306b059958" title="DeliveryConfirm::FinishDelivery" alt="" coords="405,53,576,77"/>
+<area shape="rect" id="node4" href="$class_delivery_confirm.html#a17470a36b66b2fdb83d87abb6b73aaad" title="DeliveryConfirm::Delivery\lConfirm" alt="" coords="624,23,767,59"/>
+</map>

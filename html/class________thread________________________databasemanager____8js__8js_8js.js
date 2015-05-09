@@ -1,4 +1,0 @@
-var class________thread________________________databasemanager____8js__8js_8js =
-[
-    [ "class____thread____________databasemanager__8js_8js", "class________thread________________________databasemanager____8js__8js_8js.html#ade3c887472e750d6ae16362d14c506e5", null ]
-];

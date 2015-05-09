@@ -33,7 +33,7 @@
   <td id="projectlogo"><img alt="Logo" src="logibag.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Locker_Control (LC)
-   &#160;<span id="projectnumber">1.3.2</span>
+   &#160;<span id="projectnumber">1.3.1</span>
    </div>
    <div id="projectbrief">Application Locker Control (LC), an automatic boxes manager on Qt in c++.</div>
   </td>
@@ -124,78 +124,76 @@ $(document).ready(function(){initNavTree('boxchoice_8h_source.html','');});
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="menudelivery_8h.html">menudelivery.h</a>&quot;</span></div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="csqlite__local__db_8h.html">csqlite_local_db.h</a>&quot;</span></div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespace_ui.html">Ui</a> {</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keyword">class </span><a class="code" href="class_box_choice.html">BoxChoice</a>;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;}</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
-<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="class_box_choice.html">   34</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_box_choice.html">BoxChoice</a> : <span class="keyword">public</span> QWidget</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;{</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    Q_OBJECT</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">int</span> HEIGHT = 100;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">int</span> WIDTH = 100;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">int</span> STARTX = 0;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">int</span> STARTY = 0;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespace_ui.html">Ui</a> {</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keyword">class </span><a class="code" href="class_box_choice.html">BoxChoice</a>;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;}</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="class_box_choice.html">   32</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_box_choice.html">BoxChoice</a> : <span class="keyword">public</span> QWidget</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;{</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    Q_OBJECT</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">int</span> HEIGHT = 100;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">int</span> WIDTH = 100;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">int</span> STARTX = 0;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">int</span> STARTY = 0;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <span class="keyword">explicit</span> <a class="code" href="class_box_choice.html#a84014b17965fe73d58166766e8ec1898">BoxChoice</a>(<a class="code" href="class_menu_delivery.html">MenuDelivery</a> *WMenuDelivery=NULL, <a class="code" href="class_c_s_q_lite___local___d_b.html">CSQLite_Local_DB</a> *bd=NULL, QWidget *parent = 0);</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <a class="code" href="class_box_choice.html#a83374afa25738de6628dac0aa0631abd">~BoxChoice</a>();</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="keyword">explicit</span> <a class="code" href="class_box_choice.html#a84014b17965fe73d58166766e8ec1898">BoxChoice</a>(<a class="code" href="class_menu_delivery.html">MenuDelivery</a> *WMenuDelivery=NULL, <a class="code" href="class_c_s_q_lite___local___d_b.html">CSQLite_Local_DB</a> *bd=NULL, QWidget *parent = 0);</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <a class="code" href="class_box_choice.html#a83374afa25738de6628dac0aa0631abd">~BoxChoice</a>();</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
+<div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="class_box_choice.html#af2fb771376897f6c27f44770ac9d5a74">   46</a></span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_box_choice.html#af2fb771376897f6c27f44770ac9d5a74">SetShowWidgets</a>(<a class="code" href="class_show_widgets.html">ShowWidgets</a> *TShowWidgets){m_ShowWidgets = TShowWidgets;}</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
-<div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="class_box_choice.html#af2fb771376897f6c27f44770ac9d5a74">   48</a></span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_box_choice.html#af2fb771376897f6c27f44770ac9d5a74">SetShowWidgets</a>(<a class="code" href="class_show_widgets.html">ShowWidgets</a> *TShowWidgets){m_ShowWidgets = TShowWidgets;}</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        QGraphicsView* <a class="code" href="class_box_choice.html#af0c0056469ae539097060920874756b5">GetGraphicsView</a>();</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        QGraphicsScene* <a class="code" href="class_box_choice.html#a9dbd445e83e12b99ccf1ccfe417cfe82">GetScene</a>();</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        QGraphicsView* <a class="code" href="class_box_choice.html#af0c0056469ae539097060920874756b5">GetGraphicsView</a>();</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        QGraphicsScene* <a class="code" href="class_box_choice.html#a9dbd445e83e12b99ccf1ccfe417cfe82">GetScene</a>();</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        QList&lt;int&gt; <a class="code" href="class_box_choice.html#ae506504f462483f2907b550cc6744ed1">GetBoxSelected</a>();</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        QList&lt;int&gt; <a class="code" href="class_box_choice.html#ae506504f462483f2907b550cc6744ed1">GetBoxSelected</a>();</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="comment">//traduction</span></div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_box_choice.html#a249d0e3e88165ada38403517133dfa4b">retranslateUi</a>();</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        <span class="comment">//gestion des portes du dessin</span></div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_box_choice.html#aacecf4397e4e529d608169732a720883">setDoorUnvailable</a>(<span class="keywordtype">int</span> <span class="keywordtype">id</span>);</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_box_choice.html#a7868d0b31d43f0de35d4540ba94cc44f">setDoorNoChecked</a>(<span class="keywordtype">int</span> <span class="keywordtype">id</span>);</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_box_choice.html#ac136f26d714ed0d300bb883b89e9e9c9">setDoorAvailable</a>(<span class="keywordtype">int</span> <span class="keywordtype">id</span>);</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_box_choice.html#abfeb4f0ca68ac7f4b996cf8e61b6b3ff">setDoorChecked</a>(<span class="keywordtype">int</span> <span class="keywordtype">id</span>);</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        <span class="comment">//affiche message erreur</span></div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_box_choice.html#ad37b06458579e728892d4fa29ac9bcc9">ShowMessageError</a>(QString mesg);</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <span class="comment">//traduction</span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_box_choice.html#a249d0e3e88165ada38403517133dfa4b">retranslateUi</a>();</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <span class="comment">//gestion des portes du dessin</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_box_choice.html#aacecf4397e4e529d608169732a720883">setDoorUnvailable</a>(<span class="keywordtype">int</span> <span class="keywordtype">id</span>);</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_box_choice.html#a7868d0b31d43f0de35d4540ba94cc44f">setDoorNoChecked</a>(<span class="keywordtype">int</span> <span class="keywordtype">id</span>);</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_box_choice.html#ac136f26d714ed0d300bb883b89e9e9c9">setDoorAvailable</a>(<span class="keywordtype">int</span> <span class="keywordtype">id</span>);</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_box_choice.html#abfeb4f0ca68ac7f4b996cf8e61b6b3ff">setDoorChecked</a>(<span class="keywordtype">int</span> <span class="keywordtype">id</span>);</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        <span class="comment">//affiche message erreur</span></div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_box_choice.html#ad37b06458579e728892d4fa29ac9bcc9">ShowMessageError</a>(QString mesg);</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="keyword">public</span> slots:</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="keyword">public</span> slots:</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_box_choice.html#af67a20b330b0f23c73d643d403b3e9e4">manageRect</a>(<span class="keywordtype">int</span>);</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_box_choice.html#a857de1787d4cbcf15c4575b3e72f8dc0">Refresh</a>();</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    signals:</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_box_choice.html#aae9daa203d1d9c6ad99ed355c811358a">SendListBoxSelected</a>(QList&lt;int&gt;);</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="keyword">private</span> slots:</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        <span class="keywordtype">void</span> on_B_Valide_clicked();</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        <span class="keywordtype">void</span> on_B_Cancel_clicked();</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        <span class="keywordtype">void</span> on_B_Help_clicked();</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        <span class="keywordtype">void</span> on_B_Assistance_clicked();</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        Ui::BoxChoice *ui;</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        <a class="code" href="class_show_widgets.html">ShowWidgets</a> *m_ShowWidgets;</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        QGraphicsScene *m_Scene;</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        <a class="code" href="class_menu_delivery.html">MenuDelivery</a> *m_WMenuDelivery;</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        <span class="comment">//lien base de donnée</span></div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        <a class="code" href="class_c_s_q_lite___local___d_b.html">CSQLite_Local_DB</a> *m_BD;</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        QList&lt;struct struct_DoorGeom&gt; m_ListBox;</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        QList&lt;drawBox *&gt; m_listdrawBox;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_box_choice.html#af67a20b330b0f23c73d643d403b3e9e4">manageRect</a>(<span class="keywordtype">int</span>);</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_box_choice.html#a857de1787d4cbcf15c4575b3e72f8dc0">Refresh</a>();</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    signals:</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_box_choice.html#aae9daa203d1d9c6ad99ed355c811358a">SendListBoxSelected</a>(QList&lt;int&gt;);</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="keyword">private</span> slots:</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        <span class="keywordtype">void</span> on_B_Valide_clicked();</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        <span class="keywordtype">void</span> on_B_Cancel_clicked();</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        <span class="keywordtype">void</span> on_B_Help_clicked();</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        <span class="keywordtype">void</span> on_B_Assistance_clicked();</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        Ui::BoxChoice *ui;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        <a class="code" href="class_show_widgets.html">ShowWidgets</a> *m_ShowWidgets;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        QGraphicsScene *m_Scene;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        <a class="code" href="class_menu_delivery.html">MenuDelivery</a> *m_WMenuDelivery;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        <span class="comment">//lien base de donnée</span></div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        <a class="code" href="class_c_s_q_lite___local___d_b.html">CSQLite_Local_DB</a> *m_BD;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        QList&lt;struct struct_DoorGeom&gt; m_ListBox;</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        QList&lt;drawBox *&gt; m_listdrawBox;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        <span class="keywordtype">void</span> createBoxes();</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        <span class="keywordtype">void</span> createBoxes();</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;};</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;};</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="preprocessor">#endif // BOXCHOICE_H</span></div>
-<div class="ttc" id="class_box_choice_html_a857de1787d4cbcf15c4575b3e72f8dc0"><div class="ttname"><a href="class_box_choice.html#a857de1787d4cbcf15c4575b3e72f8dc0">BoxChoice::Refresh</a></div><div class="ttdeci">void Refresh()</div><div class="ttdef"><b>Definition:</b> boxchoice.cpp:216</div></div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="preprocessor">#endif // BOXCHOICE_H</span></div>
+<div class="ttc" id="class_box_choice_html_a857de1787d4cbcf15c4575b3e72f8dc0"><div class="ttname"><a href="class_box_choice.html#a857de1787d4cbcf15c4575b3e72f8dc0">BoxChoice::Refresh</a></div><div class="ttdeci">void Refresh()</div><div class="ttdef"><b>Definition:</b> boxchoice.cpp:214</div></div>
 <div class="ttc" id="namespace_ui_html"><div class="ttname"><a href="namespace_ui.html">Ui</a></div><div class="ttdef"><b>Definition:</b> assistance.h:6</div></div>
 <div class="ttc" id="drawbox_8h_html"><div class="ttname"><a href="drawbox_8h.html">drawbox.h</a></div></div>
 <div class="ttc" id="class_box_choice_html_a7868d0b31d43f0de35d4540ba94cc44f"><div class="ttname"><a href="class_box_choice.html#a7868d0b31d43f0de35d4540ba94cc44f">BoxChoice::setDoorNoChecked</a></div><div class="ttdeci">void setDoorNoChecked(int id)</div><div class="ttdef"><b>Definition:</b> boxchoice.cpp:187</div></div>
@@ -203,19 +201,19 @@ $(document).ready(function(){initNavTree('boxchoice_8h_source.html','');});
 <div class="ttc" id="class_box_choice_html_ae506504f462483f2907b550cc6744ed1"><div class="ttname"><a href="class_box_choice.html#ae506504f462483f2907b550cc6744ed1">BoxChoice::GetBoxSelected</a></div><div class="ttdeci">QList&lt; int &gt; GetBoxSelected()</div><div class="ttdoc">Récupère la liste des consignes selectionées. </div><div class="ttdef"><b>Definition:</b> boxchoice.cpp:80</div></div>
 <div class="ttc" id="class_box_choice_html_a249d0e3e88165ada38403517133dfa4b"><div class="ttname"><a href="class_box_choice.html#a249d0e3e88165ada38403517133dfa4b">BoxChoice::retranslateUi</a></div><div class="ttdeci">void retranslateUi()</div><div class="ttdoc">Mis à jour de la traduction . </div><div class="ttdef"><b>Definition:</b> boxchoice.cpp:59</div></div>
 <div class="ttc" id="class_box_choice_html_aae9daa203d1d9c6ad99ed355c811358a"><div class="ttname"><a href="class_box_choice.html#aae9daa203d1d9c6ad99ed355c811358a">BoxChoice::SendListBoxSelected</a></div><div class="ttdeci">void SendListBoxSelected(QList&lt; int &gt;)</div></div>
-<div class="ttc" id="class_box_choice_html_abfeb4f0ca68ac7f4b996cf8e61b6b3ff"><div class="ttname"><a href="class_box_choice.html#abfeb4f0ca68ac7f4b996cf8e61b6b3ff">BoxChoice::setDoorChecked</a></div><div class="ttdeci">void setDoorChecked(int id)</div><div class="ttdef"><b>Definition:</b> boxchoice.cpp:196</div></div>
+<div class="ttc" id="class_box_choice_html_abfeb4f0ca68ac7f4b996cf8e61b6b3ff"><div class="ttname"><a href="class_box_choice.html#abfeb4f0ca68ac7f4b996cf8e61b6b3ff">BoxChoice::setDoorChecked</a></div><div class="ttdeci">void setDoorChecked(int id)</div><div class="ttdef"><b>Definition:</b> boxchoice.cpp:195</div></div>
 <div class="ttc" id="showwidgets_8h_html"><div class="ttname"><a href="showwidgets_8h.html">showwidgets.h</a></div></div>
 <div class="ttc" id="class_show_widgets_html"><div class="ttname"><a href="class_show_widgets.html">ShowWidgets</a></div><div class="ttdef"><b>Definition:</b> showwidgets.h:7</div></div>
 <div class="ttc" id="csqlite__local__db_8h_html"><div class="ttname"><a href="csqlite__local__db_8h.html">csqlite_local_db.h</a></div></div>
 <div class="ttc" id="menudelivery_8h_html"><div class="ttname"><a href="menudelivery_8h.html">menudelivery.h</a></div></div>
-<div class="ttc" id="class_box_choice_html"><div class="ttname"><a href="class_box_choice.html">BoxChoice</a></div><div class="ttdoc">Definition de la classe BoxChoice. </div><div class="ttdef"><b>Definition:</b> boxchoice.h:34</div></div>
+<div class="ttc" id="class_box_choice_html"><div class="ttname"><a href="class_box_choice.html">BoxChoice</a></div><div class="ttdoc">Definition de la classe BoxChoice. </div><div class="ttdef"><b>Definition:</b> boxchoice.h:32</div></div>
 <div class="ttc" id="class_menu_delivery_html"><div class="ttname"><a href="class_menu_delivery.html">MenuDelivery</a></div><div class="ttdef"><b>Definition:</b> menudelivery.h:12</div></div>
 <div class="ttc" id="class_box_choice_html_ac136f26d714ed0d300bb883b89e9e9c9"><div class="ttname"><a href="class_box_choice.html#ac136f26d714ed0d300bb883b89e9e9c9">BoxChoice::setDoorAvailable</a></div><div class="ttdeci">void setDoorAvailable(int id)</div><div class="ttdef"><b>Definition:</b> boxchoice.cpp:178</div></div>
 <div class="ttc" id="class_box_choice_html_af67a20b330b0f23c73d643d403b3e9e4"><div class="ttname"><a href="class_box_choice.html#af67a20b330b0f23c73d643d403b3e9e4">BoxChoice::manageRect</a></div><div class="ttdeci">void manageRect(int)</div><div class="ttdef"><b>Definition:</b> boxchoice.cpp:150</div></div>
 <div class="ttc" id="class_box_choice_html_a9dbd445e83e12b99ccf1ccfe417cfe82"><div class="ttname"><a href="class_box_choice.html#a9dbd445e83e12b99ccf1ccfe417cfe82">BoxChoice::GetScene</a></div><div class="ttdeci">QGraphicsScene * GetScene()</div><div class="ttdef"><b>Definition:</b> boxchoice.cpp:69</div></div>
 <div class="ttc" id="class_box_choice_html_aacecf4397e4e529d608169732a720883"><div class="ttname"><a href="class_box_choice.html#aacecf4397e4e529d608169732a720883">BoxChoice::setDoorUnvailable</a></div><div class="ttdeci">void setDoorUnvailable(int id)</div><div class="ttdef"><b>Definition:</b> boxchoice.cpp:169</div></div>
-<div class="ttc" id="class_box_choice_html_ad37b06458579e728892d4fa29ac9bcc9"><div class="ttname"><a href="class_box_choice.html#ad37b06458579e728892d4fa29ac9bcc9">BoxChoice::ShowMessageError</a></div><div class="ttdeci">void ShowMessageError(QString mesg)</div><div class="ttdef"><b>Definition:</b> boxchoice.cpp:205</div></div>
-<div class="ttc" id="class_box_choice_html_af2fb771376897f6c27f44770ac9d5a74"><div class="ttname"><a href="class_box_choice.html#af2fb771376897f6c27f44770ac9d5a74">BoxChoice::SetShowWidgets</a></div><div class="ttdeci">void SetShowWidgets(ShowWidgets *TShowWidgets)</div><div class="ttdef"><b>Definition:</b> boxchoice.h:48</div></div>
+<div class="ttc" id="class_box_choice_html_ad37b06458579e728892d4fa29ac9bcc9"><div class="ttname"><a href="class_box_choice.html#ad37b06458579e728892d4fa29ac9bcc9">BoxChoice::ShowMessageError</a></div><div class="ttdeci">void ShowMessageError(QString mesg)</div><div class="ttdef"><b>Definition:</b> boxchoice.cpp:203</div></div>
+<div class="ttc" id="class_box_choice_html_af2fb771376897f6c27f44770ac9d5a74"><div class="ttname"><a href="class_box_choice.html#af2fb771376897f6c27f44770ac9d5a74">BoxChoice::SetShowWidgets</a></div><div class="ttdeci">void SetShowWidgets(ShowWidgets *TShowWidgets)</div><div class="ttdef"><b>Definition:</b> boxchoice.h:46</div></div>
 <div class="ttc" id="class_c_s_q_lite___local___d_b_html"><div class="ttname"><a href="class_c_s_q_lite___local___d_b.html">CSQLite_Local_DB</a></div><div class="ttdoc">classe CSQLite_Local_DB, gestion des communications entre une base de données locale de type SQLite...</div><div class="ttdef"><b>Definition:</b> csqlite_local_db.h:39</div></div>
 <div class="ttc" id="class_box_choice_html_a83374afa25738de6628dac0aa0631abd"><div class="ttname"><a href="class_box_choice.html#a83374afa25738de6628dac0aa0631abd">BoxChoice::~BoxChoice</a></div><div class="ttdeci">~BoxChoice()</div><div class="ttdef"><b>Definition:</b> boxchoice.cpp:50</div></div>
 <div class="ttc" id="class_box_choice_html_af0c0056469ae539097060920874756b5"><div class="ttname"><a href="class_box_choice.html#af0c0056469ae539097060920874756b5">BoxChoice::GetGraphicsView</a></div><div class="ttdeci">QGraphicsView * GetGraphicsView()</div><div class="ttdef"><b>Definition:</b> boxchoice.cpp:64</div></div>
@@ -226,7 +224,7 @@ $(document).ready(function(){initNavTree('boxchoice_8h_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="boxchoice_8h.html">boxchoice.h</a></li>
-    <li class="footer">Généré le Samedi 9 Mai 2015 17:58:41 pour Locker_Control (LC) par
+    <li class="footer">Généré le Samedi 9 Mai 2015 23:10:19 pour Locker_Control (LC) par
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

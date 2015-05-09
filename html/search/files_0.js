@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['_5f_5f_5f_5fdata_5f_5f_5f_5fstructures_5f_5f_5f_5f8h_5f_5f8js_5f8js_2ejs',['____data____structures____8h__8js_8js.js',['../________data________structures________8h____8js__8js_8js.html',1,'']]],
-  ['_5f_5fdata_5f_5fstructures_5f_5f8h_5f8js_2ejs',['__data__structures__8h_8js.js',['../____data____structures____8h__8js_8js.html',1,'']]],
-  ['_5fdata_5fstructures_5f8h_2ejs',['_data_structures_8h.js',['../__data__structures__8h_8js.html',1,'']]]
+  ['assistance_2ecpp',['assistance.cpp',['../assistance_8cpp.html',1,'']]],
+  ['assistance_2eh',['assistance.h',['../assistance_8h.html',1,'']]]
 ];
