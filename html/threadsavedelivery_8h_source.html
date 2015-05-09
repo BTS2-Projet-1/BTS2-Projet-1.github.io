@@ -33,7 +33,7 @@
   <td id="projectlogo"><img alt="Logo" src="logibag.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Locker_Control (LC)
-   &#160;<span id="projectnumber">1.3.1</span>
+   &#160;<span id="projectnumber">1.3.2</span>
    </div>
    <div id="projectbrief">Application Locker Control (LC), an automatic boxes manager on Qt in c++.</div>
   </td>
@@ -115,35 +115,38 @@ $(document).ready(function(){initNavTree('threadsavedelivery_8h_source.html','')
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define THREADSAVEDELIVERY_H</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;QThread&gt;</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="clms__db_8h.html">clms_db.h</a>&quot;</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="csqlite__local__db_8h.html">csqlite_local_db.h</a>&quot;</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_data_structures_8h.html">DataStructures.h</a>&quot;</span></div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">class </span><a class="code" href="class_delivery_confirm.html">DeliveryConfirm</a>;</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="clms__db_8h.html">clms_db.h</a>&quot;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="csqlite__local__db_8h.html">csqlite_local_db.h</a>&quot;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_data_structures_8h.html">DataStructures.h</a>&quot;</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
-<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="class_thread_save_delivery.html">   10</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_thread_save_delivery.html">ThreadSaveDelivery</a> : <span class="keyword">public</span> QThread</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;{</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    Q_OBJECT</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        <a class="code" href="class_thread_save_delivery.html#a4146ac3fea2efe4b3606d8d9f6f3cd0e">ThreadSaveDelivery</a>(<a class="code" href="class_c_s_q_lite___local___d_b.html">CSQLite_Local_DB</a> *db, <a class="code" href="class_c_l_m_s___d_b.html">CLMS_DB</a> *lms,<a class="code" href="class_delivery_confirm.html">DeliveryConfirm</a> *WDeliveryConfirm);</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <a class="code" href="class_thread_save_delivery.html#af1f7fcfa02547a3d29c8e62beaa249ca">~ThreadSaveDelivery</a>();</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_thread_save_delivery.html#a4975505f89e79a8cfb90a6a6d7d1f1b0">run</a>();</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keyword">public</span> slots:</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_thread_save_delivery.html#a95152e21b678effb4c8e281f3676af45">startThread</a>(QList&lt;struct_PackagesUseBox&gt; listpackage);</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">class </span><a class="code" href="class_delivery_confirm.html">DeliveryConfirm</a>;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="class_thread_save_delivery.html">   12</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_thread_save_delivery.html">ThreadSaveDelivery</a> : <span class="keyword">public</span> QThread</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;{</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    Q_OBJECT</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <a class="code" href="class_thread_save_delivery.html#a4146ac3fea2efe4b3606d8d9f6f3cd0e">ThreadSaveDelivery</a>(<a class="code" href="class_c_s_q_lite___local___d_b.html">CSQLite_Local_DB</a> *db, <a class="code" href="class_c_l_m_s___d_b.html">CLMS_DB</a> *lms,<a class="code" href="class_delivery_confirm.html">DeliveryConfirm</a> *WDeliveryConfirm);</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <a class="code" href="class_thread_save_delivery.html#af1f7fcfa02547a3d29c8e62beaa249ca">~ThreadSaveDelivery</a>();</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_thread_save_delivery.html#a4975505f89e79a8cfb90a6a6d7d1f1b0">run</a>();</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    signals:</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_thread_save_delivery.html#a5a581b804e7ee5127255fe86c4badbb7">SetValueProgress</a>(<span class="keywordtype">int</span>);</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keyword">public</span> slots:</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_thread_save_delivery.html#a95152e21b678effb4c8e281f3676af45">startThread</a>(QList&lt;struct_PackagesUseBox&gt; listpackage);</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        QList&lt;struct_PackagesUseBox&gt; m_tempPackageList;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        QList&lt;struct_PackagesUseBox&gt; m_Packageslist;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <a class="code" href="class_c_s_q_lite___local___d_b.html">CSQLite_Local_DB</a> *m_DB;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <a class="code" href="class_c_l_m_s___d_b.html">CLMS_DB</a> *m_LMS;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <a class="code" href="class_delivery_confirm.html">DeliveryConfirm</a> *m_WDeliveryConfirm;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;};</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    signals:</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_thread_save_delivery.html#a5a581b804e7ee5127255fe86c4badbb7">SetValueProgress</a>(<span class="keywordtype">int</span>);</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        QList&lt;struct_PackagesUseBox&gt; m_tempPackageList;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        QList&lt;struct_PackagesUseBox&gt; m_Packageslist;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <a class="code" href="class_c_s_q_lite___local___d_b.html">CSQLite_Local_DB</a> *m_DB;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <a class="code" href="class_c_l_m_s___d_b.html">CLMS_DB</a> *m_LMS;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <a class="code" href="class_delivery_confirm.html">DeliveryConfirm</a> *m_WDeliveryConfirm;</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor">#endif // THREADSAVEDELIVERY_H</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;};</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor">#endif // THREADSAVEDELIVERY_H</span></div>
 <div class="ttc" id="class_c_l_m_s___d_b_html"><div class="ttname"><a href="class_c_l_m_s___d_b.html">CLMS_DB</a></div><div class="ttdef"><b>Definition:</b> clms_db.h:6</div></div>
 <div class="ttc" id="class_thread_save_delivery_html_af1f7fcfa02547a3d29c8e62beaa249ca"><div class="ttname"><a href="class_thread_save_delivery.html#af1f7fcfa02547a3d29c8e62beaa249ca">ThreadSaveDelivery::~ThreadSaveDelivery</a></div><div class="ttdeci">~ThreadSaveDelivery()</div><div class="ttdef"><b>Definition:</b> threadsavedelivery.cpp:13</div></div>
 <div class="ttc" id="class_thread_save_delivery_html_a4146ac3fea2efe4b3606d8d9f6f3cd0e"><div class="ttname"><a href="class_thread_save_delivery.html#a4146ac3fea2efe4b3606d8d9f6f3cd0e">ThreadSaveDelivery::ThreadSaveDelivery</a></div><div class="ttdeci">ThreadSaveDelivery(CSQLite_Local_DB *db, CLMS_DB *lms, DeliveryConfirm *WDeliveryConfirm)</div><div class="ttdef"><b>Definition:</b> threadsavedelivery.cpp:4</div></div>
@@ -151,10 +154,10 @@ $(document).ready(function(){initNavTree('threadsavedelivery_8h_source.html','')
 <div class="ttc" id="csqlite__local__db_8h_html"><div class="ttname"><a href="csqlite__local__db_8h.html">csqlite_local_db.h</a></div></div>
 <div class="ttc" id="class_thread_save_delivery_html_a95152e21b678effb4c8e281f3676af45"><div class="ttname"><a href="class_thread_save_delivery.html#a95152e21b678effb4c8e281f3676af45">ThreadSaveDelivery::startThread</a></div><div class="ttdeci">void startThread(QList&lt; struct_PackagesUseBox &gt; listpackage)</div><div class="ttdef"><b>Definition:</b> threadsavedelivery.cpp:48</div></div>
 <div class="ttc" id="class_delivery_confirm_html"><div class="ttname"><a href="class_delivery_confirm.html">DeliveryConfirm</a></div><div class="ttdef"><b>Definition:</b> deliveryconfirm.h:17</div></div>
-<div class="ttc" id="class_thread_save_delivery_html"><div class="ttname"><a href="class_thread_save_delivery.html">ThreadSaveDelivery</a></div><div class="ttdef"><b>Definition:</b> threadsavedelivery.h:10</div></div>
+<div class="ttc" id="class_thread_save_delivery_html"><div class="ttname"><a href="class_thread_save_delivery.html">ThreadSaveDelivery</a></div><div class="ttdef"><b>Definition:</b> threadsavedelivery.h:12</div></div>
 <div class="ttc" id="class_thread_save_delivery_html_a5a581b804e7ee5127255fe86c4badbb7"><div class="ttname"><a href="class_thread_save_delivery.html#a5a581b804e7ee5127255fe86c4badbb7">ThreadSaveDelivery::SetValueProgress</a></div><div class="ttdeci">void SetValueProgress(int)</div></div>
 <div class="ttc" id="clms__db_8h_html"><div class="ttname"><a href="clms__db_8h.html">clms_db.h</a></div></div>
-<div class="ttc" id="class_c_s_q_lite___local___d_b_html"><div class="ttname"><a href="class_c_s_q_lite___local___d_b.html">CSQLite_Local_DB</a></div><div class="ttdoc">classe CSQLite_Local_DB, gestion des communications entre une base de données locale de type SQLite...</div><div class="ttdef"><b>Definition:</b> csqlite_local_db.h:31</div></div>
+<div class="ttc" id="class_c_s_q_lite___local___d_b_html"><div class="ttname"><a href="class_c_s_q_lite___local___d_b.html">CSQLite_Local_DB</a></div><div class="ttdoc">classe CSQLite_Local_DB, gestion des communications entre une base de données locale de type SQLite...</div><div class="ttdef"><b>Definition:</b> csqlite_local_db.h:39</div></div>
 <div class="ttc" id="_data_structures_8h_html"><div class="ttname"><a href="_data_structures_8h.html">DataStructures.h</a></div><div class="ttdoc">Definnitions des formats de communications des données entre les classes de l&#39;application LC...</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -162,7 +165,7 @@ $(document).ready(function(){initNavTree('threadsavedelivery_8h_source.html','')
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="threadsavedelivery_8h.html">threadsavedelivery.h</a></li>
-    <li class="footer">Généré le Samedi 9 Mai 2015 14:35:19 pour Locker_Control (LC) par
+    <li class="footer">Généré le Samedi 9 Mai 2015 17:58:41 pour Locker_Control (LC) par
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ipv4',['IPV4',['../class_setting_system.html#ad046ad3adffd323e59c0109d59582d76ab88493e65b56ce1f70470d84743588c7',1,'SettingSystem::IPV4()'],['../editsettingsystem_8h.html#a5227ca4f7424412312f0ed756359c612acfc4c1053c60b6cc2a7776c60969f31f',1,'IPV4():&#160;editsettingsystem.h']]]
+  ['french',['FRENCH',['../country_8h.html#af4bc3b1b5f0158a76bb95bcf00ed6af2addd353630892a63d1cc28cf236e80c6e',1,'country.h']]]
 ];

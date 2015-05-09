@@ -4,7 +4,6 @@ var class_stow_packages =
     [ "~StowPackages", "class_stow_packages.html#ae72794bc7847edf6c2e9f0a6562e082c", null ],
     [ "AddItemListBox", "class_stow_packages.html#acc69e1e77791772697997020576d2a47", null ],
     [ "CreateListBoxTreeWidget", "class_stow_packages.html#af44ae7fc4cb1912eb0c115e8aa0a0308", null ],
-    [ "OpenDoor", "class_stow_packages.html#adb7562f93d92c610d3614a61fb4b64f8", null ],
     [ "ReceiveListPackageBox", "class_stow_packages.html#ad6fbdd35f232cc348c1c6093f5212bff", null ],
     [ "ResetAttribut", "class_stow_packages.html#a16c2f10abbc1744637130db6751314e3", null ],
     [ "retranslateUi", "class_stow_packages.html#a601efd214a21274ede3557ac167bb139", null ],

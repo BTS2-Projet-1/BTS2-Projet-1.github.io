@@ -1,11 +1,11 @@
 <map id="ConsoleWindows::SelectPays" name="ConsoleWindows::SelectPays">
-<area shape="rect" id="node2" href="$class_country.html#a9e29e545284bf303a43ec3f18265ba15" title="Country::SetFrench" alt="" coords="250,29,366,53"/>
-<area shape="rect" id="node3" href="$class_console_windows.html#a6b424a5d7283de1dbeeacfffdffa8e8b" title="ConsoleWindows::changeEvent" alt="" coords="220,77,396,101"/>
-<area shape="rect" id="node8" href="$class_country.html#a1af493ce5b5f3d375de19235669f67d3" title="Country::SetEnglish" alt="" coords="250,125,366,149"/>
-<area shape="rect" id="node9" href="$class_country.html#a24885a157b33661542a05d5c1471e568" title="Country::SetEspanol" alt="" coords="248,173,368,197"/>
-<area shape="rect" id="node10" href="$class_country.html#a3ffd784b1500a879162010a5afa6e3eb" title="Country::SetDeutsch" alt="" coords="247,221,369,245"/>
-<area shape="rect" id="node4" href="$class_box_choice.html#a249d0e3e88165ada38403517133dfa4b" title="BoxChoice::retranslateUi" alt="" coords="456,5,597,29"/>
+<area shape="rect" id="node2" href="$class_country.html#aea16bad75ce45b7726843bba5004d2ca" title="Country::setLanguage" alt="" coords="243,101,373,125"/>
+<area shape="rect" id="node3" href="$class_console_windows.html#a6b424a5d7283de1dbeeacfffdffa8e8b" title="ConsoleWindows::changeEvent" alt="" coords="220,149,396,173"/>
+<area shape="rect" id="node4" href="$class_box_choice.html#a249d0e3e88165ada38403517133dfa4b" title="Mis à jour de la traduction . " alt="" coords="456,5,597,29"/>
 <area shape="rect" id="node5" href="$class_customer.html#a1f20ee9bb6d82badc6b93fccf9aea28e" title="Customer::retranslateUi" alt="" coords="459,53,594,77"/>
 <area shape="rect" id="node6" href="$class_delivery_confirm.html#a00979adbe6e5d6d03f3d53c8120c569f" title="DeliveryConfirm::retranslateUi" alt="" coords="444,101,609,125"/>
 <area shape="rect" id="node7" href="$class_open_empty_box.html#ac82ae3574a6a49dc9bb7c602b198a410" title="OpenEmptyBox::retranslateUi" alt="" coords="445,149,608,173"/>
+<area shape="rect" id="node8" href="$class_login.html#acbeb4dac3fd0df761cce5e4e8b2ecd8f" title="Login::retranslateUi" alt="" coords="469,197,584,221"/>
+<area shape="rect" id="node9" href="$class_menu_delivery.html#a07d62281ea306e42aed87bb03a959c99" title="MenuDelivery::retranslateUi" alt="" coords="449,245,604,269"/>
+<area shape="rect" id="node10" href="$class_scan_package.html#ac3ea867a79d0550db3476c46bc6e4178" title="ScanPackage::retranslateUi" alt="" coords="449,293,604,317"/>
 </map>

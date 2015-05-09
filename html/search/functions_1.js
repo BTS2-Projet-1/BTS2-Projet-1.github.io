@@ -1,7 +1,7 @@
 var searchData=
 [
   ['b',['b',['../jquery_8js.html#a2fa551895933fae935a0a6b87282241d',1,'jquery.js']]],
-  ['boxchoice',['BoxChoice',['../class_box_choice.html#ac07c0a00f723e6ee9f079ae79f78b9d9',1,'BoxChoice']]],
+  ['boxchoice',['BoxChoice',['../class_box_choice.html#a84014b17965fe73d58166766e8ec1898',1,'BoxChoice']]],
   ['boxesstatussort',['BoxesStatusSort',['../class_doors_manager.html#a34a4d157ff1632a8ec3668885134f0f0',1,'DoorsManager']]],
   ['boxisdammaged',['BoxIsDammaged',['../class_c_s_q_lite___local___d_b.html#a4cd7505a856e22890c43d5a68191c2c4',1,'CSQLite_Local_DB']]],
   ['build_5fdatabse',['Build_Databse',['../class_console_windows.html#a4c9b333a871e59b32178f24ba65a3a06',1,'ConsoleWindows']]],

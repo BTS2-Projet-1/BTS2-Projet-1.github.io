@@ -5,7 +5,7 @@ var files =
     [ "assistance.h", "assistance_8h.html", [
       [ "Assistance", "class_assistance.html", "class_assistance" ]
     ] ],
-    [ "boxchoice.cpp", "boxchoice_8cpp.html", "boxchoice_8cpp" ],
+    [ "boxchoice.cpp", "boxchoice_8cpp.html", null ],
     [ "boxchoice.h", "boxchoice_8h.html", [
       [ "BoxChoice", "class_box_choice.html", "class_box_choice" ]
     ] ],
@@ -22,9 +22,7 @@ var files =
       [ "ConsoleWindows", "class_console_windows.html", "class_console_windows" ]
     ] ],
     [ "country.cpp", "country_8cpp.html", null ],
-    [ "country.h", "country_8h.html", [
-      [ "Country", "class_country.html", "class_country" ]
-    ] ],
+    [ "country.h", "country_8h.html", "country_8h" ],
     [ "csqlite_local_db.cpp", "csqlite__local__db_8cpp.html", null ],
     [ "csqlite_local_db.h", "csqlite__local__db_8h.html", "csqlite__local__db_8h" ],
     [ "customer.cpp", "customer_8cpp.html", "customer_8cpp" ],

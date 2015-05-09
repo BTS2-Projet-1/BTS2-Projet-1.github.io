@@ -4,6 +4,7 @@ var searchData=
   ['bb',['bb',['../jquery_8js.html#a1d6558865876e1c8cca029fce41a4bdb',1,'jquery.js']]],
   ['boxchoice_5f8cpp',['boxchoice_8cpp',['../boxchoice__8cpp_8js.html#a82a7e2b9bb92ae40d22ff8c3d566490e',1,'boxchoice_8cpp.js']]],
   ['boxchoice_5f_5f8cpp_5f8js',['boxchoice__8cpp_8js',['../boxchoice____8cpp__8js_8js.html#acfd3189336e86f6f7a5bf34aad7714e8',1,'boxchoice__8cpp_8js.js']]],
+  ['boxchoice_5f_5f_5f_5f8cpp_5f_5f8js_5f8js',['boxchoice____8cpp__8js_8js',['../boxchoice________8cpp____8js__8js_8js.html#a7876ec9d0e07552dc24ff3d387c7b7c3',1,'boxchoice____8cpp__8js_8js.js']]],
   ['boxcontainment',['BoxContainment',['../structstruct___packages_use_box.html#acf60daf8fe7ce9e18713f0d99a8752dc',1,'struct_PackagesUseBox']]],
   ['boxisdammaged',['BoxIsDammaged',['../structstruct___doors_status.html#a2663f0fa457393e07c10ba1c9843d0ee',1,'struct_DoorsStatus']]],
   ['boxisused',['BoxIsUsed',['../structstruct___doors_status.html#a056929554c348f990417d17b1b66bd8d',1,'struct_DoorsStatus']]],

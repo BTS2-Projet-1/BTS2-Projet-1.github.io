@@ -1,6 +1,6 @@
 <map id="OpenEmptyBox::CreateListBoxEmpty" name="OpenEmptyBox::CreateListBoxEmpty">
 <area shape="rect" id="node2" href="$class_open_empty_box.html#a9535da0ecd3ff8cddfaa2881b44a3b0b" title="OpenEmptyBox::Reinitialize\lAttribut" alt="" coords="215,5,367,41"/>
-<area shape="rect" id="node4" href="$class_c_s_q_lite___local___d_b.html#a33f1aa3666a7af30e1cc36b228fb59fe" title="Recherche dans la base de données les consignes non endommagées et libres. " alt="" coords="212,65,371,101"/>
+<area shape="rect" id="node4" href="$class_c_s_q_lite___local___d_b.html#a33f1aa3666a7af30e1cc36b228fb59fe" title="Recherche dans la base de données les consignes qui ne sont pas endommagées et celles qui sont libres..." alt="" coords="212,65,371,101"/>
 <area shape="rect" id="node5" href="$class_c_doors.html#a450ec2a776c3435103323a6e293f093f" title="CDoors::UnlockDoors" alt="" coords="454,153,579,177"/>
 <area shape="rect" id="node6" href="$class_c_doors.html#a23e1dec072702bf78eaa05332599e912" title="CDoors::OpenDoors" alt="" coords="457,201,576,225"/>
 <area shape="rect" id="node7" href="$class_open_empty_box.html#ac0cd8e653c4faf6891cb2f5493f2745c" title="OpenEmptyBox::OpenDoor" alt="" coords="216,177,367,201"/>

@@ -1,6 +1,0 @@
-<map id="StowPackages::OpenDoor" name="StowPackages::OpenDoor">
-<area shape="rect" id="node2" href="$class_stow_packages.html#af44ae7fc4cb1912eb0c115e8aa0a0308" title="StowPackages::CreateList\lBoxTreeWidget" alt="" coords="204,33,355,69"/>
-<area shape="rect" id="node3" href="$class_stow_packages.html#ad6fbdd35f232cc348c1c6093f5212bff" title="StowPackages::ReceiveList\lPackageBox" alt="" coords="417,5,575,41"/>
-<area shape="rect" id="node5" href="$class_stow_packages.html#a0c70d2e30981f94630fcdc56716d06ae" title="StowPackages::SaveBoxSelected" alt="" coords="403,66,589,90"/>
-<area shape="rect" id="node4" href="$class_stow_packages.html#a116abaad4fab9f0dd7f243d99594b6f3" title="StowPackages::StowPackages" alt="" coords="637,39,812,63"/>
-</map>

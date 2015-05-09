@@ -1,11 +1,11 @@
 <map id="ConsoleWindows::ConsoleWindows" name="ConsoleWindows::ConsoleWindows">
-<area shape="rect" id="node2" href="$class_c_s_q_lite___local___d_b.html#ad3380dd61189863c1d2d5e681b853e0e" title="Permet de récupérer la valeur (état), de la connexion et ouverture de la base de donnée. " alt="" coords="267,5,403,41"/>
+<area shape="rect" id="node2" href="$class_c_s_q_lite___local___d_b.html#ad3380dd61189863c1d2d5e681b853e0e" title="Permet de récupérer la valeur (état), de la connexion (ouverture) de la base de donnée. " alt="" coords="267,5,403,41"/>
 <area shape="rect" id="node3" href="$class_console_windows.html#a110c06ff1344d5f2e877263945a59298" title="ConsoleWindows::Initialization\l_Widgets" alt="" coords="252,65,419,101"/>
 <area shape="rect" id="node6" href="$class_console_windows.html#a0c0403dd7ee490a9a19e640c32143f07" title="ConsoleWindows::Init\l_Show_Widgets" alt="" coords="272,125,399,161"/>
-<area shape="rect" id="node8" href="$class_console_windows.html#a57b6496c34b8cca5d70b57ad1bc7c22e" title="ConsoleWindows::Show\l_WCustomer" alt="" coords="264,185,407,221"/>
-<area shape="rect" id="node9" href="$class_console_windows.html#a20cb4e8e0ee50ebcf7ea5780bf981f64" title="ConsoleWindows::Show\l_Login" alt="" coords="264,245,407,281"/>
-<area shape="rect" id="node10" href="$class_console_windows.html#a38cb4285810e22c1f9d900142b1369ee" title="ConsoleWindows::SelectPays" alt="" coords="252,306,419,330"/>
-<area shape="rect" id="node4" href="$class_setting_system.html#ae2715f938b1901258dfc993df09d4f94" title="SettingSystem::setEditSetting" alt="" coords="477,19,639,43"/>
-<area shape="rect" id="node5" href="$class_console_windows.html#a71d6a5be1d7a0764c482717cb28667c7" title="ConsoleWindows::EndBuild\l_Database" alt="" coords="481,68,635,104"/>
-<area shape="rect" id="node7" href="$class_show_widgets.html#a44da9f214435933f1c0471b643a12240" title="ShowWidgets::SetPosBoxChoice" alt="" coords="467,131,649,155"/>
+<area shape="rect" id="node10" href="$class_console_windows.html#a38cb4285810e22c1f9d900142b1369ee" title="ConsoleWindows::SelectPays" alt="" coords="252,186,419,210"/>
+<area shape="rect" id="node4" href="$class_setting_system.html#ae2715f938b1901258dfc993df09d4f94" title="SettingSystem::setEditSetting" alt="" coords="477,17,639,41"/>
+<area shape="rect" id="node5" href="$class_console_windows.html#a71d6a5be1d7a0764c482717cb28667c7" title="ConsoleWindows::EndBuild\l_Database" alt="" coords="481,65,635,101"/>
+<area shape="rect" id="node7" href="$class_show_widgets.html#a44da9f214435933f1c0471b643a12240" title="ShowWidgets::SetPosBoxChoice" alt="" coords="467,126,649,150"/>
+<area shape="rect" id="node8" href="$class_show_widgets.html#a24c6095f4d7ca399bbe5cf87bced29c7" title="ShowWidgets::SetPosConsole\lWindows" alt="" coords="473,175,643,211"/>
+<area shape="rect" id="node9" href="$class_show_widgets.html#a8f42677931d6e8e3f7c4f8565b59ff7e" title="ShowWidgets::SetPosCustomer" alt="" coords="470,235,646,259"/>
 </map>

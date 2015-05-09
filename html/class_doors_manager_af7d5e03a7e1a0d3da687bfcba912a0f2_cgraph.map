@@ -1,7 +1,7 @@
 <map id="DoorsManager::GotoActDesDoors" name="DoorsManager::GotoActDesDoors">
 <area shape="rect" id="node2" href="$class_custom_tree_widget.html#ae144f5edf4f360d34230c84f2d6d06f2" title="CustomTreeWidget::ClearListItem" alt="" coords="212,107,392,131"/>
 <area shape="rect" id="node3" href="$class_doors_manager.html#a20758ef57365191c3b3c6bcfcfbac90a" title="DoorsManager::CreateBoxes\lViewActDes" alt="" coords="221,156,383,192"/>
-<area shape="rect" id="node4" href="$class_c_s_q_lite___local___d_b.html#a26bcaa36108d9c5ef34a9ad11e288ad8" title="Récupère dans la base de données ou est installé la console de gestion des consignes automatiques..." alt="" coords="463,5,599,41"/>
+<area shape="rect" id="node4" href="$class_c_s_q_lite___local___d_b.html#a26bcaa36108d9c5ef34a9ad11e288ad8" title="Récupère dans la base de données ou est installée la console de gestion des consignes automatiques..." alt="" coords="463,5,599,41"/>
 <area shape="rect" id="node5" href="$class_doors_manager.html#a34a4d157ff1632a8ec3668885134f0f0" title="DoorsManager::BoxesStatusSort" alt="" coords="440,66,621,90"/>
 <area shape="rect" id="node6" href="$class_c_doors.html#a2d26d6cb0f578452071e7098fa21178d" title="CDoors::DoorsStatus" alt="" coords="469,114,593,138"/>
 <area shape="rect" id="node7" href="$class_doors_manager.html#a34966cceb9b281f2f72dfb0cb971c17c" title="DoorsManager::RunActDesBox" alt="" coords="444,162,617,186"/>

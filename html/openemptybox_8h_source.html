@@ -33,7 +33,7 @@
   <td id="projectlogo"><img alt="Logo" src="logibag.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Locker_Control (LC)
-   &#160;<span id="projectnumber">1.3.1</span>
+   &#160;<span id="projectnumber">1.3.2</span>
    </div>
    <div id="projectbrief">Application Locker Control (LC), an automatic boxes manager on Qt in c++.</div>
   </td>
@@ -149,54 +149,57 @@ $(document).ready(function(){initNavTree('openemptybox_8h_source.html','');});
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_open_empty_box.html#aea83e875ed499d5c0afeea80dd840e34">StatusDoors</a>(<a class="code" href="structstruct___doors_status.html">struct_DoorsStatus</a> doorstatus);</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_open_empty_box.html#ac0cd8e653c4faf6891cb2f5493f2745c">OpenDoor</a>(<span class="keywordtype">int</span> door);</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    Ui::OpenEmptyBox *ui;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <a class="code" href="class_show_widgets.html">ShowWidgets</a> *m_ShowWidgets;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <a class="code" href="class_c_s_q_lite___local___d_b.html">CSQLite_Local_DB</a> *m_DB;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <a class="code" href="class_menu_delivery.html">MenuDelivery</a> *m_WMenuDelivery;</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    QList&lt;int&gt; m_ListBoxEmpty;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <a class="code" href="class_custom_tree_widget.html">CustomTreeWidget</a> *m_CustomTreeWidget;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="comment">//CDOORS</span></div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <a class="code" href="class_thread___status_doors.html">Thread_StatusDoors</a> *m_T_StatusDoors;</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <a class="code" href="class_c_doors.html">CDoors</a> *m_CDoors;</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;};</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="preprocessor">#endif // OPENEMPTYBOX_H</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="keyword">private</span> slots:</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    Ui::OpenEmptyBox *ui;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <a class="code" href="class_show_widgets.html">ShowWidgets</a> *m_ShowWidgets;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <a class="code" href="class_c_s_q_lite___local___d_b.html">CSQLite_Local_DB</a> *m_DB;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <a class="code" href="class_menu_delivery.html">MenuDelivery</a> *m_WMenuDelivery;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    QList&lt;int&gt; m_ListBoxEmpty;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <a class="code" href="class_custom_tree_widget.html">CustomTreeWidget</a> *m_CustomTreeWidget;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="comment">//CDOORS</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <a class="code" href="class_thread___status_doors.html">Thread_StatusDoors</a> *m_T_StatusDoors;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <a class="code" href="class_c_doors.html">CDoors</a> *m_CDoors;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;};</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="preprocessor">#endif // OPENEMPTYBOX_H</span></div>
 <div class="ttc" id="structstruct___doors_status_html"><div class="ttname"><a href="structstruct___doors_status.html">struct_DoorsStatus</a></div><div class="ttdoc">Structure de donnée de l&#39;application LC, utilisée pour définir l&#39;état des portes des consignes...</div><div class="ttdef"><b>Definition:</b> DataStructures.h:94</div></div>
-<div class="ttc" id="class_open_empty_box_html_a608eac7cf60f57f914d38a6f431584f1"><div class="ttname"><a href="class_open_empty_box.html#a608eac7cf60f57f914d38a6f431584f1">OpenEmptyBox::ShowMessageError</a></div><div class="ttdeci">void ShowMessageError(QString mes)</div><div class="ttdef"><b>Definition:</b> openemptybox.cpp:128</div></div>
+<div class="ttc" id="class_open_empty_box_html_a608eac7cf60f57f914d38a6f431584f1"><div class="ttname"><a href="class_open_empty_box.html#a608eac7cf60f57f914d38a6f431584f1">OpenEmptyBox::ShowMessageError</a></div><div class="ttdeci">void ShowMessageError(QString mes)</div><div class="ttdef"><b>Definition:</b> openemptybox.cpp:129</div></div>
 <div class="ttc" id="class_open_empty_box_html"><div class="ttname"><a href="class_open_empty_box.html">OpenEmptyBox</a></div><div class="ttdef"><b>Definition:</b> openemptybox.h:20</div></div>
 <div class="ttc" id="namespace_ui_html"><div class="ttname"><a href="namespace_ui.html">Ui</a></div><div class="ttdef"><b>Definition:</b> assistance.h:6</div></div>
-<div class="ttc" id="class_open_empty_box_html_aea83e875ed499d5c0afeea80dd840e34"><div class="ttname"><a href="class_open_empty_box.html#aea83e875ed499d5c0afeea80dd840e34">OpenEmptyBox::StatusDoors</a></div><div class="ttdeci">void StatusDoors(struct_DoorsStatus doorstatus)</div><div class="ttdef"><b>Definition:</b> openemptybox.cpp:110</div></div>
-<div class="ttc" id="class_open_empty_box_html_ac0cd8e653c4faf6891cb2f5493f2745c"><div class="ttname"><a href="class_open_empty_box.html#ac0cd8e653c4faf6891cb2f5493f2745c">OpenEmptyBox::OpenDoor</a></div><div class="ttdeci">void OpenDoor(int door)</div><div class="ttdef"><b>Definition:</b> openemptybox.cpp:100</div></div>
+<div class="ttc" id="class_open_empty_box_html_aea83e875ed499d5c0afeea80dd840e34"><div class="ttname"><a href="class_open_empty_box.html#aea83e875ed499d5c0afeea80dd840e34">OpenEmptyBox::StatusDoors</a></div><div class="ttdeci">void StatusDoors(struct_DoorsStatus doorstatus)</div><div class="ttdef"><b>Definition:</b> openemptybox.cpp:111</div></div>
+<div class="ttc" id="class_open_empty_box_html_ac0cd8e653c4faf6891cb2f5493f2745c"><div class="ttname"><a href="class_open_empty_box.html#ac0cd8e653c4faf6891cb2f5493f2745c">OpenEmptyBox::OpenDoor</a></div><div class="ttdeci">void OpenDoor(int door)</div><div class="ttdef"><b>Definition:</b> openemptybox.cpp:101</div></div>
 <div class="ttc" id="class_custom_tree_widget_html"><div class="ttname"><a href="class_custom_tree_widget.html">CustomTreeWidget</a></div><div class="ttdef"><b>Definition:</b> customtreewidget.h:8</div></div>
-<div class="ttc" id="class_open_empty_box_html_afd5c75107a4912a1edb7e19258c73c6f"><div class="ttname"><a href="class_open_empty_box.html#afd5c75107a4912a1edb7e19258c73c6f">OpenEmptyBox::CreateListBoxEmpty</a></div><div class="ttdeci">void CreateListBoxEmpty()</div><div class="ttdef"><b>Definition:</b> openemptybox.cpp:66</div></div>
-<div class="ttc" id="class_open_empty_box_html_ad6794eab79d6bd8b9c4b26043cde493b"><div class="ttname"><a href="class_open_empty_box.html#ad6794eab79d6bd8b9c4b26043cde493b">OpenEmptyBox::OpenEmptyBox</a></div><div class="ttdeci">OpenEmptyBox(CSQLite_Local_DB *bd, MenuDelivery *WMenuDelivery, CDoors *Doors, QWidget *parent=0)</div><div class="ttdef"><b>Definition:</b> openemptybox.cpp:6</div></div>
+<div class="ttc" id="class_open_empty_box_html_afd5c75107a4912a1edb7e19258c73c6f"><div class="ttname"><a href="class_open_empty_box.html#afd5c75107a4912a1edb7e19258c73c6f">OpenEmptyBox::CreateListBoxEmpty</a></div><div class="ttdeci">void CreateListBoxEmpty()</div><div class="ttdef"><b>Definition:</b> openemptybox.cpp:68</div></div>
+<div class="ttc" id="class_open_empty_box_html_ad6794eab79d6bd8b9c4b26043cde493b"><div class="ttname"><a href="class_open_empty_box.html#ad6794eab79d6bd8b9c4b26043cde493b">OpenEmptyBox::OpenEmptyBox</a></div><div class="ttdeci">OpenEmptyBox(CSQLite_Local_DB *bd, MenuDelivery *WMenuDelivery, CDoors *Doors, QWidget *parent=0)</div><div class="ttdef"><b>Definition:</b> openemptybox.cpp:7</div></div>
 <div class="ttc" id="showwidgets_8h_html"><div class="ttname"><a href="showwidgets_8h.html">showwidgets.h</a></div></div>
 <div class="ttc" id="class_show_widgets_html"><div class="ttname"><a href="class_show_widgets.html">ShowWidgets</a></div><div class="ttdef"><b>Definition:</b> showwidgets.h:7</div></div>
 <div class="ttc" id="csqlite__local__db_8h_html"><div class="ttname"><a href="csqlite__local__db_8h.html">csqlite_local_db.h</a></div></div>
-<div class="ttc" id="class_open_empty_box_html_a7c34e7b5a091f58da25fe4667e18c38c"><div class="ttname"><a href="class_open_empty_box.html#a7c34e7b5a091f58da25fe4667e18c38c">OpenEmptyBox::~OpenEmptyBox</a></div><div class="ttdeci">~OpenEmptyBox()</div><div class="ttdef"><b>Definition:</b> openemptybox.cpp:37</div></div>
+<div class="ttc" id="class_open_empty_box_html_a7c34e7b5a091f58da25fe4667e18c38c"><div class="ttname"><a href="class_open_empty_box.html#a7c34e7b5a091f58da25fe4667e18c38c">OpenEmptyBox::~OpenEmptyBox</a></div><div class="ttdeci">~OpenEmptyBox()</div><div class="ttdef"><b>Definition:</b> openemptybox.cpp:38</div></div>
 <div class="ttc" id="menudelivery_8h_html"><div class="ttname"><a href="menudelivery_8h.html">menudelivery.h</a></div></div>
 <div class="ttc" id="cdoors_8h_html"><div class="ttname"><a href="cdoors_8h.html">cdoors.h</a></div></div>
 <div class="ttc" id="class_menu_delivery_html"><div class="ttname"><a href="class_menu_delivery.html">MenuDelivery</a></div><div class="ttdef"><b>Definition:</b> menudelivery.h:12</div></div>
 <div class="ttc" id="thread__statusdoors_8h_html"><div class="ttname"><a href="thread__statusdoors_8h.html">thread_statusdoors.h</a></div></div>
-<div class="ttc" id="class_open_empty_box_html_a9535da0ecd3ff8cddfaa2881b44a3b0b"><div class="ttname"><a href="class_open_empty_box.html#a9535da0ecd3ff8cddfaa2881b44a3b0b">OpenEmptyBox::ReinitializeAttribut</a></div><div class="ttdeci">void ReinitializeAttribut()</div><div class="ttdef"><b>Definition:</b> openemptybox.cpp:30</div></div>
+<div class="ttc" id="class_open_empty_box_html_a9535da0ecd3ff8cddfaa2881b44a3b0b"><div class="ttname"><a href="class_open_empty_box.html#a9535da0ecd3ff8cddfaa2881b44a3b0b">OpenEmptyBox::ReinitializeAttribut</a></div><div class="ttdeci">void ReinitializeAttribut()</div><div class="ttdef"><b>Definition:</b> openemptybox.cpp:31</div></div>
 <div class="ttc" id="class_thread___status_doors_html"><div class="ttname"><a href="class_thread___status_doors.html">Thread_StatusDoors</a></div><div class="ttdef"><b>Definition:</b> thread_statusdoors.h:9</div></div>
 <div class="ttc" id="customtreewidget_8h_html"><div class="ttname"><a href="customtreewidget_8h.html">customtreewidget.h</a></div></div>
 <div class="ttc" id="custompushbutton_8h_html"><div class="ttname"><a href="custompushbutton_8h.html">custompushbutton.h</a></div></div>
 <div class="ttc" id="class_c_doors_html"><div class="ttname"><a href="class_c_doors.html">CDoors</a></div><div class="ttdef"><b>Definition:</b> cdoors.h:7</div></div>
-<div class="ttc" id="class_open_empty_box_html_a15b7f6583b80d4fc3aeb7d80b986e9a7"><div class="ttname"><a href="class_open_empty_box.html#a15b7f6583b80d4fc3aeb7d80b986e9a7">OpenEmptyBox::ReturnMenuDelivery</a></div><div class="ttdeci">void ReturnMenuDelivery()</div><div class="ttdef"><b>Definition:</b> openemptybox.cpp:42</div></div>
+<div class="ttc" id="class_open_empty_box_html_a15b7f6583b80d4fc3aeb7d80b986e9a7"><div class="ttname"><a href="class_open_empty_box.html#a15b7f6583b80d4fc3aeb7d80b986e9a7">OpenEmptyBox::ReturnMenuDelivery</a></div><div class="ttdeci">void ReturnMenuDelivery()</div><div class="ttdef"><b>Definition:</b> openemptybox.cpp:43</div></div>
 <div class="ttc" id="class_open_empty_box_html_a01a6e123ea35c6caa6668e07506538e8"><div class="ttname"><a href="class_open_empty_box.html#a01a6e123ea35c6caa6668e07506538e8">OpenEmptyBox::SetShowWidgets</a></div><div class="ttdeci">void SetShowWidgets(ShowWidgets *TShowWidgets)</div><div class="ttdef"><b>Definition:</b> openemptybox.h:26</div></div>
-<div class="ttc" id="class_c_s_q_lite___local___d_b_html"><div class="ttname"><a href="class_c_s_q_lite___local___d_b.html">CSQLite_Local_DB</a></div><div class="ttdoc">classe CSQLite_Local_DB, gestion des communications entre une base de données locale de type SQLite...</div><div class="ttdef"><b>Definition:</b> csqlite_local_db.h:31</div></div>
-<div class="ttc" id="class_open_empty_box_html_ac82ae3574a6a49dc9bb7c602b198a410"><div class="ttname"><a href="class_open_empty_box.html#ac82ae3574a6a49dc9bb7c602b198a410">OpenEmptyBox::retranslateUi</a></div><div class="ttdeci">void retranslateUi()</div><div class="ttdef"><b>Definition:</b> openemptybox.cpp:123</div></div>
+<div class="ttc" id="class_c_s_q_lite___local___d_b_html"><div class="ttname"><a href="class_c_s_q_lite___local___d_b.html">CSQLite_Local_DB</a></div><div class="ttdoc">classe CSQLite_Local_DB, gestion des communications entre une base de données locale de type SQLite...</div><div class="ttdef"><b>Definition:</b> csqlite_local_db.h:39</div></div>
+<div class="ttc" id="class_open_empty_box_html_ac82ae3574a6a49dc9bb7c602b198a410"><div class="ttname"><a href="class_open_empty_box.html#ac82ae3574a6a49dc9bb7c602b198a410">OpenEmptyBox::retranslateUi</a></div><div class="ttdeci">void retranslateUi()</div><div class="ttdef"><b>Definition:</b> openemptybox.cpp:124</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="openemptybox_8h.html">openemptybox.h</a></li>
-    <li class="footer">Généré le Samedi 9 Mai 2015 14:35:19 pour Locker_Control (LC) par
+    <li class="footer">Généré le Samedi 9 Mai 2015 17:58:41 pour Locker_Control (LC) par
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

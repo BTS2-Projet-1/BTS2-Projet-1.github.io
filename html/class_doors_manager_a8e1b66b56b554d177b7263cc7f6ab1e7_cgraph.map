@@ -1,6 +1,6 @@
 <map id="DoorsManager::CreateBoxesViewTest" name="DoorsManager::CreateBoxesViewTest">
-<area shape="rect" id="node2" href="$class_c_s_q_lite___local___d_b.html#a33f1aa3666a7af30e1cc36b228fb59fe" title="Recherche dans la base de données les consignes non endommagées et libres. " alt="" coords="227,5,386,41"/>
-<area shape="rect" id="node4" href="$class_c_s_q_lite___local___d_b.html#a26bcaa36108d9c5ef34a9ad11e288ad8" title="Récupère dans la base de données ou est installé la console de gestion des consignes automatiques..." alt="" coords="239,65,375,101"/>
+<area shape="rect" id="node2" href="$class_c_s_q_lite___local___d_b.html#a33f1aa3666a7af30e1cc36b228fb59fe" title="Recherche dans la base de données les consignes qui ne sont pas endommagées et celles qui sont libres..." alt="" coords="227,5,386,41"/>
+<area shape="rect" id="node4" href="$class_c_s_q_lite___local___d_b.html#a26bcaa36108d9c5ef34a9ad11e288ad8" title="Récupère dans la base de données ou est installée la console de gestion des consignes automatiques..." alt="" coords="239,65,375,101"/>
 <area shape="rect" id="node5" href="$class_doors_manager.html#a34a4d157ff1632a8ec3668885134f0f0" title="DoorsManager::BoxesStatusSort" alt="" coords="216,126,397,150"/>
 <area shape="rect" id="node6" href="$class_c_doors.html#a2d26d6cb0f578452071e7098fa21178d" title="CDoors::DoorsStatus" alt="" coords="245,174,369,198"/>
 <area shape="rect" id="node7" href="$class_doors_manager.html#a169114f12c7b76f29146b9ec4bd5d9b3" title="DoorsManager::RunTestBox" alt="" coords="227,222,386,246"/>

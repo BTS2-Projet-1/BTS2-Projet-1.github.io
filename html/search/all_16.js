@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['width',['WIDTH',['../boxchoice_8cpp.html#a241aeeb764887ae5e3de58b98f04b16d',1,'boxchoice.cpp']]],
   ['windex_5fact_5fdes_5fdoors',['WINDEX_ACT_DES_DOORS',['../doorsmanager_8h.html#aae57b0b74bb83f6f3de3235e8a45b8ff',1,'doorsmanager.h']]],
   ['windex_5fadd_5fdel_5fdoors',['WINDEX_ADD_DEL_DOORS',['../doorsmanager_8h.html#ad5d2e9aac53a0aa398a227214a8d0d96',1,'doorsmanager.h']]],
   ['windex_5fconfirm',['WINDEX_CONFIRM',['../sqlite__local__databasemanager_8h.html#aebc7c36153476c6575479b149ed34d05',1,'sqlite_local_databasemanager.h']]],

@@ -1,5 +1,5 @@
 <map id="CDoors::CloseDoor" name="CDoors::CloseDoor">
 <area shape="rect" id="node2" href="$class_c_doors.html#ac68dc2b9ae3f716b09f4c79560a0c047" title="CDoors::CloseDoors" alt="" coords="168,11,288,35"/>
-<area shape="rect" id="node3" href="$class_c_s_q_lite___local___d_b.html#ace38eaa62cc5639b2a7be726d51a70f7" title="Fonction utilisée uniquement en mode débug pour un accès rapide d&#39;envoi personalisé de requêtes au fo..." alt="" coords="336,11,511,35"/>
+<area shape="rect" id="node3" href="$class_c_s_q_lite___local___d_b.html#ace38eaa62cc5639b2a7be726d51a70f7" title="Fonction utilisée uniquement dans la phase de developpement pour un accès rapide d&#39;envoi personalisé ..." alt="" coords="336,11,511,35"/>
 <area shape="rect" id="node4" href="$class_c_s_q_lite___local___d_b.html#a25433d7ada1d4173d92fdedfc9f1f253" title="Enregistre dans la base de données l&#39;action suivante qui va être demandée, utilisée pour garder toute..." alt="" coords="559,5,737,41"/>
 </map>

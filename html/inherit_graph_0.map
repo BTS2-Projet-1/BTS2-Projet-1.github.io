@@ -1,6 +1,6 @@
 <map id="Graphe hiérarchique des classes" name="Graphe hiérarchique des classes">
 <area shape="rect" id="node2" href="$class_assistance.html" title="Assistance" alt="" coords="167,5,245,29"/>
-<area shape="rect" id="node3" href="$class_box_choice.html" title="BoxChoice" alt="" coords="169,53,243,77"/>
+<area shape="rect" id="node3" href="$class_box_choice.html" title="Definition de la classe BoxChoice. " alt="" coords="169,53,243,77"/>
 <area shape="rect" id="node4" href="$class_customer.html" title="Customer" alt="" coords="172,101,240,125"/>
 <area shape="rect" id="node5" href="$class_delivery_confirm.html" title="DeliveryConfirm" alt="" coords="157,149,255,173"/>
 <area shape="rect" id="node6" href="$class_doors_manager.html" title="DoorsManager" alt="" coords="159,197,253,221"/>

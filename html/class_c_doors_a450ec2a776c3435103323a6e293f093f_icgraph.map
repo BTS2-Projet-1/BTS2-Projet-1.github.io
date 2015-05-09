@@ -1,11 +1,11 @@
 <map id="CDoors::UnlockDoors" name="CDoors::UnlockDoors">
 <area shape="rect" id="node2" href="$class_c_doors.html#a773178973ccb5bb536a9c84c92e2fb29" title="CDoors::UnlockDoor" alt="" coords="203,5,321,29"/>
-<area shape="rect" id="node4" href="$class_open_empty_box.html#afd5c75107a4912a1edb7e19258c73c6f" title="OpenEmptyBox::CreateList\lBoxEmpty" alt="" coords="413,77,564,113"/>
+<area shape="rect" id="node4" href="$class_open_empty_box.html#afd5c75107a4912a1edb7e19258c73c6f" title="OpenEmptyBox::CreateList\lBoxEmpty" alt="" coords="413,85,564,121"/>
 <area shape="rect" id="node6" href="$class_open_empty_box.html#ac0cd8e653c4faf6891cb2f5493f2745c" title="OpenEmptyBox::OpenDoor" alt="" coords="187,104,337,128"/>
-<area shape="rect" id="node7" href="$class_show_package_box.html#ae789285d39aeeff73b2cfd3b090ba7fd" title="ShowPackageBox::ManageListBox" alt="" coords="393,189,584,213"/>
-<area shape="rect" id="node8" href="$class_show_package_box.html#a26a928cd147cffb7f57a80c05a027bcc" title="ShowPackageBox::OpenDoor" alt="" coords="179,203,345,227"/>
-<area shape="rect" id="node9" href="$class_stow_packages.html#af44ae7fc4cb1912eb0c115e8aa0a0308" title="StowPackages::CreateList\lBoxTreeWidget" alt="" coords="413,259,564,295"/>
-<area shape="rect" id="node10" href="$class_stow_packages.html#adb7562f93d92c610d3614a61fb4b64f8" title="StowPackages::OpenDoor" alt="" coords="187,301,337,325"/>
+<area shape="rect" id="node7" href="$class_show_package_box.html#ae789285d39aeeff73b2cfd3b090ba7fd" title="ShowPackageBox::ManageListBox" alt="" coords="393,167,584,191"/>
+<area shape="rect" id="node9" href="$class_show_package_box.html#a26a928cd147cffb7f57a80c05a027bcc" title="ShowPackageBox::OpenDoor" alt="" coords="179,203,345,227"/>
+<area shape="rect" id="node10" href="$class_stow_packages.html#af44ae7fc4cb1912eb0c115e8aa0a0308" title="StowPackages::CreateList\lBoxTreeWidget" alt="" coords="187,251,337,287"/>
 <area shape="rect" id="node3" href="$class_doors_manager.html#afb3ba894a6b58c8b45abc01d8d7881b5" title="DoorsManager::UnlockBox" alt="" coords="413,5,564,29"/>
-<area shape="rect" id="node5" href="$class_open_empty_box.html#ad6794eab79d6bd8b9c4b26043cde493b" title="OpenEmptyBox::OpenEmptyBox" alt="" coords="632,83,808,107"/>
+<area shape="rect" id="node5" href="$class_open_empty_box.html#ad6794eab79d6bd8b9c4b26043cde493b" title="OpenEmptyBox::OpenEmptyBox" alt="" coords="647,91,823,115"/>
+<area shape="rect" id="node8" href="$class_show_package_box.html#a9d7ec045b4ddc79272f1f9a2a9d91333" title="ShowPackageBox::ShowPackageBox" alt="" coords="632,167,839,191"/>
 </map>

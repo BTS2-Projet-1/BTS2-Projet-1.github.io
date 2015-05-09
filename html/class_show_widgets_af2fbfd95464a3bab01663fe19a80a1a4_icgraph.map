@@ -1,10 +1,8 @@
 <map id="ShowWidgets::ShowWMenuDelivery" name="ShowWidgets::ShowWMenuDelivery">
-<area shape="rect" id="node2" href="$class_box_choice.html#a583dbd3049b503c9e62568d931f11540" title="BoxChoice::Cancel" alt="" coords="286,9,399,33"/>
-<area shape="rect" id="node4" href="$class_delivery_confirm.html#a786adf160dbbbf94750c4502d67ef81c" title="DeliveryConfirm::ThreadFinished" alt="" coords="253,60,432,84"/>
-<area shape="rect" id="node6" href="$class_login.html#a689bfbbbdbb9d472c9fb35b41d19b414" title="Login::ValidLogin" alt="" coords="291,108,395,132"/>
-<area shape="rect" id="node8" href="$class_open_empty_box.html#a15b7f6583b80d4fc3aeb7d80b986e9a7" title="OpenEmptyBox::ReturnMenu\lDelivery" alt="" coords="263,157,423,193"/>
-<area shape="rect" id="node3" href="$class_box_choice.html#ac07c0a00f723e6ee9f079ae79f78b9d9" title="BoxChoice::BoxChoice" alt="" coords="502,5,634,29"/>
-<area shape="rect" id="node5" href="$class_delivery_confirm.html#a17470a36b66b2fdb83d87abb6b73aaad" title="DeliveryConfirm::Delivery\lConfirm" alt="" coords="497,54,639,90"/>
-<area shape="rect" id="node7" href="$class_login.html#a2bb53ae350b649e1d5025295dd19d5cd" title="Login::Login" alt="" coords="528,115,608,139"/>
-<area shape="rect" id="node9" href="$class_open_empty_box.html#ad6794eab79d6bd8b9c4b26043cde493b" title="OpenEmptyBox::OpenEmptyBox" alt="" coords="480,163,656,187"/>
+<area shape="rect" id="node2" href="$class_delivery_confirm.html#a786adf160dbbbf94750c4502d67ef81c" title="DeliveryConfirm::ThreadFinished" alt="" coords="253,13,432,37"/>
+<area shape="rect" id="node4" href="$class_login.html#a689bfbbbdbb9d472c9fb35b41d19b414" title="Login::ValidLogin" alt="" coords="291,63,395,87"/>
+<area shape="rect" id="node6" href="$class_open_empty_box.html#a15b7f6583b80d4fc3aeb7d80b986e9a7" title="OpenEmptyBox::ReturnMenu\lDelivery" alt="" coords="263,112,423,148"/>
+<area shape="rect" id="node3" href="$class_delivery_confirm.html#a17470a36b66b2fdb83d87abb6b73aaad" title="DeliveryConfirm::Delivery\lConfirm" alt="" coords="497,5,639,41"/>
+<area shape="rect" id="node5" href="$class_login.html#a2bb53ae350b649e1d5025295dd19d5cd" title="Login::Login" alt="" coords="528,66,608,90"/>
+<area shape="rect" id="node7" href="$class_open_empty_box.html#ad6794eab79d6bd8b9c4b26043cde493b" title="OpenEmptyBox::OpenEmptyBox" alt="" coords="480,118,656,142"/>
 </map>
