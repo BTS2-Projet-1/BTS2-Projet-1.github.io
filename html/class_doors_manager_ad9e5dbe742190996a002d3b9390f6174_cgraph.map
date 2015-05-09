@@ -1,0 +1,5 @@
+<map id="DoorsManager::CheckTestBox" name="DoorsManager::CheckTestBox">
+<area shape="rect" id="node2" href="$class_c_s_q_lite___local___d_b.html#af3122618d25c7f4cc3225ac15ec91958" title="Récupère dans la base de données la liste des portes/consignes signalées comme endomagées. " alt="" coords="270,5,499,47"/>
+<area shape="rect" id="node3" href="$class_c_s_q_lite___local___d_b.html#adac90874af0da1b1b71c96049f997a12" title="Met à jour la base de données avec l&#39;identifant de la porte/consigne réparée. " alt="" coords="252,71,517,98"/>
+<area shape="rect" id="node4" href="$class_c_s_q_lite___local___d_b.html#a290823544987587c6cb71287428752fe" title="Met à jour la base de données avec l&#39;indentifant de la porte/consigne signalée comme défectuese..." alt="" coords="259,122,510,149"/>
+</map>

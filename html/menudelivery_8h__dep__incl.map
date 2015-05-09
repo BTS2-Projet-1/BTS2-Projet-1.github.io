@@ -1,0 +1,23 @@
+<map id="S:/QT_CREATOR/Locker_Control/menudelivery.h" name="S:/QT_CREATOR/Locker_Control/menudelivery.h">
+<area shape="rect" id="node2" href="$boxchoice_8h.html" title="S:/QT_CREATOR/Locker\l_Control/boxchoice.h" alt="" coords="411,95,579,136"/>
+<area shape="rect" id="node7" href="$consolewindows_8h.html" title="S:/QT_CREATOR/Locker\l_Control/consolewindows.h" alt="" coords="485,452,664,493"/>
+<area shape="rect" id="node20" href="$openemptybox_8h.html" title="S:/QT_CREATOR/Locker\l_Control/openemptybox.h" alt="" coords="771,95,941,136"/>
+<area shape="rect" id="node22" href="$menudelivery_8cpp.html" title="S:/QT_CREATOR/Locker\l_Control/menudelivery.cpp" alt="" coords="966,95,1141,136"/>
+<area shape="rect" id="node3" href="$boxchoice_8cpp.html" title="S:/QT_CREATOR/Locker\l_Control/boxchoice.cpp" alt="" coords="168,184,336,225"/>
+<area shape="rect" id="node4" href="$scanpackage_8h.html" title="S:/QT_CREATOR/Locker\l_Control/scanpackage.h" alt="" coords="411,184,579,225"/>
+<area shape="rect" id="node5" href="$stowpackages_8h.html" title="S:/QT_CREATOR/Locker\l_Control/stowpackages.h" alt="" coords="227,273,395,315"/>
+<area shape="rect" id="node19" href="$scanpackage_8cpp.html" title="S:/QT_CREATOR/Locker\l_Control/scanpackage.cpp" alt="" coords="469,273,645,315"/>
+<area shape="rect" id="node6" href="$deliveryconfirm_8h.html" title="S:/QT_CREATOR/Locker\l_Control/deliveryconfirm.h" alt="" coords="39,363,209,404"/>
+<area shape="rect" id="node18" href="$stowpackages_8cpp.html" title="S:/QT_CREATOR/Locker\l_Control/stowpackages.cpp" alt="" coords="285,363,467,404"/>
+<area shape="rect" id="node16" href="$deliveryconfirm_8cpp.html" title="S:/QT_CREATOR/Locker\l_Control/deliveryconfirm.cpp" alt="" coords="5,452,189,493"/>
+<area shape="rect" id="node17" href="$threadsavedelivery_8cpp.html" title="S:/QT_CREATOR/Locker\l_Control/threadsavedelivery.cpp" alt="" coords="214,452,418,493"/>
+<area shape="rect" id="node8" href="$consolewindows_8cpp.html" title="S:/QT_CREATOR/Locker\l_Control/consolewindows.cpp" alt="" coords="331,541,525,583"/>
+<area shape="rect" id="node9" href="$thread__databasemanager_8h.html" title="S:/QT_CREATOR/Locker\l_Control/thread_databasemanager.h" alt="" coords="625,541,855,583"/>
+<area shape="rect" id="node10" href="$sqlite__local__databasemanager_8h.html" title="S:/QT_CREATOR/Locker\l_Control/sqlite_local\l_databasemanager.h" alt="" coords="491,631,659,687"/>
+<area shape="rect" id="node15" href="$main_8cpp.html" title="S:/QT_CREATOR/Locker\l_Control/main.cpp" alt="" coords="880,541,1048,583"/>
+<area shape="rect" id="node14" href="$thread__databasemanager_8cpp.html" title="S:/QT_CREATOR/Locker\l_Control/thread_databasemanager.cpp" alt="" coords="683,638,928,679"/>
+<area shape="rect" id="node11" href="$thread__localdatabase__autosave_8h.html" title="S:/QT_CREATOR/Locker\l_Control/thread_localdatabase\l_autosave.h" alt="" coords="476,735,673,791"/>
+<area shape="rect" id="node12" href="$sqlite__local__databasemanager_8cpp.html" title="S:/QT_CREATOR/Locker\l_Control/sqlite_local\l_databasemanager.cpp" alt="" coords="355,839,523,895"/>
+<area shape="rect" id="node13" href="$thread__localdatabase__autosave_8cpp.html" title="S:/QT_CREATOR/Locker\l_Control/thread_localdatabase\l_autosave.cpp" alt="" coords="547,839,744,895"/>
+<area shape="rect" id="node21" href="$openemptybox_8cpp.html" title="S:/QT_CREATOR/Locker\l_Control/openemptybox.cpp" alt="" coords="821,184,1005,225"/>
+</map>

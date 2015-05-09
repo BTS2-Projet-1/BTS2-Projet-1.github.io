@@ -1,0 +1,12 @@
+<map id="ConsoleWindows::changeEvent" name="ConsoleWindows::changeEvent">
+<area shape="rect" id="node2" href="$class_box_choice.html#a249d0e3e88165ada38403517133dfa4b" title="BoxChoice::retranslateUi" alt="" coords="279,5,445,32"/>
+<area shape="rect" id="node3" href="$class_customer.html#a1f20ee9bb6d82badc6b93fccf9aea28e" title="Customer::retranslateUi" alt="" coords="283,56,441,83"/>
+<area shape="rect" id="node4" href="$class_delivery_confirm.html#a00979adbe6e5d6d03f3d53c8120c569f" title="DeliveryConfirm::retranslateUi" alt="" coords="266,107,458,133"/>
+<area shape="rect" id="node5" href="$class_open_empty_box.html#ac82ae3574a6a49dc9bb7c602b198a410" title="OpenEmptyBox::retranslateUi" alt="" coords="265,157,459,184"/>
+<area shape="rect" id="node6" href="$class_login.html#acbeb4dac3fd0df761cce5e4e8b2ecd8f" title="Login::retranslateUi" alt="" coords="295,208,429,235"/>
+<area shape="rect" id="node7" href="$class_menu_delivery.html#a07d62281ea306e42aed87bb03a959c99" title="MenuDelivery::retranslateUi" alt="" coords="272,259,452,285"/>
+<area shape="rect" id="node8" href="$class_scan_package.html#ac3ea867a79d0550db3476c46bc6e4178" title="ScanPackage::retranslateUi" alt="" coords="270,309,454,336"/>
+<area shape="rect" id="node9" href="$class_setting.html#ab9d84220400e473de2d1bc8095f62826" title="Setting::retranslateUi" alt="" coords="290,360,434,387"/>
+<area shape="rect" id="node10" href="$class_show_package_box.html#a619accc8bea18a25459e3dabee5df436" title="ShowPackageBox::retranslateUi" alt="" coords="257,411,467,437"/>
+<area shape="rect" id="node11" href="$class_stow_packages.html#a601efd214a21274ede3557ac167bb139" title="StowPackages::retranslateUi" alt="" coords="267,461,457,488"/>
+</map>

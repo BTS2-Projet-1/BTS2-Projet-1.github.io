@@ -1,0 +1,11 @@
+<map id="CDoors::CloseDoors" name="CDoors::CloseDoors">
+<area shape="rect" id="node2" href="$class_c_doors.html#a23416618cd95253a2158df4aed149985" title="CDoors::CloseDoor" alt="" coords="199,64,333,91"/>
+<area shape="rect" id="node3" href="$class_c_doors.html#a2d26d6cb0f578452071e7098fa21178d" title="CDoors::DoorsStatus" alt="" coords="193,115,339,141"/>
+<area shape="rect" id="node4" href="$class_c_doors.html#a178089d2a36fba6f8903d30c6d0e60ed" title="CDoors::DoorStatus" alt="" coords="412,5,551,32"/>
+<area shape="rect" id="node5" href="$class_doors_manager.html#a3bf3ff7e7614b31422bdbdfc594e7f8e" title="DoorsManager::DoorsManager" alt="" coords="873,115,1072,141"/>
+<area shape="rect" id="node6" href="$class_doors_manager.html#a8e1b66b56b554d177b7263cc7f6ab1e7" title="DoorsManager::CreateBoxes\lViewTest" alt="" coords="387,107,576,149"/>
+<area shape="rect" id="node8" href="$class_doors_manager.html#a20758ef57365191c3b3c6bcfcfbac90a" title="DoorsManager::CreateBoxes\lViewActDes" alt="" coords="387,173,576,214"/>
+<area shape="rect" id="node10" href="$class_thread___status_doors.html#a77bbfd3af1bdd0d741adcb60aeee7b73" title="Thread_StatusDoors::run" alt="" coords="398,239,565,265"/>
+<area shape="rect" id="node7" href="$class_doors_manager.html#a791c9c3a52e58e88fdf8ab16891dc4ca" title="DoorsManager::GotoDoorsTest" alt="" coords="624,115,825,141"/>
+<area shape="rect" id="node9" href="$class_doors_manager.html#af7d5e03a7e1a0d3da687bfcba912a0f2" title="DoorsManager::GotoActDes\lDoors" alt="" coords="632,169,817,210"/>
+</map>

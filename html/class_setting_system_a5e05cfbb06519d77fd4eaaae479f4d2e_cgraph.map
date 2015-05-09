@@ -1,0 +1,13 @@
+<map id="SettingSystem::SettingSystem" name="SettingSystem::SettingSystem">
+<area shape="rect" id="node2" href="$class_custom_xml.html#ad6d70785b6b86ee55c4e5e0d0871017b" title="CustomXml::isChildrootExist" alt="" coords="747,28,933,54"/>
+<area shape="rect" id="node3" href="$class_custom_xml.html#afaf0e16ed2a5722c035170cf19b25422" title="CustomXml::WriteFileXml" alt="" coords="516,162,685,189"/>
+<area shape="rect" id="node7" href="$class_c_s_q_lite___local___d_b.html#a3d92b3c5a71a60ef86315071268a62b8" title="Récupère le nom du site actuel ou est installé la console de gestion des consignes automatiques..." alt="" coords="274,96,437,138"/>
+<area shape="rect" id="node8" href="$class_setting_system.html#a647720ef137e7f93fa77370395a7f0c3" title="SettingSystem::UpdateSetting" alt="" coords="256,45,455,72"/>
+<area shape="rect" id="node10" href="$class_setting_system.html#ae42307d6521ab351ec50dee2dc85439b" title="SettingSystem::UpdateFileXml" alt="" coords="256,213,455,240"/>
+<area shape="rect" id="node4" href="$class_custom_xml.html#a3b6255c37ca74e822f70fae3c865a06a" title="CustomXml::OpenFileXml" alt="" coords="755,162,925,189"/>
+<area shape="rect" id="node5" href="$class_custom_xml.html#a0c83e9d625a87c5d04f3cba663615417" title="CustomXml::CloseFileXml" alt="" coords="755,213,925,240"/>
+<area shape="rect" id="node6" href="$class_custom_xml.html#a079fb80ab167ecb292ae973346de8421" title="CustomXml::isElemExist" alt="" coords="757,112,923,138"/>
+<area shape="rect" id="node9" href="$class_custom_xml.html#a2c3d337e8a7c3426ea84b87c6892b6a0" title="CustomXml::Getvalue" alt="" coords="527,45,674,72"/>
+<area shape="rect" id="node11" href="$class_c_s_q_lite___local___d_b.html#a166919fe85fb0cbb25efcb3a9cf8056d" title="Modifie le nom du site actuel ou est installé la console de gestion des consignes automatiques..." alt="" coords="519,264,682,306"/>
+<area shape="rect" id="node12" href="$class_show_widgets.html#aea1ab328a9374608259240d0c8958500" title="ShowWidgets::ShowWSetting" alt="" coords="503,213,699,240"/>
+</map>

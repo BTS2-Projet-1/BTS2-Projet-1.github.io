@@ -1,0 +1,20 @@
+<map id="DoorsManager::GotoDoorsTest" name="DoorsManager::GotoDoorsTest">
+<area shape="rect" id="node2" href="$class_custom_tree_widget.html#ae144f5edf4f360d34230c84f2d6d06f2" title="CustomTreeWidget::ClearListItem" alt="" coords="255,177,472,204"/>
+<area shape="rect" id="node3" href="$class_doors_manager.html#a8e1b66b56b554d177b7263cc7f6ab1e7" title="DoorsManager::CreateBoxes\lViewTest" alt="" coords="269,229,458,270"/>
+<area shape="rect" id="node4" href="$class_c_s_q_lite___local___d_b.html#a33f1aa3666a7af30e1cc36b228fb59fe" title="Recherche dans la base de données les consignes non endommagées et libres. " alt="" coords="1067,53,1257,94"/>
+<area shape="rect" id="node6" href="$class_c_s_q_lite___local___d_b.html#a26bcaa36108d9c5ef34a9ad11e288ad8" title="Récupère dans la base de données ou est installé la console de gestion des consignes automatiques..." alt="" coords="545,94,708,135"/>
+<area shape="rect" id="node7" href="$class_doors_manager.html#a34a4d157ff1632a8ec3668885134f0f0" title="DoorsManager::BoxesStatusSort" alt="" coords="520,160,733,187"/>
+<area shape="rect" id="node8" href="$class_c_doors.html#a2d26d6cb0f578452071e7098fa21178d" title="CDoors::DoorsStatus" alt="" coords="554,211,699,237"/>
+<area shape="rect" id="node15" href="$class_doors_manager.html#a169114f12c7b76f29146b9ec4bd5d9b3" title="DoorsManager::RunTestBox" alt="" coords="534,261,719,288"/>
+<area shape="rect" id="node16" href="$class_custom_tree_widget.html#a4abeb5cd859226e4cbe2b83e941c3aea" title="CustomTreeWidget::AddItem" alt="" coords="532,312,721,339"/>
+<area shape="rect" id="node18" href="$class_custom_tree_widget.html#a4919b08a8230f1afc200c00f947d031d" title="CustomTreeWidget::Button\lVisible" alt="" coords="537,363,716,405"/>
+<area shape="rect" id="node19" href="$class_custom_tree_widget.html#a8c4ea47a57e7301097702c7aa04d2c58" title="CustomTreeWidget::Edited\lItem_ColumnStatusOfDoor" alt="" coords="537,429,716,470"/>
+<area shape="rect" id="node5" href="$class_c_s_q_lite___local___d_b.html#a25433d7ada1d4173d92fdedfc9f1f253" title="Enregistre dans la base de données l&#39;action suivante qui va être demandée, utilisée pour garder toute..." alt="" coords="1313,167,1524,209"/>
+<area shape="rect" id="node9" href="$class_c_s_q_lite___local___d_b.html#af3122618d25c7f4cc3225ac15ec91958" title="Récupère dans la base de données la liste des portes/consignes signalées comme endomagées. " alt="" coords="781,94,1011,135"/>
+<area shape="rect" id="node10" href="$class_c_s_q_lite___local___d_b.html#a0f79fbd185261af7806a3a99292ef0a3" title="Fonction utilisée uniquement en mode débug pour simuler l&#39;accès de classe CDoors au portes des consig..." alt="" coords="1059,134,1265,175"/>
+<area shape="rect" id="node11" href="$class_c_doors.html#a949bbc01ecb9ecc72ecb40b1b6b0b04c" title="CDoors::DoorsIsClosed" alt="" coords="817,211,975,237"/>
+<area shape="rect" id="node13" href="$class_c_doors.html#ac68dc2b9ae3f716b09f4c79560a0c047" title="CDoors::CloseDoors" alt="" coords="826,261,966,288"/>
+<area shape="rect" id="node12" href="$class_c_s_q_lite___local___d_b.html#a0c2471f87f624ad3e5a99f21dcd399da" title="Fonction utilisée uniquement en mode débug pour simuler l&#39;accès de classe CDoors au portes des consig..." alt="" coords="1059,199,1265,241"/>
+<area shape="rect" id="node14" href="$class_c_s_q_lite___local___d_b.html#ace38eaa62cc5639b2a7be726d51a70f7" title="Fonction utilisée uniquement en mode débug pour un accès rapide d&#39;envoi personalisé de requêtes au fo..." alt="" coords="1059,265,1265,292"/>
+<area shape="rect" id="node17" href="$class_custom_push_button.html#a7721ef73e9afd78aefc90ba69aca05da" title="CustomPushButton::setDisabledB" alt="" coords="786,312,1006,339"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="SQLite_Local_DatabaseManager::SQLite_Local_DatabaseManager" name="SQLite_Local_DatabaseManager::SQLite_Local_DatabaseManager">
+<area shape="rect" id="node2" href="$class_s_q_lite___local___database_manager.html#ab621325d2356d4f84a14103330db995d" title="SQLite_Local_DatabaseManager\l::ReturnMaintenanceMenu" alt="" coords="273,5,485,47"/>
+<area shape="rect" id="node4" href="$class_s_q_lite___local___database_manager.html#a50748c0637b4f3813b48c227131cd4b5" title="SQLite_Local_DatabaseManager\l::Update_Confirm" alt="" coords="273,71,485,112"/>
+<area shape="rect" id="node5" href="$class_s_q_lite___local___database_manager.html#af88296139c7f7e4a138c4e0b31b927ae" title="SQLite_Local_DatabaseManager\l::ReturnDB_Manager" alt="" coords="273,136,485,177"/>
+<area shape="rect" id="node6" href="$class_s_q_lite___local___database_manager.html#a8399bba68cd862681cb912dfaa70686d" title="SQLite_Local_DatabaseManager\l::Run_DB_Manager" alt="" coords="273,201,485,243"/>
+<area shape="rect" id="node7" href="$class_s_q_lite___local___database_manager.html#ac0c01f2c96affa62a10f896c0b1baf29" title="SQLite_Local_DatabaseManager\l::SetStatusLoading" alt="" coords="273,267,485,308"/>
+<area shape="rect" id="node3" href="$class_show_widgets.html#a2f27dd65c0d8b16dffc3dd77bdc21c45" title="ShowWidgets::ShowWMaintenanceMenu" alt="" coords="533,13,795,39"/>
+</map>

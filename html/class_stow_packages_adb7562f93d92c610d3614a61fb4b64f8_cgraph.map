@@ -1,0 +1,6 @@
+<map id="StowPackages::OpenDoor" name="StowPackages::OpenDoor">
+<area shape="rect" id="node2" href="$class_c_doors.html#a450ec2a776c3435103323a6e293f093f" title="CDoors::UnlockDoors" alt="" coords="228,5,375,32"/>
+<area shape="rect" id="node5" href="$class_c_doors.html#a23e1dec072702bf78eaa05332599e912" title="CDoors::OpenDoors" alt="" coords="232,56,371,83"/>
+<area shape="rect" id="node3" href="$class_c_s_q_lite___local___d_b.html#ace38eaa62cc5639b2a7be726d51a70f7" title="Fonction utilisée uniquement en mode débug pour un accès rapide d&#39;envoi personalisé de requêtes au fo..." alt="" coords="423,31,629,57"/>
+<area shape="rect" id="node4" href="$class_c_s_q_lite___local___d_b.html#a25433d7ada1d4173d92fdedfc9f1f253" title="Enregistre dans la base de données l&#39;action suivante qui va être demandée, utilisée pour garder toute..." alt="" coords="677,23,888,65"/>
+</map>

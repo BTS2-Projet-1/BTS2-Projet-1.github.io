@@ -1,0 +1,4 @@
+<map id="OpenEmptyBox::StatusDoors" name="OpenEmptyBox::StatusDoors">
+<area shape="rect" id="node2" href="$class_custom_tree_widget.html#a8c4ea47a57e7301097702c7aa04d2c58" title="CustomTreeWidget::Edited\lItem_ColumnStatusOfDoor" alt="" coords="248,5,427,47"/>
+<area shape="rect" id="node3" href="$class_custom_tree_widget.html#a4919b08a8230f1afc200c00f947d031d" title="CustomTreeWidget::Button\lVisible" alt="" coords="248,71,427,112"/>
+</map>

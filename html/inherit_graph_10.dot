@@ -1,7 +1,0 @@
-digraph "Graphe hiérarchique des classes"
-{
-  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
-  node [fontname="Helvetica",fontsize="10",shape=record];
-  rankdir="LR";
-  Node1 [label="struct_Database_Contains",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structstruct___database___contains.html",tooltip="Structure de donnée de l&#39;application LC, utilisée pour l&#39;enregistrement et lectures des fichiers de s..."];
-}

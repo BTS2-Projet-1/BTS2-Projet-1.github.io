@@ -1,0 +1,9 @@
+<map id="Login::Login" name="Login::Login">
+<area shape="rect" id="node2" href="$class_login.html#ae0fedd5f1f68645c45492123dd9564d4" title="Login::Cancel" alt="" coords="155,27,257,54"/>
+<area shape="rect" id="node4" href="$class_login.html#a689bfbbbdbb9d472c9fb35b41d19b414" title="Login::ValidLogin" alt="" coords="145,107,267,134"/>
+<area shape="rect" id="node3" href="$class_show_widgets.html#a41e281e6f1ca3b1789f552ac60e00776" title="ShowWidgets::ShowWConsole\lWindows" alt="" coords="329,5,532,47"/>
+<area shape="rect" id="node5" href="$class_c_s_q_lite___local___d_b.html#a8114d5c22ae0a43e5466f3d69b3a9e84" title="Effectue differentes vérifications avec le code d&#39;identification passé en paramètre sur la base de do..." alt="" coords="344,71,517,98"/>
+<area shape="rect" id="node7" href="$class_show_widgets.html#af2fbfd95464a3bab01663fe19a80a1a4" title="ShowWidgets::ShowWMenuDelivery" alt="" coords="315,122,547,149"/>
+<area shape="rect" id="node8" href="$class_show_widgets.html#aea1ab328a9374608259240d0c8958500" title="ShowWidgets::ShowWSetting" alt="" coords="333,173,529,199"/>
+<area shape="rect" id="node6" href="$class_c_s_q_lite___local___d_b.html#a25433d7ada1d4173d92fdedfc9f1f253" title="Enregistre dans la base de données l&#39;action suivante qui va être demandée, utilisée pour garder toute..." alt="" coords="595,64,805,105"/>
+</map>

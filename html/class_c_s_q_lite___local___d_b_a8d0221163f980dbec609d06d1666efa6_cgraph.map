@@ -1,0 +1,4 @@
+<map id="CSQLite_Local_DB::SaveDatabase" name="CSQLite_Local_DB::SaveDatabase">
+<area shape="rect" id="node2" href="$class_c_s_q_lite___local___d_b.html#aa0750076670f4b4b4aa9eb0a925aaebb" title="Lit le contenu d&#39;un fichier SQL, utilisée pour lire les fichiers de constructions ou de sauvegardes p..." alt="" coords="279,5,505,32"/>
+<area shape="rect" id="node3" href="$class_c_s_q_lite___local___d_b.html#acdb2940a30f654f0c39cd0c259b9ad17" title="Ecrit un fichier SQL en mode &quot;append&quot;, soit a la fin d&#39;un fichier deja existant. " alt="" coords="279,56,505,83"/>
+</map>

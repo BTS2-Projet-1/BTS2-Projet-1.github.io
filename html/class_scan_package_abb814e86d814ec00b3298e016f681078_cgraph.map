@@ -1,0 +1,17 @@
+<map id="ScanPackage::ScanPackage" name="ScanPackage::ScanPackage">
+<area shape="rect" id="node2" href="$class_scan_package.html#a9eba77f1f9ce24f54b3c78172ed2a5b2" title="ScanPackage::StockNumber\lPackage" alt="" coords="261,19,451,61"/>
+<area shape="rect" id="node7" href="$class_scan_package.html#a0704734be634f7479a63725ee02ab077" title="ScanPackage::CancelDelivery" alt="" coords="258,151,454,177"/>
+<area shape="rect" id="node10" href="$class_scan_package.html#a619ca3e30a8c4549c030f279d384e76d" title="ScanPackage::ValidateDelivery" alt="" coords="255,201,457,228"/>
+<area shape="rect" id="node12" href="$class_scan_package.html#adec50d2f172142caef4f4081b4618316" title="ScanPackage::ReceiveList\lBoxSelected" alt="" coords="267,85,445,126"/>
+<area shape="rect" id="node13" href="$class_scan_package.html#add67e1c2317de5884cc5358f0bc49f18" title="ScanPackage::ConfirmValidate" alt="" coords="255,252,457,279"/>
+<area shape="rect" id="node15" href="$class_scan_package.html#a2dc6dd1965d342ff25f4604539662bd3" title="ScanPackage::ReturnListPackage" alt="" coords="245,303,467,329"/>
+<area shape="rect" id="node16" href="$class_scan_package.html#a93955172cd5352cb92a8b75dd7ee6e82" title="ScanPackage::Upper" alt="" coords="283,353,429,380"/>
+<area shape="rect" id="node3" href="$class_scan_package.html#a565dbb7397d7dd780f4870d83a15b906" title="ScanPackage::AddItemList\lWidget" alt="" coords="546,23,726,65"/>
+<area shape="rect" id="node4" href="$class_scan_package.html#ac9d9da0a233dad4464f0cdf1c02991a5" title="ScanPackage::isExistNumPackage" alt="" coords="805,5,1035,32"/>
+<area shape="rect" id="node5" href="$class_scan_package.html#a9805f5410fccbbfc56bac6084fb6b9ed" title="ScanPackage::DeleteNumPackage" alt="" coords="807,56,1033,83"/>
+<area shape="rect" id="node6" href="$class_scan_package.html#a9d068b492d0d49abb0cbdcad9d1fe203" title="ScanPackage::ShowMessage\lError" alt="" coords="822,134,1018,175"/>
+<area shape="rect" id="node8" href="$class_scan_package.html#a201dadb61959395c6e9d0ad8f90fbb39" title="ScanPackage::Refresh" alt="" coords="559,92,713,119"/>
+<area shape="rect" id="node9" href="$class_show_widgets.html#ab038ff960339a0f5c89db56992a3235e" title="ShowWidgets::ShowWBoxChoice" alt="" coords="527,143,745,169"/>
+<area shape="rect" id="node11" href="$class_scan_package.html#ae163c531d240273368c8ccb63972a8b8" title="ScanPackage::BuildingList\lPackages" alt="" coords="547,245,725,286"/>
+<area shape="rect" id="node14" href="$class_show_widgets.html#ab4d4801904525c157626233ab19cb8bf" title="ShowWidgets::ShowWStowPackages" alt="" coords="515,311,757,337"/>
+</map>

@@ -1,0 +1,44 @@
+<map id="DoorsManager::DoorsManager" name="DoorsManager::DoorsManager">
+<area shape="rect" id="node2" href="$class_c_s_q_lite___local___d_b.html#a26bcaa36108d9c5ef34a9ad11e288ad8" title="Récupère dans la base de données ou est installé la console de gestion des consignes automatiques..." alt="" coords="897,163,1060,205"/>
+<area shape="rect" id="node3" href="$class_c_s_q_lite___local___d_b.html#a33f1aa3666a7af30e1cc36b228fb59fe" title="Recherche dans la base de données les consignes non endommagées et libres. " alt="" coords="884,46,1073,87"/>
+<area shape="rect" id="node5" href="$class_doors_manager.html#a34a4d157ff1632a8ec3668885134f0f0" title="DoorsManager::BoxesStatusSort" alt="" coords="872,229,1085,256"/>
+<area shape="rect" id="node6" href="$class_c_doors.html#a2d26d6cb0f578452071e7098fa21178d" title="CDoors::DoorsStatus" alt="" coords="906,280,1051,307"/>
+<area shape="rect" id="node13" href="$class_doors_manager.html#af5221ef14eae2c7b5b444c15b0387702" title="DoorsManager::ReturnSettingsMenu" alt="" coords="265,175,497,201"/>
+<area shape="rect" id="node15" href="$class_doors_manager.html#a791c9c3a52e58e88fdf8ab16891dc4ca" title="DoorsManager::GotoDoorsTest" alt="" coords="281,277,482,304"/>
+<area shape="rect" id="node23" href="$class_doors_manager.html#aaee08e6ab3f13ccc0fb1baffae659517" title="DoorsManager::GotoAddDel\lDoors" alt="" coords="289,329,473,370"/>
+<area shape="rect" id="node24" href="$class_doors_manager.html#af7d5e03a7e1a0d3da687bfcba912a0f2" title="DoorsManager::GotoActDes\lDoors" alt="" coords="289,394,474,435"/>
+<area shape="rect" id="node26" href="$class_doors_manager.html#a34966cceb9b281f2f72dfb0cb971c17c" title="DoorsManager::RunActDesBox" alt="" coords="877,587,1080,613"/>
+<area shape="rect" id="node28" href="$class_doors_manager.html#ad9e5dbe742190996a002d3b9390f6174" title="DoorsManager::CheckTestBox" alt="" coords="282,511,481,537"/>
+<area shape="rect" id="node31" href="$class_doors_manager.html#afb3ba894a6b58c8b45abc01d8d7881b5" title="DoorsManager::UnlockBox" alt="" coords="293,713,470,740"/>
+<area shape="rect" id="node34" href="$class_doors_manager.html#ad4f148e63553881e1c8ee240db59d3e5" title="DoorsManager::OpenBox" alt="" coords="297,764,465,791"/>
+<area shape="rect" id="node37" href="$class_doors_manager.html#a2a9d76ab046158c1f97b5cb012ad95ec" title="DoorsManager::GotoDoorsManager" alt="" coords="268,663,495,689"/>
+<area shape="rect" id="node38" href="$class_doors_manager.html#adf818013f5e3ba23027c10549e09ffaa" title="DoorsManager::ActivateDoor" alt="" coords="288,460,475,487"/>
+<area shape="rect" id="node39" href="$class_doors_manager.html#a7be09e60a4625c76f376ee13f0d4e213" title="DoorsManager::DesactivateDoor" alt="" coords="277,561,485,588"/>
+<area shape="rect" id="node40" href="$class_doors_manager.html#a6c3c18c3cc453bd382185778bce0e06b" title="DoorsManager::ReturnMaintenanceMenu" alt="" coords="252,815,511,841"/>
+<area shape="rect" id="node42" href="$class_doors_manager.html#a1c9701fdf3f963a6b06340f453ae9e8e" title="DoorsManager::ActionOpen\lBox_ConfirmSwap" alt="" coords="290,866,473,907"/>
+<area shape="rect" id="node43" href="$class_doors_manager.html#a512be29226d43b78098981ef60004485" title="DoorsManager::ActionUnlock\lBox_ConfirmSwap" alt="" coords="286,931,477,973"/>
+<area shape="rect" id="node4" href="$class_c_s_q_lite___local___d_b.html#a25433d7ada1d4173d92fdedfc9f1f253" title="Enregistre dans la base de données l&#39;action suivante qui va être demandée, utilisée pour garder toute..." alt="" coords="1677,245,1888,286"/>
+<area shape="rect" id="node7" href="$class_c_s_q_lite___local___d_b.html#af3122618d25c7f4cc3225ac15ec91958" title="Récupère dans la base de données la liste des portes/consignes signalées comme endomagées. " alt="" coords="1139,382,1369,423"/>
+<area shape="rect" id="node8" href="$class_c_s_q_lite___local___d_b.html#a0f79fbd185261af7806a3a99292ef0a3" title="Fonction utilisée uniquement en mode débug pour simuler l&#39;accès de classe CDoors au portes des consig..." alt="" coords="1423,211,1629,253"/>
+<area shape="rect" id="node9" href="$class_c_doors.html#a949bbc01ecb9ecc72ecb40b1b6b0b04c" title="CDoors::DoorsIsClosed" alt="" coords="1175,280,1333,307"/>
+<area shape="rect" id="node11" href="$class_c_doors.html#ac68dc2b9ae3f716b09f4c79560a0c047" title="CDoors::CloseDoors" alt="" coords="1184,331,1324,357"/>
+<area shape="rect" id="node10" href="$class_c_s_q_lite___local___d_b.html#a0c2471f87f624ad3e5a99f21dcd399da" title="Fonction utilisée uniquement en mode débug pour simuler l&#39;accès de classe CDoors au portes des consig..." alt="" coords="1423,277,1629,318"/>
+<area shape="rect" id="node12" href="$class_c_s_q_lite___local___d_b.html#ace38eaa62cc5639b2a7be726d51a70f7" title="Fonction utilisée uniquement en mode débug pour un accès rapide d&#39;envoi personalisé de requêtes au fo..." alt="" coords="1423,497,1629,524"/>
+<area shape="rect" id="node14" href="$class_show_widgets.html#aea1ab328a9374608259240d0c8958500" title="ShowWidgets::ShowWSetting" alt="" coords="593,175,789,201"/>
+<area shape="rect" id="node16" href="$class_custom_tree_widget.html#ae144f5edf4f360d34230c84f2d6d06f2" title="CustomTreeWidget::ClearListItem" alt="" coords="583,343,800,369"/>
+<area shape="rect" id="node17" href="$class_doors_manager.html#a8e1b66b56b554d177b7263cc7f6ab1e7" title="DoorsManager::CreateBoxes\lViewTest" alt="" coords="597,277,786,318"/>
+<area shape="rect" id="node18" href="$class_doors_manager.html#a169114f12c7b76f29146b9ec4bd5d9b3" title="DoorsManager::RunTestBox" alt="" coords="886,112,1071,139"/>
+<area shape="rect" id="node19" href="$class_custom_tree_widget.html#a4abeb5cd859226e4cbe2b83e941c3aea" title="CustomTreeWidget::AddItem" alt="" coords="884,397,1073,424"/>
+<area shape="rect" id="node21" href="$class_custom_tree_widget.html#a4919b08a8230f1afc200c00f947d031d" title="CustomTreeWidget::Button\lVisible" alt="" coords="889,331,1068,373"/>
+<area shape="rect" id="node22" href="$class_custom_tree_widget.html#a8c4ea47a57e7301097702c7aa04d2c58" title="CustomTreeWidget::Edited\lItem_ColumnStatusOfDoor" alt="" coords="889,449,1068,490"/>
+<area shape="rect" id="node20" href="$class_custom_push_button.html#a7721ef73e9afd78aefc90ba69aca05da" title="CustomPushButton::setDisabledB" alt="" coords="1144,448,1364,475"/>
+<area shape="rect" id="node25" href="$class_doors_manager.html#a20758ef57365191c3b3c6bcfcfbac90a" title="DoorsManager::CreateBoxes\lViewActDes" alt="" coords="597,394,786,435"/>
+<area shape="rect" id="node27" href="$class_c_s_q_lite___local___d_b.html#a4cd7505a856e22890c43d5a68191c2c4" title="Vérifie grâce à la base de données si la consigne signalée comme endommagée. " alt="" coords="1133,587,1375,613"/>
+<area shape="rect" id="node29" href="$class_c_s_q_lite___local___d_b.html#adac90874af0da1b1b71c96049f997a12" title="Met à jour la base de données avec l&#39;identifant de la porte/consigne réparée. " alt="" coords="559,460,824,487"/>
+<area shape="rect" id="node30" href="$class_c_s_q_lite___local___d_b.html#a290823544987587c6cb71287428752fe" title="Met à jour la base de données avec l&#39;indentifant de la porte/consigne signalée comme défectuese..." alt="" coords="566,561,817,588"/>
+<area shape="rect" id="node32" href="$class_c_doors.html#a773178973ccb5bb536a9c84c92e2fb29" title="CDoors::UnlockDoor" alt="" coords="621,689,761,716"/>
+<area shape="rect" id="node33" href="$class_c_doors.html#a450ec2a776c3435103323a6e293f093f" title="CDoors::UnlockDoors" alt="" coords="1181,656,1327,683"/>
+<area shape="rect" id="node35" href="$class_c_doors.html#ab4df5088482fdd8d84e3f1684f618a60" title="CDoors::OpenDoor" alt="" coords="626,759,757,785"/>
+<area shape="rect" id="node36" href="$class_c_doors.html#a23e1dec072702bf78eaa05332599e912" title="CDoors::OpenDoors" alt="" coords="1185,725,1323,752"/>
+<area shape="rect" id="node41" href="$class_show_widgets.html#a2f27dd65c0d8b16dffc3dd77bdc21c45" title="ShowWidgets::ShowWMaintenanceMenu" alt="" coords="561,815,822,841"/>
+</map>

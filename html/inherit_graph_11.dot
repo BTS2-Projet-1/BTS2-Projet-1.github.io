@@ -1,7 +1,0 @@
-digraph "Graphe hiérarchique des classes"
-{
-  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
-  node [fontname="Helvetica",fontsize="10",shape=record];
-  rankdir="LR";
-  Node1 [label="struct_DoorGeom",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structstruct___door_geom.html",tooltip="Structure de donnée de l&#39;application LC, utilisée pour dessiner le plan de l&#39;installation des consign..."];
-}

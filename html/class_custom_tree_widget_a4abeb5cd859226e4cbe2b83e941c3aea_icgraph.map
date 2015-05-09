@@ -1,0 +1,15 @@
+<map id="CustomTreeWidget::AddItem" name="CustomTreeWidget::AddItem">
+<area shape="rect" id="node2" href="$class_doors_manager.html#a8e1b66b56b554d177b7263cc7f6ab1e7" title="DoorsManager::CreateBoxes\lViewTest" alt="" coords="261,5,451,47"/>
+<area shape="rect" id="node5" href="$class_doors_manager.html#a20758ef57365191c3b3c6bcfcfbac90a" title="DoorsManager::CreateBoxes\lViewActDes" alt="" coords="261,71,451,112"/>
+<area shape="rect" id="node7" href="$class_open_empty_box.html#afd5c75107a4912a1edb7e19258c73c6f" title="OpenEmptyBox::CreateList\lBoxEmpty" alt="" coords="265,136,447,177"/>
+<area shape="rect" id="node9" href="$class_show_package_box.html#ae789285d39aeeff73b2cfd3b090ba7fd" title="ShowPackageBox::ManageListBox" alt="" coords="243,202,469,229"/>
+<area shape="rect" id="node11" href="$class_stow_packages.html#af44ae7fc4cb1912eb0c115e8aa0a0308" title="StowPackages::CreateList\lBoxTreeWidget" alt="" coords="268,253,444,295"/>
+<area shape="rect" id="node3" href="$class_doors_manager.html#a791c9c3a52e58e88fdf8ab16891dc4ca" title="DoorsManager::GotoDoorsTest" alt="" coords="538,14,739,41"/>
+<area shape="rect" id="node4" href="$class_doors_manager.html#a3bf3ff7e7614b31422bdbdfc594e7f8e" title="DoorsManager::DoorsManager" alt="" coords="811,45,1009,71"/>
+<area shape="rect" id="node6" href="$class_doors_manager.html#af7d5e03a7e1a0d3da687bfcba912a0f2" title="DoorsManager::GotoActDes\lDoors" alt="" coords="546,68,731,109"/>
+<area shape="rect" id="node8" href="$class_open_empty_box.html#ad6794eab79d6bd8b9c4b26043cde493b" title="OpenEmptyBox::OpenEmptyBox" alt="" coords="531,143,746,170"/>
+<area shape="rect" id="node10" href="$class_show_package_box.html#a9d7ec045b4ddc79272f1f9a2a9d91333" title="ShowPackageBox::ShowPackageBox" alt="" coords="517,202,760,229"/>
+<area shape="rect" id="node12" href="$class_stow_packages.html#ad6fbdd35f232cc348c1c6093f5212bff" title="StowPackages::ReceiveList\lPackageBox" alt="" coords="547,253,730,295"/>
+<area shape="rect" id="node14" href="$class_stow_packages.html#a0c70d2e30981f94630fcdc56716d06ae" title="StowPackages::SaveBoxSelected" alt="" coords="529,319,748,346"/>
+<area shape="rect" id="node13" href="$class_stow_packages.html#a116abaad4fab9f0dd7f243d99594b6f3" title="StowPackages::StowPackages" alt="" coords="808,290,1012,317"/>
+</map>
