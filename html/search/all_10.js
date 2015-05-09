@@ -6,5 +6,7 @@ var searchData=
   ['page_5fkeyboard',['PAGE_KEYBOARD',['../scanpackage_8cpp.html#adee91d8677cba9394db95c94f12a0bd9',1,'scanpackage.cpp']]],
   ['page_5flistpackage',['PAGE_LISTPACKAGE',['../scanpackage_8cpp.html#aeb4091f035f9d87c53db9f68e3bb777d',1,'scanpackage.cpp']]],
   ['pages_5f0_2ejs',['pages_0.js',['../pages__0_8js.html',1,'']]],
+  ['pages_5f_5f0_5f8js',['pages__0_8js',['../pages____0__8js_8js.html#a78020f0f63b4b38d651e79555fb29660',1,'pages__0_8js.js']]],
+  ['pages_5f_5f0_5f8js_2ejs',['pages__0_8js.js',['../pages____0__8js_8js.html',1,'']]],
   ['pathname',['pathName',['../navtree_8js.html#a364b3f4132309fa9aae78585cf2cb772',1,'navtree.js']]]
 ];

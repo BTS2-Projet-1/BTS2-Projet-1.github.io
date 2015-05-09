@@ -1,6 +1,6 @@
 <map id="DoorsManager::UnlockBox" name="DoorsManager::UnlockBox">
-<area shape="rect" id="node2" href="$class_c_doors.html#a773178973ccb5bb536a9c84c92e2fb29" title="CDoors::UnlockDoor" alt="" coords="231,13,371,39"/>
-<area shape="rect" id="node3" href="$class_c_doors.html#a450ec2a776c3435103323a6e293f093f" title="CDoors::UnlockDoors" alt="" coords="419,13,565,39"/>
-<area shape="rect" id="node4" href="$class_c_s_q_lite___local___d_b.html#ace38eaa62cc5639b2a7be726d51a70f7" title="Fonction utilisée uniquement en mode débug pour un accès rapide d&#39;envoi personalisé de requêtes au fo..." alt="" coords="613,13,820,39"/>
-<area shape="rect" id="node5" href="$class_c_s_q_lite___local___d_b.html#a25433d7ada1d4173d92fdedfc9f1f253" title="Enregistre dans la base de données l&#39;action suivante qui va être demandée, utilisée pour garder toute..." alt="" coords="868,5,1079,47"/>
+<area shape="rect" id="node2" href="$class_c_doors.html#a773178973ccb5bb536a9c84c92e2fb29" title="CDoors::UnlockDoor" alt="" coords="204,11,323,35"/>
+<area shape="rect" id="node3" href="$class_c_doors.html#a450ec2a776c3435103323a6e293f093f" title="CDoors::UnlockDoors" alt="" coords="371,11,496,35"/>
+<area shape="rect" id="node4" href="$class_c_s_q_lite___local___d_b.html#ace38eaa62cc5639b2a7be726d51a70f7" title="Fonction utilisée uniquement en mode débug pour un accès rapide d&#39;envoi personalisé de requêtes au fo..." alt="" coords="544,11,719,35"/>
+<area shape="rect" id="node5" href="$class_c_s_q_lite___local___d_b.html#a25433d7ada1d4173d92fdedfc9f1f253" title="Enregistre dans la base de données l&#39;action suivante qui va être demandée, utilisée pour garder toute..." alt="" coords="767,5,945,41"/>
 </map>

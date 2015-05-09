@@ -1,7 +1,7 @@
 <map id="Graphe hiérarchique des classes" name="Graphe hiérarchique des classes">
-<area shape="rect" id="node2" href="$class_thread___databasemanager.html" title="Thread_Databasemanager" alt="" coords="124,5,297,32"/>
-<area shape="rect" id="node3" href="$class_thread___local_database___auto_save.html" title="Thread_LocalDatabase\l_AutoSave" alt="" coords="133,57,288,98"/>
-<area shape="rect" id="node4" href="$class_thread___status_doors.html" title="Thread_StatusDoors" alt="" coords="141,123,281,149"/>
-<area shape="rect" id="node5" href="$class_thread_delete_extract_code.html" title="ThreadDeleteExtractCode" alt="" coords="125,173,296,200"/>
-<area shape="rect" id="node6" href="$class_thread_save_delivery.html" title="ThreadSaveDelivery" alt="" coords="143,224,278,251"/>
+<area shape="rect" id="node2" href="$class_thread___databasemanager.html" title="Thread_Databasemanager" alt="" coords="117,5,268,29"/>
+<area shape="rect" id="node3" href="$class_thread___local_database___auto_save.html" title="Thread_LocalDatabase\l_AutoSave" alt="" coords="125,54,260,90"/>
+<area shape="rect" id="node4" href="$class_thread___status_doors.html" title="Thread_StatusDoors" alt="" coords="131,115,254,139"/>
+<area shape="rect" id="node5" href="$class_thread_delete_extract_code.html" title="ThreadDeleteExtractCode" alt="" coords="120,163,265,187"/>
+<area shape="rect" id="node6" href="$class_thread_save_delivery.html" title="ThreadSaveDelivery" alt="" coords="133,211,253,235"/>
 </map>

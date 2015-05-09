@@ -1,11 +1,9 @@
 <map id="S:/QT_CREATOR/Locker_Control/openemptybox.h" name="S:/QT_CREATOR/Locker_Control/openemptybox.h">
-<area shape="rect" id="node3" href="$showwidgets_8h.html" title="showwidgets.h" alt="" coords="559,169,665,196"/>
-<area shape="rect" id="node5" href="$csqlite__local__db_8h.html" title="csqlite_local_db.h" alt="" coords="557,244,683,271"/>
-<area shape="rect" id="node16" href="$menudelivery_8h.html" title="menudelivery.h" alt="" coords="535,95,643,121"/>
-<area shape="rect" id="node17" href="$custompushbutton_8h.html" title="custompushbutton.h" alt="" coords="1013,169,1153,196"/>
-<area shape="rect" id="node21" href="$customtreewidget_8h.html" title="customtreewidget.h" alt="" coords="1138,95,1273,121"/>
-<area shape="rect" id="node24" href="$thread__statusdoors_8h.html" title="thread_statusdoors.h" alt="" coords="827,95,971,121"/>
-<area shape="rect" id="node26" href="$cdoors_8h.html" title="cdoors.h" alt="" coords="769,169,841,196"/>
-<area shape="rect" id="node13" href="$_data_structures_8h.html" title="Definnitions des formats de communications des données entre les classes de l&#39;application LC..." alt="" coords="85,393,205,420"/>
-<area shape="rect" id="node15" href="$clms__db_8h.html" title="clms_db.h" alt="" coords="104,319,187,345"/>
+<area shape="rect" id="node3" href="$showwidgets_8h.html" title="showwidgets.h" alt="" coords="107,161,206,185"/>
+<area shape="rect" id="node5" href="$csqlite__local__db_8h.html" title="csqlite_local_db.h" alt="" coords="361,233,469,257"/>
+<area shape="rect" id="node6" href="$menudelivery_8h.html" title="menudelivery.h" alt="" coords="68,89,163,113"/>
+<area shape="rect" id="node7" href="$custompushbutton_8h.html" title="custompushbutton.h" alt="" coords="314,161,434,185"/>
+<area shape="rect" id="node8" href="$customtreewidget_8h.html" title="customtreewidget.h" alt="" coords="340,89,459,113"/>
+<area shape="rect" id="node9" href="$thread__statusdoors_8h.html" title="thread_statusdoors.h" alt="" coords="483,89,609,113"/>
+<area shape="rect" id="node10" href="$cdoors_8h.html" title="cdoors.h" alt="" coords="513,161,579,185"/>
 </map>

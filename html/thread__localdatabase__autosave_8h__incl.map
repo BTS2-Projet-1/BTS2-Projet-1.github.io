@@ -1,32 +1,7 @@
 <map id="S:/QT_CREATOR/Locker_Control/thread_localdatabase_autosave.h" name="S:/QT_CREATOR/Locker_Control/thread_localdatabase_autosave.h">
-<area shape="rect" id="node4" href="$sqlite__local__databasemanager_8h.html" title="sqlite_local_databasemanager.h" alt="" coords="512,109,720,136"/>
-<area shape="rect" id="node9" href="$csqlite__local__db_8h.html" title="csqlite_local_db.h" alt="" coords="786,632,913,659"/>
-<area shape="rect" id="node7" href="$showwidgets_8h.html" title="showwidgets.h" alt="" coords="2935,707,3041,733"/>
-<area shape="rect" id="node19" href="$thread__databasemanager_8h.html" title="thread_databasemanager.h" alt="" coords="456,184,635,211"/>
-<area shape="rect" id="node20" href="$consolewindows_8h.html" title="consolewindows.h" alt="" coords="2242,259,2369,285"/>
-<area shape="rect" id="node16" href="$_data_structures_8h.html" title="Definnitions des formats de communications des données entre les classes de l&#39;application LC..." alt="" coords="600,781,720,808"/>
-<area shape="rect" id="node18" href="$clms__db_8h.html" title="clms_db.h" alt="" coords="392,707,475,733"/>
-<area shape="rect" id="node24" href="$country_8h.html" title="country.h" alt="" coords="2979,333,3055,360"/>
-<area shape="rect" id="node26" href="$customer_8h.html" title="customer.h" alt="" coords="1503,333,1590,360"/>
-<area shape="rect" id="node27" href="$showpackagebox_8h.html" title="showpackagebox.h" alt="" coords="1376,408,1509,435"/>
-<area shape="rect" id="node33" href="$login_8h.html" title="login.h" alt="" coords="1978,557,2038,584"/>
-<area shape="rect" id="node34" href="$menudelivery_8h.html" title="menudelivery.h" alt="" coords="2319,632,2427,659"/>
-<area shape="rect" id="node35" href="$deliveryconfirm_8h.html" title="deliveryconfirm.h" alt="" coords="1011,333,1130,360"/>
-<area shape="rect" id="node36" href="$stowpackages_8h.html" title="stowpackages.h" alt="" coords="1761,408,1877,435"/>
-<area shape="rect" id="node37" href="$scanpackage_8h.html" title="scanpackage.h" alt="" coords="2142,483,2253,509"/>
-<area shape="rect" id="node38" href="$boxchoice_8h.html" title="boxchoice.h" alt="" coords="2165,557,2257,584"/>
-<area shape="rect" id="node42" href="$openemptybox_8h.html" title="openemptybox.h" alt="" coords="2291,408,2410,435"/>
-<area shape="rect" id="node43" href="$setting_8h.html" title="setting.h" alt="" coords="2853,632,2925,659"/>
-<area shape="rect" id="node44" href="$settingsystem_8h.html" title="settingsystem.h" alt="" coords="3303,557,3417,584"/>
-<area shape="rect" id="node47" href="$editsettingsystem_8h.html" title="editsettingsystem.h" alt="" coords="3416,632,3552,659"/>
-<area shape="rect" id="node49" href="$maintenancemenu_8h.html" title="maintenancemenu.h" alt="" coords="3101,632,3240,659"/>
-<area shape="rect" id="node50" href="$doorsmanager_8h.html" title="doorsmanager.h" alt="" coords="1901,408,2016,435"/>
-<area shape="rect" id="node28" href="$threaddeleteextractcode_8h.html" title="threaddeleteextractcode.h" alt="" coords="763,483,935,509"/>
-<area shape="rect" id="node29" href="$thread__statusdoors_8h.html" title="thread_statusdoors.h" alt="" coords="1213,483,1357,509"/>
-<area shape="rect" id="node30" href="$cdoors_8h.html" title="cdoors.h" alt="" coords="1359,557,1431,584"/>
-<area shape="rect" id="node31" href="$customtreewidget_8h.html" title="customtreewidget.h" alt="" coords="2379,483,2514,509"/>
-<area shape="rect" id="node32" href="$custompushbutton_8h.html" title="custompushbutton.h" alt="" coords="2481,557,2621,584"/>
-<area shape="rect" id="node41" href="$threadsavedelivery_8h.html" title="threadsavedelivery.h" alt="" coords="448,483,587,509"/>
-<area shape="rect" id="node40" href="$drawbox_8h.html" title="drawbox.h" alt="" coords="1813,632,1894,659"/>
-<area shape="rect" id="node46" href="$customxml_8h.html" title="customxml.h" alt="" coords="2731,632,2829,659"/>
+<area shape="rect" id="node4" href="$sqlite__local__databasemanager_8h.html" title="sqlite_local_databasemanager.h" alt="" coords="282,101,459,125"/>
+<area shape="rect" id="node8" href="$csqlite__local__db_8h.html" title="csqlite_local_db.h" alt="" coords="167,317,275,341"/>
+<area shape="rect" id="node7" href="$showwidgets_8h.html" title="showwidgets.h" alt="" coords="539,317,637,341"/>
+<area shape="rect" id="node9" href="$thread__databasemanager_8h.html" title="thread_databasemanager.h" alt="" coords="144,173,299,197"/>
+<area shape="rect" id="node10" href="$consolewindows_8h.html" title="consolewindows.h" alt="" coords="397,245,512,269"/>
 </map>

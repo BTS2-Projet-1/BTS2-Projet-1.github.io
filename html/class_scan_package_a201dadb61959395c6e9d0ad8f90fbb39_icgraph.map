@@ -1,5 +1,5 @@
 <map id="ScanPackage::Refresh" name="ScanPackage::Refresh">
-<area shape="rect" id="node2" href="$class_scan_package.html#adec50d2f172142caef4f4081b4618316" title="ScanPackage::ReceiveList\lBoxSelected" alt="" coords="217,5,395,47"/>
-<area shape="rect" id="node4" href="$class_scan_package.html#a0704734be634f7479a63725ee02ab077" title="ScanPackage::CancelDelivery" alt="" coords="208,71,404,98"/>
-<area shape="rect" id="node3" href="$class_scan_package.html#abb814e86d814ec00b3298e016f681078" title="ScanPackage::ScanPackage" alt="" coords="452,42,644,69"/>
+<area shape="rect" id="node2" href="$class_scan_package.html#adec50d2f172142caef4f4081b4618316" title="ScanPackage::ReceiveList\lBoxSelected" alt="" coords="195,5,345,41"/>
+<area shape="rect" id="node4" href="$class_scan_package.html#a0704734be634f7479a63725ee02ab077" title="ScanPackage::CancelDelivery" alt="" coords="187,66,353,90"/>
+<area shape="rect" id="node3" href="$class_scan_package.html#abb814e86d814ec00b3298e016f681078" title="ScanPackage::ScanPackage" alt="" coords="401,39,561,63"/>
 </map>

@@ -1,4 +1,4 @@
 <map id="ScanPackage::CancelDelivery" name="ScanPackage::CancelDelivery">
-<area shape="rect" id="node2" href="$class_scan_package.html#a201dadb61959395c6e9d0ad8f90fbb39" title="ScanPackage::Refresh" alt="" coords="281,5,436,32"/>
-<area shape="rect" id="node3" href="$class_show_widgets.html#ab038ff960339a0f5c89db56992a3235e" title="ShowWidgets::ShowWBoxChoice" alt="" coords="249,56,468,83"/>
+<area shape="rect" id="node2" href="$class_scan_package.html#a201dadb61959395c6e9d0ad8f90fbb39" title="ScanPackage::Refresh" alt="" coords="247,5,380,29"/>
+<area shape="rect" id="node3" href="$class_show_widgets.html#ab038ff960339a0f5c89db56992a3235e" title="ShowWidgets::ShowWBoxChoice" alt="" coords="220,53,407,77"/>
 </map>

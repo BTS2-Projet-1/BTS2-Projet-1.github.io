@@ -1,7 +1,7 @@
 <map id="CDoors::LockDoors" name="CDoors::LockDoors">
-<area shape="rect" id="node2" href="$class_c_doors.html#a3face9a42dff6689eca47e6777b1fad6" title="CDoors::LockDoor" alt="" coords="228,5,356,32"/>
-<area shape="rect" id="node3" href="$class_open_empty_box.html#a15b7f6583b80d4fc3aeb7d80b986e9a7" title="OpenEmptyBox::ReturnMenu\lDelivery" alt="" coords="196,57,388,98"/>
-<area shape="rect" id="node5" href="$class_show_package_box.html#a0a4f481ad113ea596093ecacd412b95e" title="ShowPackageBox::ReturnHome" alt="" coords="188,123,396,149"/>
-<area shape="rect" id="node4" href="$class_open_empty_box.html#ad6794eab79d6bd8b9c4b26043cde493b" title="OpenEmptyBox::OpenEmptyBox" alt="" coords="458,64,673,91"/>
-<area shape="rect" id="node6" href="$class_show_package_box.html#a9d7ec045b4ddc79272f1f9a2a9d91333" title="ShowPackageBox::ShowPackageBox" alt="" coords="444,123,687,149"/>
+<area shape="rect" id="node2" href="$class_c_doors.html#a3face9a42dff6689eca47e6777b1fad6" title="CDoors::LockDoor" alt="" coords="202,5,313,29"/>
+<area shape="rect" id="node3" href="$class_open_empty_box.html#a15b7f6583b80d4fc3aeb7d80b986e9a7" title="OpenEmptyBox::ReturnMenu\lDelivery" alt="" coords="177,54,337,90"/>
+<area shape="rect" id="node5" href="$class_show_package_box.html#a0a4f481ad113ea596093ecacd412b95e" title="ShowPackageBox::ReturnHome" alt="" coords="169,115,345,139"/>
+<area shape="rect" id="node4" href="$class_open_empty_box.html#ad6794eab79d6bd8b9c4b26043cde493b" title="OpenEmptyBox::OpenEmptyBox" alt="" coords="409,60,585,84"/>
+<area shape="rect" id="node6" href="$class_show_package_box.html#a9d7ec045b4ddc79272f1f9a2a9d91333" title="ShowPackageBox::ShowPackageBox" alt="" coords="393,115,600,139"/>
 </map>

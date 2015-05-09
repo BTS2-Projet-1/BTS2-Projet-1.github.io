@@ -1,5 +1,5 @@
 <map id="DeliveryConfirm::SaveDelivery" name="DeliveryConfirm::SaveDelivery">
-<area shape="rect" id="node2" href="$class_delivery_confirm.html#aedf9ca93a85b463d9e945074ba25a6c2" title="DeliveryConfirm::NewDelivery" alt="" coords="250,5,439,32"/>
-<area shape="rect" id="node4" href="$class_delivery_confirm.html#a624cfb7856fa7fc6d09558306b059958" title="DeliveryConfirm::FinishDelivery" alt="" coords="245,56,444,83"/>
-<area shape="rect" id="node3" href="$class_delivery_confirm.html#a17470a36b66b2fdb83d87abb6b73aaad" title="DeliveryConfirm::Delivery\lConfirm" alt="" coords="492,23,656,65"/>
+<area shape="rect" id="node2" href="$class_delivery_confirm.html#aedf9ca93a85b463d9e945074ba25a6c2" title="DeliveryConfirm::NewDelivery" alt="" coords="223,5,390,29"/>
+<area shape="rect" id="node4" href="$class_delivery_confirm.html#a624cfb7856fa7fc6d09558306b059958" title="DeliveryConfirm::FinishDelivery" alt="" coords="221,53,392,77"/>
+<area shape="rect" id="node3" href="$class_delivery_confirm.html#a17470a36b66b2fdb83d87abb6b73aaad" title="DeliveryConfirm::Delivery\lConfirm" alt="" coords="440,23,583,59"/>
 </map>

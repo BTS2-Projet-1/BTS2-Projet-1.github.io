@@ -1,8 +1,8 @@
 <map id="ShowWidgets::ShowWSetting" name="ShowWidgets::ShowWSetting">
-<area shape="rect" id="node2" href="$class_doors_manager.html#af5221ef14eae2c7b5b444c15b0387702" title="DoorsManager::ReturnSettingsMenu" alt="" coords="249,5,481,32"/>
-<area shape="rect" id="node4" href="$class_login.html#a689bfbbbdbb9d472c9fb35b41d19b414" title="Login::ValidLogin" alt="" coords="305,56,426,83"/>
-<area shape="rect" id="node6" href="$class_setting_system.html#ae42307d6521ab351ec50dee2dc85439b" title="SettingSystem::UpdateFileXml" alt="" coords="266,107,465,133"/>
-<area shape="rect" id="node3" href="$class_doors_manager.html#a3bf3ff7e7614b31422bdbdfc594e7f8e" title="DoorsManager::DoorsManager" alt="" coords="531,5,730,32"/>
-<area shape="rect" id="node5" href="$class_login.html#a2bb53ae350b649e1d5025295dd19d5cd" title="Login::Login" alt="" coords="585,56,677,83"/>
-<area shape="rect" id="node7" href="$class_setting_system.html#a5e05cfbb06519d77fd4eaaae479f4d2e" title="SettingSystem::SettingSystem" alt="" coords="529,107,732,133"/>
+<area shape="rect" id="node2" href="$class_doors_manager.html#af5221ef14eae2c7b5b444c15b0387702" title="DoorsManager::ReturnSettingsMenu" alt="" coords="221,5,417,29"/>
+<area shape="rect" id="node4" href="$class_login.html#a689bfbbbdbb9d472c9fb35b41d19b414" title="Login::ValidLogin" alt="" coords="267,53,371,77"/>
+<area shape="rect" id="node6" href="$class_setting_system.html#ae42307d6521ab351ec50dee2dc85439b" title="SettingSystem::UpdateFileXml" alt="" coords="237,101,401,125"/>
+<area shape="rect" id="node3" href="$class_doors_manager.html#a3bf3ff7e7614b31422bdbdfc594e7f8e" title="DoorsManager::DoorsManager" alt="" coords="465,5,636,29"/>
+<area shape="rect" id="node5" href="$class_login.html#a2bb53ae350b649e1d5025295dd19d5cd" title="Login::Login" alt="" coords="511,53,591,77"/>
+<area shape="rect" id="node7" href="$class_setting_system.html#a5e05cfbb06519d77fd4eaaae479f4d2e" title="SettingSystem::SettingSystem" alt="" coords="467,101,634,125"/>
 </map>

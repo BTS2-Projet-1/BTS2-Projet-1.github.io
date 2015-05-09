@@ -1,4 +1,4 @@
 <map id="ShowWidgets::SetPosShowPackageBox" name="ShowWidgets::SetPosShowPackageBox">
-<area shape="rect" id="node2" href="$class_console_windows.html#a0c0403dd7ee490a9a19e640c32143f07" title="ConsoleWindows::Init\l_Show_Widgets" alt="" coords="312,5,459,47"/>
-<area shape="rect" id="node3" href="$class_console_windows.html#a88d72d35d957d22438e18a30369596f3" title="ConsoleWindows::ConsoleWindows" alt="" coords="507,13,737,39"/>
+<area shape="rect" id="node2" href="$class_console_windows.html#a0c0403dd7ee490a9a19e640c32143f07" title="ConsoleWindows::Init\l_Show_Widgets" alt="" coords="272,5,399,41"/>
+<area shape="rect" id="node3" href="$class_console_windows.html#a88d72d35d957d22438e18a30369596f3" title="ConsoleWindows::ConsoleWindows" alt="" coords="447,11,645,35"/>
 </map>

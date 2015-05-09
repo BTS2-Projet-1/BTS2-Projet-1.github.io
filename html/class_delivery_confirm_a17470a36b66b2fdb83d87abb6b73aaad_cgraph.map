@@ -1,14 +1,11 @@
 <map id="DeliveryConfirm::DeliveryConfirm" name="DeliveryConfirm::DeliveryConfirm">
-<area shape="rect" id="node2" href="$class_delivery_confirm.html#a3dc78594f1bef55246c31cbcf56dd8fb" title="DeliveryConfirm::SetValue\lProgress" alt="" coords="235,27,407,68"/>
-<area shape="rect" id="node3" href="$class_delivery_confirm.html#a786adf160dbbbf94750c4502d67ef81c" title="DeliveryConfirm::ThreadFinished" alt="" coords="217,93,424,119"/>
-<area shape="rect" id="node10" href="$class_delivery_confirm.html#aedf9ca93a85b463d9e945074ba25a6c2" title="DeliveryConfirm::NewDelivery" alt="" coords="226,143,415,170"/>
-<area shape="rect" id="node12" href="$class_delivery_confirm.html#a624cfb7856fa7fc6d09558306b059958" title="DeliveryConfirm::FinishDelivery" alt="" coords="221,194,420,221"/>
-<area shape="rect" id="node13" href="$class_delivery_confirm.html#ab257c15bc440c22e8e256c2beb791a71" title="DeliveryConfirm::Receive\lListPackageBox" alt="" coords="239,245,403,287"/>
-<area shape="rect" id="node4" href="$class_box_choice.html#a857de1787d4cbcf15c4575b3e72f8dc0" title="BoxChoice::Refresh" alt="" coords="519,42,657,69"/>
-<area shape="rect" id="node8" href="$class_show_widgets.html#ab038ff960339a0f5c89db56992a3235e" title="ShowWidgets::ShowWBoxChoice" alt="" coords="479,93,697,119"/>
-<area shape="rect" id="node9" href="$class_show_widgets.html#af2fbfd95464a3bab01663fe19a80a1a4" title="ShowWidgets::ShowWMenuDelivery" alt="" coords="472,143,704,170"/>
-<area shape="rect" id="node5" href="$class_c_s_q_lite___local___d_b.html#aa26c4ee27cb0551f970569d402c3fe67" title="CSQLite_Local_DB::GetBoxesList" alt="" coords="752,42,973,69"/>
-<area shape="rect" id="node6" href="$class_c_s_q_lite___local___d_b.html#a25433d7ada1d4173d92fdedfc9f1f253" title="Enregistre dans la base de données l&#39;action suivante qui va être demandée, utilisée pour garder toute..." alt="" coords="1037,5,1247,47"/>
-<area shape="rect" id="node7" href="$class_c_s_q_lite___local___d_b.html#a4cd7505a856e22890c43d5a68191c2c4" title="Vérifie grâce à la base de données si la consigne signalée comme endommagée. " alt="" coords="1021,71,1263,98"/>
-<area shape="rect" id="node11" href="$class_delivery_confirm.html#ae504502e775713612893ef5a97b109d3" title="DeliveryConfirm::SaveDelivery" alt="" coords="492,194,684,221"/>
+<area shape="rect" id="node2" href="$class_delivery_confirm.html#a3dc78594f1bef55246c31cbcf56dd8fb" title="DeliveryConfirm::SetValue\lProgress" alt="" coords="211,5,359,41"/>
+<area shape="rect" id="node3" href="$class_delivery_confirm.html#a786adf160dbbbf94750c4502d67ef81c" title="DeliveryConfirm::ThreadFinished" alt="" coords="196,66,375,90"/>
+<area shape="rect" id="node7" href="$class_delivery_confirm.html#aedf9ca93a85b463d9e945074ba25a6c2" title="DeliveryConfirm::NewDelivery" alt="" coords="202,114,369,138"/>
+<area shape="rect" id="node9" href="$class_delivery_confirm.html#a624cfb7856fa7fc6d09558306b059958" title="DeliveryConfirm::FinishDelivery" alt="" coords="200,162,371,186"/>
+<area shape="rect" id="node10" href="$class_delivery_confirm.html#ab257c15bc440c22e8e256c2beb791a71" title="DeliveryConfirm::Receive\lListPackageBox" alt="" coords="214,211,357,247"/>
+<area shape="rect" id="node4" href="$class_box_choice.html#a857de1787d4cbcf15c4575b3e72f8dc0" title="BoxChoice::Refresh" alt="" coords="463,18,582,42"/>
+<area shape="rect" id="node5" href="$class_show_widgets.html#ab038ff960339a0f5c89db56992a3235e" title="ShowWidgets::ShowWBoxChoice" alt="" coords="429,66,616,90"/>
+<area shape="rect" id="node6" href="$class_show_widgets.html#af2fbfd95464a3bab01663fe19a80a1a4" title="ShowWidgets::ShowWMenuDelivery" alt="" coords="423,114,623,138"/>
+<area shape="rect" id="node8" href="$class_delivery_confirm.html#ae504502e775713612893ef5a97b109d3" title="DeliveryConfirm::SaveDelivery" alt="" coords="439,162,607,186"/>
 </map>

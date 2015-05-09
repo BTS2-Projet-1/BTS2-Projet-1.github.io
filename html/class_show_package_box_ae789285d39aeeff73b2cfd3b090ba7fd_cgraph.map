@@ -1,13 +1,11 @@
 <map id="ShowPackageBox::ManageListBox" name="ShowPackageBox::ManageListBox">
-<area shape="rect" id="node2" href="$class_show_package_box.html#abf76a0fceebf7a05630eec46ceb75496" title="ShowPackageBox::ResetAttribut" alt="" coords="280,5,492,32"/>
-<area shape="rect" id="node4" href="$class_show_package_box.html#acc97f2decd9e3c2697ac8f4cedf3b427" title="ShowPackageBox::isNumBox\lExist" alt="" coords="288,57,484,98"/>
-<area shape="rect" id="node5" href="$class_show_package_box.html#a26a928cd147cffb7f57a80c05a027bcc" title="ShowPackageBox::OpenDoor" alt="" coords="289,173,483,200"/>
-<area shape="rect" id="node6" href="$class_c_doors.html#a450ec2a776c3435103323a6e293f093f" title="CDoors::UnlockDoors" alt="" coords="577,148,723,175"/>
-<area shape="rect" id="node9" href="$class_c_doors.html#a23e1dec072702bf78eaa05332599e912" title="CDoors::OpenDoors" alt="" coords="581,199,719,225"/>
-<area shape="rect" id="node10" href="$class_custom_tree_widget.html#a4abeb5cd859226e4cbe2b83e941c3aea" title="CustomTreeWidget::AddItem" alt="" coords="291,275,481,301"/>
-<area shape="rect" id="node12" href="$class_thread___status_doors.html#a18867a3d9a012f4e725a7a8f2f59d8f8" title="Thread_StatusDoors\l::setListBox" alt="" coords="316,326,456,367"/>
-<area shape="rect" id="node3" href="$class_custom_tree_widget.html#ae144f5edf4f360d34230c84f2d6d06f2" title="CustomTreeWidget::ClearListItem" alt="" coords="541,5,759,32"/>
-<area shape="rect" id="node7" href="$class_c_s_q_lite___local___d_b.html#ace38eaa62cc5639b2a7be726d51a70f7" title="Fonction utilisée uniquement en mode débug pour un accès rapide d&#39;envoi personalisé de requêtes au fo..." alt="" coords="808,173,1015,200"/>
-<area shape="rect" id="node8" href="$class_c_s_q_lite___local___d_b.html#a25433d7ada1d4173d92fdedfc9f1f253" title="Enregistre dans la base de données l&#39;action suivante qui va être demandée, utilisée pour garder toute..." alt="" coords="1063,166,1273,207"/>
-<area shape="rect" id="node11" href="$class_custom_push_button.html#a7721ef73e9afd78aefc90ba69aca05da" title="CustomPushButton::setDisabledB" alt="" coords="540,275,760,301"/>
+<area shape="rect" id="node2" href="$class_show_package_box.html#abf76a0fceebf7a05630eec46ceb75496" title="ShowPackageBox::ResetAttribut" alt="" coords="244,5,424,29"/>
+<area shape="rect" id="node4" href="$class_show_package_box.html#acc97f2decd9e3c2697ac8f4cedf3b427" title="ShowPackageBox::isNumBox\lExist" alt="" coords="251,54,417,90"/>
+<area shape="rect" id="node5" href="$class_show_package_box.html#a26a928cd147cffb7f57a80c05a027bcc" title="ShowPackageBox::OpenDoor" alt="" coords="251,165,417,189"/>
+<area shape="rect" id="node6" href="$class_c_doors.html#a450ec2a776c3435103323a6e293f093f" title="CDoors::UnlockDoors" alt="" coords="501,141,626,165"/>
+<area shape="rect" id="node7" href="$class_c_doors.html#a23e1dec072702bf78eaa05332599e912" title="CDoors::OpenDoors" alt="" coords="504,203,623,227"/>
+<area shape="rect" id="node8" href="$class_custom_tree_widget.html#a4abeb5cd859226e4cbe2b83e941c3aea" title="CustomTreeWidget::AddItem" alt="" coords="255,264,413,288"/>
+<area shape="rect" id="node10" href="$class_thread___status_doors.html#a18867a3d9a012f4e725a7a8f2f59d8f8" title="Thread_StatusDoors\l::setListBox" alt="" coords="273,313,395,349"/>
+<area shape="rect" id="node3" href="$class_custom_tree_widget.html#ae144f5edf4f360d34230c84f2d6d06f2" title="CustomTreeWidget::ClearListItem" alt="" coords="473,5,653,29"/>
+<area shape="rect" id="node9" href="$class_custom_push_button.html#a7721ef73e9afd78aefc90ba69aca05da" title="CustomPushButton::setDisabledB" alt="" coords="472,264,655,288"/>
 </map>

@@ -1,10 +1,10 @@
 <map id="CDoors::DoorStatus" name="CDoors::DoorStatus">
-<area shape="rect" id="node2" href="$class_c_doors.html#a2d26d6cb0f578452071e7098fa21178d" title="CDoors::DoorsStatus" alt="" coords="192,97,337,123"/>
-<area shape="rect" id="node3" href="$class_c_s_q_lite___local___d_b.html#af3122618d25c7f4cc3225ac15ec91958" title="Récupère dans la base de données la liste des portes/consignes signalées comme endomagées. " alt="" coords="385,5,615,47"/>
-<area shape="rect" id="node4" href="$class_c_s_q_lite___local___d_b.html#a0f79fbd185261af7806a3a99292ef0a3" title="Fonction utilisée uniquement en mode débug pour simuler l&#39;accès de classe CDoors au portes des consig..." alt="" coords="663,49,869,91"/>
-<area shape="rect" id="node6" href="$class_c_doors.html#a949bbc01ecb9ecc72ecb40b1b6b0b04c" title="CDoors::DoorsIsClosed" alt="" coords="421,122,579,149"/>
-<area shape="rect" id="node8" href="$class_c_doors.html#ac68dc2b9ae3f716b09f4c79560a0c047" title="CDoors::CloseDoors" alt="" coords="430,177,570,203"/>
-<area shape="rect" id="node5" href="$class_c_s_q_lite___local___d_b.html#a25433d7ada1d4173d92fdedfc9f1f253" title="Enregistre dans la base de données l&#39;action suivante qui va être demandée, utilisée pour garder toute..." alt="" coords="917,115,1128,156"/>
-<area shape="rect" id="node7" href="$class_c_s_q_lite___local___d_b.html#a0c2471f87f624ad3e5a99f21dcd399da" title="Fonction utilisée uniquement en mode débug pour simuler l&#39;accès de classe CDoors au portes des consig..." alt="" coords="663,115,869,156"/>
-<area shape="rect" id="node9" href="$class_c_s_q_lite___local___d_b.html#ace38eaa62cc5639b2a7be726d51a70f7" title="Fonction utilisée uniquement en mode débug pour un accès rapide d&#39;envoi personalisé de requêtes au fo..." alt="" coords="663,181,869,207"/>
+<area shape="rect" id="node2" href="$class_c_doors.html#a2d26d6cb0f578452071e7098fa21178d" title="CDoors::DoorsStatus" alt="" coords="172,93,296,117"/>
+<area shape="rect" id="node3" href="$class_c_s_q_lite___local___d_b.html#af3122618d25c7f4cc3225ac15ec91958" title="Récupère dans la base de données la liste des portes/consignes signalées comme endomagées. " alt="" coords="344,5,533,41"/>
+<area shape="rect" id="node4" href="$class_c_s_q_lite___local___d_b.html#a0f79fbd185261af7806a3a99292ef0a3" title="Fonction utilisée uniquement en mode débug pour simuler l&#39;accès de classe CDoors au portes des consig..." alt="" coords="581,51,756,87"/>
+<area shape="rect" id="node6" href="$class_c_doors.html#a949bbc01ecb9ecc72ecb40b1b6b0b04c" title="CDoors::DoorsIsClosed" alt="" coords="371,117,506,141"/>
+<area shape="rect" id="node8" href="$class_c_doors.html#ac68dc2b9ae3f716b09f4c79560a0c047" title="CDoors::CloseDoors" alt="" coords="379,167,499,191"/>
+<area shape="rect" id="node5" href="$class_c_s_q_lite___local___d_b.html#a25433d7ada1d4173d92fdedfc9f1f253" title="Enregistre dans la base de données l&#39;action suivante qui va être demandée, utilisée pour garder toute..." alt="" coords="804,111,983,147"/>
+<area shape="rect" id="node7" href="$class_c_s_q_lite___local___d_b.html#a0c2471f87f624ad3e5a99f21dcd399da" title="Fonction utilisée uniquement en mode débug pour simuler l&#39;accès de classe CDoors au portes des consig..." alt="" coords="581,111,756,147"/>
+<area shape="rect" id="node9" href="$class_c_s_q_lite___local___d_b.html#ace38eaa62cc5639b2a7be726d51a70f7" title="Fonction utilisée uniquement en mode débug pour un accès rapide d&#39;envoi personalisé de requêtes au fo..." alt="" coords="581,171,756,195"/>
 </map>

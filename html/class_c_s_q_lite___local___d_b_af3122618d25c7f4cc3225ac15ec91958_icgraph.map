@@ -1,11 +1,11 @@
 <map id="CSQLite_Local_DB::GetDammagedBoxes" name="CSQLite_Local_DB::GetDammagedBoxes">
-<area shape="rect" id="node2" href="$class_c_doors.html#a2d26d6cb0f578452071e7098fa21178d" title="CDoors::DoorsStatus" alt="" coords="309,148,455,175"/>
-<area shape="rect" id="node10" href="$class_doors_manager.html#ad9e5dbe742190996a002d3b9390f6174" title="DoorsManager::CheckTestBox" alt="" coords="283,228,481,255"/>
-<area shape="rect" id="node3" href="$class_c_doors.html#a178089d2a36fba6f8903d30c6d0e60ed" title="CDoors::DoorStatus" alt="" coords="555,5,693,32"/>
-<area shape="rect" id="node4" href="$class_doors_manager.html#a3bf3ff7e7614b31422bdbdfc594e7f8e" title="DoorsManager::DoorsManager" alt="" coords="1016,148,1215,175"/>
-<area shape="rect" id="node5" href="$class_doors_manager.html#a8e1b66b56b554d177b7263cc7f6ab1e7" title="DoorsManager::CreateBoxes\lViewTest" alt="" coords="529,107,719,149"/>
-<area shape="rect" id="node7" href="$class_doors_manager.html#a20758ef57365191c3b3c6bcfcfbac90a" title="DoorsManager::CreateBoxes\lViewActDes" alt="" coords="529,173,719,214"/>
-<area shape="rect" id="node9" href="$class_thread___status_doors.html#a77bbfd3af1bdd0d741adcb60aeee7b73" title="Thread_StatusDoors::run" alt="" coords="541,239,707,265"/>
-<area shape="rect" id="node6" href="$class_doors_manager.html#a791c9c3a52e58e88fdf8ab16891dc4ca" title="DoorsManager::GotoDoorsTest" alt="" coords="767,117,968,144"/>
-<area shape="rect" id="node8" href="$class_doors_manager.html#af7d5e03a7e1a0d3da687bfcba912a0f2" title="DoorsManager::GotoActDes\lDoors" alt="" coords="775,171,960,213"/>
+<area shape="rect" id="node2" href="$class_c_doors.html#a2d26d6cb0f578452071e7098fa21178d" title="CDoors::DoorsStatus" alt="" coords="265,141,389,165"/>
+<area shape="rect" id="node10" href="$class_doors_manager.html#ad9e5dbe742190996a002d3b9390f6174" title="DoorsManager::CheckTestBox" alt="" coords="243,217,412,241"/>
+<area shape="rect" id="node3" href="$class_c_doors.html#a178089d2a36fba6f8903d30c6d0e60ed" title="CDoors::DoorStatus" alt="" coords="482,5,601,29"/>
+<area shape="rect" id="node4" href="$class_doors_manager.html#a3bf3ff7e7614b31422bdbdfc594e7f8e" title="DoorsManager::DoorsManager" alt="" coords="891,141,1061,165"/>
+<area shape="rect" id="node5" href="$class_doors_manager.html#a8e1b66b56b554d177b7263cc7f6ab1e7" title="DoorsManager::CreateBoxes\lViewTest" alt="" coords="460,105,623,141"/>
+<area shape="rect" id="node7" href="$class_doors_manager.html#a20758ef57365191c3b3c6bcfcfbac90a" title="DoorsManager::CreateBoxes\lViewActDes" alt="" coords="460,165,623,201"/>
+<area shape="rect" id="node9" href="$class_thread___status_doors.html#a77bbfd3af1bdd0d741adcb60aeee7b73" title="Thread_StatusDoors::run" alt="" coords="469,225,613,249"/>
+<area shape="rect" id="node6" href="$class_doors_manager.html#a791c9c3a52e58e88fdf8ab16891dc4ca" title="DoorsManager::GotoDoorsTest" alt="" coords="671,113,843,137"/>
+<area shape="rect" id="node8" href="$class_doors_manager.html#af7d5e03a7e1a0d3da687bfcba912a0f2" title="DoorsManager::GotoActDes\lDoors" alt="" coords="677,163,836,199"/>
 </map>

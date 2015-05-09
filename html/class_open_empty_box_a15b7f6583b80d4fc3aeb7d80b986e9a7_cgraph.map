@@ -1,9 +1,9 @@
 <map id="OpenEmptyBox::ReturnMenuDelivery" name="OpenEmptyBox::ReturnMenuDelivery">
-<area shape="rect" id="node2" href="$class_custom_tree_widget.html#a04467023e71a82a7f292101ee3d1f1f6" title="CustomTreeWidget::isDoors\lClose" alt="" coords="269,5,454,47"/>
-<area shape="rect" id="node3" href="$class_thread___status_doors.html#aff536fa5487437266b62a5c49f272ec2" title="Thread_StatusDoors\l::stopThread" alt="" coords="291,71,431,112"/>
-<area shape="rect" id="node4" href="$class_c_doors.html#a1954feca80181df85e4a59051387ff79" title="CDoors::LockDoors" alt="" coords="294,137,429,163"/>
-<area shape="rect" id="node7" href="$class_show_widgets.html#af2fbfd95464a3bab01663fe19a80a1a4" title="ShowWidgets::ShowWMenuDelivery" alt="" coords="245,187,477,214"/>
-<area shape="rect" id="node8" href="$class_open_empty_box.html#a608eac7cf60f57f914d38a6f431584f1" title="OpenEmptyBox::ShowMessage\lError" alt="" coords="258,239,465,280"/>
-<area shape="rect" id="node5" href="$class_c_s_q_lite___local___d_b.html#ace38eaa62cc5639b2a7be726d51a70f7" title="Fonction utilisée uniquement en mode débug pour un accès rapide d&#39;envoi personalisé de requêtes au fo..." alt="" coords="525,137,732,163"/>
-<area shape="rect" id="node6" href="$class_c_s_q_lite___local___d_b.html#a25433d7ada1d4173d92fdedfc9f1f253" title="Enregistre dans la base de données l&#39;action suivante qui va être demandée, utilisée pour garder toute..." alt="" coords="780,129,991,171"/>
+<area shape="rect" id="node2" href="$class_custom_tree_widget.html#a04467023e71a82a7f292101ee3d1f1f6" title="CustomTreeWidget::isDoors\lClose" alt="" coords="235,5,391,41"/>
+<area shape="rect" id="node3" href="$class_thread___status_doors.html#aff536fa5487437266b62a5c49f272ec2" title="Thread_StatusDoors\l::stopThread" alt="" coords="252,65,375,101"/>
+<area shape="rect" id="node4" href="$class_c_doors.html#a1954feca80181df85e4a59051387ff79" title="CDoors::LockDoors" alt="" coords="255,126,371,150"/>
+<area shape="rect" id="node7" href="$class_show_widgets.html#af2fbfd95464a3bab01663fe19a80a1a4" title="ShowWidgets::ShowWMenuDelivery" alt="" coords="213,174,413,198"/>
+<area shape="rect" id="node8" href="$class_open_empty_box.html#a608eac7cf60f57f914d38a6f431584f1" title="OpenEmptyBox::ShowMessage\lError" alt="" coords="226,223,401,259"/>
+<area shape="rect" id="node5" href="$class_c_s_q_lite___local___d_b.html#ace38eaa62cc5639b2a7be726d51a70f7" title="Fonction utilisée uniquement en mode débug pour un accès rapide d&#39;envoi personalisé de requêtes au fo..." alt="" coords="461,126,636,150"/>
+<area shape="rect" id="node6" href="$class_c_s_q_lite___local___d_b.html#a25433d7ada1d4173d92fdedfc9f1f253" title="Enregistre dans la base de données l&#39;action suivante qui va être demandée, utilisée pour garder toute..." alt="" coords="684,120,863,156"/>
 </map>

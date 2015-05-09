@@ -1,6 +1,6 @@
 <map id="CSQLite_Local_DB::DataBase_AutoSave_Needed" name="CSQLite_Local_DB::DataBase_AutoSave_Needed">
-<area shape="rect" id="node2" href="$class_c_l_m_s___d_b.html#a195eb6531811c480095b5b4786d8730b" title="CLMS_DB::AutoSave_DatabaseLMS" alt="" coords="252,5,487,32"/>
-<area shape="rect" id="node3" href="$class_c_s_q_lite___local___d_b.html#a3d92b3c5a71a60ef86315071268a62b8" title="Récupère le nom du site actuel ou est installé la console de gestion des consignes automatiques..." alt="" coords="288,57,451,98"/>
-<area shape="rect" id="node4" href="$class_c_s_q_lite___local___d_b.html#aa0750076670f4b4b4aa9eb0a925aaebb" title="Lit le contenu d&#39;un fichier SQL, utilisée pour lire les fichiers de constructions ou de sauvegardes p..." alt="" coords="256,123,483,149"/>
-<area shape="rect" id="node5" href="$class_c_s_q_lite___local___d_b.html#acdb2940a30f654f0c39cd0c259b9ad17" title="Ecrit un fichier SQL en mode &quot;append&quot;, soit a la fin d&#39;un fichier deja existant. " alt="" coords="256,173,483,200"/>
+<area shape="rect" id="node2" href="$class_c_l_m_s___d_b.html#a195eb6531811c480095b5b4786d8730b" title="CLMS_DB::AutoSave_DatabaseLMS" alt="" coords="220,5,417,29"/>
+<area shape="rect" id="node3" href="$class_c_s_q_lite___local___d_b.html#a3d92b3c5a71a60ef86315071268a62b8" title="Récupère le nom du site actuel ou est installé la console de gestion des consignes automatiques..." alt="" coords="251,54,387,90"/>
+<area shape="rect" id="node4" href="$class_c_s_q_lite___local___d_b.html#aa0750076670f4b4b4aa9eb0a925aaebb" title="Lit le contenu d&#39;un fichier SQL, utilisée pour lire les fichiers de constructions ou de sauvegardes p..." alt="" coords="225,115,412,139"/>
+<area shape="rect" id="node5" href="$class_c_s_q_lite___local___d_b.html#acdb2940a30f654f0c39cd0c259b9ad17" title="Ecrit un fichier SQL en mode &quot;append&quot;, soit a la fin d&#39;un fichier deja existant. " alt="" coords="225,163,412,187"/>
 </map>

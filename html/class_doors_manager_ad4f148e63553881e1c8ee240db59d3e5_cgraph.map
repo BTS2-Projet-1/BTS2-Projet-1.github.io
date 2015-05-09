@@ -1,6 +1,6 @@
 <map id="DoorsManager::OpenBox" name="DoorsManager::OpenBox">
-<area shape="rect" id="node2" href="$class_c_doors.html#ab4df5088482fdd8d84e3f1684f618a60" title="CDoors::OpenDoor" alt="" coords="221,13,352,39"/>
-<area shape="rect" id="node3" href="$class_c_doors.html#a23e1dec072702bf78eaa05332599e912" title="CDoors::OpenDoors" alt="" coords="400,13,539,39"/>
-<area shape="rect" id="node4" href="$class_c_s_q_lite___local___d_b.html#ace38eaa62cc5639b2a7be726d51a70f7" title="Fonction utilisée uniquement en mode débug pour un accès rapide d&#39;envoi personalisé de requêtes au fo..." alt="" coords="587,13,793,39"/>
-<area shape="rect" id="node5" href="$class_c_s_q_lite___local___d_b.html#a25433d7ada1d4173d92fdedfc9f1f253" title="Enregistre dans la base de données l&#39;action suivante qui va être demandée, utilisée pour garder toute..." alt="" coords="841,5,1052,47"/>
+<area shape="rect" id="node2" href="$class_c_doors.html#ab4df5088482fdd8d84e3f1684f618a60" title="CDoors::OpenDoor" alt="" coords="197,11,311,35"/>
+<area shape="rect" id="node3" href="$class_c_doors.html#a23e1dec072702bf78eaa05332599e912" title="CDoors::OpenDoors" alt="" coords="359,11,477,35"/>
+<area shape="rect" id="node4" href="$class_c_s_q_lite___local___d_b.html#ace38eaa62cc5639b2a7be726d51a70f7" title="Fonction utilisée uniquement en mode débug pour un accès rapide d&#39;envoi personalisé de requêtes au fo..." alt="" coords="525,11,700,35"/>
+<area shape="rect" id="node5" href="$class_c_s_q_lite___local___d_b.html#a25433d7ada1d4173d92fdedfc9f1f253" title="Enregistre dans la base de données l&#39;action suivante qui va être demandée, utilisée pour garder toute..." alt="" coords="748,5,927,41"/>
 </map>

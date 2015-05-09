@@ -7,6 +7,8 @@ var searchData=
   ['boxchoice_2eh',['boxchoice.h',['../boxchoice_8h.html',1,'']]],
   ['boxchoice_5f8cpp',['boxchoice_8cpp',['../boxchoice__8cpp_8js.html#a82a7e2b9bb92ae40d22ff8c3d566490e',1,'boxchoice_8cpp.js']]],
   ['boxchoice_5f8cpp_2ejs',['boxchoice_8cpp.js',['../boxchoice__8cpp_8js.html',1,'']]],
+  ['boxchoice_5f_5f8cpp_5f8js',['boxchoice__8cpp_8js',['../boxchoice____8cpp__8js_8js.html#acfd3189336e86f6f7a5bf34aad7714e8',1,'boxchoice__8cpp_8js.js']]],
+  ['boxchoice_5f_5f8cpp_5f8js_2ejs',['boxchoice__8cpp_8js.js',['../boxchoice____8cpp__8js_8js.html',1,'']]],
   ['boxcontainment',['BoxContainment',['../structstruct___packages_use_box.html#acf60daf8fe7ce9e18713f0d99a8752dc',1,'struct_PackagesUseBox']]],
   ['boxesstatussort',['BoxesStatusSort',['../class_doors_manager.html#a34a4d157ff1632a8ec3668885134f0f0',1,'DoorsManager']]],
   ['boxisdammaged',['BoxIsDammaged',['../structstruct___doors_status.html#a2663f0fa457393e07c10ba1c9843d0ee',1,'struct_DoorsStatus::BoxIsDammaged()'],['../class_c_s_q_lite___local___d_b.html#a4cd7505a856e22890c43d5a68191c2c4',1,'CSQLite_Local_DB::BoxIsDammaged()']]],

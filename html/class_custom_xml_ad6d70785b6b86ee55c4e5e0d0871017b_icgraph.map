@@ -1,5 +1,5 @@
 <map id="CustomXml::isChildrootExist" name="CustomXml::isChildrootExist">
-<area shape="rect" id="node2" href="$class_custom_xml.html#afaf0e16ed2a5722c035170cf19b25422" title="CustomXml::WriteFileXml" alt="" coords="240,23,409,50"/>
-<area shape="rect" id="node3" href="$class_setting_system.html#a5e05cfbb06519d77fd4eaaae479f4d2e" title="SettingSystem::SettingSystem" alt="" coords="704,23,907,50"/>
-<area shape="rect" id="node4" href="$class_setting_system.html#ae42307d6521ab351ec50dee2dc85439b" title="SettingSystem::UpdateFileXml" alt="" coords="457,23,656,50"/>
+<area shape="rect" id="node2" href="$class_custom_xml.html#afaf0e16ed2a5722c035170cf19b25422" title="CustomXml::WriteFileXml" alt="" coords="208,23,347,47"/>
+<area shape="rect" id="node3" href="$class_setting_system.html#a5e05cfbb06519d77fd4eaaae479f4d2e" title="SettingSystem::SettingSystem" alt="" coords="607,23,773,47"/>
+<area shape="rect" id="node4" href="$class_setting_system.html#ae42307d6521ab351ec50dee2dc85439b" title="SettingSystem::UpdateFileXml" alt="" coords="395,23,559,47"/>
 </map>

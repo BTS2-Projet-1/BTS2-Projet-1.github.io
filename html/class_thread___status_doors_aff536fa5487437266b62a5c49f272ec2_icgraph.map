@@ -1,10 +1,10 @@
 <map id="Thread_StatusDoors::stopThread" name="Thread_StatusDoors::stopThread">
-<area shape="rect" id="node2" href="$class_open_empty_box.html#a15b7f6583b80d4fc3aeb7d80b986e9a7" title="OpenEmptyBox::ReturnMenu\lDelivery" alt="" coords="207,5,399,47"/>
-<area shape="rect" id="node4" href="$class_show_package_box.html#a0a4f481ad113ea596093ecacd412b95e" title="ShowPackageBox::ReturnHome" alt="" coords="199,71,407,98"/>
-<area shape="rect" id="node6" href="$class_stow_packages.html#ae72794bc7847edf6c2e9f0a6562e082c" title="StowPackages::~StowPackages" alt="" coords="197,122,409,149"/>
-<area shape="rect" id="node7" href="$class_stow_packages.html#ab23d7a56579f1b972a38bf4403805b44" title="StowPackages::StoragePackages\lFinised" alt="" coords="193,173,413,215"/>
-<area shape="rect" id="node9" href="$class_stow_packages.html#a0c70d2e30981f94630fcdc56716d06ae" title="StowPackages::SaveBoxSelected" alt="" coords="194,239,413,266"/>
-<area shape="rect" id="node3" href="$class_open_empty_box.html#ad6794eab79d6bd8b9c4b26043cde493b" title="OpenEmptyBox::OpenEmptyBox" alt="" coords="475,13,690,39"/>
-<area shape="rect" id="node5" href="$class_show_package_box.html#a9d7ec045b4ddc79272f1f9a2a9d91333" title="ShowPackageBox::ShowPackageBox" alt="" coords="461,71,704,98"/>
-<area shape="rect" id="node8" href="$class_stow_packages.html#a116abaad4fab9f0dd7f243d99594b6f3" title="StowPackages::StowPackages" alt="" coords="481,210,685,237"/>
+<area shape="rect" id="node2" href="$class_open_empty_box.html#a15b7f6583b80d4fc3aeb7d80b986e9a7" title="OpenEmptyBox::ReturnMenu\lDelivery" alt="" coords="189,5,349,41"/>
+<area shape="rect" id="node4" href="$class_show_package_box.html#a0a4f481ad113ea596093ecacd412b95e" title="ShowPackageBox::ReturnHome" alt="" coords="181,66,357,90"/>
+<area shape="rect" id="node6" href="$class_stow_packages.html#ae72794bc7847edf6c2e9f0a6562e082c" title="StowPackages::~StowPackages" alt="" coords="179,114,359,138"/>
+<area shape="rect" id="node7" href="$class_stow_packages.html#ab23d7a56579f1b972a38bf4403805b44" title="StowPackages::StoragePackages\lFinised" alt="" coords="176,163,363,199"/>
+<area shape="rect" id="node9" href="$class_stow_packages.html#a0c70d2e30981f94630fcdc56716d06ae" title="StowPackages::SaveBoxSelected" alt="" coords="176,223,363,247"/>
+<area shape="rect" id="node3" href="$class_open_empty_box.html#ad6794eab79d6bd8b9c4b26043cde493b" title="OpenEmptyBox::OpenEmptyBox" alt="" coords="426,11,602,35"/>
+<area shape="rect" id="node5" href="$class_show_package_box.html#a9d7ec045b4ddc79272f1f9a2a9d91333" title="ShowPackageBox::ShowPackageBox" alt="" coords="411,66,617,90"/>
+<area shape="rect" id="node8" href="$class_stow_packages.html#a116abaad4fab9f0dd7f243d99594b6f3" title="StowPackages::StowPackages" alt="" coords="427,195,601,219"/>
 </map>

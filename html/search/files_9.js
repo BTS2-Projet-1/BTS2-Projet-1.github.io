@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['keyboard_2ecpp',['keyboard.cpp',['../keyboard_8cpp.html',1,'']]],
-  ['keyboard_2eh',['keyboard.h',['../keyboard_8h.html',1,'']]],
-  ['keyboard_5f8h_2ejs',['keyboard_8h.js',['../keyboard__8h_8js.html',1,'']]]
+  ['jquery_2ejs',['jquery.js',['../jquery_8js.html',1,'']]],
+  ['jquery_5f8js_2ejs',['jquery_8js.js',['../jquery__8js_8js.html',1,'']]]
 ];

@@ -1,10 +1,10 @@
 <map id="StowPackages::CreateListBoxTreeWidget" name="StowPackages::CreateListBoxTreeWidget">
-<area shape="rect" id="node2" href="$class_stow_packages.html#adb7562f93d92c610d3614a61fb4b64f8" title="StowPackages::OpenDoor" alt="" coords="237,35,411,62"/>
-<area shape="rect" id="node3" href="$class_c_doors.html#a450ec2a776c3435103323a6e293f093f" title="CDoors::UnlockDoors" alt="" coords="503,10,650,36"/>
-<area shape="rect" id="node6" href="$class_c_doors.html#a23e1dec072702bf78eaa05332599e912" title="CDoors::OpenDoors" alt="" coords="507,60,646,87"/>
-<area shape="rect" id="node7" href="$class_custom_tree_widget.html#a4abeb5cd859226e4cbe2b83e941c3aea" title="CustomTreeWidget::AddItem" alt="" coords="229,136,419,163"/>
-<area shape="rect" id="node9" href="$class_thread___status_doors.html#a18867a3d9a012f4e725a7a8f2f59d8f8" title="Thread_StatusDoors\l::setListBox" alt="" coords="254,188,394,229"/>
-<area shape="rect" id="node4" href="$class_c_s_q_lite___local___d_b.html#ace38eaa62cc5639b2a7be726d51a70f7" title="Fonction utilisée uniquement en mode débug pour un accès rapide d&#39;envoi personalisé de requêtes au fo..." alt="" coords="735,35,941,62"/>
-<area shape="rect" id="node5" href="$class_c_s_q_lite___local___d_b.html#a25433d7ada1d4173d92fdedfc9f1f253" title="Enregistre dans la base de données l&#39;action suivante qui va être demandée, utilisée pour garder toute..." alt="" coords="989,28,1200,69"/>
-<area shape="rect" id="node8" href="$class_custom_push_button.html#a7721ef73e9afd78aefc90ba69aca05da" title="CustomPushButton::setDisabledB" alt="" coords="467,136,687,163"/>
+<area shape="rect" id="node2" href="$class_stow_packages.html#adb7562f93d92c610d3614a61fb4b64f8" title="StowPackages::OpenDoor" alt="" coords="208,34,359,58"/>
+<area shape="rect" id="node3" href="$class_c_doors.html#a450ec2a776c3435103323a6e293f093f" title="CDoors::UnlockDoors" alt="" coords="439,10,565,34"/>
+<area shape="rect" id="node6" href="$class_c_doors.html#a23e1dec072702bf78eaa05332599e912" title="CDoors::OpenDoors" alt="" coords="443,58,561,82"/>
+<area shape="rect" id="node7" href="$class_custom_tree_widget.html#a4abeb5cd859226e4cbe2b83e941c3aea" title="CustomTreeWidget::AddItem" alt="" coords="204,132,363,156"/>
+<area shape="rect" id="node9" href="$class_thread___status_doors.html#a18867a3d9a012f4e725a7a8f2f59d8f8" title="Thread_StatusDoors\l::setListBox" alt="" coords="222,181,345,217"/>
+<area shape="rect" id="node4" href="$class_c_s_q_lite___local___d_b.html#ace38eaa62cc5639b2a7be726d51a70f7" title="Fonction utilisée uniquement en mode débug pour un accès rapide d&#39;envoi personalisé de requêtes au fo..." alt="" coords="641,34,816,58"/>
+<area shape="rect" id="node5" href="$class_c_s_q_lite___local___d_b.html#a25433d7ada1d4173d92fdedfc9f1f253" title="Enregistre dans la base de données l&#39;action suivante qui va être demandée, utilisée pour garder toute..." alt="" coords="864,28,1043,64"/>
+<area shape="rect" id="node8" href="$class_custom_push_button.html#a7721ef73e9afd78aefc90ba69aca05da" title="CustomPushButton::setDisabledB" alt="" coords="411,132,593,156"/>
 </map>

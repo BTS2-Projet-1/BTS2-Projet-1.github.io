@@ -1,4 +1,4 @@
 <map id="CDoors::UnlockDoor" name="CDoors::UnlockDoor">
-<area shape="rect" id="node2" href="$class_doors_manager.html#afb3ba894a6b58c8b45abc01d8d7881b5" title="DoorsManager::UnlockBox" alt="" coords="193,5,371,32"/>
-<area shape="rect" id="node3" href="$class_doors_manager.html#a3bf3ff7e7614b31422bdbdfc594e7f8e" title="DoorsManager::DoorsManager" alt="" coords="419,5,617,32"/>
+<area shape="rect" id="node2" href="$class_doors_manager.html#afb3ba894a6b58c8b45abc01d8d7881b5" title="DoorsManager::UnlockBox" alt="" coords="172,5,323,29"/>
+<area shape="rect" id="node3" href="$class_doors_manager.html#a3bf3ff7e7614b31422bdbdfc594e7f8e" title="DoorsManager::DoorsManager" alt="" coords="371,5,541,29"/>
 </map>

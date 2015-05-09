@@ -1,5 +1,5 @@
 <map id="CSQLite_Local_DB::SetDammagedBox" name="CSQLite_Local_DB::SetDammagedBox">
-<area shape="rect" id="node2" href="$class_doors_manager.html#ad9e5dbe742190996a002d3b9390f6174" title="DoorsManager::CheckTestBox" alt="" coords="309,5,507,32"/>
-<area shape="rect" id="node4" href="$class_doors_manager.html#a7be09e60a4625c76f376ee13f0d4e213" title="DoorsManager::DesactivateDoor" alt="" coords="304,56,512,83"/>
-<area shape="rect" id="node3" href="$class_doors_manager.html#a3bf3ff7e7614b31422bdbdfc594e7f8e" title="DoorsManager::DoorsManager" alt="" coords="560,31,759,57"/>
+<area shape="rect" id="node2" href="$class_doors_manager.html#ad9e5dbe742190996a002d3b9390f6174" title="DoorsManager::CheckTestBox" alt="" coords="265,5,434,29"/>
+<area shape="rect" id="node4" href="$class_doors_manager.html#a7be09e60a4625c76f376ee13f0d4e213" title="DoorsManager::DesactivateDoor" alt="" coords="260,53,439,77"/>
+<area shape="rect" id="node3" href="$class_doors_manager.html#a3bf3ff7e7614b31422bdbdfc594e7f8e" title="DoorsManager::DoorsManager" alt="" coords="487,29,657,53"/>
 </map>

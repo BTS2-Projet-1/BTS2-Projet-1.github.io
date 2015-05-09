@@ -1,10 +1,10 @@
 <map id="Customer::Customer" name="Customer::Customer">
-<area shape="rect" id="node2" href="$class_customer.html#a66993f2e3dc76682760f245baf58e93b" title="Customer::Upper" alt="" coords="212,5,332,32"/>
-<area shape="rect" id="node3" href="$class_customer.html#af9f7fe11b87887bfb743427bf4dba41a" title="Customer::ShowHome" alt="" coords="196,56,348,83"/>
-<area shape="rect" id="node5" href="$class_customer.html#a0d0980ceceaa1b81051c5ef2ae17957c" title="Customer::Valid_Code" alt="" coords="196,140,348,167"/>
-<area shape="rect" id="node4" href="$class_show_widgets.html#a41e281e6f1ca3b1789f552ac60e00776" title="ShowWidgets::ShowWConsole\lWindows" alt="" coords="409,31,612,73"/>
-<area shape="rect" id="node6" href="$class_c_s_q_lite___local___d_b.html#ad58d94663e785cd117ba466b22f55d05" title="Recherche dans la base de données si le code passé en paramètre est valide et peut être utilisé pour ..." alt="" coords="673,105,924,132"/>
-<area shape="rect" id="node8" href="$class_c_s_q_lite___local___d_b.html#a563fa1aa825325f4245acbed8ec6be39" title="Recherche dans la base de données la liste des consignes utilisées par le code de retrait d&#39;un client..." alt="" coords="411,149,611,190"/>
-<area shape="rect" id="node9" href="$class_show_widgets.html#a4e1eac80bbf827e314a45c5bd177c71a" title="ShowWidgets::ShowWPackageBox" alt="" coords="396,215,625,241"/>
-<area shape="rect" id="node7" href="$class_c_s_q_lite___local___d_b.html#a25433d7ada1d4173d92fdedfc9f1f253" title="Enregistre dans la base de données l&#39;action suivante qui va être demandée, utilisée pour garder toute..." alt="" coords="972,123,1183,165"/>
+<area shape="rect" id="node2" href="$class_customer.html#a66993f2e3dc76682760f245baf58e93b" title="Customer::Upper" alt="" coords="187,5,290,29"/>
+<area shape="rect" id="node3" href="$class_customer.html#af9f7fe11b87887bfb743427bf4dba41a" title="Customer::ShowHome" alt="" coords="173,53,304,77"/>
+<area shape="rect" id="node5" href="$class_customer.html#a0d0980ceceaa1b81051c5ef2ae17957c" title="Customer::Valid_Code" alt="" coords="174,133,303,157"/>
+<area shape="rect" id="node4" href="$class_show_widgets.html#a41e281e6f1ca3b1789f552ac60e00776" title="ShowWidgets::ShowWConsole\lWindows" alt="" coords="362,31,537,67"/>
+<area shape="rect" id="node6" href="$class_c_s_q_lite___local___d_b.html#ad58d94663e785cd117ba466b22f55d05" title="Recherche dans la base de données si le code passé en paramètre est valide et peut être utilisé pour ..." alt="" coords="595,100,803,124"/>
+<area shape="rect" id="node8" href="$class_c_s_q_lite___local___d_b.html#a563fa1aa825325f4245acbed8ec6be39" title="Recherche dans la base de données la liste des consignes utilisées par le code de retrait d&#39;un client..." alt="" coords="366,143,533,179"/>
+<area shape="rect" id="node9" href="$class_show_widgets.html#a4e1eac80bbf827e314a45c5bd177c71a" title="ShowWidgets::ShowWPackageBox" alt="" coords="352,204,547,228"/>
+<area shape="rect" id="node7" href="$class_c_s_q_lite___local___d_b.html#a25433d7ada1d4173d92fdedfc9f1f253" title="Enregistre dans la base de données l&#39;action suivante qui va être demandée, utilisée pour garder toute..." alt="" coords="851,119,1029,155"/>
 </map>

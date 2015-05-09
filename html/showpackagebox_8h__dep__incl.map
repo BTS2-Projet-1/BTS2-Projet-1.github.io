@@ -1,15 +1,11 @@
 <map id="S:/QT_CREATOR/Locker_Control/showpackagebox.h" name="S:/QT_CREATOR/Locker_Control/showpackagebox.h">
-<area shape="rect" id="node2" href="$customer_8h.html" title="S:/QT_CREATOR/Locker\l_Control/customer.h" alt="" coords="362,95,530,136"/>
-<area shape="rect" id="node3" href="$consolewindows_8h.html" title="S:/QT_CREATOR/Locker\l_Control/consolewindows.h" alt="" coords="159,184,338,225"/>
-<area shape="rect" id="node13" href="$showpackagebox_8cpp.html" title="S:/QT_CREATOR/Locker\l_Control/showpackagebox.cpp" alt="" coords="555,184,753,225"/>
-<area shape="rect" id="node14" href="$threaddeleteextractcode_8cpp.html" title="S:/QT_CREATOR/Locker\l_Control/threaddeleteextractcode.cpp" alt="" coords="605,95,844,136"/>
-<area shape="rect" id="node12" href="$customer_8cpp.html" title="S:/QT_CREATOR/Locker\l_Control/customer.cpp" alt="" coords="362,184,530,225"/>
-<area shape="rect" id="node4" href="$consolewindows_8cpp.html" title="S:/QT_CREATOR/Locker\l_Control/consolewindows.cpp" alt="" coords="5,273,199,315"/>
-<area shape="rect" id="node5" href="$thread__databasemanager_8h.html" title="S:/QT_CREATOR/Locker\l_Control/thread_databasemanager.h" alt="" coords="299,273,529,315"/>
-<area shape="rect" id="node6" href="$sqlite__local__databasemanager_8h.html" title="S:/QT_CREATOR/Locker\l_Control/sqlite_local\l_databasemanager.h" alt="" coords="165,363,333,419"/>
-<area shape="rect" id="node11" href="$main_8cpp.html" title="S:/QT_CREATOR/Locker\l_Control/main.cpp" alt="" coords="554,273,722,315"/>
-<area shape="rect" id="node10" href="$thread__databasemanager_8cpp.html" title="S:/QT_CREATOR/Locker\l_Control/thread_databasemanager.cpp" alt="" coords="357,370,602,411"/>
-<area shape="rect" id="node7" href="$thread__localdatabase__autosave_8h.html" title="S:/QT_CREATOR/Locker\l_Control/thread_localdatabase\l_autosave.h" alt="" coords="150,467,347,523"/>
-<area shape="rect" id="node8" href="$sqlite__local__databasemanager_8cpp.html" title="S:/QT_CREATOR/Locker\l_Control/sqlite_local\l_databasemanager.cpp" alt="" coords="29,571,197,627"/>
-<area shape="rect" id="node9" href="$thread__localdatabase__autosave_8cpp.html" title="S:/QT_CREATOR/Locker\l_Control/thread_localdatabase\l_autosave.cpp" alt="" coords="221,571,418,627"/>
+<area shape="rect" id="node2" href="$customer_8h.html" title="S:/QT_CREATOR/Locker\l_Control/customer.h" alt="" coords="553,89,693,125"/>
+<area shape="rect" id="node3" href="$consolewindows_8h.html" title="S:/QT_CREATOR/Locker\l_Control/consolewindows.h" alt="" coords="370,173,529,209"/>
+<area shape="rect" id="node9" href="$showpackagebox_8cpp.html" title="S:/QT_CREATOR/Locker\l_Control/showpackagebox.cpp" alt="" coords="717,173,891,209"/>
+<area shape="rect" id="node10" href="$threaddeleteextractcode_8cpp.html" title="S:/QT_CREATOR/Locker\l_Control/threaddeleteextractcode.cpp" alt="" coords="769,89,973,125"/>
+<area shape="rect" id="node8" href="$customer_8cpp.html" title="S:/QT_CREATOR/Locker\l_Control/customer.cpp" alt="" coords="553,173,693,209"/>
+<area shape="rect" id="node4" href="$consolewindows_8cpp.html" title="S:/QT_CREATOR/Locker\l_Control/consolewindows.cpp" alt="" coords="5,257,176,293"/>
+<area shape="rect" id="node5" href="$thread__databasemanager_8h.html" title="S:/QT_CREATOR/Locker\l_Control/thread_databasemanager.h" alt="" coords="201,257,399,293"/>
+<area shape="rect" id="node6" href="$sqlite__local__databasemanager_8h.html" title="S:/QT_CREATOR/Locker\l_Control/sqlite_local\l_databasemanager.h" alt="" coords="305,341,445,389"/>
+<area shape="rect" id="node7" href="$main_8cpp.html" title="S:/QT_CREATOR/Locker\l_Control/main.cpp" alt="" coords="499,257,639,293"/>
 </map>

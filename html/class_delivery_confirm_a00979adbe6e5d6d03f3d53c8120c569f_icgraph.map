@@ -1,5 +1,5 @@
 <map id="DeliveryConfirm::retranslateUi" name="DeliveryConfirm::retranslateUi">
-<area shape="rect" id="node2" href="$class_console_windows.html#a6b424a5d7283de1dbeeacfffdffa8e8b" title="ConsoleWindows::changeEvent" alt="" coords="245,5,449,32"/>
-<area shape="rect" id="node3" href="$class_console_windows.html#a38cb4285810e22c1f9d900142b1369ee" title="ConsoleWindows::SelectPays" alt="" coords="497,5,695,32"/>
-<area shape="rect" id="node4" href="$class_console_windows.html#a88d72d35d957d22438e18a30369596f3" title="ConsoleWindows::ConsoleWindows" alt="" coords="743,5,973,32"/>
+<area shape="rect" id="node2" href="$class_console_windows.html#a6b424a5d7283de1dbeeacfffdffa8e8b" title="ConsoleWindows::changeEvent" alt="" coords="219,5,395,29"/>
+<area shape="rect" id="node3" href="$class_console_windows.html#a38cb4285810e22c1f9d900142b1369ee" title="ConsoleWindows::SelectPays" alt="" coords="443,5,609,29"/>
+<area shape="rect" id="node4" href="$class_console_windows.html#a88d72d35d957d22438e18a30369596f3" title="ConsoleWindows::ConsoleWindows" alt="" coords="657,5,856,29"/>
 </map>

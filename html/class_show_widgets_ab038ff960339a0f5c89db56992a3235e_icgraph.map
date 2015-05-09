@@ -1,8 +1,8 @@
 <map id="ShowWidgets::ShowWBoxChoice" name="ShowWidgets::ShowWBoxChoice">
-<area shape="rect" id="node2" href="$class_delivery_confirm.html#a786adf160dbbbf94750c4502d67ef81c" title="DeliveryConfirm::ThreadFinished" alt="" coords="272,17,479,43"/>
-<area shape="rect" id="node4" href="$class_menu_delivery.html#a52fd4a7232869b37efa962d2f71d4fe0" title="MenuDelivery::Deposit" alt="" coords="300,71,451,98"/>
-<area shape="rect" id="node6" href="$class_scan_package.html#a0704734be634f7479a63725ee02ab077" title="ScanPackage::CancelDelivery" alt="" coords="277,122,473,149"/>
-<area shape="rect" id="node3" href="$class_delivery_confirm.html#a17470a36b66b2fdb83d87abb6b73aaad" title="DeliveryConfirm::Delivery\lConfirm" alt="" coords="541,5,705,47"/>
-<area shape="rect" id="node5" href="$class_menu_delivery.html#acd2954af8174eb04a4d92dd734e5e2af" title="MenuDelivery::MenuDelivery" alt="" coords="531,71,715,98"/>
-<area shape="rect" id="node7" href="$class_scan_package.html#abb814e86d814ec00b3298e016f681078" title="ScanPackage::ScanPackage" alt="" coords="527,122,719,149"/>
+<area shape="rect" id="node2" href="$class_delivery_confirm.html#a786adf160dbbbf94750c4502d67ef81c" title="DeliveryConfirm::ThreadFinished" alt="" coords="240,15,419,39"/>
+<area shape="rect" id="node4" href="$class_menu_delivery.html#a52fd4a7232869b37efa962d2f71d4fe0" title="MenuDelivery::Deposit" alt="" coords="265,66,394,90"/>
+<area shape="rect" id="node6" href="$class_scan_package.html#a0704734be634f7479a63725ee02ab077" title="ScanPackage::CancelDelivery" alt="" coords="246,114,413,138"/>
+<area shape="rect" id="node3" href="$class_delivery_confirm.html#a17470a36b66b2fdb83d87abb6b73aaad" title="DeliveryConfirm::Delivery\lConfirm" alt="" coords="475,5,618,41"/>
+<area shape="rect" id="node5" href="$class_menu_delivery.html#acd2954af8174eb04a4d92dd734e5e2af" title="MenuDelivery::MenuDelivery" alt="" coords="467,66,626,90"/>
+<area shape="rect" id="node7" href="$class_scan_package.html#abb814e86d814ec00b3298e016f681078" title="ScanPackage::ScanPackage" alt="" coords="467,114,627,138"/>
 </map>

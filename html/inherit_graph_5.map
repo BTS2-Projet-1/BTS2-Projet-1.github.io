@@ -1,4 +1,4 @@
 <map id="Graphe hiérarchique des classes" name="Graphe hiérarchique des classes">
-<area shape="rect" id="node2" href="$classdraw_box.html" title="drawBox" alt="" coords="221,5,293,32"/>
-<area shape="rect" id="node4" href="$class_c_s_q_lite___local___d_b.html" title="classe CSQLite_Local_DB, gestion des communications entre une base de données locale de type SQLite..." alt="" coords="189,56,324,83"/>
+<area shape="rect" id="node2" href="$classdraw_box.html" title="drawBox" alt="" coords="191,5,258,29"/>
+<area shape="rect" id="node4" href="$class_c_s_q_lite___local___d_b.html" title="classe CSQLite_Local_DB, gestion des communications entre une base de données locale de type SQLite..." alt="" coords="168,53,281,77"/>
 </map>

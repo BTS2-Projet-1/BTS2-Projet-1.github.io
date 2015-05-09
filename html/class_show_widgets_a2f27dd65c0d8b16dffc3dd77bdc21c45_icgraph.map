@@ -1,8 +1,8 @@
 <map id="ShowWidgets::ShowWMaintenanceMenu" name="ShowWidgets::ShowWMaintenanceMenu">
-<area shape="rect" id="node2" href="$class_doors_manager.html#a6c3c18c3cc453bd382185778bce0e06b" title="DoorsManager::ReturnMaintenanceMenu" alt="" coords="315,5,573,32"/>
-<area shape="rect" id="node4" href="$class_setting.html#aeeaaa915e45a30644728aa257c6cb2af" title="Setting::ShowMaintenanceMenu" alt="" coords="339,56,549,83"/>
-<area shape="rect" id="node6" href="$class_s_q_lite___local___database_manager.html#ab621325d2356d4f84a14103330db995d" title="SQLite_Local_DatabaseManager\l::ReturnMaintenanceMenu" alt="" coords="338,107,550,149"/>
-<area shape="rect" id="node3" href="$class_doors_manager.html#a3bf3ff7e7614b31422bdbdfc594e7f8e" title="DoorsManager::DoorsManager" alt="" coords="632,5,831,32"/>
-<area shape="rect" id="node5" href="$class_setting.html#a419079db5fab959f5b65bf0fd963e4da" title="Setting::Setting" alt="" coords="675,56,787,83"/>
-<area shape="rect" id="node7" href="$class_s_q_lite___local___database_manager.html#a7d002283954a928e19a37340f18ba6f5" title="SQLite_Local_DatabaseManager\l::SQLite_Local_DatabaseManager" alt="" coords="621,107,841,149"/>
+<area shape="rect" id="node2" href="$class_doors_manager.html#a6c3c18c3cc453bd382185778bce0e06b" title="DoorsManager::ReturnMaintenanceMenu" alt="" coords="276,5,495,29"/>
+<area shape="rect" id="node4" href="$class_setting.html#aeeaaa915e45a30644728aa257c6cb2af" title="Setting::ShowMaintenanceMenu" alt="" coords="297,53,474,77"/>
+<area shape="rect" id="node6" href="$class_s_q_lite___local___database_manager.html#ab621325d2356d4f84a14103330db995d" title="SQLite_Local_DatabaseManager\l::ReturnMaintenanceMenu" alt="" coords="295,102,475,138"/>
+<area shape="rect" id="node3" href="$class_doors_manager.html#a3bf3ff7e7614b31422bdbdfc594e7f8e" title="DoorsManager::DoorsManager" alt="" coords="551,5,721,29"/>
+<area shape="rect" id="node5" href="$class_setting.html#a419079db5fab959f5b65bf0fd963e4da" title="Setting::Setting" alt="" coords="589,53,683,77"/>
+<area shape="rect" id="node7" href="$class_s_q_lite___local___database_manager.html#a7d002283954a928e19a37340f18ba6f5" title="SQLite_Local_DatabaseManager\l::SQLite_Local_DatabaseManager" alt="" coords="543,102,729,138"/>
 </map>

@@ -1,6 +1,6 @@
 var NAVTREE =
 [
-  [ "Locker_Control", "index.html", [
+  [ "Locker_Control (LC)", "index.html", [
     [ "Locker_Control", "md__s_1__q_t__c_r_e_a_t_o_r__locker__control__r_e_a_d_m_e.html", null ],
     [ "Espaces de nommage", null, [
       [ "Liste des espaces de nommage", "namespaces.html", "namespaces" ]
@@ -33,11 +33,13 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"__data__structures__8h_8js.html",
-"class_custom_push_button.html#a2ac09510a5edf6649c47aacdcf0d0234",
-"class_show_widgets.html#ab45c6a1431201b74dc7a4755627cc7f6",
-"functions.html",
-"pages.html"
+"____data____structures____8h__8js_8js.html",
+"class__menu__delivery_8js.html#ad35dcd201caf08fa5b1417ac6e1c111b",
+"class_open_empty_box.html#a01a6e123ea35c6caa6668e07506538e8",
+"consolewindows_8h.html",
+"files__f_8js.html#ad01a7523f103d6242ef9b0451861231e",
+"login_8h.html",
+"variables__13_8js.html"
 ];
 
 var SYNCONMSG = 'cliquez pour désactiver la synchronisation du panel';

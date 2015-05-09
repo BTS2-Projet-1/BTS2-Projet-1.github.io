@@ -1,16 +1,11 @@
 <map id="ShowWidgets::ShowWConsoleWindows" name="ShowWidgets::ShowWConsoleWindows">
-<area shape="rect" id="node2" href="$class_customer.html#af9f7fe11b87887bfb743427bf4dba41a" title="Customer::ShowHome" alt="" coords="286,5,438,32"/>
-<area shape="rect" id="node4" href="$class_doors_manager.html#ab9753c7b5c389f066f9988285859acbc" title="DoorsManager::ReturnHome" alt="" coords="269,56,455,83"/>
-<area shape="rect" id="node5" href="$class_login.html#ae0fedd5f1f68645c45492123dd9564d4" title="Login::Cancel" alt="" coords="311,107,413,133"/>
-<area shape="rect" id="node7" href="$class_maintenance_menu.html#a24fea77d8fd45cf1298a8e26e177a862" title="MaintenanceMenu::ReturnHome" alt="" coords="258,157,466,184"/>
-<area shape="rect" id="node9" href="$class_menu_delivery.html#a9a7de928cfc99c01c8b00b91bb34cf9e" title="MenuDelivery::ReturnHome" alt="" coords="273,208,451,235"/>
-<area shape="rect" id="node11" href="$class_setting.html#a734669f10ea46b3ed3aa1270cef4216a" title="Setting::ReturnHome" alt="" coords="291,259,433,285"/>
-<area shape="rect" id="node13" href="$class_show_package_box.html#a0a4f481ad113ea596093ecacd412b95e" title="ShowPackageBox::ReturnHome" alt="" coords="258,309,466,336"/>
-<area shape="rect" id="node15" href="$class_s_q_lite___local___database_manager.html#acc8524a6da38c01831b2eb49cea93f31" title="SQLite_Local_DatabaseManager\l::ReturnHome" alt="" coords="256,361,468,402"/>
-<area shape="rect" id="node3" href="$class_customer.html#acac37f40f3e22b871d02e4f210b84926" title="Customer::Customer" alt="" coords="566,5,709,32"/>
-<area shape="rect" id="node6" href="$class_login.html#a2bb53ae350b649e1d5025295dd19d5cd" title="Login::Login" alt="" coords="591,107,683,133"/>
-<area shape="rect" id="node8" href="$class_maintenance_menu.html#aa14d840e72a986018d25e7a3ba14cbab" title="MaintenanceMenu::MaintenanceMenu" alt="" coords="516,157,759,184"/>
-<area shape="rect" id="node10" href="$class_menu_delivery.html#acd2954af8174eb04a4d92dd734e5e2af" title="MenuDelivery::MenuDelivery" alt="" coords="545,208,729,235"/>
-<area shape="rect" id="node12" href="$class_setting.html#a419079db5fab959f5b65bf0fd963e4da" title="Setting::Setting" alt="" coords="581,259,693,285"/>
-<area shape="rect" id="node14" href="$class_show_package_box.html#a9d7ec045b4ddc79272f1f9a2a9d91333" title="ShowPackageBox::ShowPackageBox" alt="" coords="516,309,759,336"/>
+<area shape="rect" id="node2" href="$class_customer.html#af9f7fe11b87887bfb743427bf4dba41a" title="Customer::ShowHome" alt="" coords="253,5,383,29"/>
+<area shape="rect" id="node4" href="$class_doors_manager.html#ab9753c7b5c389f066f9988285859acbc" title="DoorsManager::ReturnHome" alt="" coords="239,53,397,77"/>
+<area shape="rect" id="node5" href="$class_login.html#ae0fedd5f1f68645c45492123dd9564d4" title="Login::Cancel" alt="" coords="275,101,361,125"/>
+<area shape="rect" id="node6" href="$class_maintenance_menu.html#a24fea77d8fd45cf1298a8e26e177a862" title="MaintenanceMenu::ReturnHome" alt="" coords="231,149,405,173"/>
+<area shape="rect" id="node7" href="$class_menu_delivery.html#a9a7de928cfc99c01c8b00b91bb34cf9e" title="MenuDelivery::ReturnHome" alt="" coords="242,197,394,221"/>
+<area shape="rect" id="node8" href="$class_setting.html#a734669f10ea46b3ed3aa1270cef4216a" title="Setting::ReturnHome" alt="" coords="258,245,378,269"/>
+<area shape="rect" id="node9" href="$class_show_package_box.html#a0a4f481ad113ea596093ecacd412b95e" title="ShowPackageBox::ReturnHome" alt="" coords="230,293,406,317"/>
+<area shape="rect" id="node10" href="$class_s_q_lite___local___database_manager.html#acc8524a6da38c01831b2eb49cea93f31" title="SQLite_Local_DatabaseManager\l::ReturnHome" alt="" coords="228,342,408,378"/>
+<area shape="rect" id="node3" href="$class_customer.html#acac37f40f3e22b871d02e4f210b84926" title="Customer::Customer" alt="" coords="456,5,576,29"/>
 </map>

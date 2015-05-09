@@ -1,23 +1,11 @@
 <map id="OpenEmptyBox::OpenEmptyBox" name="OpenEmptyBox::OpenEmptyBox">
-<area shape="rect" id="node2" href="$class_open_empty_box.html#aea83e875ed499d5c0afeea80dd840e34" title="OpenEmptyBox::StatusDoors" alt="" coords="268,78,463,105"/>
-<area shape="rect" id="node5" href="$class_open_empty_box.html#a15b7f6583b80d4fc3aeb7d80b986e9a7" title="OpenEmptyBox::ReturnMenu\lDelivery" alt="" coords="269,260,461,301"/>
-<area shape="rect" id="node13" href="$class_open_empty_box.html#afd5c75107a4912a1edb7e19258c73c6f" title="OpenEmptyBox::CreateList\lBoxEmpty" alt="" coords="275,529,456,571"/>
-<area shape="rect" id="node3" href="$class_custom_tree_widget.html#a8c4ea47a57e7301097702c7aa04d2c58" title="CustomTreeWidget::Edited\lItem_ColumnStatusOfDoor" alt="" coords="537,5,716,47"/>
-<area shape="rect" id="node4" href="$class_custom_tree_widget.html#a4919b08a8230f1afc200c00f947d031d" title="CustomTreeWidget::Button\lVisible" alt="" coords="537,71,716,112"/>
-<area shape="rect" id="node6" href="$class_custom_tree_widget.html#a04467023e71a82a7f292101ee3d1f1f6" title="CustomTreeWidget::isDoors\lClose" alt="" coords="534,136,719,177"/>
-<area shape="rect" id="node7" href="$class_thread___status_doors.html#aff536fa5487437266b62a5c49f272ec2" title="Thread_StatusDoors\l::stopThread" alt="" coords="557,201,697,243"/>
-<area shape="rect" id="node8" href="$class_c_doors.html#a1954feca80181df85e4a59051387ff79" title="CDoors::LockDoors" alt="" coords="833,347,968,374"/>
-<area shape="rect" id="node11" href="$class_show_widgets.html#af2fbfd95464a3bab01663fe19a80a1a4" title="ShowWidgets::ShowWMenuDelivery" alt="" coords="511,318,743,345"/>
-<area shape="rect" id="node12" href="$class_open_empty_box.html#a608eac7cf60f57f914d38a6f431584f1" title="OpenEmptyBox::ShowMessage\lError" alt="" coords="523,369,730,411"/>
-<area shape="rect" id="node9" href="$class_c_s_q_lite___local___d_b.html#ace38eaa62cc5639b2a7be726d51a70f7" title="Fonction utilisée uniquement en mode débug pour un accès rapide d&#39;envoi personalisé de requêtes au fo..." alt="" coords="1059,494,1265,521"/>
-<area shape="rect" id="node10" href="$class_c_s_q_lite___local___d_b.html#a25433d7ada1d4173d92fdedfc9f1f253" title="Enregistre dans la base de données l&#39;action suivante qui va être demandée, utilisée pour garder toute..." alt="" coords="1313,523,1524,564"/>
-<area shape="rect" id="node14" href="$class_open_empty_box.html#a9535da0ecd3ff8cddfaa2881b44a3b0b" title="OpenEmptyBox::Reinitialize\lAttribut" alt="" coords="534,639,719,680"/>
-<area shape="rect" id="node16" href="$class_c_s_q_lite___local___d_b.html#a33f1aa3666a7af30e1cc36b228fb59fe" title="Recherche dans la base de données les consignes non endommagées et libres. " alt="" coords="1067,557,1257,599"/>
-<area shape="rect" id="node17" href="$class_c_doors.html#a450ec2a776c3435103323a6e293f093f" title="CDoors::UnlockDoors" alt="" coords="827,482,974,509"/>
-<area shape="rect" id="node18" href="$class_c_doors.html#a23e1dec072702bf78eaa05332599e912" title="CDoors::OpenDoors" alt="" coords="831,533,970,559"/>
-<area shape="rect" id="node19" href="$class_open_empty_box.html#ac0cd8e653c4faf6891cb2f5493f2745c" title="OpenEmptyBox::OpenDoor" alt="" coords="537,486,717,513"/>
-<area shape="rect" id="node20" href="$class_custom_tree_widget.html#a4abeb5cd859226e4cbe2b83e941c3aea" title="CustomTreeWidget::AddItem" alt="" coords="532,705,721,731"/>
-<area shape="rect" id="node22" href="$class_thread___status_doors.html#a18867a3d9a012f4e725a7a8f2f59d8f8" title="Thread_StatusDoors\l::setListBox" alt="" coords="557,756,697,797"/>
-<area shape="rect" id="node15" href="$class_custom_tree_widget.html#ae144f5edf4f360d34230c84f2d6d06f2" title="CustomTreeWidget::ClearListItem" alt="" coords="792,646,1009,673"/>
-<area shape="rect" id="node21" href="$class_custom_push_button.html#a7721ef73e9afd78aefc90ba69aca05da" title="CustomPushButton::setDisabledB" alt="" coords="791,705,1011,731"/>
+<area shape="rect" id="node2" href="$class_open_empty_box.html#aea83e875ed499d5c0afeea80dd840e34" title="OpenEmptyBox::StatusDoors" alt="" coords="229,71,392,95"/>
+<area shape="rect" id="node5" href="$class_open_empty_box.html#a15b7f6583b80d4fc3aeb7d80b986e9a7" title="OpenEmptyBox::ReturnMenu\lDelivery" alt="" coords="231,185,391,221"/>
+<area shape="rect" id="node10" href="$class_open_empty_box.html#afd5c75107a4912a1edb7e19258c73c6f" title="OpenEmptyBox::CreateList\lBoxEmpty" alt="" coords="235,245,386,281"/>
+<area shape="rect" id="node3" href="$class_custom_tree_widget.html#a8c4ea47a57e7301097702c7aa04d2c58" title="CustomTreeWidget::Edited\lItem_ColumnStatusOfDoor" alt="" coords="466,5,614,41"/>
+<area shape="rect" id="node4" href="$class_custom_tree_widget.html#a4919b08a8230f1afc200c00f947d031d" title="CustomTreeWidget::Button\lVisible" alt="" coords="465,65,615,101"/>
+<area shape="rect" id="node6" href="$class_custom_tree_widget.html#a04467023e71a82a7f292101ee3d1f1f6" title="CustomTreeWidget::isDoors\lClose" alt="" coords="462,125,618,161"/>
+<area shape="rect" id="node7" href="$class_thread___status_doors.html#aff536fa5487437266b62a5c49f272ec2" title="Thread_StatusDoors\l::stopThread" alt="" coords="479,185,601,221"/>
+<area shape="rect" id="node8" href="$class_c_doors.html#a1954feca80181df85e4a59051387ff79" title="CDoors::LockDoors" alt="" coords="482,246,598,270"/>
+<area shape="rect" id="node9" href="$class_show_widgets.html#af2fbfd95464a3bab01663fe19a80a1a4" title="ShowWidgets::ShowWMenuDelivery" alt="" coords="440,294,640,318"/>
 </map>

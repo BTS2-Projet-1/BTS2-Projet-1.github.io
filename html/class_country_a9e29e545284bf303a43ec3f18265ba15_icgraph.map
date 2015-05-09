@@ -1,5 +1,5 @@
 <map id="Country::SetFrench" name="Country::SetFrench">
-<area shape="rect" id="node2" href="$class_console_windows.html#a38cb4285810e22c1f9d900142b1369ee" title="ConsoleWindows::SelectPays" alt="" coords="188,5,385,32"/>
-<area shape="rect" id="node4" href="$class_country.html#a4cba457856775a13a17dfcb11a77e224" title="Country::Country" alt="" coords="227,56,347,83"/>
-<area shape="rect" id="node3" href="$class_console_windows.html#a88d72d35d957d22438e18a30369596f3" title="ConsoleWindows::ConsoleWindows" alt="" coords="433,5,664,32"/>
+<area shape="rect" id="node2" href="$class_console_windows.html#a38cb4285810e22c1f9d900142b1369ee" title="ConsoleWindows::SelectPays" alt="" coords="169,5,336,29"/>
+<area shape="rect" id="node4" href="$class_country.html#a4cba457856775a13a17dfcb11a77e224" title="Country::Country" alt="" coords="201,53,305,77"/>
+<area shape="rect" id="node3" href="$class_console_windows.html#a88d72d35d957d22438e18a30369596f3" title="ConsoleWindows::ConsoleWindows" alt="" coords="384,5,583,29"/>
 </map>
