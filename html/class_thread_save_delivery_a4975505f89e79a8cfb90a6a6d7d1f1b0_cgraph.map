@@ -1,8 +1,0 @@
-<map id="ThreadSaveDelivery::run" name="ThreadSaveDelivery::run">
-<area shape="rect" id="node2" href="$class_thread_save_delivery.html#ac83d9b16af43c11bf310261efdbd856b" title="ThreadSaveDelivery\l::saveListpackage" alt="" coords="196,27,316,63"/>
-<area shape="rect" id="node7" href="$class_thread_save_delivery.html#a0baa99579742255ab62d8f45fdc49460" title="ThreadSaveDelivery\l::saveListpackages" alt="" coords="196,87,316,123"/>
-<area shape="rect" id="node3" href="$class_c_l_m_s___d_b.html#aafc3d21a321dd88a7081a1931897e658" title="CLMS_DB::GenerateExtractCode" alt="" coords="364,5,544,29"/>
-<area shape="rect" id="node4" href="$class_c_s_q_lite___local___d_b.html#a3d92b3c5a71a60ef86315071268a62b8" title="Récupère le nom du site actuel ou est installée la console de gestion des consignes automatiques..." alt="" coords="386,54,522,90"/>
-<area shape="rect" id="node5" href="$class_c_s_q_lite___local___d_b.html#a650c693de81299bb9fd3f0671c0ab9d7" title="Met à jour la base de données locale avec les informations envoyées au serveur LMS lors de la livrais..." alt="" coords="377,114,531,150"/>
-<area shape="rect" id="node6" href="$class_c_s_q_lite___local___d_b.html#a25433d7ada1d4173d92fdedfc9f1f253" title="Enregistre dans la base de données l&#39;action suivante qui va être demandée, utilisée pour garder toute..." alt="" coords="592,114,771,150"/>
-</map>

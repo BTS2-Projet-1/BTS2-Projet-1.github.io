@@ -1,9 +1,0 @@
-<map id="SettingSystem::UpdateFileXml" name="SettingSystem::UpdateFileXml">
-<area shape="rect" id="node2" href="$class_custom_xml.html#afaf0e16ed2a5722c035170cf19b25422" title="CustomXml::WriteFileXml" alt="" coords="232,77,371,101"/>
-<area shape="rect" id="node7" href="$class_c_s_q_lite___local___d_b.html#a166919fe85fb0cbb25efcb3a9cf8056d" title="Modifie le nom du site actuel ou est installée la console de gestion des consignes automatiques..." alt="" coords="234,126,369,162"/>
-<area shape="rect" id="node8" href="$class_show_widgets.html#aea1ab328a9374608259240d0c8958500" title="ShowWidgets::ShowWSetting" alt="" coords="217,187,385,211"/>
-<area shape="rect" id="node3" href="$class_custom_xml.html#ad6d70785b6b86ee55c4e5e0d0871017b" title="CustomXml::isChildrootExist" alt="" coords="433,5,588,29"/>
-<area shape="rect" id="node4" href="$class_custom_xml.html#a3b6255c37ca74e822f70fae3c865a06a" title="CustomXml::OpenFileXml" alt="" coords="441,53,581,77"/>
-<area shape="rect" id="node5" href="$class_custom_xml.html#a0c83e9d625a87c5d04f3cba663615417" title="CustomXml::CloseFileXml" alt="" coords="440,101,581,125"/>
-<area shape="rect" id="node6" href="$class_custom_xml.html#a079fb80ab167ecb292ae973346de8421" title="CustomXml::isElemExist" alt="" coords="443,149,578,173"/>
-</map>

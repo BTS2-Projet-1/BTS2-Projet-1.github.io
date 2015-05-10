@@ -41,6 +41,7 @@ var hierarchy =
       [ "Setting", "class_setting.html", null ],
       [ "SettingSystem", "class_setting_system.html", null ],
       [ "ShowPackageBox", "class_show_package_box.html", null ],
+      [ "SiteConfigManager", "class_site_config_manager.html", null ],
       [ "SQLite_Local_DatabaseManager", "class_s_q_lite___local___database_manager.html", null ],
       [ "StowPackages", "class_stow_packages.html", null ]
     ] ],

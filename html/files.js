@@ -1,5 +1,6 @@
 var files =
 [
+    [ "html", "dir_2dae0a562653f78d59931f0e4b070746.html", "dir_2dae0a562653f78d59931f0e4b070746" ],
     [ "assistance.cpp", "assistance_8cpp.html", null ],
     [ "assistance.h", "assistance_8h.html", [
       [ "Assistance", "class_assistance.html", "class_assistance" ]
@@ -91,6 +92,10 @@ var files =
     [ "showwidgets.cpp", "showwidgets_8cpp.html", null ],
     [ "showwidgets.h", "showwidgets_8h.html", [
       [ "ShowWidgets", "class_show_widgets.html", "class_show_widgets" ]
+    ] ],
+    [ "siteconfigmanager.cpp", "siteconfigmanager_8cpp.html", null ],
+    [ "siteconfigmanager.h", "siteconfigmanager_8h.html", [
+      [ "SiteConfigManager", "class_site_config_manager.html", "class_site_config_manager" ]
     ] ],
     [ "sqlite_local_databasemanager.cpp", "sqlite__local__databasemanager_8cpp.html", null ],
     [ "sqlite_local_databasemanager.h", "sqlite__local__databasemanager_8h.html", "sqlite__local__databasemanager_8h" ],

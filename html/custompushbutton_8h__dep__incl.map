@@ -1,11 +1,11 @@
 <map id="S:/QT_CREATOR/Locker_Control/custompushbutton.h" name="S:/QT_CREATOR/Locker_Control/custompushbutton.h">
-<area shape="rect" id="node2" href="$customtreewidget_8h.html" title="S:/QT_CREATOR/Locker\l_Control/customtreewidget.h" alt="" coords="298,89,460,125"/>
-<area shape="rect" id="node4" href="$showpackagebox_8cpp.html" title="S:/QT_CREATOR/Locker\l_Control/showpackagebox.cpp" alt="" coords="43,257,216,293"/>
-<area shape="rect" id="node5" href="$stowpackages_8h.html" title="S:/QT_CREATOR/Locker\l_Control/stowpackages.h" alt="" coords="23,173,170,209"/>
-<area shape="rect" id="node6" href="$openemptybox_8h.html" title="S:/QT_CREATOR/Locker\l_Control/openemptybox.h" alt="" coords="746,173,892,209"/>
-<area shape="rect" id="node9" href="$scanpackage_8h.html" title="S:/QT_CREATOR/Locker\l_Control/scanpackage.h" alt="" coords="134,89,274,125"/>
-<area shape="rect" id="node10" href="$custompushbutton_8cpp.html" title="S:/QT_CREATOR/Locker\l_Control/custompushbutton.cpp" alt="" coords="536,89,710,125"/>
-<area shape="rect" id="node3" href="$showpackagebox_8h.html" title="S:/QT_CREATOR/Locker\l_Control/showpackagebox.h" alt="" coords="194,173,356,209"/>
-<area shape="rect" id="node7" href="$doorsmanager_8h.html" title="S:/QT_CREATOR/Locker\l_Control/doorsmanager.h" alt="" coords="380,173,524,209"/>
-<area shape="rect" id="node8" href="$customtreewidget_8cpp.html" title="S:/QT_CREATOR/Locker\l_Control/customtreewidget.cpp" alt="" coords="548,173,722,209"/>
+<area shape="rect" id="node2" href="$customtreewidget_8h.html" title="S:/QT_CREATOR/Locker\l_Control/customtreewidget.h" alt="" coords="276,87,417,120"/>
+<area shape="rect" id="node4" href="$showpackagebox_8cpp.html" title="S:/QT_CREATOR/Locker\l_Control/showpackagebox.cpp" alt="" coords="40,249,189,283"/>
+<area shape="rect" id="node5" href="$stowpackages_8h.html" title="S:/QT_CREATOR/Locker\l_Control/stowpackages.h" alt="" coords="23,168,150,201"/>
+<area shape="rect" id="node6" href="$openemptybox_8h.html" title="S:/QT_CREATOR/Locker\l_Control/openemptybox.h" alt="" coords="664,168,794,201"/>
+<area shape="rect" id="node9" href="$scanpackage_8h.html" title="S:/QT_CREATOR/Locker\l_Control/scanpackage.h" alt="" coords="124,87,251,120"/>
+<area shape="rect" id="node10" href="$custompushbutton_8cpp.html" title="S:/QT_CREATOR/Locker\l_Control/custompushbutton.cpp" alt="" coords="492,87,646,120"/>
+<area shape="rect" id="node3" href="$showpackagebox_8h.html" title="S:/QT_CREATOR/Locker\l_Control/showpackagebox.h" alt="" coords="174,168,313,201"/>
+<area shape="rect" id="node7" href="$doorsmanager_8h.html" title="S:/QT_CREATOR/Locker\l_Control/doorsmanager.h" alt="" coords="338,168,464,201"/>
+<area shape="rect" id="node8" href="$customtreewidget_8cpp.html" title="S:/QT_CREATOR/Locker\l_Control/customtreewidget.cpp" alt="" coords="488,168,639,201"/>
 </map>

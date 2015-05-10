@@ -33,7 +33,7 @@
   <td id="projectlogo"><img alt="Logo" src="logibag.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Locker_Control (LC)
-   &#160;<span id="projectnumber">1.3.1</span>
+   &#160;<span id="projectnumber">1.4.3</span>
    </div>
    <div id="projectbrief">Application Locker Control (LC), an automatic boxes manager on Qt in c++.</div>
   </td>
@@ -123,12 +123,12 @@ $(document).ready(function(){initNavTree('class_c_s_q_lite___local___d_b.html','
  <a href="class_c_s_q_lite___local___d_b.html#details">Plus de détails...</a></p>
 
 <p><code>#include &lt;<a class="el" href="csqlite__local__db_8h_source.html">csqlite_local_db.h</a>&gt;</code></p>
-<div class="dynheader">
-Graphe d'héritage de CSQLite_Local_DB:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_c_s_q_lite___local___d_b__inherit__graph.png" border="0" usemap="#_c_s_q_lite___local___d_b_inherit__map" alt="Inheritance graph"/></div>
-<map name="_c_s_q_lite___local___d_b_inherit__map" id="_c_s_q_lite___local___d_b_inherit__map">
-</map>
+<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Graphe d'héritage de CSQLite_Local_DB:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_c_s_q_lite___local___d_b__inherit__graph.svg" width="171" height="563"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="signals"></a>
@@ -181,6 +181,9 @@ Fonctions membres publiques</h2></td></tr>
 <tr class="memitem:aa26c4ee27cb0551f970569d402c3fe67"><td class="memItemLeft" align="right" valign="top">QList&lt; struct <a class="el" href="structstruct___door_geom.html">struct_DoorGeom</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_s_q_lite___local___d_b.html#aa26c4ee27cb0551f970569d402c3fe67">GetBoxesList</a> ()</td></tr>
 <tr class="memdesc:aa26c4ee27cb0551f970569d402c3fe67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Récupère dans le base de données toutes les portes installées et indique l'état des portes, utilisée pour dessiner le plan de l'installation des consignes lors de la livraison.  <a href="#aa26c4ee27cb0551f970569d402c3fe67">Plus de détails...</a><br /></td></tr>
 <tr class="separator:aa26c4ee27cb0551f970569d402c3fe67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8953ab830d118ae82567f6bae41989bb"><td class="memItemLeft" align="right" valign="top">QList&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_s_q_lite___local___d_b.html#a8953ab830d118ae82567f6bae41989bb">Get_All_idBox</a> ()</td></tr>
+<tr class="memdesc:a8953ab830d118ae82567f6bae41989bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Récupère dans le base de données les identifiants de toutes les portes installées.  <a href="#a8953ab830d118ae82567f6bae41989bb">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a8953ab830d118ae82567f6bae41989bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a650c693de81299bb9fd3f0671c0ab9d7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_s_q_lite___local___d_b.html#a650c693de81299bb9fd3f0671c0ab9d7">UpdateLocalData</a> (QList&lt; struct <a class="el" href="structstruct___packages_use_box.html">struct_PackagesUseBox</a> &gt; UpdatedPackagesUseBoxList)</td></tr>
 <tr class="memdesc:a650c693de81299bb9fd3f0671c0ab9d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Met à jour la base de données locale avec les informations envoyées au serveur LMS lors de la livraison.  <a href="#a650c693de81299bb9fd3f0671c0ab9d7">Plus de détails...</a><br /></td></tr>
 <tr class="separator:a650c693de81299bb9fd3f0671c0ab9d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -256,6 +259,10 @@ Fonctions membres protégées</h2></td></tr>
 <p>La classe <a class="el" href="class_c_s_q_lite___local___d_b.html" title="classe CSQLite_Local_DB, gestion des communications entre une base de données locale de type SQLite...">CSQLite_Local_DB</a> offre aux utilisateurs de LC (Locker Control) un moyen simple et efficace de communication avec une base de données locale.</p>
 <p>/!\ Attention : Il est obligatoire de passer en réference ou par pointeur, l'intance de cette classe entre les objets de LC, pour ne pas supprimer l'ancienne connexion établie sur la base de données et obtenir un comportement innatendu.</p>
 <p>Dans le cas ou le programme tente de réaliser des actions avec la base de données avec l'attibut m_DataBaseIsReady égal à faux (false), les fonctions membres retouneront une erreur et aucunes des actions demendées ne seront réalisées.</p>
+<p><a href="https://github.com/BTS2-Projet-1/Locker_Control">Projet Locker Control sur github.</a></p>
+<div align="center">
+<object type="image/svg+xml" data="CSQLite_Local_DB.svg"></object>
+</div>
 <dl class="section author"><dt>Auteur</dt><dd>HOUDAYER Pierre</dd></dl>
 <dl class="section version"><dt>Version</dt><dd>2.6</dd></dl>
 <dl class="section date"><dt>Date</dt><dd>7 mai 2015 </dd></dl>
@@ -285,21 +292,15 @@ Fonctions membres protégées</h2></td></tr>
 <p>Constructeur de la classe <a class="el" href="class_c_s_q_lite___local___d_b.html" title="classe CSQLite_Local_DB, gestion des communications entre une base de données locale de type SQLite...">CSQLite_Local_DB</a>, qui hérite de QObject affin de pouvoir émètre des signaux, pour certaines fonctions nécessitant l'information de l'évolution de la tâche demandée (sauvegarde de la base de données par exemple). </p>
 <p>Le constructeur initalise et ouvre la base de données automatiquement grâce aux attibuts de la classe. Si l'ouverture de la base de données est correcte un attibut "m_DataBaseIsReady" accessible avec <a class="el" href="class_c_s_q_lite___local___d_b.html#ad3380dd61189863c1d2d5e681b853e0e" title="Permet de récupérer la valeur (état), de la connexion (ouverture) de la base de donnée. ">Get_DataBaseIsReady()</a> revoie avec un booléen, si la connexion avec la base de données est effectuée sans erreurs vrai (true) ou avec un echec faux (false).</p>
 <p>/!\ Attention : l'attibut m_DataBaseIsReady peux être aussi mis à faux (false) si le pointeur sur une instance de <a class="el" href="class_c_l_m_s___d_b.html">CLMS_DB</a> passé en paramètre est égal à "NULL", de la même façon que pour la connexion à une base de données, les fonctions membres n'effectueront aucunes actions. Alors que la majeure partie des fonctions membres peuevent traiter les demandes avec la base de données mais l'acces global des fonctions seront bloquées.</p>
+<div align="center">
+<object type="image/svg+xml" data="CSQLite_Local_DB--Builder.svg"></object>
+</div>
 <dl class="params"><dt>Paramètres</dt><dd>
   <table class="params">
     <tr><td class="paramname"><a class="el" href="class_c_l_m_s___d_b.html">CLMS_DB</a></td><td>*LMS_Server La classe <a class="el" href="class_c_s_q_lite___local___d_b.html" title="classe CSQLite_Local_DB, gestion des communications entre une base de données locale de type SQLite...">CSQLite_Local_DB</a> à besoin d'un pointeur valide sur une instance de la classe <a class="el" href="class_c_l_m_s___d_b.html">CLMS_DB</a>, pour communiquer avec le serveur LMS (Sauvegrades et mises à jour par exemple). </td></tr>
   </table>
   </dd>
 </dl>
-
-<p><div class="dynheader">
-Voici le graphe d'appel pour cette fonction :</div>
-<div class="dyncontent">
-<div class="center"><img src="class_c_s_q_lite___local___d_b_a1de8dfa1437f6ff518b0375017aba25f_cgraph.png" border="0" usemap="#class_c_s_q_lite___local___d_b_a1de8dfa1437f6ff518b0375017aba25f_cgraph" alt=""/></div>
-<map name="class_c_s_q_lite___local___d_b_a1de8dfa1437f6ff518b0375017aba25f_cgraph" id="class_c_s_q_lite___local___d_b_a1de8dfa1437f6ff518b0375017aba25f_cgraph">
-<area shape="rect" id="node2" href="class_c_s_q_lite___local___d_b.html#a9ca65a5a5f4b64892744771cedb1cd45" title="Effectue la connexion d&#39;une base de données avec le fichier SQLite de la base de données, si ce n&#39;est pas possible, (fichier inexistant par exemple) la fonction tente de créer une base de donnée. Si il existe les fichiers de sauvegarde, la nouvelle base de données sera construite avec sinon, si les fichiers des base SQL exixtent la nouvelle base de données sera construite avec. Enfin si aucun des cas précédent n&#39;est possible, la fonction retoune une erreur. " alt="" coords="212,87,391,111"/><area shape="rect" id="node3" href="class_c_s_q_lite___local___d_b.html#ad8e4895a47708bc5f3e5abce00be1853" title="Fonction de traitement de la base de données, Crée une nouvelle base de données vide, par defaut, une sauvegarde, et charge une sauvegarde. La fonction evoie des signaux CurrentProcessLoading() et SlowProcess() pour l&#39;information de l&#39;avencée du traitement. " alt="" coords="439,135,579,171"/><area shape="rect" id="node4" href="class_c_s_q_lite___local___d_b.html#aa0750076670f4b4b4aa9eb0a925aaebb" title="Lit le contenu d&#39;un fichier SQL, utilisée pour lire les fichiers de constructions ou de sauvegardes d..." alt="" coords="889,224,1076,248"/><area shape="rect" id="node5" href="class_c_l_m_s___d_b.html#a8b366690793d462f76cfa82dcf39464d" title="CLMS_DB::ManualSave\l_DatabaseLMS" alt="" coords="667,102,801,138"/><area shape="rect" id="node6" href="class_c_s_q_lite___local___d_b.html#a3d92b3c5a71a60ef86315071268a62b8" title="Récupère le nom du site actuel ou est installée la console de gestion des consignes automatiques..." alt="" coords="666,162,802,198"/><area shape="rect" id="node7" href="class_c_s_q_lite___local___d_b.html#a8d0221163f980dbec609d06d1666efa6" title="Supprime l&#39;ancien fichier et effectue une sauvegarde de la base de données actuel dans un fichier (ch..." alt="" coords="639,273,829,297"/><area shape="rect" id="node8" href="class_c_s_q_lite___local___d_b.html#acdb2940a30f654f0c39cd0c259b9ad17" title="Ecrit un fichier SQL en mode &quot;append&quot;, soit a la fin d&#39;un fichier deja existant. " alt="" coords="889,297,1076,321"/><area shape="rect" id="node9" href="class_c_l_m_s___d_b.html#ad94e39f350a60170e18086b3655084d6" title="CLMS_DB::Get_LastDatabase_Save" alt="" coords="635,53,833,77"/><area shape="rect" id="node10" href="class_c_s_q_lite___local___d_b.html#ae0acaed46f00a2e0354dd5b2bd5b684a" title="Coupe la connexion avec la base de données et en crée une nouvelle avec les informations contenue dan..." alt="" coords="627,5,841,29"/></map>
-</div>
-</p>
 
 </div>
 </div>
@@ -317,7 +318,10 @@ Voici le graphe d'appel pour cette fonction :</div>
 </div><div class="memdoc">
 
 <p>Destructeur de la classe <a class="el" href="class_c_s_q_lite___local___d_b.html" title="classe CSQLite_Local_DB, gestion des communications entre une base de données locale de type SQLite...">CSQLite_Local_DB</a>, Si la base de données a été ouverte, elle sera fermée et l'instance sera détruite. </p>
-
+<div align="center">
+<object type="image/svg+xml" data="CSQLite_Local_DB--destroyer.svg"></object>
+</div>
+ 
 </div>
 </div>
 <h2 class="groupheader">Documentation des fonctions membres</h2>
@@ -344,15 +348,6 @@ Voici le graphe d'appel pour cette fonction :</div>
 </dl>
 <dl class="section return"><dt>Renvoie</dt><dd>Retourne un booléen, à vrai (true) si la consigne demmandée est signalée comme endommagée, faux (false) sinon ou si la base de données n'est pas ouverte. </dd></dl>
 
-<p><div class="dynheader">
-Voici le graphe des appelants de cette fonction :</div>
-<div class="dyncontent">
-<div class="center"><img src="class_c_s_q_lite___local___d_b_a4cd7505a856e22890c43d5a68191c2c4_icgraph.png" border="0" usemap="#class_c_s_q_lite___local___d_b_a4cd7505a856e22890c43d5a68191c2c4_icgraph" alt=""/></div>
-<map name="class_c_s_q_lite___local___d_b_a4cd7505a856e22890c43d5a68191c2c4_icgraph" id="class_c_s_q_lite___local___d_b_a4cd7505a856e22890c43d5a68191c2c4_icgraph">
-<area shape="rect" id="node2" href="class_c_s_q_lite___local___d_b.html#aa26c4ee27cb0551f970569d402c3fe67" title="Récupère dans le base de données toutes les portes installées et indique l&#39;état des portes..." alt="" coords="252,55,436,79"/><area shape="rect" id="node7" href="class_doors_manager.html#a34966cceb9b281f2f72dfb0cb971c17c" title="DoorsManager::RunActDesBox" alt="" coords="257,151,431,175"/><area shape="rect" id="node3" href="class_box_choice.html#a84014b17965fe73d58166766e8ec1898" title="BoxChoice::BoxChoice" alt="" coords="718,5,850,29"/><area shape="rect" id="node4" href="class_box_choice.html#a857de1787d4cbcf15c4575b3e72f8dc0" title="BoxChoice::Refresh" alt="" coords="506,55,625,79"/><area shape="rect" id="node5" href="class_delivery_confirm.html#ae504502e775713612893ef5a97b109d3" title="DeliveryConfirm::SaveDelivery" alt="" coords="700,53,868,77"/><area shape="rect" id="node6" href="class_delivery_confirm.html#a786adf160dbbbf94750c4502d67ef81c" title="DeliveryConfirm::ThreadFinished" alt="" coords="695,101,873,125"/><area shape="rect" id="node8" href="class_doors_manager.html#a3bf3ff7e7614b31422bdbdfc594e7f8e" title="DoorsManager::DoorsManager" alt="" coords="921,179,1092,203"/><area shape="rect" id="node9" href="class_doors_manager.html#a20758ef57365191c3b3c6bcfcfbac90a" title="DoorsManager::CreateBoxes\lViewActDes" alt="" coords="484,201,647,237"/><area shape="rect" id="node10" href="class_doors_manager.html#af7d5e03a7e1a0d3da687bfcba912a0f2" title="DoorsManager::GotoActDes\lDoors" alt="" coords="705,201,863,237"/></map>
-</div>
-</p>
-
 </div>
 </div>
 <a class="anchor" id="ad58d94663e785cd117ba466b22f55d05"></a>
@@ -376,25 +371,11 @@ Voici le graphe des appelants de cette fonction :</div>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Renvoie</dt><dd>Retourne un int, entier ayant pour valeur : -1 : si la base de données n'est pas ouverte. 0 : si le code de retrait est correct, mais il est expiré (14 jours par defaut). 1 : si le code de retrait est valide et non expiré (Utilisable par le client). </dd></dl>
-
-<p><div class="dynheader">
-Voici le graphe d'appel pour cette fonction :</div>
-<div class="dyncontent">
-<div class="center"><img src="class_c_s_q_lite___local___d_b_ad58d94663e785cd117ba466b22f55d05_cgraph.png" border="0" usemap="#class_c_s_q_lite___local___d_b_ad58d94663e785cd117ba466b22f55d05_cgraph" alt=""/></div>
-<map name="class_c_s_q_lite___local___d_b_ad58d94663e785cd117ba466b22f55d05_cgraph" id="class_c_s_q_lite___local___d_b_ad58d94663e785cd117ba466b22f55d05_cgraph">
-<area shape="rect" id="node2" href="class_c_s_q_lite___local___d_b.html#a25433d7ada1d4173d92fdedfc9f1f253" title="Enregistre dans la base de données l&#39;action suivante qui va être demandée, utilisée pour garder toute..." alt="" coords="261,5,440,41"/></map>
-</div>
-</p>
-
-<p><div class="dynheader">
-Voici le graphe des appelants de cette fonction :</div>
-<div class="dyncontent">
-<div class="center"><img src="class_c_s_q_lite___local___d_b_ad58d94663e785cd117ba466b22f55d05_icgraph.png" border="0" usemap="#class_c_s_q_lite___local___d_b_ad58d94663e785cd117ba466b22f55d05_icgraph" alt=""/></div>
-<map name="class_c_s_q_lite___local___d_b_ad58d94663e785cd117ba466b22f55d05_icgraph" id="class_c_s_q_lite___local___d_b_ad58d94663e785cd117ba466b22f55d05_icgraph">
-<area shape="rect" id="node2" href="class_c_s_q_lite___local___d_b.html#a563fa1aa825325f4245acbed8ec6be39" title="Recherche dans la base de données la liste des consignes utilisées par le code de retrait d&#39;un client..." alt="" coords="261,5,428,41"/><area shape="rect" id="node3" href="class_customer.html#a0d0980ceceaa1b81051c5ef2ae17957c" title="Customer::Valid_Code" alt="" coords="476,39,605,63"/><area shape="rect" id="node4" href="class_customer.html#acac37f40f3e22b871d02e4f210b84926" title="Customer::Customer" alt="" coords="653,39,773,63"/></map>
-</div>
-</p>
+<dl class="section return"><dt>Renvoie</dt><dd>Retourne un int, entier ayant pour valeur :<br />
+ -1 : si la base de données n'est pas ouverte.<br />
+ 0 : si le code de retrait est correct, mais il est expiré (14 jours par defaut).<br />
+ 1 : si le code de retrait est valide et non expiré (Utilisable par le client).<br />
+</dd></dl>
 
 </div>
 </div>
@@ -420,26 +401,11 @@ Voici le graphe des appelants de cette fonction :</div>
 </div><div class="memdoc">
 
 <p>Effectue la connexion d'une base de données avec le fichier SQLite de la base de données, si ce n'est pas possible, (fichier inexistant par exemple) la fonction tente de créer une base de donnée. Si il existe les fichiers de sauvegarde, la nouvelle base de données sera construite avec sinon, si les fichiers des base SQL exixtent la nouvelle base de données sera construite avec. Enfin si aucun des cas précédent n'est possible, la fonction retoune une erreur. </p>
-<dl class="section return"><dt>Renvoie</dt><dd>Retourne un booléen sur la réussite (true) ou l'échec (false) de la connexion a la base de données, en cas d'érreur il peut être utile d'appeler <a class="el" href="class_c_s_q_lite___local___d_b.html#afac16a908090524ff6ae6958d2a5c399" title="Récupère la dèrenière érreur survenue suite à l&#39;interaction sur la base de données. ">lastError()</a> pour plus d'informations. </dd></dl>
-
-<p><div class="dynheader">
-Voici le graphe d'appel pour cette fonction :</div>
-<div class="dyncontent">
-<div class="center"><img src="class_c_s_q_lite___local___d_b_a9ca65a5a5f4b64892744771cedb1cd45_cgraph.png" border="0" usemap="#class_c_s_q_lite___local___d_b_a9ca65a5a5f4b64892744771cedb1cd45_cgraph" alt=""/></div>
-<map name="class_c_s_q_lite___local___d_b_a9ca65a5a5f4b64892744771cedb1cd45_cgraph" id="class_c_s_q_lite___local___d_b_a9ca65a5a5f4b64892744771cedb1cd45_cgraph">
-<area shape="rect" id="node2" href="class_c_s_q_lite___local___d_b.html#ad8e4895a47708bc5f3e5abce00be1853" title="Fonction de traitement de la base de données, Crée une nouvelle base de données vide, par defaut, une sauvegarde, et charge une sauvegarde. La fonction evoie des signaux CurrentProcessLoading() et SlowProcess() pour l&#39;information de l&#39;avencée du traitement. " alt="" coords="232,123,372,159"/><area shape="rect" id="node3" href="class_c_s_q_lite___local___d_b.html#aa0750076670f4b4b4aa9eb0a925aaebb" title="Lit le contenu d&#39;un fichier SQL, utilisée pour lire les fichiers de constructions ou de sauvegardes d..." alt="" coords="683,55,869,79"/><area shape="rect" id="node4" href="class_c_l_m_s___d_b.html#a8b366690793d462f76cfa82dcf39464d" title="CLMS_DB::ManualSave\l_DatabaseLMS" alt="" coords="460,251,595,287"/><area shape="rect" id="node5" href="class_c_s_q_lite___local___d_b.html#a3d92b3c5a71a60ef86315071268a62b8" title="Récupère le nom du site actuel ou est installée la console de gestion des consignes automatiques..." alt="" coords="459,311,595,347"/><area shape="rect" id="node6" href="class_c_s_q_lite___local___d_b.html#a8d0221163f980dbec609d06d1666efa6" title="Supprime l&#39;ancien fichier et effectue une sauvegarde de la base de données actuel dans un fichier (ch..." alt="" coords="432,104,623,128"/><area shape="rect" id="node7" href="class_c_s_q_lite___local___d_b.html#acdb2940a30f654f0c39cd0c259b9ad17" title="Ecrit un fichier SQL en mode &quot;append&quot;, soit a la fin d&#39;un fichier deja existant. " alt="" coords="683,152,869,176"/><area shape="rect" id="node8" href="class_c_l_m_s___d_b.html#ad94e39f350a60170e18086b3655084d6" title="CLMS_DB::Get_LastDatabase_Save" alt="" coords="429,152,626,176"/><area shape="rect" id="node9" href="class_c_s_q_lite___local___d_b.html#ae0acaed46f00a2e0354dd5b2bd5b684a" title="Coupe la connexion avec la base de données et en crée une nouvelle avec les informations contenue dan..." alt="" coords="420,5,635,29"/><area shape="rect" id="node10" href="class_c_s_q_lite___local___d_b.html#a8222ffaffb0d9945e4343131707b1c22" title="Ferme la base de données précédament ouverte et la supprime (utilisée en fin de programme ou dans le ..." alt="" coords="691,5,861,29"/></map>
+<dl class="section return"><dt>Renvoie</dt><dd>Retourne un booléen sur la réussite (true) ou l'échec (false) de la connexion a la base de données, en cas d'érreur il peut être utile d'appeler <a class="el" href="class_c_s_q_lite___local___d_b.html#afac16a908090524ff6ae6958d2a5c399" title="Récupère la dèrenière érreur survenue suite à l&#39;interaction sur la base de données. ">lastError()</a> pour plus d'informations.</dd></dl>
+<div align="center">
+<object type="image/svg+xml" data="CSQLite_Local_DB--Connect_DB.svg"></object>
 </div>
-</p>
-
-<p><div class="dynheader">
-Voici le graphe des appelants de cette fonction :</div>
-<div class="dyncontent">
-<div class="center"><img src="class_c_s_q_lite___local___d_b_a9ca65a5a5f4b64892744771cedb1cd45_icgraph.png" border="0" usemap="#class_c_s_q_lite___local___d_b_a9ca65a5a5f4b64892744771cedb1cd45_icgraph" alt=""/></div>
-<map name="class_c_s_q_lite___local___d_b_a9ca65a5a5f4b64892744771cedb1cd45_icgraph" id="class_c_s_q_lite___local___d_b_a9ca65a5a5f4b64892744771cedb1cd45_icgraph">
-<area shape="rect" id="node2" href="class_c_s_q_lite___local___d_b.html#a1de8dfa1437f6ff518b0375017aba25f" title="Constructeur de la classe CSQLite_Local_DB, qui hérite de QObject affin de pouvoir émètre des signaux..." alt="" coords="260,5,419,41"/><area shape="rect" id="node3" href="class_c_s_q_lite___local___d_b.html#ae0acaed46f00a2e0354dd5b2bd5b684a" title="Coupe la connexion avec la base de données et en crée une nouvelle avec les informations contenue dan..." alt="" coords="232,66,447,90"/><area shape="rect" id="node4" href="class_c_s_q_lite___local___d_b.html#ad8e4895a47708bc5f3e5abce00be1853" title="Fonction de traitement de la base de données, Crée une nouvelle base de données vide, par defaut, une sauvegarde, et charge une sauvegarde. La fonction evoie des signaux CurrentProcessLoading() et SlowProcess() pour l&#39;information de l&#39;avencée du traitement. " alt="" coords="495,85,635,121"/><area shape="rect" id="node5" href="class_thread___databasemanager.html#a05d712f64b4838e59bbd8e82f4620d0b" title="Thread_Databasemanager::run" alt="" coords="683,91,855,115"/></map>
-</div>
-</p>
-
+ 
 </div>
 </div>
 <a class="anchor" id="a492e644b65b4d602345483e84749c527"></a>
@@ -476,15 +442,6 @@ Voici le graphe des appelants de cette fonction :</div>
 
 <p>Signal emit pour informer une instance qui s'y ait connecté, de l'état (avencée) de la tâche demendée. </p>
 
-<p><div class="dynheader">
-Voici le graphe des appelants de cette fonction :</div>
-<div class="dyncontent">
-<div class="center"><img src="class_c_s_q_lite___local___d_b_a492e644b65b4d602345483e84749c527_icgraph.png" border="0" usemap="#class_c_s_q_lite___local___d_b_a492e644b65b4d602345483e84749c527_icgraph" alt=""/></div>
-<map name="class_c_s_q_lite___local___d_b_a492e644b65b4d602345483e84749c527_icgraph" id="class_c_s_q_lite___local___d_b_a492e644b65b4d602345483e84749c527_icgraph">
-<area shape="rect" id="node2" href="class_c_s_q_lite___local___d_b.html#ad8e4895a47708bc5f3e5abce00be1853" title="Fonction de traitement de la base de données, Crée une nouvelle base de données vide, par defaut, une sauvegarde, et charge une sauvegarde. La fonction evoie des signaux CurrentProcessLoading() et SlowProcess() pour l&#39;information de l&#39;avencée du traitement. " alt="" coords="447,55,587,91"/><area shape="rect" id="node5" href="class_c_s_q_lite___local___d_b.html#ae0acaed46f00a2e0354dd5b2bd5b684a" title="Coupe la connexion avec la base de données et en crée une nouvelle avec les informations contenue dan..." alt="" coords="861,109,1076,133"/><area shape="rect" id="node7" href="class_c_s_q_lite___local___d_b.html#a8d0221163f980dbec609d06d1666efa6" title="Supprime l&#39;ancien fichier et effectue une sauvegarde de la base de données actuel dans un fichier (ch..." alt="" coords="208,110,399,134"/><area shape="rect" id="node3" href="class_c_s_q_lite___local___d_b.html#a9ca65a5a5f4b64892744771cedb1cd45" title="Effectue la connexion d&#39;une base de données avec le fichier SQLite de la base de données, si ce n&#39;est pas possible, (fichier inexistant par exemple) la fonction tente de créer une base de donnée. Si il existe les fichiers de sauvegarde, la nouvelle base de données sera construite avec sinon, si les fichiers des base SQL exixtent la nouvelle base de données sera construite avec. Enfin si aucun des cas précédent n&#39;est possible, la fonction retoune une erreur. " alt="" coords="635,11,813,35"/><area shape="rect" id="node6" href="class_thread___databasemanager.html#a05d712f64b4838e59bbd8e82f4620d0b" title="Thread_Databasemanager::run" alt="" coords="638,59,810,83"/><area shape="rect" id="node4" href="class_c_s_q_lite___local___d_b.html#a1de8dfa1437f6ff518b0375017aba25f" title="Constructeur de la classe CSQLite_Local_DB, qui hérite de QObject affin de pouvoir émètre des signaux..." alt="" coords="889,5,1048,41"/></map>
-</div>
-</p>
-
 </div>
 </div>
 <a class="anchor" id="a3e2286f76a3334debdf2761ee285c17b"></a>
@@ -502,24 +459,6 @@ Voici le graphe des appelants de cette fonction :</div>
 
 <p>Fonction apellée automatiquement pas le systeme de mise à jour de la base de données, la sauvegarde est générée et envoyée au serveur LMS. Si le serveur LMS n'est pas disponible, la fonction créer une sauvegarde locale qui sera envoyée au prochain appel. </p>
 <dl class="section return"><dt>Renvoie</dt><dd>Retourne un booléen, à vrai (true) si le traitement s'est effectuée, faux (false) sinon ou si la base de données n'est pas ouverte. </dd></dl>
-
-<p><div class="dynheader">
-Voici le graphe d'appel pour cette fonction :</div>
-<div class="dyncontent">
-<div class="center"><img src="class_c_s_q_lite___local___d_b_a3e2286f76a3334debdf2761ee285c17b_cgraph.png" border="0" usemap="#class_c_s_q_lite___local___d_b_a3e2286f76a3334debdf2761ee285c17b_cgraph" alt=""/></div>
-<map name="class_c_s_q_lite___local___d_b_a3e2286f76a3334debdf2761ee285c17b_cgraph" id="class_c_s_q_lite___local___d_b_a3e2286f76a3334debdf2761ee285c17b_cgraph">
-<area shape="rect" id="node2" href="class_c_l_m_s___d_b.html#a195eb6531811c480095b5b4786d8730b" title="CLMS_DB::AutoSave_DatabaseLMS" alt="" coords="220,5,417,29"/><area shape="rect" id="node3" href="class_c_s_q_lite___local___d_b.html#a3d92b3c5a71a60ef86315071268a62b8" title="Récupère le nom du site actuel ou est installée la console de gestion des consignes automatiques..." alt="" coords="251,54,387,90"/><area shape="rect" id="node4" href="class_c_s_q_lite___local___d_b.html#aa0750076670f4b4b4aa9eb0a925aaebb" title="Lit le contenu d&#39;un fichier SQL, utilisée pour lire les fichiers de constructions ou de sauvegardes d..." alt="" coords="225,115,412,139"/><area shape="rect" id="node5" href="class_c_s_q_lite___local___d_b.html#acdb2940a30f654f0c39cd0c259b9ad17" title="Ecrit un fichier SQL en mode &quot;append&quot;, soit a la fin d&#39;un fichier deja existant. " alt="" coords="225,163,412,187"/></map>
-</div>
-</p>
-
-<p><div class="dynheader">
-Voici le graphe des appelants de cette fonction :</div>
-<div class="dyncontent">
-<div class="center"><img src="class_c_s_q_lite___local___d_b_a3e2286f76a3334debdf2761ee285c17b_icgraph.png" border="0" usemap="#class_c_s_q_lite___local___d_b_a3e2286f76a3334debdf2761ee285c17b_icgraph" alt=""/></div>
-<map name="class_c_s_q_lite___local___d_b_a3e2286f76a3334debdf2761ee285c17b_icgraph" id="class_c_s_q_lite___local___d_b_a3e2286f76a3334debdf2761ee285c17b_icgraph">
-<area shape="rect" id="node2" href="class_thread___local_database___auto_save.html#a94a5bf2508b21c19f3cc06b3cbf0bcb3" title="Thread_LocalDatabase\l_AutoSave::run" alt="" coords="220,5,355,41"/></map>
-</div>
-</p>
 
 </div>
 </div>
@@ -565,15 +504,6 @@ Voici le graphe des appelants de cette fonction :</div>
 <p>Ferme la base de données précédament ouverte et la supprime (utilisée en fin de programme ou dans le cadre de mise à jour). </p>
 <dl class="section return"><dt>Renvoie</dt><dd>Retourne un booléen sur la réussite de la suppression de la base de données (true) ou l'échec (false) si la base de données n'est pas ouverte, en cas d'érreur il peut être utile d'appeler <a class="el" href="class_c_s_q_lite___local___d_b.html#afac16a908090524ff6ae6958d2a5c399" title="Récupère la dèrenière érreur survenue suite à l&#39;interaction sur la base de données. ">lastError()</a> pour plus d'informations. </dd></dl>
 
-<p><div class="dynheader">
-Voici le graphe des appelants de cette fonction :</div>
-<div class="dyncontent">
-<div class="center"><img src="class_c_s_q_lite___local___d_b_a8222ffaffb0d9945e4343131707b1c22_icgraph.png" border="0" usemap="#class_c_s_q_lite___local___d_b_a8222ffaffb0d9945e4343131707b1c22_icgraph" alt=""/></div>
-<map name="class_c_s_q_lite___local___d_b_a8222ffaffb0d9945e4343131707b1c22_icgraph" id="class_c_s_q_lite___local___d_b_a8222ffaffb0d9945e4343131707b1c22_icgraph">
-<area shape="rect" id="node2" href="class_c_s_q_lite___local___d_b.html#ae0acaed46f00a2e0354dd5b2bd5b684a" title="Coupe la connexion avec la base de données et en crée une nouvelle avec les informations contenue dan..." alt="" coords="223,35,437,59"/><area shape="rect" id="node3" href="class_c_s_q_lite___local___d_b.html#ad8e4895a47708bc5f3e5abce00be1853" title="Fonction de traitement de la base de données, Crée une nouvelle base de données vide, par defaut, une sauvegarde, et charge une sauvegarde. La fonction evoie des signaux CurrentProcessLoading() et SlowProcess() pour l&#39;information de l&#39;avencée du traitement. " alt="" coords="485,57,625,93"/><area shape="rect" id="node4" href="class_c_s_q_lite___local___d_b.html#a9ca65a5a5f4b64892744771cedb1cd45" title="Effectue la connexion d&#39;une base de données avec le fichier SQLite de la base de données, si ce n&#39;est pas possible, (fichier inexistant par exemple) la fonction tente de créer une base de donnée. Si il existe les fichiers de sauvegarde, la nouvelle base de données sera construite avec sinon, si les fichiers des base SQL exixtent la nouvelle base de données sera construite avec. Enfin si aucun des cas précédent n&#39;est possible, la fonction retoune une erreur. " alt="" coords="673,11,852,35"/><area shape="rect" id="node6" href="class_thread___databasemanager.html#a05d712f64b4838e59bbd8e82f4620d0b" title="Thread_Databasemanager::run" alt="" coords="677,63,849,87"/><area shape="rect" id="node5" href="class_c_s_q_lite___local___d_b.html#a1de8dfa1437f6ff518b0375017aba25f" title="Constructeur de la classe CSQLite_Local_DB, qui hérite de QObject affin de pouvoir émètre des signaux..." alt="" coords="900,5,1059,41"/></map>
-</div>
-</p>
-
 </div>
 </div>
 <a class="anchor" id="a2431685493e32b890f7b038abbb7d48a"></a>
@@ -599,23 +529,23 @@ Voici le graphe des appelants de cette fonction :</div>
 </dl>
 <dl class="section return"><dt>Renvoie</dt><dd>Retourne un booléen, à vrai (true) si la suppression s'est effectuée, faux (false) sinon ou si la base de données n'est pas ouverte. </dd></dl>
 
-<p><div class="dynheader">
-Voici le graphe d'appel pour cette fonction :</div>
-<div class="dyncontent">
-<div class="center"><img src="class_c_s_q_lite___local___d_b_a2431685493e32b890f7b038abbb7d48a_cgraph.png" border="0" usemap="#class_c_s_q_lite___local___d_b_a2431685493e32b890f7b038abbb7d48a_cgraph" alt=""/></div>
-<map name="class_c_s_q_lite___local___d_b_a2431685493e32b890f7b038abbb7d48a_cgraph" id="class_c_s_q_lite___local___d_b_a2431685493e32b890f7b038abbb7d48a_cgraph">
-<area shape="rect" id="node2" href="class_c_s_q_lite___local___d_b.html#a25433d7ada1d4173d92fdedfc9f1f253" title="Enregistre dans la base de données l&#39;action suivante qui va être demandée, utilisée pour garder toute..." alt="" coords="203,5,381,41"/></map>
 </div>
-</p>
+</div>
+<a class="anchor" id="a8953ab830d118ae82567f6bae41989bb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt; int &gt; CSQLite_Local_DB::Get_All_idBox </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
-<p><div class="dynheader">
-Voici le graphe des appelants de cette fonction :</div>
-<div class="dyncontent">
-<div class="center"><img src="class_c_s_q_lite___local___d_b_a2431685493e32b890f7b038abbb7d48a_icgraph.png" border="0" usemap="#class_c_s_q_lite___local___d_b_a2431685493e32b890f7b038abbb7d48a_icgraph" alt=""/></div>
-<map name="class_c_s_q_lite___local___d_b_a2431685493e32b890f7b038abbb7d48a_icgraph" id="class_c_s_q_lite___local___d_b_a2431685493e32b890f7b038abbb7d48a_icgraph">
-<area shape="rect" id="node2" href="class_thread_delete_extract_code.html#acd927e12bcf34fb36fdb881e635f0357" title="ThreadDeleteExtractCode::run" alt="" coords="203,11,369,35"/></map>
-</div>
-</p>
+<p>Récupère dans le base de données les identifiants de toutes les portes installées. </p>
+<dl class="section return"><dt>Renvoie</dt><dd>Retourne une QList&lt;int&gt;, liste avec les identifiants des consignes. </dd></dl>
 
 </div>
 </div>
@@ -643,15 +573,6 @@ Voici le graphe des appelants de cette fonction :</div>
 <p>Permet de récupérer la valeur (état), de la connexion (ouverture) de la base de donnée. </p>
 <dl class="section return"><dt>Renvoie</dt><dd>Retourne un booléen, à vrai (true) si la base de donnée est prête pour l'utilisation, faux (false) sinon. </dd></dl>
 
-<p><div class="dynheader">
-Voici le graphe des appelants de cette fonction :</div>
-<div class="dyncontent">
-<div class="center"><img src="class_c_s_q_lite___local___d_b_ad3380dd61189863c1d2d5e681b853e0e_icgraph.png" border="0" usemap="#class_c_s_q_lite___local___d_b_ad3380dd61189863c1d2d5e681b853e0e_icgraph" alt=""/></div>
-<map name="class_c_s_q_lite___local___d_b_ad3380dd61189863c1d2d5e681b853e0e_icgraph" id="class_c_s_q_lite___local___d_b_ad3380dd61189863c1d2d5e681b853e0e_icgraph">
-<area shape="rect" id="node2" href="class_c_doors.html#afb1998acfb81a71dafe73282069d57a7" title="CDoors::CDoors" alt="" coords="239,5,339,29"/><area shape="rect" id="node3" href="class_console_windows.html#a88d72d35d957d22438e18a30369596f3" title="ConsoleWindows::ConsoleWindows" alt="" coords="189,53,388,77"/></map>
-</div>
-</p>
-
 </div>
 </div>
 <a class="anchor" id="a26bcaa36108d9c5ef34a9ad11e288ad8"></a>
@@ -669,15 +590,6 @@ Voici le graphe des appelants de cette fonction :</div>
 
 <p>Récupère dans la base de données ou est installée la console de gestion des consignes automatiques, le nombre des consignes installées et configurées sur le site (Libre + occupées + défectueuses). Pour récupérer la liste des consignes libre lors de la livraison il est possible d'appeler <a class="el" href="class_c_s_q_lite___local___d_b.html#a33f1aa3666a7af30e1cc36b228fb59fe" title="Recherche dans la base de données les consignes qui ne sont pas endommagées et celles qui sont libres...">GetFreeBoxes()</a>. </p>
 <dl class="section return"><dt>Renvoie</dt><dd>Retourne un int, entier avec le nombre de consignes installées ou -1 si la base de données n'est pas ouverte. </dd></dl>
-
-<p><div class="dynheader">
-Voici le graphe des appelants de cette fonction :</div>
-<div class="dyncontent">
-<div class="center"><img src="class_c_s_q_lite___local___d_b_a26bcaa36108d9c5ef34a9ad11e288ad8_icgraph.png" border="0" usemap="#class_c_s_q_lite___local___d_b_a26bcaa36108d9c5ef34a9ad11e288ad8_icgraph" alt=""/></div>
-<map name="class_c_s_q_lite___local___d_b_a26bcaa36108d9c5ef34a9ad11e288ad8_icgraph" id="class_c_s_q_lite___local___d_b_a26bcaa36108d9c5ef34a9ad11e288ad8_icgraph">
-<area shape="rect" id="node2" href="class_doors_manager.html#a3bf3ff7e7614b31422bdbdfc594e7f8e" title="DoorsManager::DoorsManager" alt="" coords="620,35,791,59"/><area shape="rect" id="node3" href="class_doors_manager.html#a8e1b66b56b554d177b7263cc7f6ab1e7" title="DoorsManager::CreateBoxes\lViewTest" alt="" coords="189,29,352,65"/><area shape="rect" id="node5" href="class_doors_manager.html#a20758ef57365191c3b3c6bcfcfbac90a" title="DoorsManager::CreateBoxes\lViewActDes" alt="" coords="189,89,352,125"/><area shape="rect" id="node4" href="class_doors_manager.html#a791c9c3a52e58e88fdf8ab16891dc4ca" title="DoorsManager::GotoDoorsTest" alt="" coords="400,35,572,59"/><area shape="rect" id="node6" href="class_doors_manager.html#af7d5e03a7e1a0d3da687bfcba912a0f2" title="DoorsManager::GotoActDes\lDoors" alt="" coords="407,87,565,123"/></map>
-</div>
-</p>
 
 </div>
 </div>
@@ -697,15 +609,6 @@ Voici le graphe des appelants de cette fonction :</div>
 <p>Récupère le nom du site actuel ou est installée la console de gestion des consignes automatiques, principalement utilisée pour identifier le site afin de récupérer la sauvegarde de la base de données correspondante au serveur LMS. </p>
 <dl class="section return"><dt>Renvoie</dt><dd>Retourne un QString avec le nom du site ou est installée la console de gestion des consignes automatiques ou vide si la base de données n'est pas ouverte. </dd></dl>
 
-<p><div class="dynheader">
-Voici le graphe des appelants de cette fonction :</div>
-<div class="dyncontent">
-<div class="center"><img src="class_c_s_q_lite___local___d_b_a3d92b3c5a71a60ef86315071268a62b8_icgraph.png" border="0" usemap="#class_c_s_q_lite___local___d_b_a3d92b3c5a71a60ef86315071268a62b8_icgraph" alt=""/></div>
-<map name="class_c_s_q_lite___local___d_b_a3d92b3c5a71a60ef86315071268a62b8_icgraph" id="class_c_s_q_lite___local___d_b_a3d92b3c5a71a60ef86315071268a62b8_icgraph">
-<area shape="rect" id="node2" href="class_c_s_q_lite___local___d_b.html#ad8e4895a47708bc5f3e5abce00be1853" title="Fonction de traitement de la base de données, Crée une nouvelle base de données vide, par defaut, une sauvegarde, et charge une sauvegarde. La fonction evoie des signaux CurrentProcessLoading() et SlowProcess() pour l&#39;information de l&#39;avencée du traitement. " alt="" coords="203,45,343,81"/><area shape="rect" id="node5" href="class_c_s_q_lite___local___d_b.html#a3e2286f76a3334debdf2761ee285c17b" title="Fonction apellée automatiquement pas le systeme de mise à jour de la base de données, la sauvegarde est générée et envoyée au serveur LMS. Si le serveur LMS n&#39;est pas disponible, la fonction créer une sauvegarde locale qui sera envoyée au prochain appel. " alt="" coords="189,105,356,141"/><area shape="rect" id="node7" href="class_setting_system.html#a8fc2d73888c71d21ff93fba3fd21ff14" title="SettingSystem::SettingSystem" alt="" coords="189,165,356,189"/><area shape="rect" id="node8" href="class_thread_save_delivery.html#ac83d9b16af43c11bf310261efdbd856b" title="ThreadSaveDelivery\l::saveListpackage" alt="" coords="213,214,333,250"/><area shape="rect" id="node10" href="class_thread_save_delivery.html#a0baa99579742255ab62d8f45fdc49460" title="ThreadSaveDelivery\l::saveListpackages" alt="" coords="213,274,333,310"/><area shape="rect" id="node3" href="class_c_s_q_lite___local___d_b.html#a9ca65a5a5f4b64892744771cedb1cd45" title="Effectue la connexion d&#39;une base de données avec le fichier SQLite de la base de données, si ce n&#39;est pas possible, (fichier inexistant par exemple) la fonction tente de créer une base de donnée. Si il existe les fichiers de sauvegarde, la nouvelle base de données sera construite avec sinon, si les fichiers des base SQL exixtent la nouvelle base de données sera construite avec. Enfin si aucun des cas précédent n&#39;est possible, la fonction retoune une erreur. " alt="" coords="404,5,583,29"/><area shape="rect" id="node4" href="class_thread___databasemanager.html#a05d712f64b4838e59bbd8e82f4620d0b" title="Thread_Databasemanager::run" alt="" coords="407,53,579,77"/><area shape="rect" id="node6" href="class_thread___local_database___auto_save.html#a94a5bf2508b21c19f3cc06b3cbf0bcb3" title="Thread_LocalDatabase\l_AutoSave::run" alt="" coords="426,105,561,141"/><area shape="rect" id="node9" href="class_thread_save_delivery.html#a4975505f89e79a8cfb90a6a6d7d1f1b0" title="ThreadSaveDelivery::run" alt="" coords="422,249,565,273"/></map>
-</div>
-</p>
-
 </div>
 </div>
 <a class="anchor" id="aa26c4ee27cb0551f970569d402c3fe67"></a>
@@ -723,24 +626,6 @@ Voici le graphe des appelants de cette fonction :</div>
 
 <p>Récupère dans le base de données toutes les portes installées et indique l'état des portes, utilisée pour dessiner le plan de l'installation des consignes lors de la livraison. </p>
 <dl class="section return"><dt>Renvoie</dt><dd>Retourne une QList&lt;struct_DoorsStatus&gt;, liste de structutre <a class="el" href="structstruct___doors_status.html" title="Structure de donnée de l&#39;application LC, utilisée pour définir l&#39;état des portes des consignes...">struct_DoorsStatus</a> contenant toutes les informations sur l'état mesuré de la porte, (Numéro, Ouverture, fermeture, verouillage...) ou une liste vide si la base de données n'est pas ouverte. </dd></dl>
-
-<p><div class="dynheader">
-Voici le graphe d'appel pour cette fonction :</div>
-<div class="dyncontent">
-<div class="center"><img src="class_c_s_q_lite___local___d_b_aa26c4ee27cb0551f970569d402c3fe67_cgraph.png" border="0" usemap="#class_c_s_q_lite___local___d_b_aa26c4ee27cb0551f970569d402c3fe67_cgraph" alt=""/></div>
-<map name="class_c_s_q_lite___local___d_b_aa26c4ee27cb0551f970569d402c3fe67_cgraph" id="class_c_s_q_lite___local___d_b_aa26c4ee27cb0551f970569d402c3fe67_cgraph">
-<area shape="rect" id="node2" href="class_c_s_q_lite___local___d_b.html#a25433d7ada1d4173d92fdedfc9f1f253" title="Enregistre dans la base de données l&#39;action suivante qui va être demandée, utilisée pour garder toute..." alt="" coords="247,5,426,41"/><area shape="rect" id="node3" href="class_c_s_q_lite___local___d_b.html#a4cd7505a856e22890c43d5a68191c2c4" title="Vérifie grâce à la base de données si la consigne est signalée comme endommagée. " alt="" coords="237,66,436,90"/></map>
-</div>
-</p>
-
-<p><div class="dynheader">
-Voici le graphe des appelants de cette fonction :</div>
-<div class="dyncontent">
-<div class="center"><img src="class_c_s_q_lite___local___d_b_aa26c4ee27cb0551f970569d402c3fe67_icgraph.png" border="0" usemap="#class_c_s_q_lite___local___d_b_aa26c4ee27cb0551f970569d402c3fe67_icgraph" alt=""/></div>
-<map name="class_c_s_q_lite___local___d_b_aa26c4ee27cb0551f970569d402c3fe67_icgraph" id="class_c_s_q_lite___local___d_b_aa26c4ee27cb0551f970569d402c3fe67_icgraph">
-<area shape="rect" id="node2" href="class_box_choice.html#a84014b17965fe73d58166766e8ec1898" title="BoxChoice::BoxChoice" alt="" coords="422,5,554,29"/><area shape="rect" id="node3" href="class_box_choice.html#a857de1787d4cbcf15c4575b3e72f8dc0" title="BoxChoice::Refresh" alt="" coords="237,55,356,79"/><area shape="rect" id="node4" href="class_delivery_confirm.html#ae504502e775713612893ef5a97b109d3" title="DeliveryConfirm::SaveDelivery" alt="" coords="404,53,572,77"/><area shape="rect" id="node8" href="class_delivery_confirm.html#a786adf160dbbbf94750c4502d67ef81c" title="DeliveryConfirm::ThreadFinished" alt="" coords="620,103,799,127"/><area shape="rect" id="node5" href="class_delivery_confirm.html#aedf9ca93a85b463d9e945074ba25a6c2" title="DeliveryConfirm::NewDelivery" alt="" coords="626,7,793,31"/><area shape="rect" id="node7" href="class_delivery_confirm.html#a624cfb7856fa7fc6d09558306b059958" title="DeliveryConfirm::FinishDelivery" alt="" coords="624,55,795,79"/><area shape="rect" id="node6" href="class_delivery_confirm.html#a17470a36b66b2fdb83d87abb6b73aaad" title="DeliveryConfirm::Delivery\lConfirm" alt="" coords="847,49,989,85"/></map>
-</div>
-</p>
 
 </div>
 </div>
@@ -767,24 +652,6 @@ Voici le graphe des appelants de cette fonction :</div>
 </dl>
 <dl class="section return"><dt>Renvoie</dt><dd>Retourne une QList&lt;int&gt;, liste avec les indentifiants des consignes utilisées pour le code de retrait sinon une liste vide, si le code de retrait n'est pas valide ou si la base de données n'est pas ouverte. </dd></dl>
 
-<p><div class="dynheader">
-Voici le graphe d'appel pour cette fonction :</div>
-<div class="dyncontent">
-<div class="center"><img src="class_c_s_q_lite___local___d_b_a563fa1aa825325f4245acbed8ec6be39_cgraph.png" border="0" usemap="#class_c_s_q_lite___local___d_b_a563fa1aa825325f4245acbed8ec6be39_cgraph" alt=""/></div>
-<map name="class_c_s_q_lite___local___d_b_a563fa1aa825325f4245acbed8ec6be39_cgraph" id="class_c_s_q_lite___local___d_b_a563fa1aa825325f4245acbed8ec6be39_cgraph">
-<area shape="rect" id="node2" href="class_c_s_q_lite___local___d_b.html#ad58d94663e785cd117ba466b22f55d05" title="Recherche dans la base de données si le code passé en paramètre est valide et peut être utilisé pour ..." alt="" coords="220,5,428,29"/><area shape="rect" id="node3" href="class_c_s_q_lite___local___d_b.html#a25433d7ada1d4173d92fdedfc9f1f253" title="Enregistre dans la base de données l&#39;action suivante qui va être demandée, utilisée pour garder toute..." alt="" coords="476,25,655,61"/></map>
-</div>
-</p>
-
-<p><div class="dynheader">
-Voici le graphe des appelants de cette fonction :</div>
-<div class="dyncontent">
-<div class="center"><img src="class_c_s_q_lite___local___d_b_a563fa1aa825325f4245acbed8ec6be39_icgraph.png" border="0" usemap="#class_c_s_q_lite___local___d_b_a563fa1aa825325f4245acbed8ec6be39_icgraph" alt=""/></div>
-<map name="class_c_s_q_lite___local___d_b_a563fa1aa825325f4245acbed8ec6be39_icgraph" id="class_c_s_q_lite___local___d_b_a563fa1aa825325f4245acbed8ec6be39_icgraph">
-<area shape="rect" id="node2" href="class_customer.html#a0d0980ceceaa1b81051c5ef2ae17957c" title="Customer::Valid_Code" alt="" coords="220,11,349,35"/><area shape="rect" id="node3" href="class_customer.html#acac37f40f3e22b871d02e4f210b84926" title="Customer::Customer" alt="" coords="397,11,517,35"/></map>
-</div>
-</p>
-
 </div>
 </div>
 <a class="anchor" id="af3122618d25c7f4cc3225ac15ec91958"></a>
@@ -803,15 +670,6 @@ Voici le graphe des appelants de cette fonction :</div>
 <p>Récupère dans la base de données la liste des portes/consignes signalées comme endomagées. </p>
 <dl class="section return"><dt>Renvoie</dt><dd>Retourne la liste des des portes/consignes signalées comme endomagées sinon une liste vide si il y a aucunes portes/consignes signalées comme endomagées ou si la base de données n'est pas ouverte. </dd></dl>
 
-<p><div class="dynheader">
-Voici le graphe des appelants de cette fonction :</div>
-<div class="dyncontent">
-<div class="center"><img src="class_c_s_q_lite___local___d_b_af3122618d25c7f4cc3225ac15ec91958_icgraph.png" border="0" usemap="#class_c_s_q_lite___local___d_b_af3122618d25c7f4cc3225ac15ec91958_icgraph" alt=""/></div>
-<map name="class_c_s_q_lite___local___d_b_af3122618d25c7f4cc3225ac15ec91958_icgraph" id="class_c_s_q_lite___local___d_b_af3122618d25c7f4cc3225ac15ec91958_icgraph">
-<area shape="rect" id="node2" href="class_c_doors.html#a2d26d6cb0f578452071e7098fa21178d" title="CDoors::DoorsStatus" alt="" coords="265,141,389,165"/><area shape="rect" id="node10" href="class_doors_manager.html#ad9e5dbe742190996a002d3b9390f6174" title="DoorsManager::CheckTestBox" alt="" coords="243,217,412,241"/><area shape="rect" id="node3" href="class_c_doors.html#a178089d2a36fba6f8903d30c6d0e60ed" title="CDoors::DoorStatus" alt="" coords="482,5,601,29"/><area shape="rect" id="node4" href="class_doors_manager.html#a3bf3ff7e7614b31422bdbdfc594e7f8e" title="DoorsManager::DoorsManager" alt="" coords="891,141,1061,165"/><area shape="rect" id="node5" href="class_doors_manager.html#a8e1b66b56b554d177b7263cc7f6ab1e7" title="DoorsManager::CreateBoxes\lViewTest" alt="" coords="460,105,623,141"/><area shape="rect" id="node7" href="class_doors_manager.html#a20758ef57365191c3b3c6bcfcfbac90a" title="DoorsManager::CreateBoxes\lViewActDes" alt="" coords="460,165,623,201"/><area shape="rect" id="node9" href="class_thread___status_doors.html#a77bbfd3af1bdd0d741adcb60aeee7b73" title="Thread_StatusDoors::run" alt="" coords="469,225,613,249"/><area shape="rect" id="node6" href="class_doors_manager.html#a791c9c3a52e58e88fdf8ab16891dc4ca" title="DoorsManager::GotoDoorsTest" alt="" coords="671,113,843,137"/><area shape="rect" id="node8" href="class_doors_manager.html#af7d5e03a7e1a0d3da687bfcba912a0f2" title="DoorsManager::GotoActDes\lDoors" alt="" coords="677,163,836,199"/></map>
-</div>
-</p>
-
 </div>
 </div>
 <a class="anchor" id="a33f1aa3666a7af30e1cc36b228fb59fe"></a>
@@ -829,24 +687,6 @@ Voici le graphe des appelants de cette fonction :</div>
 
 <p>Recherche dans la base de données les consignes qui ne sont pas endommagées et celles qui sont libres. </p>
 <dl class="section return"><dt>Renvoie</dt><dd>Retourne une QList&lt;int&gt;, liste avec les identifiants des consignes libres sinon une liste vide si aucune consignes disponibles, ou si la base de données n'est pas ouverte. </dd></dl>
-
-<p><div class="dynheader">
-Voici le graphe d'appel pour cette fonction :</div>
-<div class="dyncontent">
-<div class="center"><img src="class_c_s_q_lite___local___d_b_a33f1aa3666a7af30e1cc36b228fb59fe_cgraph.png" border="0" usemap="#class_c_s_q_lite___local___d_b_a33f1aa3666a7af30e1cc36b228fb59fe_cgraph" alt=""/></div>
-<map name="class_c_s_q_lite___local___d_b_a33f1aa3666a7af30e1cc36b228fb59fe_cgraph" id="class_c_s_q_lite___local___d_b_a33f1aa3666a7af30e1cc36b228fb59fe_cgraph">
-<area shape="rect" id="node2" href="class_c_s_q_lite___local___d_b.html#a25433d7ada1d4173d92fdedfc9f1f253" title="Enregistre dans la base de données l&#39;action suivante qui va être demandée, utilisée pour garder toute..." alt="" coords="212,5,391,41"/></map>
-</div>
-</p>
-
-<p><div class="dynheader">
-Voici le graphe des appelants de cette fonction :</div>
-<div class="dyncontent">
-<div class="center"><img src="class_c_s_q_lite___local___d_b_a33f1aa3666a7af30e1cc36b228fb59fe_icgraph.png" border="0" usemap="#class_c_s_q_lite___local___d_b_a33f1aa3666a7af30e1cc36b228fb59fe_icgraph" alt=""/></div>
-<map name="class_c_s_q_lite___local___d_b_a33f1aa3666a7af30e1cc36b228fb59fe_icgraph" id="class_c_s_q_lite___local___d_b_a33f1aa3666a7af30e1cc36b228fb59fe_icgraph">
-<area shape="rect" id="node2" href="class_doors_manager.html#a3bf3ff7e7614b31422bdbdfc594e7f8e" title="DoorsManager::DoorsManager" alt="" coords="647,5,817,29"/><area shape="rect" id="node3" href="class_doors_manager.html#a8e1b66b56b554d177b7263cc7f6ab1e7" title="DoorsManager::CreateBoxes\lViewTest" alt="" coords="212,30,375,66"/><area shape="rect" id="node5" href="class_open_empty_box.html#afd5c75107a4912a1edb7e19258c73c6f" title="OpenEmptyBox::CreateList\lBoxEmpty" alt="" coords="218,90,369,126"/><area shape="rect" id="node4" href="class_doors_manager.html#a791c9c3a52e58e88fdf8ab16891dc4ca" title="DoorsManager::GotoDoorsTest" alt="" coords="425,33,597,57"/><area shape="rect" id="node6" href="class_open_empty_box.html#ad6794eab79d6bd8b9c4b26043cde493b" title="OpenEmptyBox::OpenEmptyBox" alt="" coords="423,96,599,120"/></map>
-</div>
-</p>
 
 </div>
 </div>
@@ -899,24 +739,6 @@ Voici le graphe des appelants de cette fonction :</div>
 </dl>
 <dl class="section return"><dt>Renvoie</dt><dd>Retourne un booléen, à vrai (true) si le traitement s'est effectuée, faux (false) sinon ou si la base de données n'est pas ouverte. </dd></dl>
 
-<p><div class="dynheader">
-Voici le graphe d'appel pour cette fonction :</div>
-<div class="dyncontent">
-<div class="center"><img src="class_c_s_q_lite___local___d_b_ae0acaed46f00a2e0354dd5b2bd5b684a_cgraph.png" border="0" usemap="#class_c_s_q_lite___local___d_b_ae0acaed46f00a2e0354dd5b2bd5b684a_cgraph" alt=""/></div>
-<map name="class_c_s_q_lite___local___d_b_ae0acaed46f00a2e0354dd5b2bd5b684a_cgraph" id="class_c_s_q_lite___local___d_b_ae0acaed46f00a2e0354dd5b2bd5b684a_cgraph">
-<area shape="rect" id="node2" href="class_c_s_q_lite___local___d_b.html#a8222ffaffb0d9945e4343131707b1c22" title="Ferme la base de données précédament ouverte et la supprime (utilisée en fin de programme ou dans le ..." alt="" coords="273,5,442,29"/><area shape="rect" id="node3" href="class_c_s_q_lite___local___d_b.html#a9ca65a5a5f4b64892744771cedb1cd45" title="Effectue la connexion d&#39;une base de données avec le fichier SQLite de la base de données, si ce n&#39;est pas possible, (fichier inexistant par exemple) la fonction tente de créer une base de donnée. Si il existe les fichiers de sauvegarde, la nouvelle base de données sera construite avec sinon, si les fichiers des base SQL exixtent la nouvelle base de données sera construite avec. Enfin si aucun des cas précédent n&#39;est possible, la fonction retoune une erreur. " alt="" coords="268,203,447,227"/><area shape="rect" id="node5" href="class_c_s_q_lite___local___d_b.html#aa0750076670f4b4b4aa9eb0a925aaebb" title="Lit le contenu d&#39;un fichier SQL, utilisée pour lire les fichiers de constructions ou de sauvegardes d..." alt="" coords="928,275,1115,299"/><area shape="rect" id="node4" href="class_c_s_q_lite___local___d_b.html#ad8e4895a47708bc5f3e5abce00be1853" title="Fonction de traitement de la base de données, Crée une nouvelle base de données vide, par defaut, une sauvegarde, et charge une sauvegarde. La fonction evoie des signaux CurrentProcessLoading() et SlowProcess() pour l&#39;information de l&#39;avencée du traitement. " alt="" coords="495,205,635,241"/><area shape="rect" id="node6" href="class_c_l_m_s___d_b.html#a8b366690793d462f76cfa82dcf39464d" title="CLMS_DB::ManualSave\l_DatabaseLMS" alt="" coords="714,153,849,189"/><area shape="rect" id="node7" href="class_c_s_q_lite___local___d_b.html#a3d92b3c5a71a60ef86315071268a62b8" title="Récupère le nom du site actuel ou est installée la console de gestion des consignes automatiques..." alt="" coords="713,213,849,249"/><area shape="rect" id="node8" href="class_c_s_q_lite___local___d_b.html#a8d0221163f980dbec609d06d1666efa6" title="Supprime l&#39;ancien fichier et effectue une sauvegarde de la base de données actuel dans un fichier (ch..." alt="" coords="686,324,877,348"/><area shape="rect" id="node9" href="class_c_s_q_lite___local___d_b.html#acdb2940a30f654f0c39cd0c259b9ad17" title="Ecrit un fichier SQL en mode &quot;append&quot;, soit a la fin d&#39;un fichier deja existant. " alt="" coords="928,348,1115,372"/><area shape="rect" id="node10" href="class_c_l_m_s___d_b.html#ad94e39f350a60170e18086b3655084d6" title="CLMS_DB::Get_LastDatabase_Save" alt="" coords="683,104,880,128"/></map>
-</div>
-</p>
-
-<p><div class="dynheader">
-Voici le graphe des appelants de cette fonction :</div>
-<div class="dyncontent">
-<div class="center"><img src="class_c_s_q_lite___local___d_b_ae0acaed46f00a2e0354dd5b2bd5b684a_icgraph.png" border="0" usemap="#class_c_s_q_lite___local___d_b_ae0acaed46f00a2e0354dd5b2bd5b684a_icgraph" alt=""/></div>
-<map name="class_c_s_q_lite___local___d_b_ae0acaed46f00a2e0354dd5b2bd5b684a_icgraph" id="class_c_s_q_lite___local___d_b_ae0acaed46f00a2e0354dd5b2bd5b684a_icgraph">
-<area shape="rect" id="node2" href="class_c_s_q_lite___local___d_b.html#ad8e4895a47708bc5f3e5abce00be1853" title="Fonction de traitement de la base de données, Crée une nouvelle base de données vide, par defaut, une sauvegarde, et charge une sauvegarde. La fonction evoie des signaux CurrentProcessLoading() et SlowProcess() pour l&#39;information de l&#39;avencée du traitement. " alt="" coords="268,57,408,93"/><area shape="rect" id="node3" href="class_c_s_q_lite___local___d_b.html#a9ca65a5a5f4b64892744771cedb1cd45" title="Effectue la connexion d&#39;une base de données avec le fichier SQLite de la base de données, si ce n&#39;est pas possible, (fichier inexistant par exemple) la fonction tente de créer une base de donnée. Si il existe les fichiers de sauvegarde, la nouvelle base de données sera construite avec sinon, si les fichiers des base SQL exixtent la nouvelle base de données sera construite avec. Enfin si aucun des cas précédent n&#39;est possible, la fonction retoune une erreur. " alt="" coords="456,11,635,35"/><area shape="rect" id="node5" href="class_thread___databasemanager.html#a05d712f64b4838e59bbd8e82f4620d0b" title="Thread_Databasemanager::run" alt="" coords="459,63,631,87"/><area shape="rect" id="node4" href="class_c_s_q_lite___local___d_b.html#a1de8dfa1437f6ff518b0375017aba25f" title="Constructeur de la classe CSQLite_Local_DB, qui hérite de QObject affin de pouvoir émètre des signaux..." alt="" coords="683,5,841,41"/></map>
-</div>
-</p>
-
 </div>
 </div>
 <a class="anchor" id="a8114d5c22ae0a43e5466f3d69b3a9e84"></a>
@@ -940,25 +762,15 @@ Voici le graphe des appelants de cette fonction :</div>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Renvoie</dt><dd>Retourne un int, pour (Inclure "DataStructures.h"): -5 : Si la base de données n'est pas ouverte -4 (UNDEFINED_USER) : Utilisateur non reconnu (non valide). -3 (UNDEFINED_COMPANY_PASS) : Mauvais code de société (non valide). -2 (UNDEFINED_PERSONAL_PASS) : Mauvais mot de passe personnel (non valide). -1 (UNDEFINED_PASSWORD) : Mauvais mot de passe confidentiel (non valide). 0 (LIVREUR) : Utilisateur autorisé est de type livreur (valide). 1 (MAINTENANCE) : Utilisateur autorisé est de type opérateur de maintenance (valide). </dd></dl>
-
-<p><div class="dynheader">
-Voici le graphe d'appel pour cette fonction :</div>
-<div class="dyncontent">
-<div class="center"><img src="class_c_s_q_lite___local___d_b_a8114d5c22ae0a43e5466f3d69b3a9e84_cgraph.png" border="0" usemap="#class_c_s_q_lite___local___d_b_a8114d5c22ae0a43e5466f3d69b3a9e84_cgraph" alt=""/></div>
-<map name="class_c_s_q_lite___local___d_b_a8114d5c22ae0a43e5466f3d69b3a9e84_cgraph" id="class_c_s_q_lite___local___d_b_a8114d5c22ae0a43e5466f3d69b3a9e84_cgraph">
-<area shape="rect" id="node2" href="class_c_s_q_lite___local___d_b.html#a25433d7ada1d4173d92fdedfc9f1f253" title="Enregistre dans la base de données l&#39;action suivante qui va être demandée, utilisée pour garder toute..." alt="" coords="199,5,377,41"/></map>
-</div>
-</p>
-
-<p><div class="dynheader">
-Voici le graphe des appelants de cette fonction :</div>
-<div class="dyncontent">
-<div class="center"><img src="class_c_s_q_lite___local___d_b_a8114d5c22ae0a43e5466f3d69b3a9e84_icgraph.png" border="0" usemap="#class_c_s_q_lite___local___d_b_a8114d5c22ae0a43e5466f3d69b3a9e84_icgraph" alt=""/></div>
-<map name="class_c_s_q_lite___local___d_b_a8114d5c22ae0a43e5466f3d69b3a9e84_icgraph" id="class_c_s_q_lite___local___d_b_a8114d5c22ae0a43e5466f3d69b3a9e84_icgraph">
-<area shape="rect" id="node2" href="class_login.html#a689bfbbbdbb9d472c9fb35b41d19b414" title="Login::ValidLogin" alt="" coords="199,5,303,29"/><area shape="rect" id="node3" href="class_login.html#a2bb53ae350b649e1d5025295dd19d5cd" title="Login::Login" alt="" coords="351,5,431,29"/></map>
-</div>
-</p>
+<dl class="section return"><dt>Renvoie</dt><dd>Retourne un int, pour (Inclure "DataStructures.h"):<br />
+ -5 : Si la base de données n'est pas ouverte<br />
+ -4 (UNDEFINED_USER) : Utilisateur non reconnu (non valide).<br />
+ -3 (UNDEFINED_COMPANY_PASS) : Mauvais code de société (non valide).<br />
+ -2 (UNDEFINED_PERSONAL_PASS) : Mauvais mot de passe personnel (non valide).<br />
+ -1 (UNDEFINED_PASSWORD) : Mauvais mot de passe confidentiel (non valide).<br />
+ 0 (LIVREUR) : Utilisateur autorisé est de type livreur (valide).<br />
+ 1 (MAINTENANCE) : Utilisateur autorisé est de type opérateur de maintenance (valide).<br />
+</dd></dl>
 
 </div>
 </div>
@@ -993,15 +805,6 @@ Voici le graphe des appelants de cette fonction :</div>
 </dl>
 <dl class="section return"><dt>Renvoie</dt><dd>Retourne une QList&lt;QString&gt;, liste des requêtes SQL lues dans le fichier ou une liste vide si le fichier n'exsite pas ou si il est vide. </dd></dl>
 
-<p><div class="dynheader">
-Voici le graphe des appelants de cette fonction :</div>
-<div class="dyncontent">
-<div class="center"><img src="class_c_s_q_lite___local___d_b_aa0750076670f4b4b4aa9eb0a925aaebb_icgraph.png" border="0" usemap="#class_c_s_q_lite___local___d_b_aa0750076670f4b4b4aa9eb0a925aaebb_icgraph" alt=""/></div>
-<map name="class_c_s_q_lite___local___d_b_aa0750076670f4b4b4aa9eb0a925aaebb_icgraph" id="class_c_s_q_lite___local___d_b_aa0750076670f4b4b4aa9eb0a925aaebb_icgraph">
-<area shape="rect" id="node2" href="class_c_s_q_lite___local___d_b.html#ad8e4895a47708bc5f3e5abce00be1853" title="Fonction de traitement de la base de données, Crée une nouvelle base de données vide, par defaut, une sauvegarde, et charge une sauvegarde. La fonction evoie des signaux CurrentProcessLoading() et SlowProcess() pour l&#39;information de l&#39;avencée du traitement. " alt="" coords="479,55,619,91"/><area shape="rect" id="node5" href="class_c_s_q_lite___local___d_b.html#ae0acaed46f00a2e0354dd5b2bd5b684a" title="Coupe la connexion avec la base de données et en crée une nouvelle avec les informations contenue dan..." alt="" coords="893,109,1108,133"/><area shape="rect" id="node7" href="class_c_s_q_lite___local___d_b.html#a8d0221163f980dbec609d06d1666efa6" title="Supprime l&#39;ancien fichier et effectue une sauvegarde de la base de données actuel dans un fichier (ch..." alt="" coords="240,110,431,134"/><area shape="rect" id="node8" href="class_c_s_q_lite___local___d_b.html#a3e2286f76a3334debdf2761ee285c17b" title="Fonction apellée automatiquement pas le systeme de mise à jour de la base de données, la sauvegarde est générée et envoyée au serveur LMS. Si le serveur LMS n&#39;est pas disponible, la fonction créer une sauvegarde locale qui sera envoyée au prochain appel. " alt="" coords="252,209,419,245"/><area shape="rect" id="node3" href="class_c_s_q_lite___local___d_b.html#a9ca65a5a5f4b64892744771cedb1cd45" title="Effectue la connexion d&#39;une base de données avec le fichier SQLite de la base de données, si ce n&#39;est pas possible, (fichier inexistant par exemple) la fonction tente de créer une base de donnée. Si il existe les fichiers de sauvegarde, la nouvelle base de données sera construite avec sinon, si les fichiers des base SQL exixtent la nouvelle base de données sera construite avec. Enfin si aucun des cas précédent n&#39;est possible, la fonction retoune une erreur. " alt="" coords="667,11,845,35"/><area shape="rect" id="node6" href="class_thread___databasemanager.html#a05d712f64b4838e59bbd8e82f4620d0b" title="Thread_Databasemanager::run" alt="" coords="670,59,842,83"/><area shape="rect" id="node4" href="class_c_s_q_lite___local___d_b.html#a1de8dfa1437f6ff518b0375017aba25f" title="Constructeur de la classe CSQLite_Local_DB, qui hérite de QObject affin de pouvoir émètre des signaux..." alt="" coords="921,5,1080,41"/><area shape="rect" id="node9" href="class_thread___local_database___auto_save.html#a94a5bf2508b21c19f3cc06b3cbf0bcb3" title="Thread_LocalDatabase\l_AutoSave::run" alt="" coords="481,209,616,245"/></map>
-</div>
-</p>
-
 </div>
 </div>
 <a class="anchor" id="a8d0221163f980dbec609d06d1666efa6"></a>
@@ -1034,24 +837,6 @@ Voici le graphe des appelants de cette fonction :</div>
   </dd>
 </dl>
 <dl class="section return"><dt>Renvoie</dt><dd>Retourne un booléen, à vrai (true) si le traitement s'est effectuée, faux (false) sinon ou si la base de données n'est pas ouverte. </dd></dl>
-
-<p><div class="dynheader">
-Voici le graphe d'appel pour cette fonction :</div>
-<div class="dyncontent">
-<div class="center"><img src="class_c_s_q_lite___local___d_b_a8d0221163f980dbec609d06d1666efa6_cgraph.png" border="0" usemap="#class_c_s_q_lite___local___d_b_a8d0221163f980dbec609d06d1666efa6_cgraph" alt=""/></div>
-<map name="class_c_s_q_lite___local___d_b_a8d0221163f980dbec609d06d1666efa6_cgraph" id="class_c_s_q_lite___local___d_b_a8d0221163f980dbec609d06d1666efa6_cgraph">
-<area shape="rect" id="node2" href="class_c_s_q_lite___local___d_b.html#aa0750076670f4b4b4aa9eb0a925aaebb" title="Lit le contenu d&#39;un fichier SQL, utilisée pour lire les fichiers de constructions ou de sauvegardes d..." alt="" coords="244,5,431,29"/><area shape="rect" id="node3" href="class_c_s_q_lite___local___d_b.html#acdb2940a30f654f0c39cd0c259b9ad17" title="Ecrit un fichier SQL en mode &quot;append&quot;, soit a la fin d&#39;un fichier deja existant. " alt="" coords="244,53,431,77"/></map>
-</div>
-</p>
-
-<p><div class="dynheader">
-Voici le graphe des appelants de cette fonction :</div>
-<div class="dyncontent">
-<div class="center"><img src="class_c_s_q_lite___local___d_b_a8d0221163f980dbec609d06d1666efa6_icgraph.png" border="0" usemap="#class_c_s_q_lite___local___d_b_a8d0221163f980dbec609d06d1666efa6_icgraph" alt=""/></div>
-<map name="class_c_s_q_lite___local___d_b_a8d0221163f980dbec609d06d1666efa6_icgraph" id="class_c_s_q_lite___local___d_b_a8d0221163f980dbec609d06d1666efa6_icgraph">
-<area shape="rect" id="node2" href="class_c_s_q_lite___local___d_b.html#ad8e4895a47708bc5f3e5abce00be1853" title="Fonction de traitement de la base de données, Crée une nouvelle base de données vide, par defaut, une sauvegarde, et charge une sauvegarde. La fonction evoie des signaux CurrentProcessLoading() et SlowProcess() pour l&#39;information de l&#39;avencée du traitement. " alt="" coords="244,53,384,89"/><area shape="rect" id="node3" href="class_c_s_q_lite___local___d_b.html#a9ca65a5a5f4b64892744771cedb1cd45" title="Effectue la connexion d&#39;une base de données avec le fichier SQLite de la base de données, si ce n&#39;est pas possible, (fichier inexistant par exemple) la fonction tente de créer une base de donnée. Si il existe les fichiers de sauvegarde, la nouvelle base de données sera construite avec sinon, si les fichiers des base SQL exixtent la nouvelle base de données sera construite avec. Enfin si aucun des cas précédent n&#39;est possible, la fonction retoune une erreur. " alt="" coords="432,11,611,35"/><area shape="rect" id="node6" href="class_thread___databasemanager.html#a05d712f64b4838e59bbd8e82f4620d0b" title="Thread_Databasemanager::run" alt="" coords="435,59,607,83"/><area shape="rect" id="node4" href="class_c_s_q_lite___local___d_b.html#a1de8dfa1437f6ff518b0375017aba25f" title="Constructeur de la classe CSQLite_Local_DB, qui hérite de QObject affin de pouvoir émètre des signaux..." alt="" coords="687,5,845,41"/><area shape="rect" id="node5" href="class_c_s_q_lite___local___d_b.html#ae0acaed46f00a2e0354dd5b2bd5b684a" title="Coupe la connexion avec la base de données et en crée une nouvelle avec les informations contenue dan..." alt="" coords="659,87,873,111"/></map>
-</div>
-</p>
 
 </div>
 </div>
@@ -1113,24 +898,6 @@ Voici le graphe des appelants de cette fonction :</div>
 </dl>
 <dl class="section return"><dt>Renvoie</dt><dd>Retourne un QSqlQuery, avec le retour de la requête souhaitée en paramètre, ou vide si la base de données n'est pas ouverte. </dd></dl>
 
-<p><div class="dynheader">
-Voici le graphe d'appel pour cette fonction :</div>
-<div class="dyncontent">
-<div class="center"><img src="class_c_s_q_lite___local___d_b_ace38eaa62cc5639b2a7be726d51a70f7_cgraph.png" border="0" usemap="#class_c_s_q_lite___local___d_b_ace38eaa62cc5639b2a7be726d51a70f7_cgraph" alt=""/></div>
-<map name="class_c_s_q_lite___local___d_b_ace38eaa62cc5639b2a7be726d51a70f7_cgraph" id="class_c_s_q_lite___local___d_b_ace38eaa62cc5639b2a7be726d51a70f7_cgraph">
-<area shape="rect" id="node2" href="class_c_s_q_lite___local___d_b.html#a25433d7ada1d4173d92fdedfc9f1f253" title="Enregistre dans la base de données l&#39;action suivante qui va être demandée, utilisée pour garder toute..." alt="" coords="228,5,407,41"/></map>
-</div>
-</p>
-
-<p><div class="dynheader">
-Voici le graphe des appelants de cette fonction :</div>
-<div class="dyncontent">
-<div class="center"><img src="class_c_s_q_lite___local___d_b_ace38eaa62cc5639b2a7be726d51a70f7_icgraph.png" border="0" usemap="#class_c_s_q_lite___local___d_b_ace38eaa62cc5639b2a7be726d51a70f7_icgraph" alt=""/></div>
-<map name="class_c_s_q_lite___local___d_b_ace38eaa62cc5639b2a7be726d51a70f7_icgraph" id="class_c_s_q_lite___local___d_b_ace38eaa62cc5639b2a7be726d51a70f7_icgraph">
-<area shape="rect" id="node2" href="class_c_doors.html#a23e1dec072702bf78eaa05332599e912" title="CDoors::OpenDoors" alt="" coords="231,149,350,173"/><area shape="rect" id="node8" href="class_c_doors.html#ac68dc2b9ae3f716b09f4c79560a0c047" title="CDoors::CloseDoors" alt="" coords="231,197,351,221"/><area shape="rect" id="node9" href="class_c_doors.html#a1954feca80181df85e4a59051387ff79" title="CDoors::LockDoors" alt="" coords="233,245,349,269"/><area shape="rect" id="node10" href="class_c_doors.html#a450ec2a776c3435103323a6e293f093f" title="CDoors::UnlockDoors" alt="" coords="228,75,353,99"/><area shape="rect" id="node3" href="class_c_doors.html#ab4df5088482fdd8d84e3f1684f618a60" title="CDoors::OpenDoor" alt="" coords="428,273,541,297"/><area shape="rect" id="node4" href="class_open_empty_box.html#afd5c75107a4912a1edb7e19258c73c6f" title="OpenEmptyBox::CreateList\lBoxEmpty" alt="" coords="636,168,787,204"/><area shape="rect" id="node5" href="class_open_empty_box.html#ac0cd8e653c4faf6891cb2f5493f2745c" title="OpenEmptyBox::OpenDoor" alt="" coords="409,174,560,198"/><area shape="rect" id="node6" href="class_show_package_box.html#ae789285d39aeeff73b2cfd3b090ba7fd" title="ShowPackageBox::ManageListBox" alt="" coords="616,75,807,99"/><area shape="rect" id="node7" href="class_show_package_box.html#a26a928cd147cffb7f57a80c05a027bcc" title="ShowPackageBox::OpenDoor" alt="" coords="401,75,568,99"/></map>
-</div>
-</p>
-
 </div>
 </div>
 <a class="anchor" id="a0c2471f87f624ad3e5a99f21dcd399da"></a>
@@ -1155,24 +922,6 @@ Voici le graphe des appelants de cette fonction :</div>
   </dd>
 </dl>
 <dl class="section return"><dt>Renvoie</dt><dd>Retourne un booléen, à vrai (true) si le traitement s'est effectuée, faux (false) sinon ou si la base de données n'est pas ouverte. </dd></dl>
-
-<p><div class="dynheader">
-Voici le graphe d'appel pour cette fonction :</div>
-<div class="dyncontent">
-<div class="center"><img src="class_c_s_q_lite___local___d_b_a0c2471f87f624ad3e5a99f21dcd399da_cgraph.png" border="0" usemap="#class_c_s_q_lite___local___d_b_a0c2471f87f624ad3e5a99f21dcd399da_cgraph" alt=""/></div>
-<map name="class_c_s_q_lite___local___d_b_a0c2471f87f624ad3e5a99f21dcd399da_cgraph" id="class_c_s_q_lite___local___d_b_a0c2471f87f624ad3e5a99f21dcd399da_cgraph">
-<area shape="rect" id="node2" href="class_c_s_q_lite___local___d_b.html#a25433d7ada1d4173d92fdedfc9f1f253" title="Enregistre dans la base de données l&#39;action suivante qui va être demandée, utilisée pour garder toute..." alt="" coords="228,5,407,41"/></map>
-</div>
-</p>
-
-<p><div class="dynheader">
-Voici le graphe des appelants de cette fonction :</div>
-<div class="dyncontent">
-<div class="center"><img src="class_c_s_q_lite___local___d_b_a0c2471f87f624ad3e5a99f21dcd399da_icgraph.png" border="0" usemap="#class_c_s_q_lite___local___d_b_a0c2471f87f624ad3e5a99f21dcd399da_icgraph" alt=""/></div>
-<map name="class_c_s_q_lite___local___d_b_a0c2471f87f624ad3e5a99f21dcd399da_icgraph" id="class_c_s_q_lite___local___d_b_a0c2471f87f624ad3e5a99f21dcd399da_icgraph">
-<area shape="rect" id="node2" href="class_c_doors.html#a949bbc01ecb9ecc72ecb40b1b6b0b04c" title="CDoors::DoorsIsClosed" alt="" coords="228,87,363,111"/><area shape="rect" id="node3" href="class_c_doors.html#aa93e30cb861205dc2e716504fdff1f0e" title="CDoors::DoorIsClosed" alt="" coords="411,63,539,87"/><area shape="rect" id="node4" href="class_c_doors.html#a2d26d6cb0f578452071e7098fa21178d" title="CDoors::DoorsStatus" alt="" coords="413,111,537,135"/><area shape="rect" id="node5" href="class_c_doors.html#a178089d2a36fba6f8903d30c6d0e60ed" title="CDoors::DoorStatus" alt="" coords="609,5,727,29"/><area shape="rect" id="node6" href="class_doors_manager.html#a3bf3ff7e7614b31422bdbdfc594e7f8e" title="DoorsManager::DoorsManager" alt="" coords="1017,81,1188,105"/><area shape="rect" id="node7" href="class_doors_manager.html#a8e1b66b56b554d177b7263cc7f6ab1e7" title="DoorsManager::CreateBoxes\lViewTest" alt="" coords="587,105,749,141"/><area shape="rect" id="node9" href="class_doors_manager.html#a20758ef57365191c3b3c6bcfcfbac90a" title="DoorsManager::CreateBoxes\lViewActDes" alt="" coords="587,165,749,201"/><area shape="rect" id="node10" href="class_thread___status_doors.html#a77bbfd3af1bdd0d741adcb60aeee7b73" title="Thread_StatusDoors::run" alt="" coords="596,225,740,249"/><area shape="rect" id="node8" href="class_doors_manager.html#a791c9c3a52e58e88fdf8ab16891dc4ca" title="DoorsManager::GotoDoorsTest" alt="" coords="797,107,969,131"/></map>
-</div>
-</p>
 
 </div>
 </div>
@@ -1199,24 +948,6 @@ Voici le graphe des appelants de cette fonction :</div>
 </dl>
 <dl class="section return"><dt>Renvoie</dt><dd>Retourne une QList&lt;struct_DoorsStatus&gt;, liste des structutres <a class="el" href="structstruct___doors_status.html" title="Structure de donnée de l&#39;application LC, utilisée pour définir l&#39;état des portes des consignes...">struct_DoorsStatus</a> contenant toutes les informations sur l'état mesuré des portes, (Numéro, taille, ouverture, fermeture, verouillage...) ou une liste vide si la base de données n'est pas ouverte. </dd></dl>
 
-<p><div class="dynheader">
-Voici le graphe d'appel pour cette fonction :</div>
-<div class="dyncontent">
-<div class="center"><img src="class_c_s_q_lite___local___d_b_a0f79fbd185261af7806a3a99292ef0a3_cgraph.png" border="0" usemap="#class_c_s_q_lite___local___d_b_a0f79fbd185261af7806a3a99292ef0a3_cgraph" alt=""/></div>
-<map name="class_c_s_q_lite___local___d_b_a0f79fbd185261af7806a3a99292ef0a3_cgraph" id="class_c_s_q_lite___local___d_b_a0f79fbd185261af7806a3a99292ef0a3_cgraph">
-<area shape="rect" id="node2" href="class_c_s_q_lite___local___d_b.html#a25433d7ada1d4173d92fdedfc9f1f253" title="Enregistre dans la base de données l&#39;action suivante qui va être demandée, utilisée pour garder toute..." alt="" coords="228,5,407,41"/></map>
-</div>
-</p>
-
-<p><div class="dynheader">
-Voici le graphe des appelants de cette fonction :</div>
-<div class="dyncontent">
-<div class="center"><img src="class_c_s_q_lite___local___d_b_a0f79fbd185261af7806a3a99292ef0a3_icgraph.png" border="0" usemap="#class_c_s_q_lite___local___d_b_a0f79fbd185261af7806a3a99292ef0a3_icgraph" alt=""/></div>
-<map name="class_c_s_q_lite___local___d_b_a0f79fbd185261af7806a3a99292ef0a3_icgraph" id="class_c_s_q_lite___local___d_b_a0f79fbd185261af7806a3a99292ef0a3_icgraph">
-<area shape="rect" id="node2" href="class_c_doors.html#a2d26d6cb0f578452071e7098fa21178d" title="CDoors::DoorsStatus" alt="" coords="228,111,352,135"/><area shape="rect" id="node3" href="class_c_doors.html#a178089d2a36fba6f8903d30c6d0e60ed" title="CDoors::DoorStatus" alt="" coords="422,5,541,29"/><area shape="rect" id="node4" href="class_doors_manager.html#a3bf3ff7e7614b31422bdbdfc594e7f8e" title="DoorsManager::DoorsManager" alt="" coords="831,111,1001,135"/><area shape="rect" id="node5" href="class_doors_manager.html#a8e1b66b56b554d177b7263cc7f6ab1e7" title="DoorsManager::CreateBoxes\lViewTest" alt="" coords="400,105,563,141"/><area shape="rect" id="node7" href="class_doors_manager.html#a20758ef57365191c3b3c6bcfcfbac90a" title="DoorsManager::CreateBoxes\lViewActDes" alt="" coords="400,165,563,201"/><area shape="rect" id="node9" href="class_thread___status_doors.html#a77bbfd3af1bdd0d741adcb60aeee7b73" title="Thread_StatusDoors::run" alt="" coords="409,225,553,249"/><area shape="rect" id="node6" href="class_doors_manager.html#a791c9c3a52e58e88fdf8ab16891dc4ca" title="DoorsManager::GotoDoorsTest" alt="" coords="611,111,783,135"/><area shape="rect" id="node8" href="class_doors_manager.html#af7d5e03a7e1a0d3da687bfcba912a0f2" title="DoorsManager::GotoActDes\lDoors" alt="" coords="617,162,776,198"/></map>
-</div>
-</p>
-
 </div>
 </div>
 <a class="anchor" id="a166919fe85fb0cbb25efcb3a9cf8056d"></a>
@@ -1242,15 +973,6 @@ Voici le graphe des appelants de cette fonction :</div>
 </dl>
 <dl class="section return"><dt>Renvoie</dt><dd>Retourne un booléen avec le succès de la commande (true) ou l'echec (false) en cas d'érreur il peut être utile d'appeler <a class="el" href="class_c_s_q_lite___local___d_b.html#afac16a908090524ff6ae6958d2a5c399" title="Récupère la dèrenière érreur survenue suite à l&#39;interaction sur la base de données. ">lastError()</a> pour plus d'informations, ou faux (false) si la base de données n'est pas ouverte. </dd></dl>
 
-<p><div class="dynheader">
-Voici le graphe des appelants de cette fonction :</div>
-<div class="dyncontent">
-<div class="center"><img src="class_c_s_q_lite___local___d_b_a166919fe85fb0cbb25efcb3a9cf8056d_icgraph.png" border="0" usemap="#class_c_s_q_lite___local___d_b_a166919fe85fb0cbb25efcb3a9cf8056d_icgraph" alt=""/></div>
-<map name="class_c_s_q_lite___local___d_b_a166919fe85fb0cbb25efcb3a9cf8056d_icgraph" id="class_c_s_q_lite___local___d_b_a166919fe85fb0cbb25efcb3a9cf8056d_icgraph">
-<area shape="rect" id="node2" href="class_setting_system.html#ae42307d6521ab351ec50dee2dc85439b" title="SettingSystem::UpdateFileXml" alt="" coords="188,11,352,35"/><area shape="rect" id="node3" href="class_setting_system.html#a8fc2d73888c71d21ff93fba3fd21ff14" title="SettingSystem::SettingSystem" alt="" coords="400,11,567,35"/></map>
-</div>
-</p>
-
 </div>
 </div>
 <a class="anchor" id="a10a1a56e3f5ae4a9e6ee69e3485c31ae"></a>
@@ -1270,7 +992,7 @@ Voici le graphe des appelants de cette fonction :</div>
 <p>Place temporairement la consigne en état occupée lorsque qu'une livraison à été efectuée et que le serveur LMS est indisponible. </p>
 <dl class="params"><dt>Paramètres</dt><dd>
   <table class="params">
-    <tr><td class="paramname">int</td><td>IdBox, Avec "IdBox" L'identifiant de la consigne a placer à létat occupée.</td></tr>
+    <tr><td class="paramname">int</td><td>IdBox, Avec "IdBox" L'identifiant de la consigne a placer à l'état occupée.</td></tr>
   </table>
   </dd>
 </dl>
@@ -1301,15 +1023,6 @@ Voici le graphe des appelants de cette fonction :</div>
 </dl>
 <dl class="section return"><dt>Renvoie</dt><dd>Retourne un booléen, à vrai (true) si le traitement s'est effectuée, faux (false) sinon ou si la base de données n'est pas ouverte. </dd></dl>
 
-<p><div class="dynheader">
-Voici le graphe des appelants de cette fonction :</div>
-<div class="dyncontent">
-<div class="center"><img src="class_c_s_q_lite___local___d_b_a290823544987587c6cb71287428752fe_icgraph.png" border="0" usemap="#class_c_s_q_lite___local___d_b_a290823544987587c6cb71287428752fe_icgraph" alt=""/></div>
-<map name="class_c_s_q_lite___local___d_b_a290823544987587c6cb71287428752fe_icgraph" id="class_c_s_q_lite___local___d_b_a290823544987587c6cb71287428752fe_icgraph">
-<area shape="rect" id="node2" href="class_doors_manager.html#ad9e5dbe742190996a002d3b9390f6174" title="DoorsManager::CheckTestBox" alt="" coords="265,5,434,29"/><area shape="rect" id="node4" href="class_doors_manager.html#a7be09e60a4625c76f376ee13f0d4e213" title="DoorsManager::DesactivateDoor" alt="" coords="260,53,439,77"/><area shape="rect" id="node3" href="class_doors_manager.html#a3bf3ff7e7614b31422bdbdfc594e7f8e" title="DoorsManager::DoorsManager" alt="" coords="487,29,657,53"/></map>
-</div>
-</p>
-
 </div>
 </div>
 <a class="anchor" id="a325a7cb7c3203d66be49eb4d7c8806c7"></a>
@@ -1329,20 +1042,11 @@ Voici le graphe des appelants de cette fonction :</div>
 <p>Met à jour la base de données avec les portes/consignes signalées comme défectueses. </p>
 <dl class="params"><dt>Paramètres</dt><dd>
   <table class="params">
-    <tr><td class="paramname">QList&lt;int&gt;</td><td>DammagedBoxes, Avec "DammagedBoxes" la liste d'indentifants des consignes endomagées.</td></tr>
+    <tr><td class="paramname">QList&lt;</td><td>int &gt; DammagedBoxes, Avec "DammagedBoxes" la liste d'indentifants des consignes endomagées.</td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Renvoie</dt><dd>Retourne un booléen, à vrai (true) si le traitement s'est effectuée, faux (false) sinon ou si la base de données n'est pas ouverte. </dd></dl>
-
-<p><div class="dynheader">
-Voici le graphe des appelants de cette fonction :</div>
-<div class="dyncontent">
-<div class="center"><img src="class_c_s_q_lite___local___d_b_a325a7cb7c3203d66be49eb4d7c8806c7_icgraph.png" border="0" usemap="#class_c_s_q_lite___local___d_b_a325a7cb7c3203d66be49eb4d7c8806c7_icgraph" alt=""/></div>
-<map name="class_c_s_q_lite___local___d_b_a325a7cb7c3203d66be49eb4d7c8806c7_icgraph" id="class_c_s_q_lite___local___d_b_a325a7cb7c3203d66be49eb4d7c8806c7_icgraph">
-<area shape="rect" id="node2" href="class_stow_packages.html#ad7a5a6b267b9546bac97f2ab8e9ed6d5" title="StowPackages::UpdateBD" alt="" coords="241,11,391,35"/><area shape="rect" id="node3" href="class_stow_packages.html#a0c70d2e30981f94630fcdc56716d06ae" title="StowPackages::SaveBoxSelected" alt="" coords="439,11,625,35"/><area shape="rect" id="node4" href="class_stow_packages.html#a116abaad4fab9f0dd7f243d99594b6f3" title="StowPackages::StowPackages" alt="" coords="673,11,848,35"/></map>
-</div>
-</p>
 
 </div>
 </div>
@@ -1370,15 +1074,6 @@ Voici le graphe des appelants de cette fonction :</div>
 
 <p>Signal emit avec une valeur normalement utilisée pour effectuer un msleep() afin de ralentir le processus qui s'y ait connecté. </p>
 
-<p><div class="dynheader">
-Voici le graphe des appelants de cette fonction :</div>
-<div class="dyncontent">
-<div class="center"><img src="class_c_s_q_lite___local___d_b_ad0e7d886718af92f60b63afe373f6680_icgraph.png" border="0" usemap="#class_c_s_q_lite___local___d_b_ad0e7d886718af92f60b63afe373f6680_icgraph" alt=""/></div>
-<map name="class_c_s_q_lite___local___d_b_ad0e7d886718af92f60b63afe373f6680_icgraph" id="class_c_s_q_lite___local___d_b_ad0e7d886718af92f60b63afe373f6680_icgraph">
-<area shape="rect" id="node2" href="class_c_s_q_lite___local___d_b.html#ad8e4895a47708bc5f3e5abce00be1853" title="Fonction de traitement de la base de données, Crée une nouvelle base de données vide, par defaut, une sauvegarde, et charge une sauvegarde. La fonction evoie des signaux CurrentProcessLoading() et SlowProcess() pour l&#39;information de l&#39;avencée du traitement. " alt="" coords="476,55,616,91"/><area shape="rect" id="node5" href="class_c_s_q_lite___local___d_b.html#ae0acaed46f00a2e0354dd5b2bd5b684a" title="Coupe la connexion avec la base de données et en crée une nouvelle avec les informations contenue dan..." alt="" coords="891,109,1105,133"/><area shape="rect" id="node7" href="class_c_s_q_lite___local___d_b.html#a8d0221163f980dbec609d06d1666efa6" title="Supprime l&#39;ancien fichier et effectue une sauvegarde de la base de données actuel dans un fichier (ch..." alt="" coords="237,110,428,134"/><area shape="rect" id="node3" href="class_c_s_q_lite___local___d_b.html#a9ca65a5a5f4b64892744771cedb1cd45" title="Effectue la connexion d&#39;une base de données avec le fichier SQLite de la base de données, si ce n&#39;est pas possible, (fichier inexistant par exemple) la fonction tente de créer une base de donnée. Si il existe les fichiers de sauvegarde, la nouvelle base de données sera construite avec sinon, si les fichiers des base SQL exixtent la nouvelle base de données sera construite avec. Enfin si aucun des cas précédent n&#39;est possible, la fonction retoune une erreur. " alt="" coords="664,11,843,35"/><area shape="rect" id="node6" href="class_thread___databasemanager.html#a05d712f64b4838e59bbd8e82f4620d0b" title="Thread_Databasemanager::run" alt="" coords="667,59,839,83"/><area shape="rect" id="node4" href="class_c_s_q_lite___local___d_b.html#a1de8dfa1437f6ff518b0375017aba25f" title="Constructeur de la classe CSQLite_Local_DB, qui hérite de QObject affin de pouvoir émètre des signaux..." alt="" coords="919,5,1077,41"/></map>
-</div>
-</p>
-
 </div>
 </div>
 <a class="anchor" id="ad8e4895a47708bc5f3e5abce00be1853"></a>
@@ -1404,24 +1099,6 @@ Voici le graphe des appelants de cette fonction :</div>
 </dl>
 <dl class="section return"><dt>Renvoie</dt><dd>Retourne un booléen, à vrai (true) si le traitement s'est effectuée, faux (false) sinon ou si la base de données n'est pas ouverte. </dd></dl>
 
-<p><div class="dynheader">
-Voici le graphe d'appel pour cette fonction :</div>
-<div class="dyncontent">
-<div class="center"><img src="class_c_s_q_lite___local___d_b_ad8e4895a47708bc5f3e5abce00be1853_cgraph.png" border="0" usemap="#class_c_s_q_lite___local___d_b_ad8e4895a47708bc5f3e5abce00be1853_cgraph" alt=""/></div>
-<map name="class_c_s_q_lite___local___d_b_ad8e4895a47708bc5f3e5abce00be1853_cgraph" id="class_c_s_q_lite___local___d_b_ad8e4895a47708bc5f3e5abce00be1853_cgraph">
-<area shape="rect" id="node2" href="class_c_s_q_lite___local___d_b.html#aa0750076670f4b4b4aa9eb0a925aaebb" title="Lit le contenu d&#39;un fichier SQL, utilisée pour lire les fichiers de constructions ou de sauvegardes d..." alt="" coords="456,43,643,67"/><area shape="rect" id="node3" href="class_c_l_m_s___d_b.html#a8b366690793d462f76cfa82dcf39464d" title="CLMS_DB::ManualSave\l_DatabaseLMS" alt="" coords="233,241,368,277"/><area shape="rect" id="node4" href="class_c_s_q_lite___local___d_b.html#a3d92b3c5a71a60ef86315071268a62b8" title="Récupère le nom du site actuel ou est installée la console de gestion des consignes automatiques..." alt="" coords="233,301,369,337"/><area shape="rect" id="node5" href="class_c_s_q_lite___local___d_b.html#a8d0221163f980dbec609d06d1666efa6" title="Supprime l&#39;ancien fichier et effectue une sauvegarde de la base de données actuel dans un fichier (ch..." alt="" coords="205,43,396,67"/><area shape="rect" id="node6" href="class_c_s_q_lite___local___d_b.html#acdb2940a30f654f0c39cd0c259b9ad17" title="Ecrit un fichier SQL en mode &quot;append&quot;, soit a la fin d&#39;un fichier deja existant. " alt="" coords="456,92,643,116"/><area shape="rect" id="node7" href="class_c_l_m_s___d_b.html#ad94e39f350a60170e18086b3655084d6" title="CLMS_DB::Get_LastDatabase_Save" alt="" coords="202,361,399,385"/><area shape="rect" id="node8" href="class_c_s_q_lite___local___d_b.html#ae0acaed46f00a2e0354dd5b2bd5b684a" title="Coupe la connexion avec la base de données et en crée une nouvelle avec les informations contenue dan..." alt="" coords="193,141,408,165"/><area shape="rect" id="node9" href="class_c_s_q_lite___local___d_b.html#a8222ffaffb0d9945e4343131707b1c22" title="Ferme la base de données précédament ouverte et la supprime (utilisée en fin de programme ou dans le ..." alt="" coords="465,141,634,165"/><area shape="rect" id="node10" href="class_c_s_q_lite___local___d_b.html#a9ca65a5a5f4b64892744771cedb1cd45" title="Effectue la connexion d&#39;une base de données avec le fichier SQLite de la base de données, si ce n&#39;est pas possible, (fichier inexistant par exemple) la fonction tente de créer une base de donnée. Si il existe les fichiers de sauvegarde, la nouvelle base de données sera construite avec sinon, si les fichiers des base SQL exixtent la nouvelle base de données sera construite avec. Enfin si aucun des cas précédent n&#39;est possible, la fonction retoune une erreur. " alt="" coords="460,189,639,213"/></map>
-</div>
-</p>
-
-<p><div class="dynheader">
-Voici le graphe des appelants de cette fonction :</div>
-<div class="dyncontent">
-<div class="center"><img src="class_c_s_q_lite___local___d_b_ad8e4895a47708bc5f3e5abce00be1853_icgraph.png" border="0" usemap="#class_c_s_q_lite___local___d_b_ad8e4895a47708bc5f3e5abce00be1853_icgraph" alt=""/></div>
-<map name="class_c_s_q_lite___local___d_b_ad8e4895a47708bc5f3e5abce00be1853_icgraph" id="class_c_s_q_lite___local___d_b_ad8e4895a47708bc5f3e5abce00be1853_icgraph">
-<area shape="rect" id="node2" href="class_c_s_q_lite___local___d_b.html#a9ca65a5a5f4b64892744771cedb1cd45" title="Effectue la connexion d&#39;une base de données avec le fichier SQLite de la base de données, si ce n&#39;est pas possible, (fichier inexistant par exemple) la fonction tente de créer une base de donnée. Si il existe les fichiers de sauvegarde, la nouvelle base de données sera construite avec sinon, si les fichiers des base SQL exixtent la nouvelle base de données sera construite avec. Enfin si aucun des cas précédent n&#39;est possible, la fonction retoune une erreur. " alt="" coords="193,11,372,35"/><area shape="rect" id="node5" href="class_thread___databasemanager.html#a05d712f64b4838e59bbd8e82f4620d0b" title="Thread_Databasemanager::run" alt="" coords="197,59,369,83"/><area shape="rect" id="node3" href="class_c_s_q_lite___local___d_b.html#a1de8dfa1437f6ff518b0375017aba25f" title="Constructeur de la classe CSQLite_Local_DB, qui hérite de QObject affin de pouvoir émètre des signaux..." alt="" coords="448,5,607,41"/><area shape="rect" id="node4" href="class_c_s_q_lite___local___d_b.html#ae0acaed46f00a2e0354dd5b2bd5b684a" title="Coupe la connexion avec la base de données et en crée une nouvelle avec les informations contenue dan..." alt="" coords="420,87,635,111"/></map>
-</div>
-</p>
-
 </div>
 </div>
 <a class="anchor" id="a0d59eac1cb80e3c70d6f62cfac1083d2"></a>
@@ -1441,7 +1118,7 @@ Voici le graphe des appelants de cette fonction :</div>
 <p>Replace la consigne à l'état libre lors de sa mise à jour temporaire de livraison sans serveur LMS. </p>
 <dl class="params"><dt>Paramètres</dt><dd>
   <table class="params">
-    <tr><td class="paramname">int</td><td>IdBox, Avec "IdBox" L'identifiant de la consigne a placer à létat libre.</td></tr>
+    <tr><td class="paramname">int</td><td>IdBox, Avec "IdBox" L'identifiant de la consigne a placer à l'état libre.</td></tr>
   </table>
   </dd>
 </dl>
@@ -1471,15 +1148,6 @@ Voici le graphe des appelants de cette fonction :</div>
   </dd>
 </dl>
 <dl class="section return"><dt>Renvoie</dt><dd>Retourne un booléen, à vrai (true) si le traitement s'est effectuée, faux (false) sinon ou si la base de données n'est pas ouverte. </dd></dl>
-
-<p><div class="dynheader">
-Voici le graphe des appelants de cette fonction :</div>
-<div class="dyncontent">
-<div class="center"><img src="class_c_s_q_lite___local___d_b_adac90874af0da1b1b71c96049f997a12_icgraph.png" border="0" usemap="#class_c_s_q_lite___local___d_b_adac90874af0da1b1b71c96049f997a12_icgraph" alt=""/></div>
-<map name="class_c_s_q_lite___local___d_b_adac90874af0da1b1b71c96049f997a12_icgraph" id="class_c_s_q_lite___local___d_b_adac90874af0da1b1b71c96049f997a12_icgraph">
-<area shape="rect" id="node2" href="class_doors_manager.html#ad9e5dbe742190996a002d3b9390f6174" title="DoorsManager::CheckTestBox" alt="" coords="272,5,441,29"/><area shape="rect" id="node4" href="class_doors_manager.html#adf818013f5e3ba23027c10549e09ffaa" title="DoorsManager::ActivateDoor" alt="" coords="275,53,438,77"/><area shape="rect" id="node3" href="class_doors_manager.html#a3bf3ff7e7614b31422bdbdfc594e7f8e" title="DoorsManager::DoorsManager" alt="" coords="489,29,660,53"/></map>
-</div>
-</p>
 
 </div>
 </div>
@@ -1531,24 +1199,6 @@ Voici le graphe des appelants de cette fonction :</div>
 </dl>
 <dl class="section return"><dt>Renvoie</dt><dd>Retourne un booléen, à vrai (true) si la mise à jour s'est effectuée, faux (false) sinon ou si la base de données n'est pas ouverte. </dd></dl>
 
-<p><div class="dynheader">
-Voici le graphe d'appel pour cette fonction :</div>
-<div class="dyncontent">
-<div class="center"><img src="class_c_s_q_lite___local___d_b_a650c693de81299bb9fd3f0671c0ab9d7_cgraph.png" border="0" usemap="#class_c_s_q_lite___local___d_b_a650c693de81299bb9fd3f0671c0ab9d7_cgraph" alt=""/></div>
-<map name="class_c_s_q_lite___local___d_b_a650c693de81299bb9fd3f0671c0ab9d7_cgraph" id="class_c_s_q_lite___local___d_b_a650c693de81299bb9fd3f0671c0ab9d7_cgraph">
-<area shape="rect" id="node2" href="class_c_s_q_lite___local___d_b.html#a25433d7ada1d4173d92fdedfc9f1f253" title="Enregistre dans la base de données l&#39;action suivante qui va être demandée, utilisée pour garder toute..." alt="" coords="207,5,385,41"/></map>
-</div>
-</p>
-
-<p><div class="dynheader">
-Voici le graphe des appelants de cette fonction :</div>
-<div class="dyncontent">
-<div class="center"><img src="class_c_s_q_lite___local___d_b_a650c693de81299bb9fd3f0671c0ab9d7_icgraph.png" border="0" usemap="#class_c_s_q_lite___local___d_b_a650c693de81299bb9fd3f0671c0ab9d7_icgraph" alt=""/></div>
-<map name="class_c_s_q_lite___local___d_b_a650c693de81299bb9fd3f0671c0ab9d7_icgraph" id="class_c_s_q_lite___local___d_b_a650c693de81299bb9fd3f0671c0ab9d7_icgraph">
-<area shape="rect" id="node2" href="class_thread_save_delivery.html#ac83d9b16af43c11bf310261efdbd856b" title="ThreadSaveDelivery\l::saveListpackage" alt="" coords="207,5,327,41"/><area shape="rect" id="node4" href="class_thread_save_delivery.html#a0baa99579742255ab62d8f45fdc49460" title="ThreadSaveDelivery\l::saveListpackages" alt="" coords="207,65,327,101"/><area shape="rect" id="node3" href="class_thread_save_delivery.html#a4975505f89e79a8cfb90a6a6d7d1f1b0" title="ThreadSaveDelivery::run" alt="" coords="375,42,517,66"/></map>
-</div>
-</p>
-
 </div>
 </div>
 <a class="anchor" id="acdb2940a30f654f0c39cd0c259b9ad17"></a>
@@ -1592,15 +1242,6 @@ Voici le graphe des appelants de cette fonction :</div>
 </dl>
 <dl class="section return"><dt>Renvoie</dt><dd>Retourne un booléen, à vrai (true) si l'écriture s'est effectuée, faux (false) sinon. </dd></dl>
 
-<p><div class="dynheader">
-Voici le graphe des appelants de cette fonction :</div>
-<div class="dyncontent">
-<div class="center"><img src="class_c_s_q_lite___local___d_b_acdb2940a30f654f0c39cd0c259b9ad17_icgraph.png" border="0" usemap="#class_c_s_q_lite___local___d_b_acdb2940a30f654f0c39cd0c259b9ad17_icgraph" alt=""/></div>
-<map name="class_c_s_q_lite___local___d_b_acdb2940a30f654f0c39cd0c259b9ad17_icgraph" id="class_c_s_q_lite___local___d_b_acdb2940a30f654f0c39cd0c259b9ad17_icgraph">
-<area shape="rect" id="node2" href="class_c_s_q_lite___local___d_b.html#ad8e4895a47708bc5f3e5abce00be1853" title="Fonction de traitement de la base de données, Crée une nouvelle base de données vide, par defaut, une sauvegarde, et charge une sauvegarde. La fonction evoie des signaux CurrentProcessLoading() et SlowProcess() pour l&#39;information de l&#39;avencée du traitement. " alt="" coords="479,53,619,89"/><area shape="rect" id="node7" href="class_c_s_q_lite___local___d_b.html#a8d0221163f980dbec609d06d1666efa6" title="Supprime l&#39;ancien fichier et effectue une sauvegarde de la base de données actuel dans un fichier (ch..." alt="" coords="240,86,431,110"/><area shape="rect" id="node8" href="class_c_s_q_lite___local___d_b.html#a3e2286f76a3334debdf2761ee285c17b" title="Fonction apellée automatiquement pas le systeme de mise à jour de la base de données, la sauvegarde est générée et envoyée au serveur LMS. Si le serveur LMS n&#39;est pas disponible, la fonction créer une sauvegarde locale qui sera envoyée au prochain appel. " alt="" coords="252,135,419,171"/><area shape="rect" id="node3" href="class_c_s_q_lite___local___d_b.html#a9ca65a5a5f4b64892744771cedb1cd45" title="Effectue la connexion d&#39;une base de données avec le fichier SQLite de la base de données, si ce n&#39;est pas possible, (fichier inexistant par exemple) la fonction tente de créer une base de donnée. Si il existe les fichiers de sauvegarde, la nouvelle base de données sera construite avec sinon, si les fichiers des base SQL exixtent la nouvelle base de données sera construite avec. Enfin si aucun des cas précédent n&#39;est possible, la fonction retoune une erreur. " alt="" coords="667,11,845,35"/><area shape="rect" id="node6" href="class_thread___databasemanager.html#a05d712f64b4838e59bbd8e82f4620d0b" title="Thread_Databasemanager::run" alt="" coords="670,59,842,83"/><area shape="rect" id="node4" href="class_c_s_q_lite___local___d_b.html#a1de8dfa1437f6ff518b0375017aba25f" title="Constructeur de la classe CSQLite_Local_DB, qui hérite de QObject affin de pouvoir émètre des signaux..." alt="" coords="921,5,1080,41"/><area shape="rect" id="node5" href="class_c_s_q_lite___local___d_b.html#ae0acaed46f00a2e0354dd5b2bd5b684a" title="Coupe la connexion avec la base de données et en crée une nouvelle avec les informations contenue dan..." alt="" coords="893,87,1108,111"/><area shape="rect" id="node9" href="class_thread___local_database___auto_save.html#a94a5bf2508b21c19f3cc06b3cbf0bcb3" title="Thread_LocalDatabase\l_AutoSave::run" alt="" coords="481,135,616,171"/></map>
-</div>
-</p>
-
 </div>
 </div>
 <hr/>La documentation de cette classe a été générée à partir des fichiers suivants :<ul>
@@ -1613,7 +1254,7 @@ Voici le graphe des appelants de cette fonction :</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_c_s_q_lite___local___d_b.html">CSQLite_Local_DB</a></li>
-    <li class="footer">Généré le Samedi 9 Mai 2015 23:10:19 pour Locker_Control (LC) par
+    <li class="footer">Généré le Dimanche 10 Mai 2015 23:36:41 pour Locker_Control (LC) par
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

@@ -1,8 +1,0 @@
-<map id="MaintenanceMenu::MaintenanceMenu" name="MaintenanceMenu::MaintenanceMenu">
-<area shape="rect" id="node2" href="$class_maintenance_menu.html#a24fea77d8fd45cf1298a8e26e177a862" title="MaintenanceMenu::ReturnHome" alt="" coords="256,11,431,35"/>
-<area shape="rect" id="node4" href="$class_maintenance_menu.html#af163afae9ddb54847fd7a9ec2e1b2398" title="MaintenanceMenu::GotoDoors\lManager" alt="" coords="260,60,427,96"/>
-<area shape="rect" id="node6" href="$class_maintenance_menu.html#a510658e4647fb3104e425df6f5457351" title="MaintenanceMenu::GotoSQLite\l_Local_DatabaseManager" alt="" coords="258,120,429,156"/>
-<area shape="rect" id="node3" href="$class_show_widgets.html#a41e281e6f1ca3b1789f552ac60e00776" title="ShowWidgets::ShowWConsole\lWindows" alt="" coords="495,5,669,41"/>
-<area shape="rect" id="node5" href="$class_show_widgets.html#a3ee625b95df8afdad6cd0d258ea81105" title="ShowWidgets::ShowWDoorsManager" alt="" coords="479,66,685,90"/>
-<area shape="rect" id="node7" href="$class_show_widgets.html#a0a37a7192eda398f3b58cb4572a436d4" title="ShowWidgets::ShowWSQLite\l_Local_DatabaseManager" alt="" coords="499,120,665,156"/>
-</map>

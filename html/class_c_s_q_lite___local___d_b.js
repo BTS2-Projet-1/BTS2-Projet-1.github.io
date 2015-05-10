@@ -10,6 +10,7 @@ var class_c_s_q_lite___local___d_b =
     [ "DataBaseStatus", "class_c_s_q_lite___local___d_b.html#a5a593d4e0e70f08ce0537f9a10587072", null ],
     [ "Delete_DB", "class_c_s_q_lite___local___d_b.html#a8222ffaffb0d9945e4343131707b1c22", null ],
     [ "DeleteExtractCode", "class_c_s_q_lite___local___d_b.html#a2431685493e32b890f7b038abbb7d48a", null ],
+    [ "Get_All_idBox", "class_c_s_q_lite___local___d_b.html#a8953ab830d118ae82567f6bae41989bb", null ],
     [ "Get_DataBaseIsReady", "class_c_s_q_lite___local___d_b.html#ad3380dd61189863c1d2d5e681b853e0e", null ],
     [ "Get_NumberOfBoxes", "class_c_s_q_lite___local___d_b.html#a26bcaa36108d9c5ef34a9ad11e288ad8", null ],
     [ "Get_SiteName", "class_c_s_q_lite___local___d_b.html#a3d92b3c5a71a60ef86315071268a62b8", null ],

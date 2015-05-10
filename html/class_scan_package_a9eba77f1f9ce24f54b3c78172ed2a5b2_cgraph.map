@@ -1,6 +1,0 @@
-<map id="ScanPackage::StockNumberPackage" name="ScanPackage::StockNumberPackage">
-<area shape="rect" id="node2" href="$class_scan_package.html#a565dbb7397d7dd780f4870d83a15b906" title="ScanPackage::AddItemList\lWidget" alt="" coords="212,47,363,83"/>
-<area shape="rect" id="node3" href="$class_scan_package.html#ac9d9da0a233dad4464f0cdf1c02991a5" title="ScanPackage::isExistNumPackage" alt="" coords="411,5,597,29"/>
-<area shape="rect" id="node4" href="$class_scan_package.html#a9805f5410fccbbfc56bac6084fb6b9ed" title="ScanPackage::DeleteNumPackage" alt="" coords="411,53,597,77"/>
-<area shape="rect" id="node5" href="$class_scan_package.html#a9d068b492d0d49abb0cbdcad9d1fe203" title="ScanPackage::ShowMessage\lError" alt="" coords="421,102,587,138"/>
-</map>

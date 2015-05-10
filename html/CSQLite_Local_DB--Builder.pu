@@ -1,0 +1,19 @@
+@startuml
+
+
+ ConsoleWindows -> CSQLite_Local_DB : CSQLite_Local_DB::CSQLite_Local_DB()
+ activate CSQLite_Local_DB #0000FF
+
+ CSQLite_Local_DB -> CSQLite_Local_DB : Connect_DB()
+ activate CSQLite_Local_DB #00BBFF
+
+ CSQLite_Local_DB -> CSQLite_Local_DB : Try to connect, else\n build a new database
+ activate CSQLite_Local_DB #50EEFF
+
+ deactivate CSQLite_Local_DB
+ deactivate CSQLite_Local_DB
+
+ CSQLite_Local_DB -> ConsoleWindows : Database satuts (bool)
+ deactivate ConsoleWindows
+
+@enduml

@@ -33,7 +33,7 @@
   <td id="projectlogo"><img alt="Logo" src="logibag.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Locker_Control (LC)
-   &#160;<span id="projectnumber">1.3.1</span>
+   &#160;<span id="projectnumber">1.4.3</span>
    </div>
    <div id="projectbrief">Application Locker Control (LC), an automatic boxes manager on Qt in c++.</div>
   </td>
@@ -133,16 +133,16 @@ $(document).ready(function(){initNavTree('settingsystem_8h_source.html','');});
 <div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="class_setting_system.html">   20</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_setting_system.html">SettingSystem</a> : <span class="keyword">public</span> QWidget</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;{</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    Q_OBJECT</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    Q_ENUMS(<a class="code" href="class_setting_system.html#ad046ad3adffd323e59c0109d59582d76">MODE_REGEXP</a>)</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    Q_ENUMS(MODE_REGEXP)</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="class_setting_system.html#a8fc2d73888c71d21ff93fba3fd21ff14">SettingSystem</a>(<a class="code" href="class_c_s_q_lite___local___d_b.html">CSQLite_Local_DB</a> *DB, <a class="code" href="class_c_l_m_s___d_b.html">CLMS_DB</a> *lms, QWidget *parent = 0);</div>
-<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="class_setting_system.html#aeede366e31bc4cadf6ada69bd7059454">   27</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_setting_system.html#aeede366e31bc4cadf6ada69bd7059454">SetShowWidgets</a>(<a class="code" href="class_show_widgets.html">ShowWidgets</a> *TShowWidgets){m_ShowWidgets = TShowWidgets;}</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <a class="code" href="class_setting_system.html#a37eedb8b2569b47387e157ab47653a1f">~SettingSystem</a>();</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="class_setting_system.html">SettingSystem</a>(<a class="code" href="class_c_s_q_lite___local___d_b.html">CSQLite_Local_DB</a> *DB, <a class="code" href="class_c_l_m_s___d_b.html">CLMS_DB</a> *lms, QWidget *parent = 0);</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordtype">void</span> SetShowWidgets(<a class="code" href="class_show_widgets.html">ShowWidgets</a> *TShowWidgets){m_ShowWidgets = TShowWidgets;}</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    ~<a class="code" href="class_setting_system.html">SettingSystem</a>();</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_setting_system.html#a647720ef137e7f93fa77370395a7f0c3">UpdateSetting</a>();</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_setting_system.html#ae2715f938b1901258dfc993df09d4f94">setEditSetting</a>(<a class="code" href="class_edit_setting_system.html">EditSettingSystem</a> *editsetting);</div>
-<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="class_setting_system.html#ad046ad3adffd323e59c0109d59582d76a102979f7a99ede723aba0e87008ea725">   32</a></span>&#160;    <span class="keyword">enum</span> <a class="code" href="class_setting_system.html#ad046ad3adffd323e59c0109d59582d76">MODE_REGEXP</a>{<a class="code" href="class_setting_system.html#ad046ad3adffd323e59c0109d59582d76a102979f7a99ede723aba0e87008ea725">NORMAL</a> = 0,<a class="code" href="class_setting_system.html#ad046ad3adffd323e59c0109d59582d76ab88493e65b56ce1f70470d84743588c7">IPV4</a> = 1,<a class="code" href="class_setting_system.html#ad046ad3adffd323e59c0109d59582d76a3ecfba02a1e80f1394b817f1c9be877e">EMAIL</a> =2};</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordtype">void</span> UpdateSetting();</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordtype">void</span> setEditSetting(<a class="code" href="class_edit_setting_system.html">EditSettingSystem</a> *editsetting);</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keyword">enum</span> MODE_REGEXP{NORMAL = 0,IPV4 = 1,EMAIL =2};</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="keyword">public</span> slots:</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_setting_system.html#ae42307d6521ab351ec50dee2dc85439b">UpdateFileXml</a>();</div>
@@ -165,33 +165,23 @@ $(document).ready(function(){initNavTree('settingsystem_8h_source.html','');});
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;signals:</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_setting_system.html#a98bbc24c9e94c2b4d4f8c9131478ac1a">SendWLineText</a>(QString,QString,<a class="code" href="editsettingsystem_8h.html#a5227ca4f7424412312f0ed756359c612">MODE_REGEXP</a>);</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_setting_system.html#a98bbc24c9e94c2b4d4f8c9131478ac1a">SendWLineText</a>(QString,QString,MODE_REGEXP);</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;};</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="preprocessor">#endif // SETTINGSYSTEM_H</span></div>
 <div class="ttc" id="class_c_l_m_s___d_b_html"><div class="ttname"><a href="class_c_l_m_s___d_b.html">CLMS_DB</a></div><div class="ttdef"><b>Definition:</b> clms_db.h:6</div></div>
 <div class="ttc" id="editsettingsystem_8h_html"><div class="ttname"><a href="editsettingsystem_8h.html">editsettingsystem.h</a></div></div>
 <div class="ttc" id="namespace_ui_html"><div class="ttname"><a href="namespace_ui.html">Ui</a></div><div class="ttdef"><b>Definition:</b> assistance.h:6</div></div>
-<div class="ttc" id="class_setting_system_html_ad046ad3adffd323e59c0109d59582d76"><div class="ttname"><a href="class_setting_system.html#ad046ad3adffd323e59c0109d59582d76">SettingSystem::MODE_REGEXP</a></div><div class="ttdeci">MODE_REGEXP</div><div class="ttdef"><b>Definition:</b> settingsystem.h:32</div></div>
 <div class="ttc" id="class_edit_setting_system_html"><div class="ttname"><a href="class_edit_setting_system.html">EditSettingSystem</a></div><div class="ttdef"><b>Definition:</b> editsettingsystem.h:19</div></div>
-<div class="ttc" id="class_setting_system_html_a8fc2d73888c71d21ff93fba3fd21ff14"><div class="ttname"><a href="class_setting_system.html#a8fc2d73888c71d21ff93fba3fd21ff14">SettingSystem::SettingSystem</a></div><div class="ttdeci">SettingSystem(CSQLite_Local_DB *DB, CLMS_DB *lms, QWidget *parent=0)</div><div class="ttdef"><b>Definition:</b> settingsystem.cpp:22</div></div>
 <div class="ttc" id="showwidgets_8h_html"><div class="ttname"><a href="showwidgets_8h.html">showwidgets.h</a></div></div>
 <div class="ttc" id="class_show_widgets_html"><div class="ttname"><a href="class_show_widgets.html">ShowWidgets</a></div><div class="ttdef"><b>Definition:</b> showwidgets.h:7</div></div>
 <div class="ttc" id="csqlite__local__db_8h_html"><div class="ttname"><a href="csqlite__local__db_8h.html">csqlite_local_db.h</a></div></div>
-<div class="ttc" id="editsettingsystem_8h_html_a5227ca4f7424412312f0ed756359c612"><div class="ttname"><a href="editsettingsystem_8h.html#a5227ca4f7424412312f0ed756359c612">MODE_REGEXP</a></div><div class="ttdeci">MODE_REGEXP</div><div class="ttdef"><b>Definition:</b> editsettingsystem.h:13</div></div>
-<div class="ttc" id="class_setting_system_html_a647720ef137e7f93fa77370395a7f0c3"><div class="ttname"><a href="class_setting_system.html#a647720ef137e7f93fa77370395a7f0c3">SettingSystem::UpdateSetting</a></div><div class="ttdeci">void UpdateSetting()</div><div class="ttdef"><b>Definition:</b> settingsystem.cpp:131</div></div>
-<div class="ttc" id="class_setting_system_html_a37eedb8b2569b47387e157ab47653a1f"><div class="ttname"><a href="class_setting_system.html#a37eedb8b2569b47387e157ab47653a1f">SettingSystem::~SettingSystem</a></div><div class="ttdeci">~SettingSystem()</div><div class="ttdef"><b>Definition:</b> settingsystem.cpp:95</div></div>
 <div class="ttc" id="class_setting_system_html_a98bbc24c9e94c2b4d4f8c9131478ac1a"><div class="ttname"><a href="class_setting_system.html#a98bbc24c9e94c2b4d4f8c9131478ac1a">SettingSystem::SendWLineText</a></div><div class="ttdeci">void SendWLineText(QString, QString, MODE_REGEXP)</div></div>
-<div class="ttc" id="class_setting_system_html_aeede366e31bc4cadf6ada69bd7059454"><div class="ttname"><a href="class_setting_system.html#aeede366e31bc4cadf6ada69bd7059454">SettingSystem::SetShowWidgets</a></div><div class="ttdeci">void SetShowWidgets(ShowWidgets *TShowWidgets)</div><div class="ttdef"><b>Definition:</b> settingsystem.h:27</div></div>
-<div class="ttc" id="class_setting_system_html_ad046ad3adffd323e59c0109d59582d76a102979f7a99ede723aba0e87008ea725"><div class="ttname"><a href="class_setting_system.html#ad046ad3adffd323e59c0109d59582d76a102979f7a99ede723aba0e87008ea725">SettingSystem::NORMAL</a></div><div class="ttdef"><b>Definition:</b> settingsystem.h:32</div></div>
-<div class="ttc" id="class_setting_system_html_ad046ad3adffd323e59c0109d59582d76a3ecfba02a1e80f1394b817f1c9be877e"><div class="ttname"><a href="class_setting_system.html#ad046ad3adffd323e59c0109d59582d76a3ecfba02a1e80f1394b817f1c9be877e">SettingSystem::EMAIL</a></div><div class="ttdef"><b>Definition:</b> settingsystem.h:32</div></div>
 <div class="ttc" id="clms__db_8h_html"><div class="ttname"><a href="clms__db_8h.html">clms_db.h</a></div></div>
 <div class="ttc" id="class_setting_system_html"><div class="ttname"><a href="class_setting_system.html">SettingSystem</a></div><div class="ttdef"><b>Definition:</b> settingsystem.h:20</div></div>
-<div class="ttc" id="class_c_s_q_lite___local___d_b_html"><div class="ttname"><a href="class_c_s_q_lite___local___d_b.html">CSQLite_Local_DB</a></div><div class="ttdoc">classe CSQLite_Local_DB, gestion des communications entre une base de données locale de type SQLite...</div><div class="ttdef"><b>Definition:</b> csqlite_local_db.h:39</div></div>
-<div class="ttc" id="class_setting_system_html_ae2715f938b1901258dfc993df09d4f94"><div class="ttname"><a href="class_setting_system.html#ae2715f938b1901258dfc993df09d4f94">SettingSystem::setEditSetting</a></div><div class="ttdeci">void setEditSetting(EditSettingSystem *editsetting)</div><div class="ttdef"><b>Definition:</b> settingsystem.cpp:89</div></div>
+<div class="ttc" id="class_c_s_q_lite___local___d_b_html"><div class="ttname"><a href="class_c_s_q_lite___local___d_b.html">CSQLite_Local_DB</a></div><div class="ttdoc">classe CSQLite_Local_DB, gestion des communications entre une base de données locale de type SQLite...</div><div class="ttdef"><b>Definition:</b> csqlite_local_db.h:54</div></div>
 <div class="ttc" id="customxml_8h_html"><div class="ttname"><a href="customxml_8h.html">customxml.h</a></div></div>
 <div class="ttc" id="class_custom_xml_html"><div class="ttname"><a href="class_custom_xml.html">CustomXml</a></div><div class="ttdef"><b>Definition:</b> customxml.h:10</div></div>
-<div class="ttc" id="class_setting_system_html_ad046ad3adffd323e59c0109d59582d76ab88493e65b56ce1f70470d84743588c7"><div class="ttname"><a href="class_setting_system.html#ad046ad3adffd323e59c0109d59582d76ab88493e65b56ce1f70470d84743588c7">SettingSystem::IPV4</a></div><div class="ttdef"><b>Definition:</b> settingsystem.h:32</div></div>
 <div class="ttc" id="class_setting_system_html_ae42307d6521ab351ec50dee2dc85439b"><div class="ttname"><a href="class_setting_system.html#ae42307d6521ab351ec50dee2dc85439b">SettingSystem::UpdateFileXml</a></div><div class="ttdeci">void UpdateFileXml()</div><div class="ttdef"><b>Definition:</b> settingsystem.cpp:106</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -199,7 +189,7 @@ $(document).ready(function(){initNavTree('settingsystem_8h_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="settingsystem_8h.html">settingsystem.h</a></li>
-    <li class="footer">Généré le Samedi 9 Mai 2015 23:10:19 pour Locker_Control (LC) par
+    <li class="footer">Généré le Dimanche 10 Mai 2015 23:36:40 pour Locker_Control (LC) par
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

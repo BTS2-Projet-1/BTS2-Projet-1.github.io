@@ -1,8 +1,0 @@
-<map id="MenuDelivery::MenuDelivery" name="MenuDelivery::MenuDelivery">
-<area shape="rect" id="node2" href="$class_menu_delivery.html#a9a7de928cfc99c01c8b00b91bb34cf9e" title="MenuDelivery::ReturnHome" alt="" coords="219,15,371,39"/>
-<area shape="rect" id="node4" href="$class_menu_delivery.html#a52fd4a7232869b37efa962d2f71d4fe0" title="MenuDelivery::Deposit" alt="" coords="231,66,360,90"/>
-<area shape="rect" id="node6" href="$class_menu_delivery.html#a636b5dc403ed8c8dfd94b9de376d518b" title="MenuDelivery::OpenBoxEmpty" alt="" coords="212,114,379,138"/>
-<area shape="rect" id="node3" href="$class_show_widgets.html#a41e281e6f1ca3b1789f552ac60e00776" title="ShowWidgets::ShowWConsole\lWindows" alt="" coords="444,5,619,41"/>
-<area shape="rect" id="node5" href="$class_show_widgets.html#ab038ff960339a0f5c89db56992a3235e" title="ShowWidgets::ShowWBoxChoice" alt="" coords="438,66,625,90"/>
-<area shape="rect" id="node7" href="$class_show_widgets.html#a0eb312bd11ecabca7a80b130bc1e9758" title="ShowWidgets::ShowWOpenEmptyBox" alt="" coords="427,114,636,138"/>
-</map>

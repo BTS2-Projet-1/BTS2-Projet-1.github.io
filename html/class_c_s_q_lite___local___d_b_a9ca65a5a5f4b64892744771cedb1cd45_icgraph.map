@@ -1,6 +1,0 @@
-<map id="CSQLite_Local_DB::Connect_DB" name="CSQLite_Local_DB::Connect_DB">
-<area shape="rect" id="node2" href="$class_c_s_q_lite___local___d_b.html#a1de8dfa1437f6ff518b0375017aba25f" title="Constructeur de la classe CSQLite_Local_DB, qui hérite de QObject affin de pouvoir émètre des signaux..." alt="" coords="260,5,419,41"/>
-<area shape="rect" id="node3" href="$class_c_s_q_lite___local___d_b.html#ae0acaed46f00a2e0354dd5b2bd5b684a" title="Coupe la connexion avec la base de données et en crée une nouvelle avec les informations contenue dan..." alt="" coords="232,66,447,90"/>
-<area shape="rect" id="node4" href="$class_c_s_q_lite___local___d_b.html#ad8e4895a47708bc5f3e5abce00be1853" title="Fonction de traitement de la base de données, Crée une nouvelle base de données vide, par defaut, une sauvegarde, et charge une sauvegarde. La fonction evoie des signaux CurrentProcessLoading() et SlowProcess() pour l&#39;information de l&#39;avencée du traitement. " alt="" coords="495,85,635,121"/>
-<area shape="rect" id="node5" href="$class_thread___databasemanager.html#a05d712f64b4838e59bbd8e82f4620d0b" title="Thread_Databasemanager::run" alt="" coords="683,91,855,115"/>
-</map>

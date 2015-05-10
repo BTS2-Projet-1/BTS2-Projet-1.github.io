@@ -1,0 +1,12 @@
+@startuml
+
+
+QObject <|-- CSQLite_Local_DB : need\n signals
+ConsoleWindows *-- CSQLite_Local_DB
+ConsoleWindows o-- CSQLite_Local_DB : Linked by ConsoleWindows
+ConsoleWindows *-- Class_Need_Database_Access
+ConsoleWindows o-- Class_Need_Database_Access
+class Class_Need_Database_Access
+note bottom : Class_Need_Database_Access can have an access to the database\n with a pointer on CSQLite_Local_DB gived by ConsoleWindows\n when ConsoleWindows build Class_Need_Database_Access
+
+@enduml

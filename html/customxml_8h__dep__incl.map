@@ -1,11 +1,11 @@
 <map id="S:/QT_CREATOR/Locker_Control/customxml.h" name="S:/QT_CREATOR/Locker_Control/customxml.h">
-<area shape="rect" id="node2" href="$settingsystem_8h.html" title="S:/QT_CREATOR/Locker\l_Control/settingsystem.h" alt="" coords="437,89,579,125"/>
-<area shape="rect" id="node10" href="$customxml_8cpp.html" title="S:/QT_CREATOR/Locker\l_Control/customxml.cpp" alt="" coords="603,89,743,125"/>
-<area shape="rect" id="node3" href="$consolewindows_8h.html" title="S:/QT_CREATOR/Locker\l_Control/consolewindows.h" alt="" coords="370,257,529,293"/>
-<area shape="rect" id="node8" href="$editsettingsystem_8h.html" title="S:/QT_CREATOR/Locker\l_Control/editsettingsystem.h" alt="" coords="429,173,587,209"/>
-<area shape="rect" id="node9" href="$settingsystem_8cpp.html" title="S:/QT_CREATOR/Locker\l_Control/settingsystem.cpp" alt="" coords="611,173,765,209"/>
-<area shape="rect" id="node4" href="$consolewindows_8cpp.html" title="S:/QT_CREATOR/Locker\l_Control/consolewindows.cpp" alt="" coords="5,341,176,377"/>
-<area shape="rect" id="node5" href="$thread__databasemanager_8h.html" title="S:/QT_CREATOR/Locker\l_Control/thread_databasemanager.h" alt="" coords="201,341,399,377"/>
-<area shape="rect" id="node6" href="$sqlite__local__databasemanager_8h.html" title="S:/QT_CREATOR/Locker\l_Control/sqlite_local\l_databasemanager.h" alt="" coords="305,425,445,473"/>
-<area shape="rect" id="node7" href="$main_8cpp.html" title="S:/QT_CREATOR/Locker\l_Control/main.cpp" alt="" coords="499,341,639,377"/>
+<area shape="rect" id="node2" href="$settingsystem_8h.html" title="S:/QT_CREATOR/Locker\l_Control/settingsystem.h" alt="" coords="387,87,515,120"/>
+<area shape="rect" id="node10" href="$customxml_8cpp.html" title="S:/QT_CREATOR/Locker\l_Control/customxml.cpp" alt="" coords="539,87,666,120"/>
+<area shape="rect" id="node3" href="$consolewindows_8h.html" title="S:/QT_CREATOR/Locker\l_Control/consolewindows.h" alt="" coords="329,249,463,283"/>
+<area shape="rect" id="node8" href="$editsettingsystem_8h.html" title="S:/QT_CREATOR/Locker\l_Control/editsettingsystem.h" alt="" coords="379,168,522,201"/>
+<area shape="rect" id="node9" href="$settingsystem_8cpp.html" title="S:/QT_CREATOR/Locker\l_Control/settingsystem.cpp" alt="" coords="547,168,685,201"/>
+<area shape="rect" id="node4" href="$consolewindows_8cpp.html" title="S:/QT_CREATOR/Locker\l_Control/consolewindows.cpp" alt="" coords="5,331,149,364"/>
+<area shape="rect" id="node5" href="$thread__databasemanager_8h.html" title="S:/QT_CREATOR/Locker\l_Control/thread_databasemanager.h" alt="" coords="173,331,347,364"/>
+<area shape="rect" id="node6" href="$sqlite__local__databasemanager_8h.html" title="S:/QT_CREATOR/Locker\l_Control/sqlite_local\l_databasemanager.h" alt="" coords="265,412,391,456"/>
+<area shape="rect" id="node7" href="$main_8cpp.html" title="S:/QT_CREATOR/Locker\l_Control/main.cpp" alt="" coords="446,331,573,364"/>
 </map>

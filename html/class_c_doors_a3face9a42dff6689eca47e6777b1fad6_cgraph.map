@@ -1,5 +1,0 @@
-<map id="CDoors::LockDoor" name="CDoors::LockDoor">
-<area shape="rect" id="node2" href="$class_c_doors.html#a1954feca80181df85e4a59051387ff79" title="CDoors::LockDoors" alt="" coords="164,11,280,35"/>
-<area shape="rect" id="node3" href="$class_c_s_q_lite___local___d_b.html#ace38eaa62cc5639b2a7be726d51a70f7" title="Fonction utilisée uniquement dans la phase de developpement pour un accès rapide d&#39;envoi personalisé ..." alt="" coords="328,11,503,35"/>
-<area shape="rect" id="node4" href="$class_c_s_q_lite___local___d_b.html#a25433d7ada1d4173d92fdedfc9f1f253" title="Enregistre dans la base de données l&#39;action suivante qui va être demandée, utilisée pour garder toute..." alt="" coords="551,5,729,41"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="ScanPackage::AddItemListWidget" name="ScanPackage::AddItemListWidget">
-<area shape="rect" id="node2" href="$class_scan_package.html#ac9d9da0a233dad4464f0cdf1c02991a5" title="ScanPackage::isExistNumPackage" alt="" coords="204,5,391,29"/>
-<area shape="rect" id="node3" href="$class_scan_package.html#a9805f5410fccbbfc56bac6084fb6b9ed" title="ScanPackage::DeleteNumPackage" alt="" coords="204,53,391,77"/>
-<area shape="rect" id="node4" href="$class_scan_package.html#a9d068b492d0d49abb0cbdcad9d1fe203" title="ScanPackage::ShowMessage\lError" alt="" coords="214,102,381,138"/>
-</map>

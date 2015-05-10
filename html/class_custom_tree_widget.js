@@ -6,5 +6,6 @@ var class_custom_tree_widget =
     [ "ButtonVisible", "class_custom_tree_widget.html#a4919b08a8230f1afc200c00f947d031d", null ],
     [ "ClearListItem", "class_custom_tree_widget.html#ae144f5edf4f360d34230c84f2d6d06f2", null ],
     [ "EditedItem_ColumnStatusOfDoor", "class_custom_tree_widget.html#a8c4ea47a57e7301097702c7aa04d2c58", null ],
-    [ "isDoorsClose", "class_custom_tree_widget.html#a04467023e71a82a7f292101ee3d1f1f6", null ]
+    [ "isDoorsClose", "class_custom_tree_widget.html#a04467023e71a82a7f292101ee3d1f1f6", null ],
+    [ "RemoveLastItem", "class_custom_tree_widget.html#a280ffd761d408605f79546e8cf0b3a37", null ]
 ];

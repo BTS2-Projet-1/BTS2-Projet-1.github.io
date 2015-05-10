@@ -33,7 +33,7 @@
   <td id="projectlogo"><img alt="Logo" src="logibag.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Locker_Control (LC)
-   &#160;<span id="projectnumber">1.3.1</span>
+   &#160;<span id="projectnumber">1.4.3</span>
    </div>
    <div id="projectbrief">Application Locker Control (LC), an automatic boxes manager on Qt in c++.</div>
   </td>
@@ -119,12 +119,12 @@ $(document).ready(function(){initNavTree('class_maintenance_menu.html','');});
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="maintenancemenu_8h_source.html">maintenancemenu.h</a>&gt;</code></p>
-<div class="dynheader">
-Graphe d'héritage de MaintenanceMenu:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_maintenance_menu__inherit__graph.png" border="0" usemap="#_maintenance_menu_inherit__map" alt="Inheritance graph"/></div>
-<map name="_maintenance_menu_inherit__map" id="_maintenance_menu_inherit__map">
-</map>
+<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Graphe d'héritage de MaintenanceMenu:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_maintenance_menu__inherit__graph.svg" width="162" height="275"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-slots"></a>
@@ -135,6 +135,10 @@ Connecteurs publics</h2></td></tr>
 <tr class="separator:a510658e4647fb3104e425df6f5457351"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af163afae9ddb54847fd7a9ec2e1b2398"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_maintenance_menu.html#af163afae9ddb54847fd7a9ec2e1b2398">GotoDoorsManager</a> ()</td></tr>
 <tr class="separator:af163afae9ddb54847fd7a9ec2e1b2398"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75b277f91c3547fb15cc095b7953f22a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_maintenance_menu.html#a75b277f91c3547fb15cc095b7953f22a">GotoSettings</a> ()</td></tr>
+<tr class="separator:a75b277f91c3547fb15cc095b7953f22a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e347cef489d4504ff40283a8415916f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_maintenance_menu.html#a6e347cef489d4504ff40283a8415916f">GotoSiteConfigManager</a> ()</td></tr>
+<tr class="separator:a6e347cef489d4504ff40283a8415916f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Fonctions membres publiques</h2></td></tr>
@@ -167,15 +171,6 @@ Fonctions membres publiques</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p><div class="dynheader">
-Voici le graphe d'appel pour cette fonction :</div>
-<div class="dyncontent">
-<div class="center"><img src="class_maintenance_menu_aa14d840e72a986018d25e7a3ba14cbab_cgraph.png" border="0" usemap="#class_maintenance_menu_aa14d840e72a986018d25e7a3ba14cbab_cgraph" alt=""/></div>
-<map name="class_maintenance_menu_aa14d840e72a986018d25e7a3ba14cbab_cgraph" id="class_maintenance_menu_aa14d840e72a986018d25e7a3ba14cbab_cgraph">
-<area shape="rect" id="node2" href="class_maintenance_menu.html#a24fea77d8fd45cf1298a8e26e177a862" title="MaintenanceMenu::ReturnHome" alt="" coords="256,11,431,35"/><area shape="rect" id="node4" href="class_maintenance_menu.html#af163afae9ddb54847fd7a9ec2e1b2398" title="MaintenanceMenu::GotoDoors\lManager" alt="" coords="260,60,427,96"/><area shape="rect" id="node6" href="class_maintenance_menu.html#a510658e4647fb3104e425df6f5457351" title="MaintenanceMenu::GotoSQLite\l_Local_DatabaseManager" alt="" coords="258,120,429,156"/><area shape="rect" id="node3" href="class_show_widgets.html#a41e281e6f1ca3b1789f552ac60e00776" title="ShowWidgets::ShowWConsole\lWindows" alt="" coords="495,5,669,41"/><area shape="rect" id="node5" href="class_show_widgets.html#a3ee625b95df8afdad6cd0d258ea81105" title="ShowWidgets::ShowWDoorsManager" alt="" coords="479,66,685,90"/><area shape="rect" id="node7" href="class_show_widgets.html#a0a37a7192eda398f3b58cb4572a436d4" title="ShowWidgets::ShowWSQLite\l_Local_DatabaseManager" alt="" coords="499,120,665,156"/></map>
-</div>
-</p>
 
 </div>
 </div>
@@ -216,23 +211,51 @@ Voici le graphe d'appel pour cette fonction :</div>
 </table>
 </div><div class="memdoc">
 
-<p><div class="dynheader">
-Voici le graphe d'appel pour cette fonction :</div>
-<div class="dyncontent">
-<div class="center"><img src="class_maintenance_menu_af163afae9ddb54847fd7a9ec2e1b2398_cgraph.png" border="0" usemap="#class_maintenance_menu_af163afae9ddb54847fd7a9ec2e1b2398_cgraph" alt=""/></div>
-<map name="class_maintenance_menu_af163afae9ddb54847fd7a9ec2e1b2398_cgraph" id="class_maintenance_menu_af163afae9ddb54847fd7a9ec2e1b2398_cgraph">
-<area shape="rect" id="node2" href="class_show_widgets.html#a3ee625b95df8afdad6cd0d258ea81105" title="ShowWidgets::ShowWDoorsManager" alt="" coords="220,11,427,35"/></map>
 </div>
-</p>
+</div>
+<a class="anchor" id="a75b277f91c3547fb15cc095b7953f22a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MaintenanceMenu::GotoSettings </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
-<p><div class="dynheader">
-Voici le graphe des appelants de cette fonction :</div>
-<div class="dyncontent">
-<div class="center"><img src="class_maintenance_menu_af163afae9ddb54847fd7a9ec2e1b2398_icgraph.png" border="0" usemap="#class_maintenance_menu_af163afae9ddb54847fd7a9ec2e1b2398_icgraph" alt=""/></div>
-<map name="class_maintenance_menu_af163afae9ddb54847fd7a9ec2e1b2398_icgraph" id="class_maintenance_menu_af163afae9ddb54847fd7a9ec2e1b2398_icgraph">
-<area shape="rect" id="node2" href="class_maintenance_menu.html#aa14d840e72a986018d25e7a3ba14cbab" title="MaintenanceMenu::MaintenanceMenu" alt="" coords="220,11,423,35"/></map>
 </div>
-</p>
+</div>
+<a class="anchor" id="a6e347cef489d4504ff40283a8415916f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MaintenanceMenu::GotoSiteConfigManager </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -257,24 +280,6 @@ Voici le graphe des appelants de cette fonction :</div>
 </table>
 </div><div class="memdoc">
 
-<p><div class="dynheader">
-Voici le graphe d'appel pour cette fonction :</div>
-<div class="dyncontent">
-<div class="center"><img src="class_maintenance_menu_a510658e4647fb3104e425df6f5457351_cgraph.png" border="0" usemap="#class_maintenance_menu_a510658e4647fb3104e425df6f5457351_cgraph" alt=""/></div>
-<map name="class_maintenance_menu_a510658e4647fb3104e425df6f5457351_cgraph" id="class_maintenance_menu_a510658e4647fb3104e425df6f5457351_cgraph">
-<area shape="rect" id="node2" href="class_show_widgets.html#a0a37a7192eda398f3b58cb4572a436d4" title="ShowWidgets::ShowWSQLite\l_Local_DatabaseManager" alt="" coords="224,5,391,41"/></map>
-</div>
-</p>
-
-<p><div class="dynheader">
-Voici le graphe des appelants de cette fonction :</div>
-<div class="dyncontent">
-<div class="center"><img src="class_maintenance_menu_a510658e4647fb3104e425df6f5457351_icgraph.png" border="0" usemap="#class_maintenance_menu_a510658e4647fb3104e425df6f5457351_icgraph" alt=""/></div>
-<map name="class_maintenance_menu_a510658e4647fb3104e425df6f5457351_icgraph" id="class_maintenance_menu_a510658e4647fb3104e425df6f5457351_icgraph">
-<area shape="rect" id="node2" href="class_maintenance_menu.html#aa14d840e72a986018d25e7a3ba14cbab" title="MaintenanceMenu::MaintenanceMenu" alt="" coords="224,11,427,35"/></map>
-</div>
-</p>
-
 </div>
 </div>
 <a class="anchor" id="a24fea77d8fd45cf1298a8e26e177a862"></a>
@@ -297,24 +302,6 @@ Voici le graphe des appelants de cette fonction :</div>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p><div class="dynheader">
-Voici le graphe d'appel pour cette fonction :</div>
-<div class="dyncontent">
-<div class="center"><img src="class_maintenance_menu_a24fea77d8fd45cf1298a8e26e177a862_cgraph.png" border="0" usemap="#class_maintenance_menu_a24fea77d8fd45cf1298a8e26e177a862_cgraph" alt=""/></div>
-<map name="class_maintenance_menu_a24fea77d8fd45cf1298a8e26e177a862_cgraph" id="class_maintenance_menu_a24fea77d8fd45cf1298a8e26e177a862_cgraph">
-<area shape="rect" id="node2" href="class_show_widgets.html#a41e281e6f1ca3b1789f552ac60e00776" title="ShowWidgets::ShowWConsole\lWindows" alt="" coords="228,5,403,41"/></map>
-</div>
-</p>
-
-<p><div class="dynheader">
-Voici le graphe des appelants de cette fonction :</div>
-<div class="dyncontent">
-<div class="center"><img src="class_maintenance_menu_a24fea77d8fd45cf1298a8e26e177a862_icgraph.png" border="0" usemap="#class_maintenance_menu_a24fea77d8fd45cf1298a8e26e177a862_icgraph" alt=""/></div>
-<map name="class_maintenance_menu_a24fea77d8fd45cf1298a8e26e177a862_icgraph" id="class_maintenance_menu_a24fea77d8fd45cf1298a8e26e177a862_icgraph">
-<area shape="rect" id="node2" href="class_maintenance_menu.html#aa14d840e72a986018d25e7a3ba14cbab" title="MaintenanceMenu::MaintenanceMenu" alt="" coords="228,5,431,29"/></map>
-</div>
-</p>
 
 </div>
 </div>
@@ -340,15 +327,6 @@ Voici le graphe des appelants de cette fonction :</div>
 </table>
 </div><div class="memdoc">
 
-<p><div class="dynheader">
-Voici le graphe des appelants de cette fonction :</div>
-<div class="dyncontent">
-<div class="center"><img src="class_maintenance_menu_a6d1631ca77745b2988ba808d5e8f86ad_icgraph.png" border="0" usemap="#class_maintenance_menu_a6d1631ca77745b2988ba808d5e8f86ad_icgraph" alt=""/></div>
-<map name="class_maintenance_menu_a6d1631ca77745b2988ba808d5e8f86ad_icgraph" id="class_maintenance_menu_a6d1631ca77745b2988ba808d5e8f86ad_icgraph">
-<area shape="rect" id="node2" href="class_console_windows.html#a0c0403dd7ee490a9a19e640c32143f07" title="ConsoleWindows::Init\l_Show_Widgets" alt="" coords="213,5,340,41"/><area shape="rect" id="node3" href="class_console_windows.html#a88d72d35d957d22438e18a30369596f3" title="ConsoleWindows::ConsoleWindows" alt="" coords="388,11,587,35"/></map>
-</div>
-</p>
-
 </div>
 </div>
 <hr/>La documentation de cette classe a été générée à partir des fichiers suivants :<ul>
@@ -361,7 +339,7 @@ Voici le graphe des appelants de cette fonction :</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_maintenance_menu.html">MaintenanceMenu</a></li>
-    <li class="footer">Généré le Samedi 9 Mai 2015 23:10:20 pour Locker_Control (LC) par
+    <li class="footer">Généré le Dimanche 10 Mai 2015 23:36:41 pour Locker_Control (LC) par
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

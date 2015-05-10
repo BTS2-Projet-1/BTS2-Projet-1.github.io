@@ -16,6 +16,7 @@ var class_show_widgets =
     [ "GetPosSetting", "class_show_widgets.html#ac8702df051c1561c701f6d6ed951bab6", null ],
     [ "GetPosSettingSystem", "class_show_widgets.html#a7f0c1dfa6fc920465a967a22b25291ff", null ],
     [ "GetPosShowPackageBox", "class_show_widgets.html#a91143030a1dd03f77a0fbf4910a9f0da", null ],
+    [ "GetPosSiteConfigManager", "class_show_widgets.html#a2237cbe16f5b81538e3ac03c224e6ae5", null ],
     [ "GetPosSQLite_Local_DatabaseManager", "class_show_widgets.html#a101605491e8ac96d7e4f13c47a5c9370", null ],
     [ "GetPosStowPackages", "class_show_widgets.html#a00384a209f22e8c2512b5956af37ca73", null ],
     [ "GetWidget", "class_show_widgets.html#ac7e1fd754e795f4caebe577443c31387", null ],
@@ -33,6 +34,7 @@ var class_show_widgets =
     [ "SetPosSetting", "class_show_widgets.html#a42f6492791bee978e437ae948a9ade49", null ],
     [ "SetPosSettingSystem", "class_show_widgets.html#a43eaeabac8ea2138824cd43223edf5ba", null ],
     [ "SetPosShowPackageBox", "class_show_widgets.html#a7909e16b6e46794af9308a872a0aa154", null ],
+    [ "SetPosSiteConfigManager", "class_show_widgets.html#ac35c8cbd195ad1d233cdd120a031d306", null ],
     [ "SetPosSQLite_Local_DatabaseManager", "class_show_widgets.html#a810fd079c17ee54dd65e586204f64d26", null ],
     [ "SetPosStowPackages", "class_show_widgets.html#abdd6508aab642e14181da711f55a810b", null ],
     [ "SetStackedWidget", "class_show_widgets.html#aace00e3b059233ac9203cd937800c375", null ],
@@ -50,6 +52,7 @@ var class_show_widgets =
     [ "ShowWScanPackage", "class_show_widgets.html#a39a53de24f170fca45ef37b43a39c8e9", null ],
     [ "ShowWSetting", "class_show_widgets.html#aea1ab328a9374608259240d0c8958500", null ],
     [ "ShowWSettingSystem", "class_show_widgets.html#add199645b921ec38cc6d5b1519a774d1", null ],
+    [ "ShowWSiteConfigManager", "class_show_widgets.html#a6952e7519f6e663745eefb6231f2ac76", null ],
     [ "ShowWSQLite_Local_DatabaseManager", "class_show_widgets.html#a0a37a7192eda398f3b58cb4572a436d4", null ],
     [ "ShowWStowPackages", "class_show_widgets.html#ab4d4801904525c157626233ab19cb8bf", null ]
 ];

@@ -1,9 +1,0 @@
-<map id="CustomTreeWidget::isDoorsClose" name="CustomTreeWidget::isDoorsClose">
-<area shape="rect" id="node2" href="$class_open_empty_box.html#a15b7f6583b80d4fc3aeb7d80b986e9a7" title="OpenEmptyBox::ReturnMenu\lDelivery" alt="" coords="223,5,383,41"/>
-<area shape="rect" id="node4" href="$class_show_package_box.html#aa853872f871be1bdb2e9680bac7a9ab7" title="ShowPackageBox::isCloseDoors" alt="" coords="212,66,393,90"/>
-<area shape="rect" id="node7" href="$class_stow_packages.html#ab23d7a56579f1b972a38bf4403805b44" title="StowPackages::StoragePackages\lFinised" alt="" coords="209,115,396,151"/>
-<area shape="rect" id="node3" href="$class_open_empty_box.html#ad6794eab79d6bd8b9c4b26043cde493b" title="OpenEmptyBox::OpenEmptyBox" alt="" coords="444,11,620,35"/>
-<area shape="rect" id="node5" href="$class_show_package_box.html#a0a4f481ad113ea596093ecacd412b95e" title="ShowPackageBox::ReturnHome" alt="" coords="444,66,620,90"/>
-<area shape="rect" id="node6" href="$class_show_package_box.html#a9d7ec045b4ddc79272f1f9a2a9d91333" title="ShowPackageBox::ShowPackageBox" alt="" coords="668,66,875,90"/>
-<area shape="rect" id="node8" href="$class_stow_packages.html#a116abaad4fab9f0dd7f243d99594b6f3" title="StowPackages::StowPackages" alt="" coords="445,121,619,145"/>
-</map>

@@ -5,7 +5,6 @@ var _data_structures_8h =
     [ "struct_DoorGeom", "structstruct___door_geom.html", "structstruct___door_geom" ],
     [ "struct_Database_Contains", "structstruct___database___contains.html", "structstruct___database___contains" ],
     [ "struct_DoorsStatus", "structstruct___doors_status.html", "structstruct___doors_status" ],
-    [ "DEBUG", "_data_structures_8h.html#ad72dbcf6d0153db1b8d8a58001feed83", null ],
     [ "DEFAULT_DATABASE", "_data_structures_8h.html#a2e7c896e28ab967d0e669668e8665e42", null ],
     [ "EMPTY_DATABASE", "_data_structures_8h.html#aa9b81cc5e387af1c5751d961dc3a4e7e", null ],
     [ "KO", "_data_structures_8h.html#acb00992efca56626cdf0907e5edb5b51", null ],

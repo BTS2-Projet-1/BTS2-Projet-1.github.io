@@ -1,7 +1,0 @@
-<map id="EditSettingSystem::EditSettingSystem" name="EditSettingSystem::EditSettingSystem">
-<area shape="rect" id="node2" href="$class_edit_setting_system.html#a367fea2c8e5aa3c2eb0af5dc6de1f90c" title="EditSettingSystem::\lSetCaract" alt="" coords="168,5,283,41"/>
-<area shape="rect" id="node3" href="$class_edit_setting_system.html#ab0b637804f3e0904b8f13714e8a8e1a9" title="EditSettingSystem::\lSupprCaract" alt="" coords="168,65,283,101"/>
-<area shape="rect" id="node4" href="$class_edit_setting_system.html#a0230f232fa5cade594876401cc1bfe92" title="EditSettingSystem::\lClickedButtonOK" alt="" coords="168,125,283,161"/>
-<area shape="rect" id="node6" href="$class_edit_setting_system.html#ae8fa0953fab689846437a15192b91117" title="EditSettingSystem::\lreceiveEditText" alt="" coords="168,185,283,221"/>
-<area shape="rect" id="node5" href="$class_show_widgets.html#add199645b921ec38cc6d5b1519a774d1" title="ShowWidgets::ShowWSetting\lSystem" alt="" coords="331,125,499,161"/>
-</map>

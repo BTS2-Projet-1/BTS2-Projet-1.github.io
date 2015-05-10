@@ -25,6 +25,7 @@ var annotated =
     [ "SettingSystem", "class_setting_system.html", "class_setting_system" ],
     [ "ShowPackageBox", "class_show_package_box.html", "class_show_package_box" ],
     [ "ShowWidgets", "class_show_widgets.html", "class_show_widgets" ],
+    [ "SiteConfigManager", "class_site_config_manager.html", "class_site_config_manager" ],
     [ "SQLite_Local_DatabaseManager", "class_s_q_lite___local___database_manager.html", "class_s_q_lite___local___database_manager" ],
     [ "StowPackages", "class_stow_packages.html", "class_stow_packages" ],
     [ "struct_Database_Contains", "structstruct___database___contains.html", "structstruct___database___contains" ],

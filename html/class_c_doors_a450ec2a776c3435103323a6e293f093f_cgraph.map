@@ -1,4 +1,0 @@
-<map id="CDoors::UnlockDoors" name="CDoors::UnlockDoors">
-<area shape="rect" id="node2" href="$class_c_s_q_lite___local___d_b.html#ace38eaa62cc5639b2a7be726d51a70f7" title="Fonction utilisée uniquement dans la phase de developpement pour un accès rapide d&#39;envoi personalisé ..." alt="" coords="179,11,353,35"/>
-<area shape="rect" id="node3" href="$class_c_s_q_lite___local___d_b.html#a25433d7ada1d4173d92fdedfc9f1f253" title="Enregistre dans la base de données l&#39;action suivante qui va être demandée, utilisée pour garder toute..." alt="" coords="401,5,580,41"/>
-</map>
