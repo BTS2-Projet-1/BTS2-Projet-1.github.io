@@ -4,7 +4,6 @@ var searchData=
   ['databasestatus',['DataBaseStatus',['../class_c_s_q_lite___local___d_b.html#a5a593d4e0e70f08ce0537f9a10587072',1,'CSQLite_Local_DB']]],
   ['delete_5fdb',['Delete_DB',['../class_c_s_q_lite___local___d_b.html#a8222ffaffb0d9945e4343131707b1c22',1,'CSQLite_Local_DB']]],
   ['deleteextractcode',['DeleteExtractCode',['../class_c_s_q_lite___local___d_b.html#a2431685493e32b890f7b038abbb7d48a',1,'CSQLite_Local_DB']]],
-  ['deletelink',['deleteLink',['../navtree_8js.html#abdf8e0e69c89803c1b84784a13b7fd2e',1,'navtree.js']]],
   ['deletenumpackage',['DeleteNumPackage',['../class_scan_package.html#a9805f5410fccbbfc56bac6084fb6b9ed',1,'ScanPackage']]],
   ['deliveryconfirm',['DeliveryConfirm',['../class_delivery_confirm.html#a17470a36b66b2fdb83d87abb6b73aaad',1,'DeliveryConfirm']]],
   ['deposit',['Deposit',['../class_menu_delivery.html#a52fd4a7232869b37efa962d2f71d4fe0',1,'MenuDelivery']]],

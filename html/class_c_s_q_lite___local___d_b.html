@@ -164,7 +164,7 @@ Fonctions membres publiques</h2></td></tr>
 <tr class="memdesc:a0f79fbd185261af7806a3a99292ef0a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fonction utilisée uniquement dans la phase de developpement pour simuler l'accès de classe <a class="el" href="class_c_doors.html">CDoors</a> au portes via le bus CAN aux consignes automatiques.  <a href="#a0f79fbd185261af7806a3a99292ef0a3">Plus de détails...</a><br /></td></tr>
 <tr class="separator:a0f79fbd185261af7806a3a99292ef0a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8114d5c22ae0a43e5466f3d69b3a9e84"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_s_q_lite___local___d_b.html#a8114d5c22ae0a43e5466f3d69b3a9e84">Login</a> (QString)</td></tr>
-<tr class="memdesc:a8114d5c22ae0a43e5466f3d69b3a9e84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Effectue différentes vérifications avec le code d'identification passé en paramètre sur la base de données, pour déterminer si le code est valide et quel est le type d'utilisateur enregistré (Livreur ou opérateur de maintenance).  <a href="#a8114d5c22ae0a43e5466f3d69b3a9e84">Plus de détails...</a><br /></td></tr>
+<tr class="memdesc:a8114d5c22ae0a43e5466f3d69b3a9e84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Effectue différentes vérifications avec le code d'identification passé en paramètre sur la base de données, pour déterminer si le code est valide et quel est le type d'utilisateur enregistré (Livreur ou opérateur de maintenance). Le chiffrements des mots de passe confidentiels de la base de données sont réalisées avec l'algorithme "Sha1".  <a href="#a8114d5c22ae0a43e5466f3d69b3a9e84">Plus de détails...</a><br /></td></tr>
 <tr class="separator:a8114d5c22ae0a43e5466f3d69b3a9e84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a25433d7ada1d4173d92fdedfc9f1f253"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_s_q_lite___local___d_b.html#a25433d7ada1d4173d92fdedfc9f1f253">SavePerfomAction</a> (QString Table, QString Action)</td></tr>
 <tr class="memdesc:a25433d7ada1d4173d92fdedfc9f1f253"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enregistre dans la base de données l'action suivante qui va être demandée, utilisée pour garder toutes les actions effectuée dans la base de données. Cette fonction doit être appelée avant un exec() d'un QSqlQuery par exemple.  <a href="#a25433d7ada1d4173d92fdedfc9f1f253">Plus de détails...</a><br /></td></tr>
@@ -502,8 +502,11 @@ Fonctions membres protégées</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Ferme la base de données précédament ouverte et la supprime (utilisée en fin de programme ou dans le cadre de mise à jour). </p>
-<dl class="section return"><dt>Renvoie</dt><dd>Retourne un booléen sur la réussite de la suppression de la base de données (true) ou l'échec (false) si la base de données n'est pas ouverte, en cas d'érreur il peut être utile d'appeler <a class="el" href="class_c_s_q_lite___local___d_b.html#afac16a908090524ff6ae6958d2a5c399" title="Récupère la dèrenière érreur survenue suite à l&#39;interaction sur la base de données. ">lastError()</a> pour plus d'informations. </dd></dl>
-
+<dl class="section return"><dt>Renvoie</dt><dd>Retourne un booléen sur la réussite de la suppression de la base de données (true) ou l'échec (false) si la base de données n'est pas ouverte, en cas d'érreur il peut être utile d'appeler <a class="el" href="class_c_s_q_lite___local___d_b.html#afac16a908090524ff6ae6958d2a5c399" title="Récupère la dèrenière érreur survenue suite à l&#39;interaction sur la base de données. ">lastError()</a> pour plus d'informations.</dd></dl>
+<div align="center">
+<object type="image/svg+xml" data="CSQLite_Local_DB--Delete_DB.svg"></object>
+</div>
+ 
 </div>
 </div>
 <a class="anchor" id="a2431685493e32b890f7b038abbb7d48a"></a>
@@ -755,7 +758,7 @@ Fonctions membres protégées</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Effectue différentes vérifications avec le code d'identification passé en paramètre sur la base de données, pour déterminer si le code est valide et quel est le type d'utilisateur enregistré (Livreur ou opérateur de maintenance). </p>
+<p>Effectue différentes vérifications avec le code d'identification passé en paramètre sur la base de données, pour déterminer si le code est valide et quel est le type d'utilisateur enregistré (Livreur ou opérateur de maintenance). Le chiffrements des mots de passe confidentiels de la base de données sont réalisées avec l'algorithme "Sha1". </p>
 <dl class="params"><dt>Paramètres</dt><dd>
   <table class="params">
     <tr><td class="paramname">QString</td><td>IndentifiactionCode, Avec "IndentifiactionCode" le code d'identification à vérifier.</td></tr>
@@ -770,7 +773,10 @@ Fonctions membres protégées</h2></td></tr>
  -1 (UNDEFINED_PASSWORD) : Mauvais mot de passe confidentiel (non valide).<br />
  0 (LIVREUR) : Utilisateur autorisé est de type livreur (valide).<br />
  1 (MAINTENANCE) : Utilisateur autorisé est de type opérateur de maintenance (valide).<br />
-</dd></dl>
+ <div align="center">
+<object type="image/svg+xml" data="CSQLite_Local_DB--Login.svg"></object>
+</div>
+ </dd></dl>
 
 </div>
 </div>
@@ -1254,7 +1260,7 @@ Fonctions membres protégées</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_c_s_q_lite___local___d_b.html">CSQLite_Local_DB</a></li>
-    <li class="footer">Généré le Dimanche 10 Mai 2015 23:36:41 pour Locker_Control (LC) par
+    <li class="footer">Généré le Lundi 11 Mai 2015 23:22:45 pour Locker_Control (LC) par
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

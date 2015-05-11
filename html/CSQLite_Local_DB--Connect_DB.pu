@@ -1,13 +1,48 @@
 @startuml
 
 
-CSQLite_Local_DB -> CSQLite_Local_DB : Connect_DB()
-activate CSQLite_Local_DB #0000FF
+autonumber
+ConsoleWindows -> CSQLite_Local_DB : Builder CSQLite_Local_DB()
 
-CSQLite_Local_DB -> CSQLite_Local_DB : Try to connect, else\n build a new database
-activate CSQLite_Local_DB #50EEFF
+alt database file exsist
 
-deactivate CSQLite_Local_DB
-deactivate CSQLite_Local_DB
+       database LC_SQLite_DB
+       CSQLite_Local_DB -> CSQLite_Local_DB : Connect_DB()
+       activate CSQLite_Local_DB #0000FF
+       deactivate CSQLite_Local_DB
+
+    else database file not exsist
+
+       alt SQL files exsists
+
+           alt SQL save file
+
+               CSQLite_Local_DB -> CSQLite_Local_DB : Connect_DB()
+               activate CSQLite_Local_DB #00A0FF
+               deactivate CSQLite_Local_DB
+
+           end
+
+        alt SQL build database files
+
+            CSQLite_Local_DB -> LC_SQLite_DB : DatabaseManager(LOAD_SAVE)
+            activate LC_SQLite_DB #00CCFF
+            deactivate LC_SQLite_DB
+            note right: No thread
+            LC_SQLite_DB -> CSQLite_Local_DB
+            activate CSQLite_Local_DB #00CCFF
+            deactivate LC_SQLite_DB
+        end
+    end
+
+    alt  No SQL files and No database file
+
+        CSQLite_Local_DB -> CSQLite_Local_DB : Database_Not_Ready
+        activate CSQLite_Local_DB #30DDFF
+        deactivate CSQLite_Local_DB
+        note right : Bool used in\n all of the class
+        CSQLite_Local_DB -> ConsoleWindows : fatal error
+    end
+end
 
 @enduml

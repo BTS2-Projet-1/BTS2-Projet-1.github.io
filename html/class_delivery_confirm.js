@@ -10,6 +10,6 @@ var class_delivery_confirm =
     [ "SendListPackage", "class_delivery_confirm.html#a7d8f426b5cd846f420e11d45a00573f2", null ],
     [ "SendListPackages", "class_delivery_confirm.html#a47548538259c4129319e3b3de9961982", null ],
     [ "SetShowWidgets", "class_delivery_confirm.html#ac4c005c65bda8c118de9b271fccb7012", null ],
-    [ "SetValueProgress", "class_delivery_confirm.html#a3dc78594f1bef55246c31cbcf56dd8fb", null ],
+    [ "SetValueProgress", "class_delivery_confirm.html#aa0232983bf95bb6b6793b6a9d92c2d16", null ],
     [ "ThreadFinished", "class_delivery_confirm.html#a786adf160dbbbf94750c4502d67ef81c", null ]
 ];

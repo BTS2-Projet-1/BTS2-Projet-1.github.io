@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['_5fdata_5fstructures_5f8h_2ejs',['_data_structures_8h.js',['../__data__structures__8h_8js.html',1,'']]]
+  ['assistance_2ecpp',['assistance.cpp',['../assistance_8cpp.html',1,'']]],
+  ['assistance_2eh',['assistance.h',['../assistance_8h.html',1,'']]]
 ];

@@ -18,9 +18,8 @@ var NAVTREE =
     [ "Fichiers", null, [
       [ "Liste des fichiers", "files.html", "files" ],
       [ "Membres de fichier", "globals.html", [
-        [ "Tout", "globals.html", "globals_dup" ],
+        [ "Tout", "globals.html", null ],
         [ "Fonctions", "globals_func.html", null ],
-        [ "Variables", "globals_vars.html", "globals_vars" ],
         [ "Énumérations", "globals_enum.html", null ],
         [ "Valeurs énumérées", "globals_eval.html", null ],
         [ "Macros", "globals_defs.html", null ]
@@ -31,11 +30,9 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"__data__structures__8h_8js.html",
-"class_custom_tree_widget.html",
-"class_show_widgets.html#ae4c92b7642cfe98b5cb643f1bf46e5ae",
-"files__b_8js.html",
-"openemptybox_8h_source.html"
+"_data_structures_8h.html",
+"class_menu_delivery.html#a07d62281ea306e42aed87bb03a959c99",
+"doorsmanager_8h.html#aae57b0b74bb83f6f3de3235e8a45b8ff"
 ];
 
 var SYNCONMSG = 'cliquez pour désactiver la synchronisation du panel';

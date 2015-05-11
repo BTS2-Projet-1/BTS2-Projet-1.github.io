@@ -1,6 +1,7 @@
 @startuml
 
 
+autonumber
 ConsoleWindows -> CSQLite_Local_DB : ~CSQLite_Local_DB()
 activate CSQLite_Local_DB #0000FF
 

@@ -133,8 +133,18 @@ Fonctions membres publiques</h2></td></tr>
 <tr class="separator:afaf0e16ed2a5722c035170cf19b25422"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2fb2cf85206fbb372ed7db14110b06f5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_custom_xml.html#a2fb2cf85206fbb372ed7db14110b06f5">WriteFileXml</a> (QString childroot, QString element, QString attribut)</td></tr>
 <tr class="separator:a2fb2cf85206fbb372ed7db14110b06f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c007a8185fdf2c79152f1a0bfe8bec4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_custom_xml.html#a9c007a8185fdf2c79152f1a0bfe8bec4">WriteFileXml</a> (QString childroot, QString element, QString attribut, int value)</td></tr>
+<tr class="separator:a9c007a8185fdf2c79152f1a0bfe8bec4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7360131cd18e94dd2373c3dc505b6b3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_custom_xml.html#ae7360131cd18e94dd2373c3dc505b6b3">removeLastChild</a> ()</td></tr>
+<tr class="separator:ae7360131cd18e94dd2373c3dc505b6b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2c3d337e8a7c3426ea84b87c6892b6a0"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_custom_xml.html#a2c3d337e8a7c3426ea84b87c6892b6a0">Getvalue</a> (QString childroot, QString element, QString attribut)</td></tr>
 <tr class="separator:a2c3d337e8a7c3426ea84b87c6892b6a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a770b30da032719662d3a66b3fe6f1d45"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_custom_xml.html#a770b30da032719662d3a66b3fe6f1d45">GetvaluetoInt</a> (QString childroot, QString element, QString attribut)</td></tr>
+<tr class="separator:a770b30da032719662d3a66b3fe6f1d45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66044d3f3855fa03b0a414f29830da83"><td class="memItemLeft" align="right" valign="top">QList&lt; QList&lt; <a class="el" href="structstruct___packages_use_box.html">struct_PackagesUseBox</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_custom_xml.html#a66044d3f3855fa03b0a414f29830da83">GetListSaveTempDelivery</a> ()</td></tr>
+<tr class="separator:a66044d3f3855fa03b0a414f29830da83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae779698143be060bc20c02ee4b64cb5b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_custom_xml.html#ae779698143be060bc20c02ee4b64cb5b">ChildRootCount</a> ()</td></tr>
+<tr class="separator:ae779698143be060bc20c02ee4b64cb5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4601b3386cfe088199f9c148c495a1d5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_custom_xml.html#a4601b3386cfe088199f9c148c495a1d5">IsOpenFile</a> ()</td></tr>
 <tr class="separator:a4601b3386cfe088199f9c148c495a1d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a81f597dc4acea93f97cc59757271e35d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_custom_xml.html#a81f597dc4acea93f97cc59757271e35d">IsFileXmlEmtpy</a> ()</td></tr>
@@ -187,6 +197,21 @@ Fonctions membres publiques</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Documentation des fonctions membres</h2>
+<a class="anchor" id="ae779698143be060bc20c02ee4b64cb5b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CustomXml::ChildRootCount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a0c83e9d625a87c5d04f3cba663615417"></a>
 <div class="memitem">
 <div class="memproto">
@@ -202,12 +227,59 @@ Fonctions membres publiques</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a66044d3f3855fa03b0a414f29830da83"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QList&lt; QList&lt; <a class="el" href="structstruct___packages_use_box.html">struct_PackagesUseBox</a> &gt; &gt; CustomXml::GetListSaveTempDelivery </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a2c3d337e8a7c3426ea84b87c6892b6a0"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">QString CustomXml::Getvalue </td>
+          <td>(</td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>childroot</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>element</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>attribut</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a770b30da032719662d3a66b3fe6f1d45"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CustomXml::GetvaluetoInt </td>
           <td>(</td>
           <td class="paramtype">QString&#160;</td>
           <td class="paramname"><em>childroot</em>, </td>
@@ -322,6 +394,21 @@ Fonctions membres publiques</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ae7360131cd18e94dd2373c3dc505b6b3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CustomXml::removeLastChild </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="afaf0e16ed2a5722c035170cf19b25422"></a>
 <div class="memitem">
 <div class="memproto">
@@ -392,6 +479,44 @@ Fonctions membres publiques</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a9c007a8185fdf2c79152f1a0bfe8bec4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CustomXml::WriteFileXml </td>
+          <td>(</td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>childroot</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>element</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>attribut</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>La documentation de cette classe a été générée à partir des fichiers suivants :<ul>
 <li>S:/QT_CREATOR/Locker_Control/<a class="el" href="customxml_8h_source.html">customxml.h</a></li>
 <li>S:/QT_CREATOR/Locker_Control/<a class="el" href="customxml_8cpp.html">customxml.cpp</a></li>
@@ -402,7 +527,7 @@ Fonctions membres publiques</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_custom_xml.html">CustomXml</a></li>
-    <li class="footer">Généré le Dimanche 10 Mai 2015 23:36:41 pour Locker_Control (LC) par
+    <li class="footer">Généré le Lundi 11 Mai 2015 23:22:45 pour Locker_Control (LC) par
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>
