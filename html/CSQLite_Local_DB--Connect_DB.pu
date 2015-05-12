@@ -26,13 +26,15 @@ alt database file exsist
         alt SQL build database files
 
             CSQLite_Local_DB -> LC_SQLite_DB : DatabaseManager(LOAD_SAVE)
+            activate CSQLite_Local_DB #00CCFF
             activate LC_SQLite_DB #00CCFF
-            deactivate LC_SQLite_DB
             note right: No thread
             LC_SQLite_DB -> CSQLite_Local_DB
-            activate CSQLite_Local_DB #00CCFF
             deactivate LC_SQLite_DB
+            deactivate CSQLite_Local_DB
+
         end
+
     end
 
     alt  No SQL files and No database file
@@ -42,7 +44,9 @@ alt database file exsist
         deactivate CSQLite_Local_DB
         note right : Bool used in\n all of the class
         CSQLite_Local_DB -> ConsoleWindows : fatal error
+
     end
+
 end
 
 @enduml

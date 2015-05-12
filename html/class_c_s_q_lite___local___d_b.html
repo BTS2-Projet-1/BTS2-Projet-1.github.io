@@ -33,7 +33,7 @@
   <td id="projectlogo"><img alt="Logo" src="logibag.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Locker_Control (LC)
-   &#160;<span id="projectnumber">1.4.3</span>
+   &#160;<span id="projectnumber">1.4.4</span>
    </div>
    <div id="projectbrief">Application Locker Control (LC), an automatic boxes manager on Qt in c++.</div>
   </td>
@@ -173,7 +173,7 @@ Fonctions membres publiques</h2></td></tr>
 <tr class="memdesc:ad58d94663e785cd117ba466b22f55d05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recherche dans la base de données si le code passé en paramètre est valide et peut être utilisé pour le retrait de colis.  <a href="#ad58d94663e785cd117ba466b22f55d05">Plus de détails...</a><br /></td></tr>
 <tr class="separator:ad58d94663e785cd117ba466b22f55d05"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2431685493e32b890f7b038abbb7d48a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_s_q_lite___local___d_b.html#a2431685493e32b890f7b038abbb7d48a">DeleteExtractCode</a> (QString UsedExtractCode)</td></tr>
-<tr class="memdesc:a2431685493e32b890f7b038abbb7d48a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Supprime dans la base de données le code de retrait passé en paramètre et tout les colis lui appartenant, enfin libère la ou les consignes utilisées par le code de retrait. Pour ouvrir les consignes consernées il faut appeler la fonction OpenDoors() de la classe "CDoors" avant de supprimer les codes de retrait, celle-ci ouvre la liste des consignes qui peut être récupérée avec <a class="el" href="class_c_s_q_lite___local___d_b.html#a563fa1aa825325f4245acbed8ec6be39" title="Recherche dans la base de données la liste des consignes utilisées par le code de retrait d&#39;un client...">GetBoxesListConsumer()</a> qui retourne la liste des consignes utilisée par un cocde de retrait client.  <a href="#a2431685493e32b890f7b038abbb7d48a">Plus de détails...</a><br /></td></tr>
+<tr class="memdesc:a2431685493e32b890f7b038abbb7d48a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Supprime dans la base de données le code de retrait passé en paramètre et tout les colis lui appartenant, enfin libère la ou les consignes utilisées par le code de retrait. Pour ouvrir les consignes consernées il faut appeler la fonction OpenDoors() de la classe <a class="el" href="class_c_doors.html">CDoors</a> avant de supprimer les codes de retrait, celle-ci ouvre la liste des consignes qui peut être récupérée avec <a class="el" href="class_c_s_q_lite___local___d_b.html#a563fa1aa825325f4245acbed8ec6be39" title="Recherche dans la base de données la liste des consignes utilisées par le code de retrait d&#39;un client...">GetBoxesListConsumer()</a> qui retourne la liste des consignes utilisée par un cocde de retrait client.  <a href="#a2431685493e32b890f7b038abbb7d48a">Plus de détails...</a><br /></td></tr>
 <tr class="separator:a2431685493e32b890f7b038abbb7d48a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a563fa1aa825325f4245acbed8ec6be39"><td class="memItemLeft" align="right" valign="top">QList&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_s_q_lite___local___d_b.html#a563fa1aa825325f4245acbed8ec6be39">GetBoxesListConsumer</a> (QString ExtractCode)</td></tr>
 <tr class="memdesc:a563fa1aa825325f4245acbed8ec6be39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recherche dans la base de données la liste des consignes utilisées par le code de retrait d'un client.  <a href="#a563fa1aa825325f4245acbed8ec6be39">Plus de détails...</a><br /></td></tr>
@@ -523,7 +523,7 @@ Fonctions membres protégées</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Supprime dans la base de données le code de retrait passé en paramètre et tout les colis lui appartenant, enfin libère la ou les consignes utilisées par le code de retrait. Pour ouvrir les consignes consernées il faut appeler la fonction OpenDoors() de la classe "CDoors" avant de supprimer les codes de retrait, celle-ci ouvre la liste des consignes qui peut être récupérée avec <a class="el" href="class_c_s_q_lite___local___d_b.html#a563fa1aa825325f4245acbed8ec6be39" title="Recherche dans la base de données la liste des consignes utilisées par le code de retrait d&#39;un client...">GetBoxesListConsumer()</a> qui retourne la liste des consignes utilisée par un cocde de retrait client. </p>
+<p>Supprime dans la base de données le code de retrait passé en paramètre et tout les colis lui appartenant, enfin libère la ou les consignes utilisées par le code de retrait. Pour ouvrir les consignes consernées il faut appeler la fonction OpenDoors() de la classe <a class="el" href="class_c_doors.html">CDoors</a> avant de supprimer les codes de retrait, celle-ci ouvre la liste des consignes qui peut être récupérée avec <a class="el" href="class_c_s_q_lite___local___d_b.html#a563fa1aa825325f4245acbed8ec6be39" title="Recherche dans la base de données la liste des consignes utilisées par le code de retrait d&#39;un client...">GetBoxesListConsumer()</a> qui retourne la liste des consignes utilisée par un cocde de retrait client. </p>
 <dl class="params"><dt>Paramètres</dt><dd>
   <table class="params">
     <tr><td class="paramname">QString</td><td>UsedExtractCode, Avec "UsedExtractCode" pour le code de retrait à supprimer et les consignes liées à liberer.</td></tr>
@@ -1260,7 +1260,7 @@ Fonctions membres protégées</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_c_s_q_lite___local___d_b.html">CSQLite_Local_DB</a></li>
-    <li class="footer">Généré le Lundi 11 Mai 2015 23:22:45 pour Locker_Control (LC) par
+    <li class="footer">Généré le Mardi 12 Mai 2015 22:55:59 pour Locker_Control (LC) par
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

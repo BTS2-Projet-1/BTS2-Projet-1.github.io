@@ -11,25 +11,28 @@ alt Database is ready
          CSQLite_Local_DB  -> ConsoleWindows : (UNDEFINED_USER) -4
      else
 
-         alt UserCompanyPass is OK
-         else
-             CSQLite_Local_DB  -> ConsoleWindows:  (UNDEFINED_COMPANY_PASS) -3
-         end
+         alt Livreur (0) or Maintenance (1) user
+         CSQLite_Local_DB  -> ConsoleWindows : UserType
 
-         alt UserPersonalPass is OK
          else
-             CSQLite_Local_DB  -> ConsoleWindows: (UNDEFINED_PERSONAL_PASS) -3
-         end
 
-         alt UserPassWord is OK
-         else
-             CSQLite_Local_DB  -> ConsoleWindows: (UNDEFINED_PASSWORD) -1
+             alt UserCompanyPass is OK
+             else
+                  CSQLite_Local_DB  -> ConsoleWindows:  (UNDEFINED_COMPANY_PASS) -3
+             end
+
+             alt UserPersonalPass is OK
+             else
+                  CSQLite_Local_DB  -> ConsoleWindows: (UNDEFINED_PERSONAL_PASS) -3
+             end
+
+             alt UserPassWord is OK
+             else
+                  CSQLite_Local_DB  -> ConsoleWindows: (UNDEFINED_PASSWORD) -1
+             end
          end
      end
 
-     opt Livreur (0) or Maintenance (1) user
-     CSQLite_Local_DB  -> ConsoleWindows : UserType
-     end
 else
      CSQLite_Local_DB  -> ConsoleWindows : (No database connection) -5
 end
