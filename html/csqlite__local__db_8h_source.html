@@ -33,7 +33,7 @@
   <td id="projectlogo"><img alt="Logo" src="logibag.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Locker_Control (LC)
-   &#160;<span id="projectnumber">1.4.4</span>
+   &#160;<span id="projectnumber">1.4.5</span>
    </div>
    <div id="projectbrief">Application Locker Control (LC), an automatic boxes manager on Qt in c++.</div>
   </td>
@@ -114,89 +114,89 @@ $(document).ready(function(){initNavTree('csqlite__local__db_8h_source.html','')
 <a href="csqlite__local__db_8h.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef CSQLITE_LOCAL_DB_H</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define CSQLITE_LOCAL_DB_H</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="preprocessor">#include &lt;QString&gt;</span></div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor">#include &lt;QtSql/QSqlDatabase&gt;</span></div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="preprocessor">#include &lt;QtSql/QSqlDriver&gt;</span></div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">#include &lt;QSqlQuery&gt;</span></div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor">#include &lt;QSqlError&gt;</span></div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="preprocessor">#include &lt;QFile&gt;</span></div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="preprocessor">#include &lt;QObject&gt;</span></div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_data_structures_8h.html">DataStructures.h</a>&quot;</span></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="clms__db_8h.html">clms_db.h</a>&quot;</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">#include &lt;QString&gt;</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor">#include &lt;QtSql/QSqlDatabase&gt;</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="preprocessor">#include &lt;QtSql/QSqlDriver&gt;</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="preprocessor">#include &lt;QSqlQuery&gt;</span></div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="preprocessor">#include &lt;QSqlError&gt;</span></div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="preprocessor">#include &lt;QFile&gt;</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="preprocessor">#include &lt;QObject&gt;</span></div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
-<div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="csqlite__local__db_8h.html#ae09490043e10b6410e5da5d38043787e">   52</a></span>&#160;<span class="preprocessor">#define MAX_SQL_COLUMN_READ 10  </span></div>
-<div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="class_c_s_q_lite___local___d_b.html">   54</a></span>&#160;<span class="preprocessor">class CSQLite_Local_DB : public QObject</span></div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;{</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    Q_OBJECT</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <a class="code" href="class_c_l_m_s___d_b.html">CLMS_DB</a> *m_LMS_Server;</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        QSqlDatabase m_DataBase;</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        QString m_DatabaseName;</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        QString m_SQL_File_DatabaseEmpty_Path;</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        QString m_SQL_File_DatabaseDefault_Path;</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        QString m_SQL_File_DatabaseLastSave_Path;</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        QString m_SQL_File_DatabaseLastSave_Path_FromLMS;</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        QList&lt;QString&gt; m_Infos_Database;</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <span class="keywordtype">bool</span> m_DataBaseIsReady;</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="keyword">protected</span>:</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        QList&lt;QString&gt; ReadSQL_File(QString FilePath);</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <span class="keywordtype">bool</span> WriteSQL_File(QString FilePath,QString Data);</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        <span class="keywordtype">bool</span> SaveDatabase(QString FilePath);</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <span class="keywordtype">bool</span> LoadDatabaseSave(QString FilePath);</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        <span class="keywordtype">bool</span> Connect_DB();</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        <span class="keywordtype">bool</span> Delete_DB();</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        <span class="keyword">explicit</span> <a class="code" href="class_c_s_q_lite___local___d_b.html">CSQLite_Local_DB</a>(<a class="code" href="class_c_l_m_s___d_b.html">CLMS_DB</a> *LMS_Server = NULL);</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        ~<a class="code" href="class_c_s_q_lite___local___d_b.html">CSQLite_Local_DB</a>();</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        QList&lt;QString&gt; DataBaseStatus();</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;</div>
-<div class="line"><a name="l00090"></a><span class="lineno"><a class="line" href="class_c_s_q_lite___local___d_b.html#ad3380dd61189863c1d2d5e681b853e0e">   90</a></span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="class_c_s_q_lite___local___d_b.html#ad3380dd61189863c1d2d5e681b853e0e">Get_DataBaseIsReady</a>(){<span class="keywordflow">return</span> this-&gt;m_DataBaseIsReady;}</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        QString lastError();</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        QSqlQuery SendQuery(QString Query);</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        QList&lt;struct_DoorsStatus&gt; SendQueryDoorsStatus(QString Query);</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        <span class="keywordtype">int</span> <a class="code" href="class_login.html">Login</a>(QString);</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        <span class="keywordtype">bool</span> SavePerfomAction(QString Table,QString Action);</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        <span class="keywordtype">int</span> CheckExtractCode(QString ExtractCode);</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        <span class="keywordtype">bool</span> DeleteExtractCode(QString UsedExtractCode);</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        QList&lt;int&gt; GetBoxesListConsumer(QString ExtractCode);</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        QList&lt;struct struct_DoorGeom&gt; GetBoxesList();</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        QList&lt;int&gt; Get_All_idBox();</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        <span class="keywordtype">bool</span> UpdateLocalData(QList&lt;struct struct_PackagesUseBox&gt; UpdatedPackagesUseBoxList);</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        <span class="keywordtype">bool</span> SQL_Database_Manager(<span class="keywordtype">int</span> Option);</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        QList&lt;int&gt; GetFreeBoxes();</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        <span class="keywordtype">bool</span> SendQueryDoorsIsClosed(QString Query);</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        <span class="keywordtype">bool</span> SetDammagedBoxes(QList&lt;int&gt; DammagedBoxes);</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        <span class="keywordtype">bool</span> SetDammagedBox(<span class="keywordtype">int</span> DammagedBox);</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        <span class="keywordtype">bool</span> UnsetDammagedBoxes(QList&lt;int&gt; FixedBoxes);</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        <span class="keywordtype">bool</span> UnsetDammagedBox(<span class="keywordtype">int</span> FixedBox);</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        QList&lt;int&gt; GetDammagedBoxes();</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        <span class="keywordtype">bool</span> DataBase_AutoSave_Needed();</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        QString Get_SiteName();</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        <span class="keywordtype">bool</span> Set_SiteName(QString SiteName);</div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        <span class="keywordtype">int</span> Get_NumberOfBoxes();</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        <span class="keywordtype">bool</span> BoxIsDammaged(<span class="keywordtype">int</span> idBox);</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        <span class="keywordtype">bool</span> Set_Temporary_BoxUsed(<span class="keywordtype">int</span> IdBox);</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        <span class="keywordtype">bool</span> Unset_Temporary_BoxUsed(<span class="keywordtype">int</span> IdBox);</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    signals:</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;</div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        <span class="keywordtype">void</span> CurrentProcessLoading(QString,<span class="keywordtype">int</span>);</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;</div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;        <span class="keywordtype">void</span> SlowProcess(<span class="keywordtype">int</span>);</div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;</div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;};</div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;</div>
-<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;<span class="preprocessor">#endif // CSQLITE_LOCAL_DB_H</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_data_structures_8h.html">DataStructures.h</a>&quot;</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="clms__db_8h.html">clms_db.h</a>&quot;</span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
+<div class="line"><a name="l00055"></a><span class="lineno"><a class="line" href="csqlite__local__db_8h.html#ae09490043e10b6410e5da5d38043787e">   55</a></span>&#160;<span class="preprocessor">#define MAX_SQL_COLUMN_READ 10  </span></div>
+<div class="line"><a name="l00057"></a><span class="lineno"><a class="line" href="class_c_s_q_lite___local___d_b.html">   57</a></span>&#160;<span class="preprocessor">class CSQLite_Local_DB : public QObject</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;{</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    Q_OBJECT</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        <a class="code" href="class_c_l_m_s___d_b.html">CLMS_DB</a> *m_LMS_Server;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        QSqlDatabase m_DataBase;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        QString m_DatabaseName;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        QString m_SQL_File_DatabaseEmpty_Path;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        QString m_SQL_File_DatabaseDefault_Path;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        QString m_SQL_File_DatabaseLastSave_Path;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        QString m_SQL_File_DatabaseLastSave_Path_FromLMS;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        QList&lt;QString&gt; m_Infos_Database;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <span class="keywordtype">bool</span> m_DataBaseIsReady;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        QList&lt;QString&gt; ReadSQL_File(QString FilePath);</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        <span class="keywordtype">bool</span> WriteSQL_File(QString FilePath,QString Data);</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        <span class="keywordtype">bool</span> SaveDatabase(QString FilePath);</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        <span class="keywordtype">bool</span> LoadDatabaseSave(QString FilePath);</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        <span class="keywordtype">bool</span> Connect_DB();</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        <span class="keywordtype">bool</span> Delete_DB();</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <span class="keyword">explicit</span> <a class="code" href="class_c_s_q_lite___local___d_b.html">CSQLite_Local_DB</a>(<a class="code" href="class_c_l_m_s___d_b.html">CLMS_DB</a> *LMS_Server = NULL);</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        ~<a class="code" href="class_c_s_q_lite___local___d_b.html">CSQLite_Local_DB</a>();</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        QList&lt;QString&gt; DataBaseStatus();</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;</div>
+<div class="line"><a name="l00093"></a><span class="lineno"><a class="line" href="class_c_s_q_lite___local___d_b.html#ad3380dd61189863c1d2d5e681b853e0e">   93</a></span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="class_c_s_q_lite___local___d_b.html#ad3380dd61189863c1d2d5e681b853e0e">Get_DataBaseIsReady</a>(){<span class="keywordflow">return</span> this-&gt;m_DataBaseIsReady;}</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        QString lastError();</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        QSqlQuery SendQuery(QString Query);</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        QList&lt;struct_DoorsStatus&gt; SendQueryDoorsStatus(QString Query);</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        <span class="keywordtype">int</span> <a class="code" href="class_login.html">Login</a>(QString);</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        <span class="keywordtype">bool</span> SavePerfomAction(QString Table,QString Action);</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        <span class="keywordtype">int</span> CheckExtractCode(QString ExtractCode);</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        <span class="keywordtype">bool</span> DeleteExtractCode(QString UsedExtractCode);</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        QList&lt;int&gt; GetBoxesListConsumer(QString ExtractCode);</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        QList&lt;struct struct_DoorGeom&gt; GetBoxesList();</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        QList&lt;int&gt; Get_All_idBox();</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        <span class="keywordtype">bool</span> UpdateLocalData(QList&lt;struct struct_PackagesUseBox&gt; UpdatedPackagesUseBoxList);</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        <span class="keywordtype">bool</span> SQL_Database_Manager(<span class="keywordtype">int</span> Option);</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        QList&lt;int&gt; GetFreeBoxes();</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        <span class="keywordtype">bool</span> SendQueryDoorsIsClosed(QString Query);</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        <span class="keywordtype">bool</span> SetDammagedBoxes(QList&lt;int&gt; DammagedBoxes);</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        <span class="keywordtype">bool</span> SetDammagedBox(<span class="keywordtype">int</span> DammagedBox);</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        <span class="keywordtype">bool</span> UnsetDammagedBoxes(QList&lt;int&gt; FixedBoxes);</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        <span class="keywordtype">bool</span> UnsetDammagedBox(<span class="keywordtype">int</span> FixedBox);</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        QList&lt;int&gt; GetDammagedBoxes();</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        <span class="keywordtype">bool</span> DataBase_AutoSave_Needed();</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        QString Get_SiteName();</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        <span class="keywordtype">bool</span> Set_SiteName(QString SiteName);</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        <span class="keywordtype">int</span> Get_NumberOfBoxes();</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        <span class="keywordtype">bool</span> BoxIsDammaged(<span class="keywordtype">int</span> idBox);</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        <span class="keywordtype">bool</span> Set_Temporary_BoxUsed(<span class="keywordtype">int</span> IdBox);</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        <span class="keywordtype">bool</span> Unset_Temporary_BoxUsed(<span class="keywordtype">int</span> IdBox);</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    signals:</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;        <span class="keywordtype">void</span> CurrentProcessLoading(QString,<span class="keywordtype">int</span>);</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;        <span class="keywordtype">void</span> SlowProcess(<span class="keywordtype">int</span>);</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;};</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;<span class="preprocessor">#endif // CSQLITE_LOCAL_DB_H</span></div>
 <div class="ttc" id="class_c_l_m_s___d_b_html"><div class="ttname"><a href="class_c_l_m_s___d_b.html">CLMS_DB</a></div><div class="ttdef"><b>Definition:</b> clms_db.h:6</div></div>
 <div class="ttc" id="class_login_html"><div class="ttname"><a href="class_login.html">Login</a></div><div class="ttdef"><b>Definition:</b> login.h:14</div></div>
-<div class="ttc" id="class_c_s_q_lite___local___d_b_html_ad3380dd61189863c1d2d5e681b853e0e"><div class="ttname"><a href="class_c_s_q_lite___local___d_b.html#ad3380dd61189863c1d2d5e681b853e0e">CSQLite_Local_DB::Get_DataBaseIsReady</a></div><div class="ttdeci">bool Get_DataBaseIsReady()</div><div class="ttdoc">Permet de récupérer la valeur (état), de la connexion (ouverture) de la base de donnée. </div><div class="ttdef"><b>Definition:</b> csqlite_local_db.h:90</div></div>
+<div class="ttc" id="class_c_s_q_lite___local___d_b_html_ad3380dd61189863c1d2d5e681b853e0e"><div class="ttname"><a href="class_c_s_q_lite___local___d_b.html#ad3380dd61189863c1d2d5e681b853e0e">CSQLite_Local_DB::Get_DataBaseIsReady</a></div><div class="ttdeci">bool Get_DataBaseIsReady()</div><div class="ttdoc">Permet de récupérer la valeur (état), de la connexion (ouverture) de la base de donnée. </div><div class="ttdef"><b>Definition:</b> csqlite_local_db.h:93</div></div>
 <div class="ttc" id="clms__db_8h_html"><div class="ttname"><a href="clms__db_8h.html">clms_db.h</a></div></div>
-<div class="ttc" id="class_c_s_q_lite___local___d_b_html"><div class="ttname"><a href="class_c_s_q_lite___local___d_b.html">CSQLite_Local_DB</a></div><div class="ttdoc">classe CSQLite_Local_DB, gestion des communications entre une base de données locale de type SQLite...</div><div class="ttdef"><b>Definition:</b> csqlite_local_db.h:54</div></div>
+<div class="ttc" id="class_c_s_q_lite___local___d_b_html"><div class="ttname"><a href="class_c_s_q_lite___local___d_b.html">CSQLite_Local_DB</a></div><div class="ttdoc">classe CSQLite_Local_DB, gestion des communications entre une base de données locale de type SQLite...</div><div class="ttdef"><b>Definition:</b> csqlite_local_db.h:57</div></div>
 <div class="ttc" id="_data_structures_8h_html"><div class="ttname"><a href="_data_structures_8h.html">DataStructures.h</a></div><div class="ttdoc">Definnitions des formats de communications des données entre les classes de l&#39;application LC...</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -204,7 +204,7 @@ $(document).ready(function(){initNavTree('csqlite__local__db_8h_source.html','')
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="csqlite__local__db_8h.html">csqlite_local_db.h</a></li>
-    <li class="footer">Généré le Mardi 12 Mai 2015 23:12:20 pour Locker_Control (LC) par
+    <li class="footer">Généré le Jeudi 14 Mai 2015 00:18:53 pour Locker_Control (LC) par
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

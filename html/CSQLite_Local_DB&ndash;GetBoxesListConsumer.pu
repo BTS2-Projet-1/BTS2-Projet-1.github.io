@@ -1,0 +1,37 @@
+@startuml
+
+
+autonumber
+ConsoleWindows -> CSQLite_Local_DB : GetBoxesListConsumer()
+
+ alt Database is ready
+
+     database LC_Database
+     CSQLite_Local_DB -> CSQLite_Local_DB : CheckExtractCode()
+
+     alt CheckExtractCode is valid = 1
+
+         CSQLite_Local_DB -> LC_Database : SQL_Query(SELECT idPackage)
+
+         alt idPackage is not an empty list
+
+             CSQLite_Local_DB -> LC_Database : SQL_Query(SELECT Linked_idBox)
+
+             alt idPackage is not an empty list
+                 CSQLite_Local_DB -> ConsoleWindows : BoxesList
+             else
+                 CSQLite_Local_DB -> ConsoleWindows : empty list
+             end
+         else
+             CSQLite_Local_DB -> ConsoleWindows : empty list
+         end
+
+     else
+         CSQLite_Local_DB -> ConsoleWindows : empty list
+     end
+
+ else
+     CSQLite_Local_DB -> ConsoleWindows : empty list no database connection
+ end
+
+@@enduml

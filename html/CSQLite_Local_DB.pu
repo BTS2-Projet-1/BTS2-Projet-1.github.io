@@ -3,7 +3,10 @@
 
 QObject <|-- CSQLite_Local_DB : need\n signals
 ConsoleWindows *-- CSQLite_Local_DB
-ConsoleWindows o-- CSQLite_Local_DB : Linked by ConsoleWindows
+ConsoleWindows o-- CSQLite_Local_DB
+ConsoleWindows *-- CLMS_DB
+CLMS_DB o-- CSQLite_Local_DB : Linked by\n ConsoleWindows
+ConsoleWindows o-- CLMS_DB
 ConsoleWindows *-- Class_Need_Database_Access
 ConsoleWindows o-- Class_Need_Database_Access
 class Class_Need_Database_Access

@@ -1,0 +1,34 @@
+@startuml
+
+
+autonumber
+ConsoleWindows -> CSQLite_Local_DB : UpdateLocalData()
+
+ alt Database is ready
+
+     database LC_Database
+     loop data list
+
+         loop packages list
+             CSQLite_Local_DB -> LC_Database : SQL_Query(INSERT ExtractCode)
+         end
+
+         loop extracts codes list
+             CSQLite_Local_DB -> LC_Database : SQL_Query(INSERT Package)
+         end
+
+         CSQLite_Local_DB -> LC_Database : SQL_Query(UPDATE Box)
+         CSQLite_Local_DB -> LC_Database : SQL_Query(UPDATE Doorlocker)
+     end
+
+     alt Update success
+         CSQLite_Local_DB -> ConsoleWindows : true database successful updated
+     else
+         CSQLite_Local_DB -> ConsoleWindows : false no database update
+     end
+
+ else
+     CSQLite_Local_DB -> ConsoleWindows : false no database connection
+ end
+
+@enduml
