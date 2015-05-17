@@ -114,55 +114,56 @@ $(document).ready(function(){initNavTree('maintenancemenu_8h_source.html','');})
 <a href="maintenancemenu_8h.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef MAINTENANCEMENU_H</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define MAINTENANCEMENU_H</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;QWidget&gt;</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="showwidgets_8h.html">showwidgets.h</a>&quot;</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespace_ui.html">Ui</a> {</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">class </span><a class="code" href="class_maintenance_menu.html">MaintenanceMenu</a>;</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;}</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
-<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="class_maintenance_menu.html">   11</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_maintenance_menu.html">MaintenanceMenu</a> : <span class="keyword">public</span> QWidget</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;{</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    Q_OBJECT</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="class_maintenance_menu.html#aa14d840e72a986018d25e7a3ba14cbab">MaintenanceMenu</a>(QWidget *parent = 0);</div>
-<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="class_maintenance_menu.html#a6d1631ca77745b2988ba808d5e8f86ad">   17</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_maintenance_menu.html#a6d1631ca77745b2988ba808d5e8f86ad">SetShowWidgets</a>(<a class="code" href="class_show_widgets.html">ShowWidgets</a> *TShowWidgets){m_ShowWidgets = TShowWidgets;}</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <a class="code" href="class_maintenance_menu.html#a429ef2908f41b9ee8a73165ebf3a6389">~MaintenanceMenu</a>();</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keyword">public</span> slots:</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_maintenance_menu.html#a24fea77d8fd45cf1298a8e26e177a862">ReturnHome</a>();</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_maintenance_menu.html#a510658e4647fb3104e425df6f5457351">GotoSQLite_Local_DatabaseManager</a>();</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_maintenance_menu.html#af163afae9ddb54847fd7a9ec2e1b2398">GotoDoorsManager</a>();</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_maintenance_menu.html#a75b277f91c3547fb15cc095b7953f22a">GotoSettings</a>();</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_maintenance_menu.html#a6e347cef489d4504ff40283a8415916f">GotoSiteConfigManager</a>();</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    Ui::MaintenanceMenu *ui;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <a class="code" href="class_show_widgets.html">ShowWidgets</a> *m_ShowWidgets;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;};</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor">#endif // MAINTENANCEMENU_H</span></div>
-<div class="ttc" id="class_maintenance_menu_html_a75b277f91c3547fb15cc095b7953f22a"><div class="ttname"><a href="class_maintenance_menu.html#a75b277f91c3547fb15cc095b7953f22a">MaintenanceMenu::GotoSettings</a></div><div class="ttdeci">void GotoSettings()</div><div class="ttdef"><b>Definition:</b> maintenancemenu.cpp:36</div></div>
-<div class="ttc" id="class_maintenance_menu_html_a6d1631ca77745b2988ba808d5e8f86ad"><div class="ttname"><a href="class_maintenance_menu.html#a6d1631ca77745b2988ba808d5e8f86ad">MaintenanceMenu::SetShowWidgets</a></div><div class="ttdeci">void SetShowWidgets(ShowWidgets *TShowWidgets)</div><div class="ttdef"><b>Definition:</b> maintenancemenu.h:17</div></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#include &lt;QWidget&gt;</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="showwidgets_8h.html">showwidgets.h</a>&quot;</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespace_ui.html">Ui</a> {</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="keyword">class </span><a class="code" href="class_maintenance_menu.html">MaintenanceMenu</a>;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;}</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="class_maintenance_menu.html">   36</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_maintenance_menu.html">MaintenanceMenu</a> : <span class="keyword">public</span> QWidget</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;{</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    Q_OBJECT</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="class_maintenance_menu.html#aa14d840e72a986018d25e7a3ba14cbab">MaintenanceMenu</a>(QWidget *parent = 0);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
+<div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="class_maintenance_menu.html#a6d1631ca77745b2988ba808d5e8f86ad">   50</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_maintenance_menu.html#a6d1631ca77745b2988ba808d5e8f86ad">SetShowWidgets</a>(<a class="code" href="class_show_widgets.html">ShowWidgets</a> *TShowWidgets){m_ShowWidgets = TShowWidgets;}</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <a class="code" href="class_maintenance_menu.html#a429ef2908f41b9ee8a73165ebf3a6389">~MaintenanceMenu</a>();</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="keyword">public</span> slots:</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_maintenance_menu.html#a24fea77d8fd45cf1298a8e26e177a862">ReturnHome</a>();</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_maintenance_menu.html#a510658e4647fb3104e425df6f5457351">GotoSQLite_Local_DatabaseManager</a>();</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_maintenance_menu.html#af163afae9ddb54847fd7a9ec2e1b2398">GotoDoorsManager</a>();</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_maintenance_menu.html#a75b277f91c3547fb15cc095b7953f22a">GotoSettings</a>();</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_maintenance_menu.html#a6e347cef489d4504ff40283a8415916f">GotoSiteConfigManager</a>();</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    Ui::MaintenanceMenu *ui;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <a class="code" href="class_show_widgets.html">ShowWidgets</a> *m_ShowWidgets;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;};</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="preprocessor">#endif // MAINTENANCEMENU_H</span></div>
+<div class="ttc" id="class_maintenance_menu_html_a75b277f91c3547fb15cc095b7953f22a"><div class="ttname"><a href="class_maintenance_menu.html#a75b277f91c3547fb15cc095b7953f22a">MaintenanceMenu::GotoSettings</a></div><div class="ttdeci">void GotoSettings()</div><div class="ttdoc">Appele via le pointeur sur ShowWidgets, la fonction ShowWSetting() pour afficher le menu principale d...</div><div class="ttdef"><b>Definition:</b> maintenancemenu.cpp:68</div></div>
+<div class="ttc" id="class_maintenance_menu_html_a6d1631ca77745b2988ba808d5e8f86ad"><div class="ttname"><a href="class_maintenance_menu.html#a6d1631ca77745b2988ba808d5e8f86ad">MaintenanceMenu::SetShowWidgets</a></div><div class="ttdeci">void SetShowWidgets(ShowWidgets *TShowWidgets)</div><div class="ttdoc">Permet un lien via pointeur, sur une instance de la classe ShowWidgets, afin de pouvoir avoir accès a...</div><div class="ttdef"><b>Definition:</b> maintenancemenu.h:50</div></div>
 <div class="ttc" id="namespace_ui_html"><div class="ttname"><a href="namespace_ui.html">Ui</a></div><div class="ttdef"><b>Definition:</b> assistance.h:6</div></div>
-<div class="ttc" id="class_maintenance_menu_html_a24fea77d8fd45cf1298a8e26e177a862"><div class="ttname"><a href="class_maintenance_menu.html#a24fea77d8fd45cf1298a8e26e177a862">MaintenanceMenu::ReturnHome</a></div><div class="ttdeci">void ReturnHome()</div><div class="ttdef"><b>Definition:</b> maintenancemenu.cpp:21</div></div>
+<div class="ttc" id="class_maintenance_menu_html_a24fea77d8fd45cf1298a8e26e177a862"><div class="ttname"><a href="class_maintenance_menu.html#a24fea77d8fd45cf1298a8e26e177a862">MaintenanceMenu::ReturnHome</a></div><div class="ttdeci">void ReturnHome()</div><div class="ttdoc">Appele via le pointeur sur ShowWidgets, la fonction ShowWConsoleWindows() pour afficher la page d&#39;acc...</div><div class="ttdef"><b>Definition:</b> maintenancemenu.cpp:38</div></div>
 <div class="ttc" id="showwidgets_8h_html"><div class="ttname"><a href="showwidgets_8h.html">showwidgets.h</a></div></div>
 <div class="ttc" id="class_show_widgets_html"><div class="ttname"><a href="class_show_widgets.html">ShowWidgets</a></div><div class="ttdef"><b>Definition:</b> showwidgets.h:7</div></div>
-<div class="ttc" id="class_maintenance_menu_html"><div class="ttname"><a href="class_maintenance_menu.html">MaintenanceMenu</a></div><div class="ttdef"><b>Definition:</b> maintenancemenu.h:11</div></div>
-<div class="ttc" id="class_maintenance_menu_html_af163afae9ddb54847fd7a9ec2e1b2398"><div class="ttname"><a href="class_maintenance_menu.html#af163afae9ddb54847fd7a9ec2e1b2398">MaintenanceMenu::GotoDoorsManager</a></div><div class="ttdeci">void GotoDoorsManager()</div><div class="ttdef"><b>Definition:</b> maintenancemenu.cpp:31</div></div>
-<div class="ttc" id="class_maintenance_menu_html_a510658e4647fb3104e425df6f5457351"><div class="ttname"><a href="class_maintenance_menu.html#a510658e4647fb3104e425df6f5457351">MaintenanceMenu::GotoSQLite_Local_DatabaseManager</a></div><div class="ttdeci">void GotoSQLite_Local_DatabaseManager()</div><div class="ttdef"><b>Definition:</b> maintenancemenu.cpp:26</div></div>
-<div class="ttc" id="class_maintenance_menu_html_a6e347cef489d4504ff40283a8415916f"><div class="ttname"><a href="class_maintenance_menu.html#a6e347cef489d4504ff40283a8415916f">MaintenanceMenu::GotoSiteConfigManager</a></div><div class="ttdeci">void GotoSiteConfigManager()</div><div class="ttdef"><b>Definition:</b> maintenancemenu.cpp:41</div></div>
-<div class="ttc" id="class_maintenance_menu_html_aa14d840e72a986018d25e7a3ba14cbab"><div class="ttname"><a href="class_maintenance_menu.html#aa14d840e72a986018d25e7a3ba14cbab">MaintenanceMenu::MaintenanceMenu</a></div><div class="ttdeci">MaintenanceMenu(QWidget *parent=0)</div><div class="ttdef"><b>Definition:</b> maintenancemenu.cpp:4</div></div>
-<div class="ttc" id="class_maintenance_menu_html_a429ef2908f41b9ee8a73165ebf3a6389"><div class="ttname"><a href="class_maintenance_menu.html#a429ef2908f41b9ee8a73165ebf3a6389">MaintenanceMenu::~MaintenanceMenu</a></div><div class="ttdeci">~MaintenanceMenu()</div><div class="ttdef"><b>Definition:</b> maintenancemenu.cpp:16</div></div>
+<div class="ttc" id="class_maintenance_menu_html"><div class="ttname"><a href="class_maintenance_menu.html">MaintenanceMenu</a></div><div class="ttdoc">classe MaintenanceMenu, Gestion du menu de maintenance de Locker Control  Projet Locker Control sur g...</div><div class="ttdef"><b>Definition:</b> maintenancemenu.h:36</div></div>
+<div class="ttc" id="class_maintenance_menu_html_af163afae9ddb54847fd7a9ec2e1b2398"><div class="ttname"><a href="class_maintenance_menu.html#af163afae9ddb54847fd7a9ec2e1b2398">MaintenanceMenu::GotoDoorsManager</a></div><div class="ttdeci">void GotoDoorsManager()</div><div class="ttdoc">Appele via le pointeur sur ShowWidgets, la fonction ShowWDoorsManager() pour afficher la page du gest...</div><div class="ttdef"><b>Definition:</b> maintenancemenu.cpp:58</div></div>
+<div class="ttc" id="class_maintenance_menu_html_a510658e4647fb3104e425df6f5457351"><div class="ttname"><a href="class_maintenance_menu.html#a510658e4647fb3104e425df6f5457351">MaintenanceMenu::GotoSQLite_Local_DatabaseManager</a></div><div class="ttdeci">void GotoSQLite_Local_DatabaseManager()</div><div class="ttdoc">Appele via le pointeur sur ShowWidgets, la fonction ShowWSQLite_Local_DatabaseManager() pour afficher...</div><div class="ttdef"><b>Definition:</b> maintenancemenu.cpp:48</div></div>
+<div class="ttc" id="class_maintenance_menu_html_a6e347cef489d4504ff40283a8415916f"><div class="ttname"><a href="class_maintenance_menu.html#a6e347cef489d4504ff40283a8415916f">MaintenanceMenu::GotoSiteConfigManager</a></div><div class="ttdeci">void GotoSiteConfigManager()</div><div class="ttdoc">Appele via le pointeur sur ShowWidgets, la fonction ShowWSiteConfigManager() pour afficher la page de...</div><div class="ttdef"><b>Definition:</b> maintenancemenu.cpp:78</div></div>
+<div class="ttc" id="class_maintenance_menu_html_aa14d840e72a986018d25e7a3ba14cbab"><div class="ttname"><a href="class_maintenance_menu.html#aa14d840e72a986018d25e7a3ba14cbab">MaintenanceMenu::MaintenanceMenu</a></div><div class="ttdeci">MaintenanceMenu(QWidget *parent=0)</div><div class="ttdoc">Constructeur de la classe MaintenanceMenu, construit l&#39;IHM et connecte les bouttons vers les slots...</div><div class="ttdef"><b>Definition:</b> maintenancemenu.cpp:11</div></div>
+<div class="ttc" id="class_maintenance_menu_html_a429ef2908f41b9ee8a73165ebf3a6389"><div class="ttname"><a href="class_maintenance_menu.html#a429ef2908f41b9ee8a73165ebf3a6389">MaintenanceMenu::~MaintenanceMenu</a></div><div class="ttdeci">~MaintenanceMenu()</div><div class="ttdoc">Destructeur de la classe MaintenanceMenu, detruit l&#39;IHM. </div><div class="ttdef"><b>Definition:</b> maintenancemenu.cpp:28</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="maintenancemenu_8h.html">maintenancemenu.h</a></li>
-    <li class="footer">Généré le Jeudi 14 Mai 2015 00:18:53 pour Locker_Control (LC) par
+    <li class="footer">Généré le Dimanche 17 Mai 2015 18:33:53 pour Locker_Control (LC) par
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

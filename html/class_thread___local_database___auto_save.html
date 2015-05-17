@@ -119,6 +119,9 @@ $(document).ready(function(){initNavTree('class_thread___local_database___auto_s
 </div><!--header-->
 <div class="contents">
 
+<p>classe <a class="el" href="class_thread___local_database___auto_save.html" title="classe Thread_LocalDatabase_AutoSave, hérite de QThread pour effectuer la sauvegarde de la base de do...">Thread_LocalDatabase_AutoSave</a>, hérite de QThread pour effectuer la sauvegarde de la base de données sans bloquer l'IHM.  
+ <a href="class_thread___local_database___auto_save.html#details">Plus de détails...</a></p>
+
 <p><code>#include &lt;<a class="el" href="thread__localdatabase__autosave_8h_source.html">thread_localdatabase_autosave.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Graphe d'héritage de Thread_LocalDatabase_AutoSave:</div>
@@ -131,23 +134,37 @@ $(document).ready(function(){initNavTree('class_thread___local_database___auto_s
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-slots"></a>
 Connecteurs publics</h2></td></tr>
 <tr class="memitem:a85303c66b12dd217303f045a1111408a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_thread___local_database___auto_save.html#a85303c66b12dd217303f045a1111408a">StartThread_LocalDatabase_AutoSave</a> ()</td></tr>
+<tr class="memdesc:a85303c66b12dd217303f045a1111408a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lance le thread de création de la base de données.  <a href="#a85303c66b12dd217303f045a1111408a">Plus de détails...</a><br /></td></tr>
 <tr class="separator:a85303c66b12dd217303f045a1111408a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="signals"></a>
 Signaux</h2></td></tr>
 <tr class="memitem:acd2bdaf259fc6edaab2788cac95637bd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_thread___local_database___auto_save.html#acd2bdaf259fc6edaab2788cac95637bd">TerminedThread_LocalDatabase_AutoSave</a> (bool ThreadExitValue)</td></tr>
+<tr class="memdesc:acd2bdaf259fc6edaab2788cac95637bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emet le signal de fin du thread avec la valeur de retour du thread en paramètre.  <a href="#acd2bdaf259fc6edaab2788cac95637bd">Plus de détails...</a><br /></td></tr>
 <tr class="separator:acd2bdaf259fc6edaab2788cac95637bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Fonctions membres publiques</h2></td></tr>
 <tr class="memitem:a6c0682c8574f353706cf47f7c8d2e9f5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_thread___local_database___auto_save.html#a6c0682c8574f353706cf47f7c8d2e9f5">Thread_LocalDatabase_AutoSave</a> (<a class="el" href="class_s_q_lite___local___database_manager.html">SQLite_Local_DatabaseManager</a> *parent=0, <a class="el" href="class_c_s_q_lite___local___d_b.html">CSQLite_Local_DB</a> *BD=NULL)</td></tr>
+<tr class="memdesc:a6c0682c8574f353706cf47f7c8d2e9f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructeur de la classe <a class="el" href="class_thread___local_database___auto_save.html" title="classe Thread_LocalDatabase_AutoSave, hérite de QThread pour effectuer la sauvegarde de la base de do...">Thread_LocalDatabase_AutoSave</a>, qui hérite de QThread pour la gestion de d'un thread permettant, la création de la sauvegarde de la base de données, sans bloquer l'IHM.  <a href="#a6c0682c8574f353706cf47f7c8d2e9f5">Plus de détails...</a><br /></td></tr>
 <tr class="separator:a6c0682c8574f353706cf47f7c8d2e9f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94a5bf2508b21c19f3cc06b3cbf0bcb3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_thread___local_database___auto_save.html#a94a5bf2508b21c19f3cc06b3cbf0bcb3">run</a> ()</td></tr>
+<tr class="memdesc:a94a5bf2508b21c19f3cc06b3cbf0bcb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fonction de traitement du thread, lance la création de la sauvegarde de la base de données avec l'option selectionnée.  <a href="#a94a5bf2508b21c19f3cc06b3cbf0bcb3">Plus de détails...</a><br /></td></tr>
 <tr class="separator:a94a5bf2508b21c19f3cc06b3cbf0bcb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec189c4b3cb32a0e579d01f07b7f9d2a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_thread___local_database___auto_save.html#aec189c4b3cb32a0e579d01f07b7f9d2a">~Thread_LocalDatabase_AutoSave</a> ()</td></tr>
+<tr class="memdesc:aec189c4b3cb32a0e579d01f07b7f9d2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructeur de la classe <a class="el" href="class_thread___local_database___auto_save.html" title="classe Thread_LocalDatabase_AutoSave, hérite de QThread pour effectuer la sauvegarde de la base de do...">Thread_LocalDatabase_AutoSave</a>.  <a href="#aec189c4b3cb32a0e579d01f07b7f9d2a">Plus de détails...</a><br /></td></tr>
 <tr class="separator:aec189c4b3cb32a0e579d01f07b7f9d2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Documentation des constructeurs et destructeur</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Description détaillée</h2>
+<div class="textblock"><p>classe <a class="el" href="class_thread___local_database___auto_save.html" title="classe Thread_LocalDatabase_AutoSave, hérite de QThread pour effectuer la sauvegarde de la base de do...">Thread_LocalDatabase_AutoSave</a>, hérite de QThread pour effectuer la sauvegarde de la base de données sans bloquer l'IHM. </p>
+<p><a href="https://github.com/BTS2-Projet-1/Locker_Control">Projet Locker Control sur github.</a></p>
+<div align="center">
+<object type="image/svg+xml" data="Thread_LocalDatabase_AutoSave.svg"></object>
+</div>
+<dl class="section author"><dt>Auteur</dt><dd>HOUDAYER Pierre</dd></dl>
+<dl class="section version"><dt>Version</dt><dd>1.0</dd></dl>
+<dl class="section date"><dt>Date</dt><dd>15 mai 2015 </dd></dl>
+</div><h2 class="groupheader">Documentation des constructeurs et destructeur</h2>
 <a class="anchor" id="a6c0682c8574f353706cf47f7c8d2e9f5"></a>
 <div class="memitem">
 <div class="memproto">
@@ -180,6 +197,18 @@ Fonctions membres publiques</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Constructeur de la classe <a class="el" href="class_thread___local_database___auto_save.html" title="classe Thread_LocalDatabase_AutoSave, hérite de QThread pour effectuer la sauvegarde de la base de do...">Thread_LocalDatabase_AutoSave</a>, qui hérite de QThread pour la gestion de d'un thread permettant, la création de la sauvegarde de la base de données, sans bloquer l'IHM. </p>
+<p>Initialise les différents attributs et connecte les signaux.</p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname"><a class="el" href="class_s_q_lite___local___database_manager.html" title="classe SQLite_Local_DatabaseManager, gestion des actions et interractions entre l&#39;interface de mainte...">SQLite_Local_DatabaseManager</a></td><td>*parent, <a class="el" href="class_c_s_q_lite___local___d_b.html" title="classe CSQLite_Local_DB, gestion des communications entre une base de données locale de type SQLite...">CSQLite_Local_DB</a> *BD.<br />
+ *DatabaseManager pointeur valide sur une instance de <a class="el" href="class_s_q_lite___local___database_manager.html" title="classe SQLite_Local_DatabaseManager, gestion des actions et interractions entre l&#39;interface de mainte...">SQLite_Local_DatabaseManager</a> pour faire remonter les informations par les signaux<br />
+ *BD, pointeur valide sur une instance de <a class="el" href="class_c_s_q_lite___local___d_b.html" title="classe CSQLite_Local_DB, gestion des communications entre une base de données locale de type SQLite...">CSQLite_Local_DB</a> pour la communication avec la base de données.<br />
+</td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a class="anchor" id="aec189c4b3cb32a0e579d01f07b7f9d2a"></a>
@@ -194,6 +223,8 @@ Fonctions membres publiques</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Destructeur de la classe <a class="el" href="class_thread___local_database___auto_save.html" title="classe Thread_LocalDatabase_AutoSave, hérite de QThread pour effectuer la sauvegarde de la base de do...">Thread_LocalDatabase_AutoSave</a>. </p>
 
 </div>
 </div>
@@ -210,6 +241,8 @@ Fonctions membres publiques</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Fonction de traitement du thread, lance la création de la sauvegarde de la base de données avec l'option selectionnée. </p>
 
 </div>
 </div>
@@ -233,6 +266,8 @@ Fonctions membres publiques</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Lance le thread de création de la base de données. </p>
 
 </div>
 </div>
@@ -258,6 +293,14 @@ Fonctions membres publiques</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Emet le signal de fin du thread avec la valeur de retour du thread en paramètre. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">bool</td><td>valeur de retour de fin du thread. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <hr/>La documentation de cette classe a été générée à partir des fichiers suivants :<ul>
@@ -270,7 +313,7 @@ Fonctions membres publiques</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_thread___local_database___auto_save.html">Thread_LocalDatabase_AutoSave</a></li>
-    <li class="footer">Généré le Jeudi 14 Mai 2015 00:18:55 pour Locker_Control (LC) par
+    <li class="footer">Généré le Dimanche 17 Mai 2015 18:33:56 pour Locker_Control (LC) par
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

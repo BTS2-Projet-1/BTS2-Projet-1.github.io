@@ -15,7 +15,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="class_thread___databasemanager.html" target="_top" xlink:title="Thread_Databasemanager">
+<g id="a_node2"><a xlink:href="class_thread___databasemanager.html" target="_top" xlink:title="classe Thread_Databasemanager, hérite de QThread pour effectuer le traitement sur la base de données ...">
 <polygon fill="none" stroke="black" points="79,-148.5 79,-164.5 177,-164.5 177,-148.5 79,-148.5"/>
 <text text-anchor="middle" x="128" y="-154.9" font-family="Helvetica,sans-Serif" font-size="7.00">Thread_Databasemanager</text>
 </a>
@@ -28,7 +28,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="class_thread___local_database___auto_save.html" target="_top" xlink:title="Thread_LocalDatabase\l_AutoSave">
+<g id="a_node3"><a xlink:href="class_thread___local_database___auto_save.html" target="_top" xlink:title="classe Thread_LocalDatabase_AutoSave, hérite de QThread pour effectuer la sauvegarde de la base de do...">
 <polygon fill="none" stroke="black" points="84,-105.5 84,-129.5 172,-129.5 172,-105.5 84,-105.5"/>
 <text text-anchor="start" x="92" y="-119.9" font-family="Helvetica,sans-Serif" font-size="7.00">Thread_LocalDatabase</text>
 <text text-anchor="middle" x="128" y="-111.9" font-family="Helvetica,sans-Serif" font-size="7.00">_AutoSave</text>

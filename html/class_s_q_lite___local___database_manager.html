@@ -119,7 +119,7 @@ $(document).ready(function(){initNavTree('class_s_q_lite___local___database_mana
 </div><!--header-->
 <div class="contents">
 
-<p>classe <a class="el" href="class_s_q_lite___local___database_manager.html" title="classe SQLite_Local_DatabaseManager, gestion de des actions et interractions entre l&#39;interface de mai...">SQLite_Local_DatabaseManager</a>, gestion de des actions et interractions entre l'interface de maintenance de la base de données et la classe <a class="el" href="class_c_s_q_lite___local___d_b.html" title="classe CSQLite_Local_DB, gestion des communications entre une base de données locale de type SQLite...">CSQLite_Local_DB</a>.  
+<p>classe <a class="el" href="class_s_q_lite___local___database_manager.html" title="classe SQLite_Local_DatabaseManager, gestion des actions et interractions entre l&#39;interface de mainte...">SQLite_Local_DatabaseManager</a>, gestion des actions et interractions entre l'interface de maintenance de la base de données et la classe <a class="el" href="class_c_s_q_lite___local___d_b.html" title="classe CSQLite_Local_DB, gestion des communications entre une base de données locale de type SQLite...">CSQLite_Local_DB</a>. La classe <a class="el" href="class_s_q_lite___local___database_manager.html" title="classe SQLite_Local_DatabaseManager, gestion des actions et interractions entre l&#39;interface de mainte...">SQLite_Local_DatabaseManager</a> permet aux utilisateurs de reconstruire, sauvegarder ou charger une nouvelle base de données pour Locker Control.  
  <a href="class_s_q_lite___local___database_manager.html#details">Plus de détails...</a></p>
 
 <p><code>#include &lt;<a class="el" href="sqlite__local__databasemanager_8h_source.html">sqlite_local_databasemanager.h</a>&gt;</code></p>
@@ -134,49 +134,69 @@ $(document).ready(function(){initNavTree('class_s_q_lite___local___database_mana
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-slots"></a>
 Connecteurs publics</h2></td></tr>
 <tr class="memitem:acc8524a6da38c01831b2eb49cea93f31"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_q_lite___local___database_manager.html#acc8524a6da38c01831b2eb49cea93f31">ReturnHome</a> ()</td></tr>
+<tr class="memdesc:acc8524a6da38c01831b2eb49cea93f31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appele via le pointeur sur <a class="el" href="class_show_widgets.html">ShowWidgets</a>, la fonction ShowWConsoleWindows() pour afficher la page d'accueil.  <a href="#acc8524a6da38c01831b2eb49cea93f31">Plus de détails...</a><br /></td></tr>
 <tr class="separator:acc8524a6da38c01831b2eb49cea93f31"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab621325d2356d4f84a14103330db995d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_q_lite___local___database_manager.html#ab621325d2356d4f84a14103330db995d">ReturnMaintenanceMenu</a> ()</td></tr>
+<tr class="memdesc:ab621325d2356d4f84a14103330db995d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appele via le pointeur sur <a class="el" href="class_show_widgets.html">ShowWidgets</a>, la fonction ShowWMaintenanceMenu() pour afficher la page du menu de maintenance.  <a href="#ab621325d2356d4f84a14103330db995d">Plus de détails...</a><br /></td></tr>
 <tr class="separator:ab621325d2356d4f84a14103330db995d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af88296139c7f7e4a138c4e0b31b927ae"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_q_lite___local___database_manager.html#af88296139c7f7e4a138c4e0b31b927ae">ReturnDB_Manager</a> ()</td></tr>
+<tr class="memdesc:af88296139c7f7e4a138c4e0b31b927ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change la page actuelle par le menu de gestion de la base de données.  <a href="#af88296139c7f7e4a138c4e0b31b927ae">Plus de détails...</a><br /></td></tr>
 <tr class="separator:af88296139c7f7e4a138c4e0b31b927ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50748c0637b4f3813b48c227131cd4b5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_q_lite___local___database_manager.html#a50748c0637b4f3813b48c227131cd4b5">Update_Confirm</a> ()</td></tr>
+<tr class="memdesc:a50748c0637b4f3813b48c227131cd4b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Demande à l'utilisateur, via l'IHM, de confirmer la commande précédement demandée.  <a href="#a50748c0637b4f3813b48c227131cd4b5">Plus de détails...</a><br /></td></tr>
 <tr class="separator:a50748c0637b4f3813b48c227131cd4b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa2f66b2d03bf43b24db6f72fc114e08"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_q_lite___local___database_manager.html#afa2f66b2d03bf43b24db6f72fc114e08">Build_EmptyDB</a> ()</td></tr>
+<tr class="memdesc:afa2f66b2d03bf43b24db6f72fc114e08"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emet le signal <a class="el" href="class_s_q_lite___local___database_manager.html#ad8c9e0f685b0d37c99952d68bf9c3bf6" title="Emet le signal pour lancer le thread Thread_Databasemanager avec l&#39;option choisie. ">startThreadManager()</a> pour lancer le thread <a class="el" href="class_thread___databasemanager.html" title="classe Thread_Databasemanager, hérite de QThread pour effectuer le traitement sur la base de données ...">Thread_Databasemanager</a> en mode EMPTY_DATABASE et modifie le Widget actuel par la page de chargement.  <a href="#afa2f66b2d03bf43b24db6f72fc114e08">Plus de détails...</a><br /></td></tr>
 <tr class="separator:afa2f66b2d03bf43b24db6f72fc114e08"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5180b95c68728a20b0db7c5e1411911d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_q_lite___local___database_manager.html#a5180b95c68728a20b0db7c5e1411911d">Build_DefaultDB</a> ()</td></tr>
+<tr class="memdesc:a5180b95c68728a20b0db7c5e1411911d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emet le signal <a class="el" href="class_s_q_lite___local___database_manager.html#ad8c9e0f685b0d37c99952d68bf9c3bf6" title="Emet le signal pour lancer le thread Thread_Databasemanager avec l&#39;option choisie. ">startThreadManager()</a> pour lancer le thread <a class="el" href="class_thread___databasemanager.html" title="classe Thread_Databasemanager, hérite de QThread pour effectuer le traitement sur la base de données ...">Thread_Databasemanager</a> en mode DEFAULT_DATABASE et modifie le Widget actuel par la page de chargement.  <a href="#a5180b95c68728a20b0db7c5e1411911d">Plus de détails...</a><br /></td></tr>
 <tr class="separator:a5180b95c68728a20b0db7c5e1411911d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b9b89237cd56d54643a0761aa1a9cd5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_q_lite___local___database_manager.html#a2b9b89237cd56d54643a0761aa1a9cd5">Build_LastSaveDB</a> ()</td></tr>
+<tr class="memdesc:a2b9b89237cd56d54643a0761aa1a9cd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emet le signal <a class="el" href="class_s_q_lite___local___database_manager.html#ad8c9e0f685b0d37c99952d68bf9c3bf6" title="Emet le signal pour lancer le thread Thread_Databasemanager avec l&#39;option choisie. ">startThreadManager()</a> pour lancer le thread <a class="el" href="class_thread___databasemanager.html" title="classe Thread_Databasemanager, hérite de QThread pour effectuer le traitement sur la base de données ...">Thread_Databasemanager</a> en mode LOAD_SAVE_DATABASE et modifie le Widget actuel par la page de chargement.  <a href="#a2b9b89237cd56d54643a0761aa1a9cd5">Plus de détails...</a><br /></td></tr>
 <tr class="separator:a2b9b89237cd56d54643a0761aa1a9cd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d253cf3d01eaf2626032cef48923788"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_q_lite___local___database_manager.html#a4d253cf3d01eaf2626032cef48923788">SaveDB</a> ()</td></tr>
+<tr class="memdesc:a4d253cf3d01eaf2626032cef48923788"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emet le signal <a class="el" href="class_s_q_lite___local___database_manager.html#ad8c9e0f685b0d37c99952d68bf9c3bf6" title="Emet le signal pour lancer le thread Thread_Databasemanager avec l&#39;option choisie. ">startThreadManager()</a> pour lancer le thread <a class="el" href="class_thread___databasemanager.html" title="classe Thread_Databasemanager, hérite de QThread pour effectuer le traitement sur la base de données ...">Thread_Databasemanager</a> en mode SAVE_DATABASE et modifie le Widget actuel par la page de chargement.  <a href="#a4d253cf3d01eaf2626032cef48923788">Plus de détails...</a><br /></td></tr>
 <tr class="separator:a4d253cf3d01eaf2626032cef48923788"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac0c01f2c96affa62a10f896c0b1baf29"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_q_lite___local___database_manager.html#ac0c01f2c96affa62a10f896c0b1baf29">SetStatusLoading</a> (QString Message, int Value)</td></tr>
+<tr class="memdesc:ac0c01f2c96affa62a10f896c0b1baf29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reception du signal CurrentProcessLoading() de <a class="el" href="class_c_s_q_lite___local___d_b.html" title="classe CSQLite_Local_DB, gestion des communications entre une base de données locale de type SQLite...">CSQLite_Local_DB</a> et modifie la barre de chargement en fonction des paramètres reçu.  <a href="#ac0c01f2c96affa62a10f896c0b1baf29">Plus de détails...</a><br /></td></tr>
 <tr class="separator:ac0c01f2c96affa62a10f896c0b1baf29"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8399bba68cd862681cb912dfaa70686d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_q_lite___local___database_manager.html#a8399bba68cd862681cb912dfaa70686d">Run_DB_Manager</a> ()</td></tr>
+<tr class="memdesc:a8399bba68cd862681cb912dfaa70686d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emet le signal <a class="el" href="class_s_q_lite___local___database_manager.html#ad8c9e0f685b0d37c99952d68bf9c3bf6" title="Emet le signal pour lancer le thread Thread_Databasemanager avec l&#39;option choisie. ">startThreadManager()</a> pour lancer le thread <a class="el" href="class_thread___databasemanager.html" title="classe Thread_Databasemanager, hérite de QThread pour effectuer le traitement sur la base de données ...">Thread_Databasemanager</a> avec une option précédement sélectionnée et modifie le Widget actuel par la page de chargement.  <a href="#a8399bba68cd862681cb912dfaa70686d">Plus de détails...</a><br /></td></tr>
 <tr class="separator:a8399bba68cd862681cb912dfaa70686d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="signals"></a>
 Signaux</h2></td></tr>
 <tr class="memitem:ad8c9e0f685b0d37c99952d68bf9c3bf6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_q_lite___local___database_manager.html#ad8c9e0f685b0d37c99952d68bf9c3bf6">startThreadManager</a> (int Opt)</td></tr>
+<tr class="memdesc:ad8c9e0f685b0d37c99952d68bf9c3bf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emet le signal pour lancer le thread <a class="el" href="class_thread___databasemanager.html" title="classe Thread_Databasemanager, hérite de QThread pour effectuer le traitement sur la base de données ...">Thread_Databasemanager</a> avec l'option choisie.  <a href="#ad8c9e0f685b0d37c99952d68bf9c3bf6">Plus de détails...</a><br /></td></tr>
 <tr class="separator:ad8c9e0f685b0d37c99952d68bf9c3bf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5ac47d06629c2913972b0db86cb80c1c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_q_lite___local___database_manager.html#a5ac47d06629c2913972b0db86cb80c1c">startThreadAutoSave</a> ()</td></tr>
+<tr class="memdesc:a5ac47d06629c2913972b0db86cb80c1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emet le signal pour lancer le thread <a class="el" href="class_thread___local_database___auto_save.html" title="classe Thread_LocalDatabase_AutoSave, hérite de QThread pour effectuer la sauvegarde de la base de do...">Thread_LocalDatabase_AutoSave</a>.  <a href="#a5ac47d06629c2913972b0db86cb80c1c">Plus de détails...</a><br /></td></tr>
 <tr class="separator:a5ac47d06629c2913972b0db86cb80c1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a83ec01b1efdd59cd74af2a987e7b393d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_q_lite___local___database_manager.html#a83ec01b1efdd59cd74af2a987e7b393d">EndThread_DatabaseManager</a> (bool Value)</td></tr>
+<tr class="memdesc:a83ec01b1efdd59cd74af2a987e7b393d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emet le signal pour informer <a class="el" href="class_console_windows.html">ConsoleWindows</a> de la fin du thread <a class="el" href="class_thread___databasemanager.html" title="classe Thread_Databasemanager, hérite de QThread pour effectuer le traitement sur la base de données ...">Thread_Databasemanager</a> avec l'option choisie.  <a href="#a83ec01b1efdd59cd74af2a987e7b393d">Plus de détails...</a><br /></td></tr>
 <tr class="separator:a83ec01b1efdd59cd74af2a987e7b393d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Fonctions membres publiques</h2></td></tr>
 <tr class="memitem:a7d002283954a928e19a37340f18ba6f5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_q_lite___local___database_manager.html#a7d002283954a928e19a37340f18ba6f5">SQLite_Local_DatabaseManager</a> (<a class="el" href="class_console_windows.html">ConsoleWindows</a> *TConsoleWindows=NULL, <a class="el" href="class_c_s_q_lite___local___d_b.html">CSQLite_Local_DB</a> *BD=NULL)</td></tr>
+<tr class="memdesc:a7d002283954a928e19a37340f18ba6f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructeur de la classe <a class="el" href="class_s_q_lite___local___database_manager.html" title="classe SQLite_Local_DatabaseManager, gestion des actions et interractions entre l&#39;interface de mainte...">SQLite_Local_DatabaseManager</a>, qui hérite de QWidget pour la gestion de l'IHM.  <a href="#a7d002283954a928e19a37340f18ba6f5">Plus de détails...</a><br /></td></tr>
 <tr class="separator:a7d002283954a928e19a37340f18ba6f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d37c800647d0714a8497722d65f1538"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_q_lite___local___database_manager.html#a6d37c800647d0714a8497722d65f1538">SetShowWidgets</a> (<a class="el" href="class_show_widgets.html">ShowWidgets</a> *TShowWidgets)</td></tr>
+<tr class="memdesc:a6d37c800647d0714a8497722d65f1538"><td class="mdescLeft">&#160;</td><td class="mdescRight">Permet un lien via pointeur, sur une instance de la classe <a class="el" href="class_show_widgets.html">ShowWidgets</a>, afin de pouvoir avoir accès au differents Widgets de Locker Control.  <a href="#a6d37c800647d0714a8497722d65f1538">Plus de détails...</a><br /></td></tr>
 <tr class="separator:a6d37c800647d0714a8497722d65f1538"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1ab69099124f5db722ef84049d79efc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_q_lite___local___database_manager.html#ab1ab69099124f5db722ef84049d79efc">~SQLite_Local_DatabaseManager</a> ()</td></tr>
+<tr class="memdesc:ab1ab69099124f5db722ef84049d79efc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructeur de la classe <a class="el" href="class_s_q_lite___local___database_manager.html" title="classe SQLite_Local_DatabaseManager, gestion des actions et interractions entre l&#39;interface de mainte...">SQLite_Local_DatabaseManager</a>, Stop les timers et détruit l'IHM.  <a href="#ab1ab69099124f5db722ef84049d79efc">Plus de détails...</a><br /></td></tr>
 <tr class="separator:ab1ab69099124f5db722ef84049d79efc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Description détaillée</h2>
-<div class="textblock"><p>classe <a class="el" href="class_s_q_lite___local___database_manager.html" title="classe SQLite_Local_DatabaseManager, gestion de des actions et interractions entre l&#39;interface de mai...">SQLite_Local_DatabaseManager</a>, gestion de des actions et interractions entre l'interface de maintenance de la base de données et la classe <a class="el" href="class_c_s_q_lite___local___d_b.html" title="classe CSQLite_Local_DB, gestion des communications entre une base de données locale de type SQLite...">CSQLite_Local_DB</a>. </p>
+<div class="textblock"><p>classe <a class="el" href="class_s_q_lite___local___database_manager.html" title="classe SQLite_Local_DatabaseManager, gestion des actions et interractions entre l&#39;interface de mainte...">SQLite_Local_DatabaseManager</a>, gestion des actions et interractions entre l'interface de maintenance de la base de données et la classe <a class="el" href="class_c_s_q_lite___local___d_b.html" title="classe CSQLite_Local_DB, gestion des communications entre une base de données locale de type SQLite...">CSQLite_Local_DB</a>. La classe <a class="el" href="class_s_q_lite___local___database_manager.html" title="classe SQLite_Local_DatabaseManager, gestion des actions et interractions entre l&#39;interface de mainte...">SQLite_Local_DatabaseManager</a> permet aux utilisateurs de reconstruire, sauvegarder ou charger une nouvelle base de données pour Locker Control. </p>
+<p><a href="https://github.com/BTS2-Projet-1/Locker_Control">Projet Locker Control sur github.</a></p>
+<div align="center">
+<object type="image/svg+xml" data="SQLite_Local_DatabaseManager.svg"></object>
+</div>
 <dl class="section author"><dt>Auteur</dt><dd>HOUDAYER Pierre</dd></dl>
 <dl class="section version"><dt>Version</dt><dd>1.2</dd></dl>
-<dl class="section date"><dt>Date</dt><dd>8 mai 2015 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>14 mai 2015 </dd></dl>
 </div><h2 class="groupheader">Documentation des constructeurs et destructeur</h2>
 <a class="anchor" id="a7d002283954a928e19a37340f18ba6f5"></a>
 <div class="memitem">
@@ -210,6 +230,15 @@ Fonctions membres publiques</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Constructeur de la classe <a class="el" href="class_s_q_lite___local___database_manager.html" title="classe SQLite_Local_DatabaseManager, gestion des actions et interractions entre l&#39;interface de mainte...">SQLite_Local_DatabaseManager</a>, qui hérite de QWidget pour la gestion de l'IHM. </p>
+<p>Initialise les différents attributs, créer les deux threads (<a class="el" href="class_thread___databasemanager.html" title="classe Thread_Databasemanager, hérite de QThread pour effectuer le traitement sur la base de données ...">Thread_Databasemanager</a> + <a class="el" href="class_thread___local_database___auto_save.html" title="classe Thread_LocalDatabase_AutoSave, hérite de QThread pour effectuer la sauvegarde de la base de do...">Thread_LocalDatabase_AutoSave</a>).</p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname"><a class="el" href="class_console_windows.html">ConsoleWindows</a></td><td>*TConsoleWindows,<a class="el" href="class_c_s_q_lite___local___d_b.html" title="classe CSQLite_Local_DB, gestion des communications entre une base de données locale de type SQLite...">CSQLite_Local_DB</a> *BD, *TConsoleWindows pointeur sur la classe parent <a class="el" href="class_console_windows.html">ConsoleWindows</a> et *BD, pointeur valide sur une instance de <a class="el" href="class_c_s_q_lite___local___d_b.html" title="classe CSQLite_Local_DB, gestion des communications entre une base de données locale de type SQLite...">CSQLite_Local_DB</a> pour la communication avec la base de données. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a class="anchor" id="ab1ab69099124f5db722ef84049d79efc"></a>
@@ -224,6 +253,8 @@ Fonctions membres publiques</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Destructeur de la classe <a class="el" href="class_s_q_lite___local___database_manager.html" title="classe SQLite_Local_DatabaseManager, gestion des actions et interractions entre l&#39;interface de mainte...">SQLite_Local_DatabaseManager</a>, Stop les timers et détruit l'IHM. </p>
 
 </div>
 </div>
@@ -249,6 +280,8 @@ Fonctions membres publiques</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Emet le signal <a class="el" href="class_s_q_lite___local___database_manager.html#ad8c9e0f685b0d37c99952d68bf9c3bf6" title="Emet le signal pour lancer le thread Thread_Databasemanager avec l&#39;option choisie. ">startThreadManager()</a> pour lancer le thread <a class="el" href="class_thread___databasemanager.html" title="classe Thread_Databasemanager, hérite de QThread pour effectuer le traitement sur la base de données ...">Thread_Databasemanager</a> en mode DEFAULT_DATABASE et modifie le Widget actuel par la page de chargement. </p>
+
 </div>
 </div>
 <a class="anchor" id="afa2f66b2d03bf43b24db6f72fc114e08"></a>
@@ -272,6 +305,8 @@ Fonctions membres publiques</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Emet le signal <a class="el" href="class_s_q_lite___local___database_manager.html#ad8c9e0f685b0d37c99952d68bf9c3bf6" title="Emet le signal pour lancer le thread Thread_Databasemanager avec l&#39;option choisie. ">startThreadManager()</a> pour lancer le thread <a class="el" href="class_thread___databasemanager.html" title="classe Thread_Databasemanager, hérite de QThread pour effectuer le traitement sur la base de données ...">Thread_Databasemanager</a> en mode EMPTY_DATABASE et modifie le Widget actuel par la page de chargement. </p>
+
 </div>
 </div>
 <a class="anchor" id="a2b9b89237cd56d54643a0761aa1a9cd5"></a>
@@ -294,6 +329,8 @@ Fonctions membres publiques</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Emet le signal <a class="el" href="class_s_q_lite___local___database_manager.html#ad8c9e0f685b0d37c99952d68bf9c3bf6" title="Emet le signal pour lancer le thread Thread_Databasemanager avec l&#39;option choisie. ">startThreadManager()</a> pour lancer le thread <a class="el" href="class_thread___databasemanager.html" title="classe Thread_Databasemanager, hérite de QThread pour effectuer le traitement sur la base de données ...">Thread_Databasemanager</a> en mode LOAD_SAVE_DATABASE et modifie le Widget actuel par la page de chargement. </p>
 
 </div>
 </div>
@@ -319,6 +356,8 @@ Fonctions membres publiques</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Emet le signal pour informer <a class="el" href="class_console_windows.html">ConsoleWindows</a> de la fin du thread <a class="el" href="class_thread___databasemanager.html" title="classe Thread_Databasemanager, hérite de QThread pour effectuer le traitement sur la base de données ...">Thread_Databasemanager</a> avec l'option choisie. </p>
+
 </div>
 </div>
 <a class="anchor" id="af88296139c7f7e4a138c4e0b31b927ae"></a>
@@ -341,6 +380,8 @@ Fonctions membres publiques</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Change la page actuelle par le menu de gestion de la base de données. </p>
 
 </div>
 </div>
@@ -365,6 +406,8 @@ Fonctions membres publiques</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Appele via le pointeur sur <a class="el" href="class_show_widgets.html">ShowWidgets</a>, la fonction ShowWConsoleWindows() pour afficher la page d'accueil. </p>
+
 </div>
 </div>
 <a class="anchor" id="ab621325d2356d4f84a14103330db995d"></a>
@@ -387,6 +430,8 @@ Fonctions membres publiques</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Appele via le pointeur sur <a class="el" href="class_show_widgets.html">ShowWidgets</a>, la fonction ShowWMaintenanceMenu() pour afficher la page du menu de maintenance. </p>
 
 </div>
 </div>
@@ -411,6 +456,8 @@ Fonctions membres publiques</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Emet le signal <a class="el" href="class_s_q_lite___local___database_manager.html#ad8c9e0f685b0d37c99952d68bf9c3bf6" title="Emet le signal pour lancer le thread Thread_Databasemanager avec l&#39;option choisie. ">startThreadManager()</a> pour lancer le thread <a class="el" href="class_thread___databasemanager.html" title="classe Thread_Databasemanager, hérite de QThread pour effectuer le traitement sur la base de données ...">Thread_Databasemanager</a> avec une option précédement sélectionnée et modifie le Widget actuel par la page de chargement. </p>
+
 </div>
 </div>
 <a class="anchor" id="a4d253cf3d01eaf2626032cef48923788"></a>
@@ -433,6 +480,8 @@ Fonctions membres publiques</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Emet le signal <a class="el" href="class_s_q_lite___local___database_manager.html#ad8c9e0f685b0d37c99952d68bf9c3bf6" title="Emet le signal pour lancer le thread Thread_Databasemanager avec l&#39;option choisie. ">startThreadManager()</a> pour lancer le thread <a class="el" href="class_thread___databasemanager.html" title="classe Thread_Databasemanager, hérite de QThread pour effectuer le traitement sur la base de données ...">Thread_Databasemanager</a> en mode SAVE_DATABASE et modifie le Widget actuel par la page de chargement. </p>
 
 </div>
 </div>
@@ -457,6 +506,14 @@ Fonctions membres publiques</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Permet un lien via pointeur, sur une instance de la classe <a class="el" href="class_show_widgets.html">ShowWidgets</a>, afin de pouvoir avoir accès au differents Widgets de Locker Control. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname"><a class="el" href="class_show_widgets.html">ShowWidgets</a></td><td>*TShowWidgets, Avec "TShowWidgets", un pointeur valide sur sur une instance de la classe <a class="el" href="class_show_widgets.html">ShowWidgets</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -492,6 +549,14 @@ Fonctions membres publiques</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Reception du signal CurrentProcessLoading() de <a class="el" href="class_c_s_q_lite___local___d_b.html" title="classe CSQLite_Local_DB, gestion des communications entre une base de données locale de type SQLite...">CSQLite_Local_DB</a> et modifie la barre de chargement en fonction des paramètres reçu. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">QString</td><td>Message, int Value, Avec "Message" le message qui sera affiché sur l'IHM, et "Value" la valeur en pour cent de la barre de chargement souhaité. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a class="anchor" id="a5ac47d06629c2913972b0db86cb80c1c"></a>
@@ -514,6 +579,8 @@ Fonctions membres publiques</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Emet le signal pour lancer le thread <a class="el" href="class_thread___local_database___auto_save.html" title="classe Thread_LocalDatabase_AutoSave, hérite de QThread pour effectuer la sauvegarde de la base de do...">Thread_LocalDatabase_AutoSave</a>. </p>
 
 </div>
 </div>
@@ -539,6 +606,14 @@ Fonctions membres publiques</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Emet le signal pour lancer le thread <a class="el" href="class_thread___databasemanager.html" title="classe Thread_Databasemanager, hérite de QThread pour effectuer le traitement sur la base de données ...">Thread_Databasemanager</a> avec l'option choisie. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">int</td><td>Opt, Avec "Opt", l'option de construction de la base de données sélectionnée. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a class="anchor" id="a50748c0637b4f3813b48c227131cd4b5"></a>
@@ -562,6 +637,8 @@ Fonctions membres publiques</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Demande à l'utilisateur, via l'IHM, de confirmer la commande précédement demandée. </p>
+
 </div>
 </div>
 <hr/>La documentation de cette classe a été générée à partir des fichiers suivants :<ul>
@@ -574,7 +651,7 @@ Fonctions membres publiques</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_s_q_lite___local___database_manager.html">SQLite_Local_DatabaseManager</a></li>
-    <li class="footer">Généré le Jeudi 14 Mai 2015 00:18:54 pour Locker_Control (LC) par
+    <li class="footer">Généré le Dimanche 17 Mai 2015 18:33:55 pour Locker_Control (LC) par
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

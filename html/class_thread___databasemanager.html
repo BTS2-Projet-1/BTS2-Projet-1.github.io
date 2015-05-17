@@ -119,6 +119,9 @@ $(document).ready(function(){initNavTree('class_thread___databasemanager.html','
 </div><!--header-->
 <div class="contents">
 
+<p>classe <a class="el" href="class_thread___databasemanager.html" title="classe Thread_Databasemanager, hérite de QThread pour effectuer le traitement sur la base de données ...">Thread_Databasemanager</a>, hérite de QThread pour effectuer le traitement sur la base de données sans bloquer l'IHM.  
+ <a href="class_thread___databasemanager.html#details">Plus de détails...</a></p>
+
 <p><code>#include &lt;<a class="el" href="thread__databasemanager_8h_source.html">thread_databasemanager.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Graphe d'héritage de Thread_Databasemanager:</div>
@@ -131,25 +134,40 @@ $(document).ready(function(){initNavTree('class_thread___databasemanager.html','
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-slots"></a>
 Connecteurs publics</h2></td></tr>
 <tr class="memitem:a7392689aed5d724bf32d9095533a8d26"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_thread___databasemanager.html#a7392689aed5d724bf32d9095533a8d26">SlowThread</a> (int Timems)</td></tr>
+<tr class="memdesc:a7392689aed5d724bf32d9095533a8d26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reception du signal SlowProcess() de <a class="el" href="class_c_s_q_lite___local___d_b.html" title="classe CSQLite_Local_DB, gestion des communications entre une base de données locale de type SQLite...">CSQLite_Local_DB</a> pour ralentir le thread (fait un msleep()).  <a href="#a7392689aed5d724bf32d9095533a8d26">Plus de détails...</a><br /></td></tr>
 <tr class="separator:a7392689aed5d724bf32d9095533a8d26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad76322d03f5401fd9b15f663f1592663"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_thread___databasemanager.html#ad76322d03f5401fd9b15f663f1592663">startThreadManager</a> (int opt)</td></tr>
+<tr class="memdesc:ad76322d03f5401fd9b15f663f1592663"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initalise l'option selectionnée pour la construction de la base de données et démarre le thread.  <a href="#ad76322d03f5401fd9b15f663f1592663">Plus de détails...</a><br /></td></tr>
 <tr class="separator:ad76322d03f5401fd9b15f663f1592663"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="signals"></a>
 Signaux</h2></td></tr>
 <tr class="memitem:a07d383177f9b390ca6feea9684bd78c8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_thread___databasemanager.html#a07d383177f9b390ca6feea9684bd78c8">terminatedThread</a> (bool)</td></tr>
+<tr class="memdesc:a07d383177f9b390ca6feea9684bd78c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emet le signal de fin du thread avec la valeur de retour du thread en paramètre.  <a href="#a07d383177f9b390ca6feea9684bd78c8">Plus de détails...</a><br /></td></tr>
 <tr class="separator:a07d383177f9b390ca6feea9684bd78c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Fonctions membres publiques</h2></td></tr>
 <tr class="memitem:a50de7d2d2fe1de697657936a768768d5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_thread___databasemanager.html#a50de7d2d2fe1de697657936a768768d5">Thread_Databasemanager</a> (<a class="el" href="class_console_windows.html">ConsoleWindows</a> *TConsoleWindows=NULL, <a class="el" href="class_s_q_lite___local___database_manager.html">SQLite_Local_DatabaseManager</a> *DatabaseManager=NULL, <a class="el" href="class_c_s_q_lite___local___d_b.html">CSQLite_Local_DB</a> *BD=NULL)</td></tr>
+<tr class="memdesc:a50de7d2d2fe1de697657936a768768d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructeur de la classe <a class="el" href="class_thread___databasemanager.html" title="classe Thread_Databasemanager, hérite de QThread pour effectuer le traitement sur la base de données ...">Thread_Databasemanager</a>, qui hérite de QThread pour la gestion de d'un thread permettant la gestion de la base de données, sans bloquer l'IHM.  <a href="#a50de7d2d2fe1de697657936a768768d5">Plus de détails...</a><br /></td></tr>
 <tr class="separator:a50de7d2d2fe1de697657936a768768d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e3f0a1ebcb2eecf99129f7fed1b3b0a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_thread___databasemanager.html#a4e3f0a1ebcb2eecf99129f7fed1b3b0a">~Thread_Databasemanager</a> ()</td></tr>
+<tr class="memdesc:a4e3f0a1ebcb2eecf99129f7fed1b3b0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructeur de la classe <a class="el" href="class_thread___databasemanager.html" title="classe Thread_Databasemanager, hérite de QThread pour effectuer le traitement sur la base de données ...">Thread_Databasemanager</a>.  <a href="#a4e3f0a1ebcb2eecf99129f7fed1b3b0a">Plus de détails...</a><br /></td></tr>
 <tr class="separator:a4e3f0a1ebcb2eecf99129f7fed1b3b0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05d712f64b4838e59bbd8e82f4620d0b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_thread___databasemanager.html#a05d712f64b4838e59bbd8e82f4620d0b">run</a> ()</td></tr>
+<tr class="memdesc:a05d712f64b4838e59bbd8e82f4620d0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fonction de traitement du thread, lance la tache de construction de la base de données avec l'option selectionnée.  <a href="#a05d712f64b4838e59bbd8e82f4620d0b">Plus de détails...</a><br /></td></tr>
 <tr class="separator:a05d712f64b4838e59bbd8e82f4620d0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Documentation des constructeurs et destructeur</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Description détaillée</h2>
+<div class="textblock"><p>classe <a class="el" href="class_thread___databasemanager.html" title="classe Thread_Databasemanager, hérite de QThread pour effectuer le traitement sur la base de données ...">Thread_Databasemanager</a>, hérite de QThread pour effectuer le traitement sur la base de données sans bloquer l'IHM. </p>
+<p><a href="https://github.com/BTS2-Projet-1/Locker_Control">Projet Locker Control sur github.</a></p>
+<div align="center">
+<object type="image/svg+xml" data="Thread_Databasemanager.svg"></object>
+</div>
+<dl class="section author"><dt>Auteur</dt><dd>HOUDAYER Pierre</dd></dl>
+<dl class="section version"><dt>Version</dt><dd>1.1</dd></dl>
+<dl class="section date"><dt>Date</dt><dd>15 mai 2015 </dd></dl>
+</div><h2 class="groupheader">Documentation des constructeurs et destructeur</h2>
 <a class="anchor" id="a50de7d2d2fe1de697657936a768768d5"></a>
 <div class="memitem">
 <div class="memproto">
@@ -180,6 +198,19 @@ Fonctions membres publiques</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Constructeur de la classe <a class="el" href="class_thread___databasemanager.html" title="classe Thread_Databasemanager, hérite de QThread pour effectuer le traitement sur la base de données ...">Thread_Databasemanager</a>, qui hérite de QThread pour la gestion de d'un thread permettant la gestion de la base de données, sans bloquer l'IHM. </p>
+<p>Initialise les différents attributs et connecte les signaux.</p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname"><a class="el" href="class_console_windows.html">ConsoleWindows</a></td><td>*TConsoleWindows, <a class="el" href="class_s_q_lite___local___database_manager.html" title="classe SQLite_Local_DatabaseManager, gestion des actions et interractions entre l&#39;interface de mainte...">SQLite_Local_DatabaseManager</a> *DatabaseManager, <a class="el" href="class_c_s_q_lite___local___d_b.html" title="classe CSQLite_Local_DB, gestion des communications entre une base de données locale de type SQLite...">CSQLite_Local_DB</a> *BD.<br />
+ *TConsoleWindows pointeur valide sur la classe parent <a class="el" href="class_console_windows.html">ConsoleWindows</a><br />
+ *DatabaseManager pointeur valide sur une instance de <a class="el" href="class_s_q_lite___local___database_manager.html" title="classe SQLite_Local_DatabaseManager, gestion des actions et interractions entre l&#39;interface de mainte...">SQLite_Local_DatabaseManager</a> pour faire remonter les informations par les signaux<br />
+ *BD, pointeur valide sur une instance de <a class="el" href="class_c_s_q_lite___local___d_b.html" title="classe CSQLite_Local_DB, gestion des communications entre une base de données locale de type SQLite...">CSQLite_Local_DB</a> pour la communication avec la base de données.<br />
+</td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a class="anchor" id="a4e3f0a1ebcb2eecf99129f7fed1b3b0a"></a>
@@ -194,6 +225,8 @@ Fonctions membres publiques</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Destructeur de la classe <a class="el" href="class_thread___databasemanager.html" title="classe Thread_Databasemanager, hérite de QThread pour effectuer le traitement sur la base de données ...">Thread_Databasemanager</a>. </p>
 
 </div>
 </div>
@@ -210,6 +243,8 @@ Fonctions membres publiques</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Fonction de traitement du thread, lance la tache de construction de la base de données avec l'option selectionnée. </p>
 
 </div>
 </div>
@@ -235,6 +270,14 @@ Fonctions membres publiques</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Reception du signal SlowProcess() de <a class="el" href="class_c_s_q_lite___local___d_b.html" title="classe CSQLite_Local_DB, gestion des communications entre une base de données locale de type SQLite...">CSQLite_Local_DB</a> pour ralentir le thread (fait un msleep()). </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">int</td><td>Timems, avec "Timems" le temps d'arrêt en millisecondes. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a class="anchor" id="ad76322d03f5401fd9b15f663f1592663"></a>
@@ -258,6 +301,14 @@ Fonctions membres publiques</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Initalise l'option selectionnée pour la construction de la base de données et démarre le thread. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">int</td><td>opt, avec "opt" l'option selectionnée pour la construction de la base de données. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -283,6 +334,14 @@ Fonctions membres publiques</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Emet le signal de fin du thread avec la valeur de retour du thread en paramètre. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">bool</td><td>La valeur de retour de fin du thread. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <hr/>La documentation de cette classe a été générée à partir des fichiers suivants :<ul>
@@ -295,7 +354,7 @@ Fonctions membres publiques</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_thread___databasemanager.html">Thread_Databasemanager</a></li>
-    <li class="footer">Généré le Jeudi 14 Mai 2015 00:18:55 pour Locker_Control (LC) par
+    <li class="footer">Généré le Dimanche 17 Mai 2015 18:33:55 pour Locker_Control (LC) par
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

@@ -3,11 +3,11 @@
 <area shape="rect" id="node3" href="$class_box_choice.html" title="Definition de la classe BoxChoice. " alt="" coords="157,52,224,75"/>
 <area shape="rect" id="node4" href="$class_customer.html" title="Customer" alt="" coords="159,99,222,121"/>
 <area shape="rect" id="node5" href="$class_delivery_confirm.html" title="DeliveryConfirm" alt="" coords="145,145,237,168"/>
-<area shape="rect" id="node6" href="$class_doors_manager.html" title="DoorsManager" alt="" coords="149,192,232,215"/>
+<area shape="rect" id="node6" href="$class_doors_manager.html" title="classe DoorsManager, hérite de QWidget pour la gestion de l&#39;IHM. La classe DoorsManager permet à l&#39;ut..." alt="" coords="149,192,232,215"/>
 <area shape="rect" id="node7" href="$class_edit_setting_system.html" title="EditSettingSystem" alt="" coords="141,239,241,261"/>
 <area shape="rect" id="node8" href="$class_key_board.html" title="KeyBoard" alt="" coords="159,285,222,308"/>
 <area shape="rect" id="node9" href="$class_login.html" title="Login" alt="" coords="169,332,213,355"/>
-<area shape="rect" id="node10" href="$class_maintenance_menu.html" title="MaintenanceMenu" alt="" coords="143,379,239,401"/>
+<area shape="rect" id="node10" href="$class_maintenance_menu.html" title="classe MaintenanceMenu, Gestion du menu de maintenance de Locker Control &#160;Projet Locker Control sur g..." alt="" coords="143,379,239,401"/>
 <area shape="rect" id="node11" href="$class_menu_delivery.html" title="MenuDelivery" alt="" coords="151,425,231,448"/>
 <area shape="rect" id="node12" href="$class_open_empty_box.html" title="OpenEmptyBox" alt="" coords="147,472,235,495"/>
 <area shape="rect" id="node13" href="$class_scan_package.html" title="ScanPackage" alt="" coords="151,519,230,541"/>
@@ -15,6 +15,6 @@
 <area shape="rect" id="node15" href="$class_setting_system.html" title="SettingSystem" alt="" coords="149,612,233,635"/>
 <area shape="rect" id="node16" href="$class_show_package_box.html" title="ShowPackageBox" alt="" coords="143,659,239,681"/>
 <area shape="rect" id="node17" href="$class_site_config_manager.html" title="SiteConfigManager" alt="" coords="140,705,241,728"/>
-<area shape="rect" id="node18" href="$class_s_q_lite___local___database_manager.html" title="classe SQLite_Local_DatabaseManager, gestion de des actions et interractions entre l&#39;interface de mai..." alt="" coords="112,752,269,775"/>
+<area shape="rect" id="node18" href="$class_s_q_lite___local___database_manager.html" title="classe SQLite_Local_DatabaseManager, gestion des actions et interractions entre l&#39;interface de mainte..." alt="" coords="112,752,269,775"/>
 <area shape="rect" id="node19" href="$class_stow_packages.html" title="StowPackages" alt="" coords="149,799,232,821"/>
 </map>

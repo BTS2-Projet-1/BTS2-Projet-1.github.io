@@ -67,7 +67,7 @@
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="class_doors_manager.html" target="_top" xlink:title="DoorsManager">
+<g id="a_node6"><a xlink:href="class_doors_manager.html" target="_top" xlink:title="classe DoorsManager, hérite de QWidget pour la gestion de l&#39;IHM. La classe DoorsManager permet à l&#39;ut...">
 <polygon fill="none" stroke="black" points="108,-455.5 108,-471.5 170,-471.5 170,-455.5 108,-455.5"/>
 <text text-anchor="middle" x="139" y="-461.9" font-family="Helvetica,sans-Serif" font-size="7.00">DoorsManager</text>
 </a>
@@ -119,7 +119,7 @@
 </g>
 <!-- Node10 -->
 <g id="node10" class="node"><title>Node10</title>
-<g id="a_node10"><a xlink:href="class_maintenance_menu.html" target="_top" xlink:title="MaintenanceMenu">
+<g id="a_node10"><a xlink:href="class_maintenance_menu.html" target="_top" xlink:title="classe MaintenanceMenu, Gestion du menu de maintenance de Locker Control &#160;Projet Locker Control sur g...">
 <polygon fill="none" stroke="black" points="103,-315.5 103,-331.5 175,-331.5 175,-315.5 103,-315.5"/>
 <text text-anchor="middle" x="139" y="-321.9" font-family="Helvetica,sans-Serif" font-size="7.00">MaintenanceMenu</text>
 </a>
@@ -223,7 +223,7 @@
 </g>
 <!-- Node18 -->
 <g id="node18" class="node"><title>Node18</title>
-<g id="a_node18"><a xlink:href="class_s_q_lite___local___database_manager.html" target="_top" xlink:title="classe SQLite_Local_DatabaseManager, gestion de des actions et interractions entre l&#39;interface de mai...">
+<g id="a_node18"><a xlink:href="class_s_q_lite___local___database_manager.html" target="_top" xlink:title="classe SQLite_Local_DatabaseManager, gestion des actions et interractions entre l&#39;interface de mainte...">
 <polygon fill="none" stroke="black" points="80,-35.5 80,-51.5 198,-51.5 198,-35.5 80,-35.5"/>
 <text text-anchor="middle" x="139" y="-41.9" font-family="Helvetica,sans-Serif" font-size="7.00">SQLite_Local_DatabaseManager</text>
 </a>

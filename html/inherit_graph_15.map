@@ -1,6 +1,6 @@
 <map id="Graphe hiérarchique des classes" name="Graphe hiérarchique des classes">
-<area shape="rect" id="node2" href="$class_thread___databasemanager.html" title="Thread_Databasemanager" alt="" coords="111,5,241,28"/>
-<area shape="rect" id="node3" href="$class_thread___local_database___auto_save.html" title="Thread_LocalDatabase\l_AutoSave" alt="" coords="117,52,235,85"/>
+<area shape="rect" id="node2" href="$class_thread___databasemanager.html" title="classe Thread_Databasemanager, hérite de QThread pour effectuer le traitement sur la base de données ..." alt="" coords="111,5,241,28"/>
+<area shape="rect" id="node3" href="$class_thread___local_database___auto_save.html" title="classe Thread_LocalDatabase_AutoSave, hérite de QThread pour effectuer la sauvegarde de la base de do..." alt="" coords="117,52,235,85"/>
 <area shape="rect" id="node4" href="$class_thread___status_doors.html" title="Thread_StatusDoors" alt="" coords="123,109,229,132"/>
 <area shape="rect" id="node5" href="$class_thread_delete_extract_code.html" title="ThreadDeleteExtractCode" alt="" coords="111,156,241,179"/>
 <area shape="rect" id="node6" href="$class_thread_save_delivery.html" title="ThreadSaveDelivery" alt="" coords="122,203,230,225"/>
