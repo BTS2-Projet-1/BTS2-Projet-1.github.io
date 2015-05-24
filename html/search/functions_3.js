@@ -1,6 +1,7 @@
 var searchData=
 [
   ['database_5fautosave_5fneeded',['DataBase_AutoSave_Needed',['../class_c_s_q_lite___local___d_b.html#a3e2286f76a3334debdf2761ee285c17b',1,'CSQLite_Local_DB']]],
+  ['databaseisready',['DatabaseIsReady',['../class_c_s_q_lite___local___d_b.html#a689dde3cd2ba7479ec3ac27a36e57d02',1,'CSQLite_Local_DB']]],
   ['databasestatus',['DataBaseStatus',['../class_c_s_q_lite___local___d_b.html#a5a593d4e0e70f08ce0537f9a10587072',1,'CSQLite_Local_DB']]],
   ['delete_5fdb',['Delete_DB',['../class_c_s_q_lite___local___d_b.html#a8222ffaffb0d9945e4343131707b1c22',1,'CSQLite_Local_DB']]],
   ['deleteextractcode',['DeleteExtractCode',['../class_c_s_q_lite___local___d_b.html#a2431685493e32b890f7b038abbb7d48a',1,'CSQLite_Local_DB']]],

@@ -128,7 +128,8 @@ $(document).ready(function(){initNavTree('class_c_s_q_lite___local___d_b.html','
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_c_s_q_lite___local___d_b__inherit__graph.svg" width="171" height="563"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_c_s_q_lite___local___d_b__inherit__graph.svg" width="156" height="467"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="signals"></a>
@@ -154,6 +155,12 @@ Fonctions membres publiques</h2></td></tr>
 <tr class="memitem:ad3380dd61189863c1d2d5e681b853e0e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_s_q_lite___local___d_b.html#ad3380dd61189863c1d2d5e681b853e0e">Get_DataBaseIsReady</a> ()</td></tr>
 <tr class="memdesc:ad3380dd61189863c1d2d5e681b853e0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Permet de récupérer la valeur (état), de la connexion (ouverture) de la base de donnée.  <a href="#ad3380dd61189863c1d2d5e681b853e0e">Plus de détails...</a><br /></td></tr>
 <tr class="separator:ad3380dd61189863c1d2d5e681b853e0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8f1340a1363ecec0c476af746994253"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_s_q_lite___local___d_b.html#ae8f1340a1363ecec0c476af746994253">IsReady</a> ()</td></tr>
+<tr class="memdesc:ae8f1340a1363ecec0c476af746994253"><td class="mdescLeft">&#160;</td><td class="mdescRight">Permet de récupérer la valeur (état), de la connexion (ouverture) de la base de donnée.  <a href="#ae8f1340a1363ecec0c476af746994253">Plus de détails...</a><br /></td></tr>
+<tr class="separator:ae8f1340a1363ecec0c476af746994253"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a689dde3cd2ba7479ec3ac27a36e57d02"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_s_q_lite___local___d_b.html#a689dde3cd2ba7479ec3ac27a36e57d02">DatabaseIsReady</a> ()</td></tr>
+<tr class="memdesc:a689dde3cd2ba7479ec3ac27a36e57d02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Permet de récupérer la valeur (état), de la connexion (ouverture) de la base de donnée.  <a href="#a689dde3cd2ba7479ec3ac27a36e57d02">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a689dde3cd2ba7479ec3ac27a36e57d02"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afac16a908090524ff6ae6958d2a5c399"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_s_q_lite___local___d_b.html#afac16a908090524ff6ae6958d2a5c399">lastError</a> ()</td></tr>
 <tr class="memdesc:afac16a908090524ff6ae6958d2a5c399"><td class="mdescLeft">&#160;</td><td class="mdescRight">Récupère la dèrenière érreur survenue suite à l'interaction sur la base de données.  <a href="#afac16a908090524ff6ae6958d2a5c399">Plus de détails...</a><br /></td></tr>
 <tr class="separator:afac16a908090524ff6ae6958d2a5c399"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -465,6 +472,32 @@ Fonctions membres protégées</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a689dde3cd2ba7479ec3ac27a36e57d02"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CSQLite_Local_DB::DatabaseIsReady </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Permet de récupérer la valeur (état), de la connexion (ouverture) de la base de donnée. </p>
+<dl class="section return"><dt>Renvoie</dt><dd>Retourne un booléen, à vrai (true) si la base de donnée est prête pour l'utilisation, faux (false) sinon. </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a5a593d4e0e70f08ce0537f9a10587072"></a>
 <div class="memitem">
 <div class="memproto">
@@ -699,6 +732,32 @@ Fonctions membres protégées</h2></td></tr>
 
 <p>Recherche dans la base de données les consignes qui ne sont pas endommagées et celles qui sont libres. </p>
 <dl class="section return"><dt>Renvoie</dt><dd>Retourne une QList&lt;int&gt;, liste avec les identifiants des consignes libres sinon une liste vide si aucune consignes disponibles, ou si la base de données n'est pas ouverte. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ae8f1340a1363ecec0c476af746994253"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CSQLite_Local_DB::IsReady </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Permet de récupérer la valeur (état), de la connexion (ouverture) de la base de donnée. </p>
+<dl class="section return"><dt>Renvoie</dt><dd>Retourne un booléen, à vrai (true) si la base de donnée est prête pour l'utilisation, faux (false) sinon. </dd></dl>
 
 </div>
 </div>
@@ -1272,7 +1331,7 @@ Fonctions membres protégées</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_c_s_q_lite___local___d_b.html">CSQLite_Local_DB</a></li>
-    <li class="footer">Généré le Dimanche 17 Mai 2015 18:33:54 pour Locker_Control (LC) par
+    <li class="footer">Généré le Dimanche 24 Mai 2015 23:12:53 pour Locker_Control (LC) par
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

@@ -8,7 +8,6 @@ var class_delivery_confirm =
     [ "retranslateUi", "class_delivery_confirm.html#a00979adbe6e5d6d03f3d53c8120c569f", null ],
     [ "SaveDelivery", "class_delivery_confirm.html#ae504502e775713612893ef5a97b109d3", null ],
     [ "SendListPackage", "class_delivery_confirm.html#a7d8f426b5cd846f420e11d45a00573f2", null ],
-    [ "SendListPackages", "class_delivery_confirm.html#a47548538259c4129319e3b3de9961982", null ],
     [ "SetShowWidgets", "class_delivery_confirm.html#ac4c005c65bda8c118de9b271fccb7012", null ],
     [ "SetValueProgress", "class_delivery_confirm.html#aa0232983bf95bb6b6793b6a9d92c2d16", null ],
     [ "ThreadFinished", "class_delivery_confirm.html#a786adf160dbbbf94750c4502d67ef81c", null ]

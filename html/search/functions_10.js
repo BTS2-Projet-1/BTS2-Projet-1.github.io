@@ -11,5 +11,7 @@ var searchData=
   ['updatefilexml',['UpdateFileXml',['../class_setting_system.html#ae42307d6521ab351ec50dee2dc85439b',1,'SettingSystem']]],
   ['updatelocaldata',['UpdateLocalData',['../class_c_s_q_lite___local___d_b.html#a650c693de81299bb9fd3f0671c0ab9d7',1,'CSQLite_Local_DB']]],
   ['updatemode',['UpdateMode',['../class_key_board.html#a1393511bd0b20e63d96f6528fc99e5f5',1,'KeyBoard']]],
+  ['updatesavelistpackagetemp',['UpdateSavelistPackagetemp',['../class_setting_system.html#a1dadbf95e907bcd6b2032027be262ed8',1,'SettingSystem']]],
+  ['updatesavetempfile',['UpdateSaveTempFile',['../class_thread_save_delivery.html#aa270961d428b43ab4fdf1f64bec8ece3',1,'ThreadSaveDelivery']]],
   ['upper',['Upper',['../class_customer.html#a66993f2e3dc76682760f245baf58e93b',1,'Customer::Upper()'],['../class_scan_package.html#a93955172cd5352cb92a8b75dd7ee6e82',1,'ScanPackage::Upper()']]]
 ];

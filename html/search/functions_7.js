@@ -10,5 +10,6 @@ var searchData=
   ['isexistnumpackage',['isExistNumPackage',['../class_scan_package.html#ac9d9da0a233dad4464f0cdf1c02991a5',1,'ScanPackage']]],
   ['isfilexmlemtpy',['IsFileXmlEmtpy',['../class_custom_xml.html#a81f597dc4acea93f97cc59757271e35d',1,'CustomXml']]],
   ['isnumboxexist',['isNumBoxExist',['../class_scan_package.html#a28b1aa9f91853542a98de87b81d21bd1',1,'ScanPackage::isNumBoxExist()'],['../class_show_package_box.html#acc97f2decd9e3c2697ac8f4cedf3b427',1,'ShowPackageBox::isNumBoxExist()']]],
-  ['isopenfile',['IsOpenFile',['../class_custom_xml.html#a4601b3386cfe088199f9c148c495a1d5',1,'CustomXml']]]
+  ['isopenfile',['IsOpenFile',['../class_custom_xml.html#a4601b3386cfe088199f9c148c495a1d5',1,'CustomXml']]],
+  ['isready',['IsReady',['../class_c_s_q_lite___local___d_b.html#ae8f1340a1363ecec0c476af746994253',1,'CSQLite_Local_DB']]]
 ];

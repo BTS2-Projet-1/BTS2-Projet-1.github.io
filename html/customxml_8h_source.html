@@ -124,62 +124,67 @@ $(document).ready(function(){initNavTree('customxml_8h_source.html','');});
 <div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="class_custom_xml.html">   11</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_custom_xml.html">CustomXml</a></div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;{</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        <a class="code" href="class_custom_xml.html#ae54a29e0d5409e42a04989b998dfd992">CustomXml</a>(QString filename , QString Domroot);</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <a class="code" href="class_custom_xml.html#ac503b393fa89c72700707aa7d3b357a5">~CustomXml</a>();</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="class_custom_xml.html#a3b6255c37ca74e822f70fae3c865a06a">OpenFileXml</a>(QIODevice::OpenMode mode = QIODevice::ReadWrite);</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_custom_xml.html#a0c83e9d625a87c5d04f3cba663615417">CloseFileXml</a>();</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="class_custom_xml.html#afaf0e16ed2a5722c035170cf19b25422">WriteFileXml</a>(QString childroot,QString element, QString attribut, QString value);</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="class_custom_xml.html#afaf0e16ed2a5722c035170cf19b25422">WriteFileXml</a>(QString childroot,QString element, QString attribut);</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="class_custom_xml.html#afaf0e16ed2a5722c035170cf19b25422">WriteFileXml</a>(QString childroot, QString element, QString attribut,<span class="keywordtype">int</span> value);</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_custom_xml.html#ae7360131cd18e94dd2373c3dc505b6b3">removeLastChild</a>();</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        QString <a class="code" href="class_custom_xml.html#a2c3d337e8a7c3426ea84b87c6892b6a0">Getvalue</a>(QString childroot,QString element,QString attribut);</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <span class="keywordtype">int</span> <a class="code" href="class_custom_xml.html#a770b30da032719662d3a66b3fe6f1d45">GetvaluetoInt</a>(QString childroot,QString element,QString attribut);</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        QList&lt; QList&lt;struct_PackagesUseBox&gt; &gt; <a class="code" href="class_custom_xml.html#a66044d3f3855fa03b0a414f29830da83">GetListSaveTempDelivery</a>();</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <span class="keywordtype">int</span> <a class="code" href="class_custom_xml.html#ae779698143be060bc20c02ee4b64cb5b">ChildRootCount</a>();</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="class_custom_xml.html#a4601b3386cfe088199f9c148c495a1d5">IsOpenFile</a>();</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="class_custom_xml.html#a81f597dc4acea93f97cc59757271e35d">IsFileXmlEmtpy</a>();</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="class_custom_xml.html#a079fb80ab167ecb292ae973346de8421">isElemExist</a>(QString childroot, QString element);</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="class_custom_xml.html#ad6d70785b6b86ee55c4e5e0d0871017b">isChildrootExist</a>(QString childroot);</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <span class="keywordtype">bool</span> InitializationFileXml(QIODevice::OpenMode mode = QIODevice::ReadWrite);</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        <a class="code" href="class_custom_xml.html#af93bbdb787e82f0cc08d316afa7bec58">CustomXml</a>(QString filename , QString Domroot);</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <a class="code" href="class_custom_xml.html#af93bbdb787e82f0cc08d316afa7bec58">CustomXml</a>();</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <a class="code" href="class_custom_xml.html#ac503b393fa89c72700707aa7d3b357a5">~CustomXml</a>();</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="class_custom_xml.html#a3b6255c37ca74e822f70fae3c865a06a">OpenFileXml</a>(QIODevice::OpenMode mode = QIODevice::ReadWrite);</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_custom_xml.html#a0c83e9d625a87c5d04f3cba663615417">CloseFileXml</a>();</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_custom_xml.html#ad7a59ee267e4696612657cac085bcc37">SetFilename</a>(<span class="keyword">const</span> QString &amp;filename);</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="class_custom_xml.html#a2fb2cf85206fbb372ed7db14110b06f5">WriteFileXml</a>(QString childroot,QString element, QString attribut);</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="class_custom_xml.html#a2fb2cf85206fbb372ed7db14110b06f5">WriteFileXml</a>(QString childroot, QString element, QString attribut,<span class="keywordtype">int</span> value);</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="class_custom_xml.html#a2fb2cf85206fbb372ed7db14110b06f5">WriteFileXml</a>(QString childroot,QString element, QString attribut, QString value);</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_custom_xml.html#ae7360131cd18e94dd2373c3dc505b6b3">removeLastChild</a>();</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        QString <a class="code" href="class_custom_xml.html#a2c3d337e8a7c3426ea84b87c6892b6a0">Getvalue</a>(QString childroot,QString element,QString attribut);</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <span class="keywordtype">int</span> <a class="code" href="class_custom_xml.html#a770b30da032719662d3a66b3fe6f1d45">GetvaluetoInt</a>(QString childroot,QString element,QString attribut);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        QList&lt; QList&lt;struct_PackagesUseBox&gt; &gt; <a class="code" href="class_custom_xml.html#a66044d3f3855fa03b0a414f29830da83">GetListSaveTempDelivery</a>();</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="class_custom_xml.html#a83997d3adff8641d53ce20f5b82bc4fb">SaveListPackagesTemp</a>(QList&lt;struct_PackagesUseBox&gt; tempackagelist);</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <span class="keywordtype">int</span> <a class="code" href="class_custom_xml.html#ae779698143be060bc20c02ee4b64cb5b">ChildRootCount</a>();</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="class_custom_xml.html#a4601b3386cfe088199f9c148c495a1d5">IsOpenFile</a>();</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="class_custom_xml.html#a81f597dc4acea93f97cc59757271e35d">IsFileXmlEmtpy</a>();</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="class_custom_xml.html#a079fb80ab167ecb292ae973346de8421">isElemExist</a>(QString childroot, QString element);</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="class_custom_xml.html#ad6d70785b6b86ee55c4e5e0d0871017b">isChildrootExist</a>(QString childroot);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        QDomDocument *m_doc;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        QFile *m_fileXml;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <span class="keywordtype">bool</span> InitializationFileXml(QIODevice::OpenMode mode = QIODevice::ReadWrite);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        QDomElement m_root;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        QDomElement m_childroot;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        QDomElement m_element;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        QDomAttr m_attribut;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        QDomNode m_noeud_root;</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        QDomNode m_noeud_child;</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        QDomNode m_noeud_attribut;</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        QString m_Filename , m_Domroot;</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;};</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="preprocessor">#endif // CUSTOMXML_H</span></div>
-<div class="ttc" id="class_custom_xml_html_ae779698143be060bc20c02ee4b64cb5b"><div class="ttname"><a href="class_custom_xml.html#ae779698143be060bc20c02ee4b64cb5b">CustomXml::ChildRootCount</a></div><div class="ttdeci">int ChildRootCount()</div><div class="ttdef"><b>Definition:</b> customxml.cpp:480</div></div>
-<div class="ttc" id="class_custom_xml_html_a0c83e9d625a87c5d04f3cba663615417"><div class="ttname"><a href="class_custom_xml.html#a0c83e9d625a87c5d04f3cba663615417">CustomXml::CloseFileXml</a></div><div class="ttdeci">void CloseFileXml()</div><div class="ttdef"><b>Definition:</b> customxml.cpp:91</div></div>
-<div class="ttc" id="class_custom_xml_html_a770b30da032719662d3a66b3fe6f1d45"><div class="ttname"><a href="class_custom_xml.html#a770b30da032719662d3a66b3fe6f1d45">CustomXml::GetvaluetoInt</a></div><div class="ttdeci">int GetvaluetoInt(QString childroot, QString element, QString attribut)</div><div class="ttdef"><b>Definition:</b> customxml.cpp:385</div></div>
-<div class="ttc" id="class_custom_xml_html_a4601b3386cfe088199f9c148c495a1d5"><div class="ttname"><a href="class_custom_xml.html#a4601b3386cfe088199f9c148c495a1d5">CustomXml::IsOpenFile</a></div><div class="ttdeci">bool IsOpenFile()</div><div class="ttdef"><b>Definition:</b> customxml.cpp:96</div></div>
-<div class="ttc" id="class_custom_xml_html_a2c3d337e8a7c3426ea84b87c6892b6a0"><div class="ttname"><a href="class_custom_xml.html#a2c3d337e8a7c3426ea84b87c6892b6a0">CustomXml::Getvalue</a></div><div class="ttdeci">QString Getvalue(QString childroot, QString element, QString attribut)</div><div class="ttdef"><b>Definition:</b> customxml.cpp:352</div></div>
-<div class="ttc" id="class_custom_xml_html_a66044d3f3855fa03b0a414f29830da83"><div class="ttname"><a href="class_custom_xml.html#a66044d3f3855fa03b0a414f29830da83">CustomXml::GetListSaveTempDelivery</a></div><div class="ttdeci">QList&lt; QList&lt; struct_PackagesUseBox &gt; &gt; GetListSaveTempDelivery()</div><div class="ttdef"><b>Definition:</b> customxml.cpp:418</div></div>
-<div class="ttc" id="class_custom_xml_html_a81f597dc4acea93f97cc59757271e35d"><div class="ttname"><a href="class_custom_xml.html#a81f597dc4acea93f97cc59757271e35d">CustomXml::IsFileXmlEmtpy</a></div><div class="ttdeci">bool IsFileXmlEmtpy()</div><div class="ttdef"><b>Definition:</b> customxml.cpp:109</div></div>
-<div class="ttc" id="class_custom_xml_html_ac503b393fa89c72700707aa7d3b357a5"><div class="ttname"><a href="class_custom_xml.html#ac503b393fa89c72700707aa7d3b357a5">CustomXml::~CustomXml</a></div><div class="ttdeci">~CustomXml()</div><div class="ttdef"><b>Definition:</b> customxml.cpp:30</div></div>
-<div class="ttc" id="class_custom_xml_html_ae7360131cd18e94dd2373c3dc505b6b3"><div class="ttname"><a href="class_custom_xml.html#ae7360131cd18e94dd2373c3dc505b6b3">CustomXml::removeLastChild</a></div><div class="ttdeci">void removeLastChild()</div><div class="ttdef"><b>Definition:</b> customxml.cpp:331</div></div>
-<div class="ttc" id="class_custom_xml_html_afaf0e16ed2a5722c035170cf19b25422"><div class="ttname"><a href="class_custom_xml.html#afaf0e16ed2a5722c035170cf19b25422">CustomXml::WriteFileXml</a></div><div class="ttdeci">bool WriteFileXml(QString childroot, QString element, QString attribut, QString value)</div><div class="ttdef"><b>Definition:</b> customxml.cpp:180</div></div>
-<div class="ttc" id="class_custom_xml_html_a079fb80ab167ecb292ae973346de8421"><div class="ttname"><a href="class_custom_xml.html#a079fb80ab167ecb292ae973346de8421">CustomXml::isElemExist</a></div><div class="ttdeci">bool isElemExist(QString childroot, QString element)</div><div class="ttdef"><b>Definition:</b> customxml.cpp:145</div></div>
-<div class="ttc" id="class_custom_xml_html_ae54a29e0d5409e42a04989b998dfd992"><div class="ttname"><a href="class_custom_xml.html#ae54a29e0d5409e42a04989b998dfd992">CustomXml::CustomXml</a></div><div class="ttdeci">CustomXml(QString filename, QString Domroot)</div><div class="ttdef"><b>Definition:</b> customxml.cpp:3</div></div>
-<div class="ttc" id="class_custom_xml_html_ad6d70785b6b86ee55c4e5e0d0871017b"><div class="ttname"><a href="class_custom_xml.html#ad6d70785b6b86ee55c4e5e0d0871017b">CustomXml::isChildrootExist</a></div><div class="ttdeci">bool isChildrootExist(QString childroot)</div><div class="ttdef"><b>Definition:</b> customxml.cpp:123</div></div>
-<div class="ttc" id="class_custom_xml_html_a3b6255c37ca74e822f70fae3c865a06a"><div class="ttname"><a href="class_custom_xml.html#a3b6255c37ca74e822f70fae3c865a06a">CustomXml::OpenFileXml</a></div><div class="ttdeci">bool OpenFileXml(QIODevice::OpenMode mode=QIODevice::ReadWrite)</div><div class="ttdef"><b>Definition:</b> customxml.cpp:78</div></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        QDomDocument *m_doc;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        QFile *m_fileXml;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        QDomElement m_root;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        QDomElement m_childroot;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        QDomElement m_element;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        QDomNode m_noeud_root;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        QDomNode m_noeud_child;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        QString m_Filename , m_Domroot;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;};</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="preprocessor">#endif // CUSTOMXML_H</span></div>
+<div class="ttc" id="class_custom_xml_html_ae779698143be060bc20c02ee4b64cb5b"><div class="ttname"><a href="class_custom_xml.html#ae779698143be060bc20c02ee4b64cb5b">CustomXml::ChildRootCount</a></div><div class="ttdeci">int ChildRootCount()</div><div class="ttdef"><b>Definition:</b> customxml.cpp:555</div></div>
+<div class="ttc" id="class_custom_xml_html_a0c83e9d625a87c5d04f3cba663615417"><div class="ttname"><a href="class_custom_xml.html#a0c83e9d625a87c5d04f3cba663615417">CustomXml::CloseFileXml</a></div><div class="ttdeci">void CloseFileXml()</div><div class="ttdef"><b>Definition:</b> customxml.cpp:99</div></div>
+<div class="ttc" id="class_custom_xml_html_ad7a59ee267e4696612657cac085bcc37"><div class="ttname"><a href="class_custom_xml.html#ad7a59ee267e4696612657cac085bcc37">CustomXml::SetFilename</a></div><div class="ttdeci">void SetFilename(const QString &amp;filename)</div><div class="ttdef"><b>Definition:</b> customxml.cpp:104</div></div>
+<div class="ttc" id="class_custom_xml_html_a770b30da032719662d3a66b3fe6f1d45"><div class="ttname"><a href="class_custom_xml.html#a770b30da032719662d3a66b3fe6f1d45">CustomXml::GetvaluetoInt</a></div><div class="ttdeci">int GetvaluetoInt(QString childroot, QString element, QString attribut)</div><div class="ttdef"><b>Definition:</b> customxml.cpp:408</div></div>
+<div class="ttc" id="class_custom_xml_html_a4601b3386cfe088199f9c148c495a1d5"><div class="ttname"><a href="class_custom_xml.html#a4601b3386cfe088199f9c148c495a1d5">CustomXml::IsOpenFile</a></div><div class="ttdeci">bool IsOpenFile()</div><div class="ttdef"><b>Definition:</b> customxml.cpp:119</div></div>
+<div class="ttc" id="class_custom_xml_html_a83997d3adff8641d53ce20f5b82bc4fb"><div class="ttname"><a href="class_custom_xml.html#a83997d3adff8641d53ce20f5b82bc4fb">CustomXml::SaveListPackagesTemp</a></div><div class="ttdeci">bool SaveListPackagesTemp(QList&lt; struct_PackagesUseBox &gt; tempackagelist)</div><div class="ttdef"><b>Definition:</b> customxml.cpp:503</div></div>
+<div class="ttc" id="class_custom_xml_html_a2c3d337e8a7c3426ea84b87c6892b6a0"><div class="ttname"><a href="class_custom_xml.html#a2c3d337e8a7c3426ea84b87c6892b6a0">CustomXml::Getvalue</a></div><div class="ttdeci">QString Getvalue(QString childroot, QString element, QString attribut)</div><div class="ttdef"><b>Definition:</b> customxml.cpp:375</div></div>
+<div class="ttc" id="class_custom_xml_html_af93bbdb787e82f0cc08d316afa7bec58"><div class="ttname"><a href="class_custom_xml.html#af93bbdb787e82f0cc08d316afa7bec58">CustomXml::CustomXml</a></div><div class="ttdeci">CustomXml()</div><div class="ttdef"><b>Definition:</b> customxml.cpp:32</div></div>
+<div class="ttc" id="class_custom_xml_html_a2fb2cf85206fbb372ed7db14110b06f5"><div class="ttname"><a href="class_custom_xml.html#a2fb2cf85206fbb372ed7db14110b06f5">CustomXml::WriteFileXml</a></div><div class="ttdeci">bool WriteFileXml(QString childroot, QString element, QString attribut)</div><div class="ttdef"><b>Definition:</b> customxml.cpp:252</div></div>
+<div class="ttc" id="class_custom_xml_html_a66044d3f3855fa03b0a414f29830da83"><div class="ttname"><a href="class_custom_xml.html#a66044d3f3855fa03b0a414f29830da83">CustomXml::GetListSaveTempDelivery</a></div><div class="ttdeci">QList&lt; QList&lt; struct_PackagesUseBox &gt; &gt; GetListSaveTempDelivery()</div><div class="ttdef"><b>Definition:</b> customxml.cpp:441</div></div>
+<div class="ttc" id="class_custom_xml_html_a81f597dc4acea93f97cc59757271e35d"><div class="ttname"><a href="class_custom_xml.html#a81f597dc4acea93f97cc59757271e35d">CustomXml::IsFileXmlEmtpy</a></div><div class="ttdeci">bool IsFileXmlEmtpy()</div><div class="ttdef"><b>Definition:</b> customxml.cpp:132</div></div>
+<div class="ttc" id="class_custom_xml_html_ac503b393fa89c72700707aa7d3b357a5"><div class="ttname"><a href="class_custom_xml.html#ac503b393fa89c72700707aa7d3b357a5">CustomXml::~CustomXml</a></div><div class="ttdeci">~CustomXml()</div><div class="ttdef"><b>Definition:</b> customxml.cpp:38</div></div>
+<div class="ttc" id="class_custom_xml_html_ae7360131cd18e94dd2373c3dc505b6b3"><div class="ttname"><a href="class_custom_xml.html#ae7360131cd18e94dd2373c3dc505b6b3">CustomXml::removeLastChild</a></div><div class="ttdeci">void removeLastChild()</div><div class="ttdef"><b>Definition:</b> customxml.cpp:352</div></div>
+<div class="ttc" id="class_custom_xml_html_a079fb80ab167ecb292ae973346de8421"><div class="ttname"><a href="class_custom_xml.html#a079fb80ab167ecb292ae973346de8421">CustomXml::isElemExist</a></div><div class="ttdeci">bool isElemExist(QString childroot, QString element)</div><div class="ttdef"><b>Definition:</b> customxml.cpp:168</div></div>
+<div class="ttc" id="class_custom_xml_html_ad6d70785b6b86ee55c4e5e0d0871017b"><div class="ttname"><a href="class_custom_xml.html#ad6d70785b6b86ee55c4e5e0d0871017b">CustomXml::isChildrootExist</a></div><div class="ttdeci">bool isChildrootExist(QString childroot)</div><div class="ttdef"><b>Definition:</b> customxml.cpp:146</div></div>
+<div class="ttc" id="class_custom_xml_html_a3b6255c37ca74e822f70fae3c865a06a"><div class="ttname"><a href="class_custom_xml.html#a3b6255c37ca74e822f70fae3c865a06a">CustomXml::OpenFileXml</a></div><div class="ttdeci">bool OpenFileXml(QIODevice::OpenMode mode=QIODevice::ReadWrite)</div><div class="ttdef"><b>Definition:</b> customxml.cpp:86</div></div>
 <div class="ttc" id="class_custom_xml_html"><div class="ttname"><a href="class_custom_xml.html">CustomXml</a></div><div class="ttdef"><b>Definition:</b> customxml.h:11</div></div>
 <div class="ttc" id="_data_structures_8h_html"><div class="ttname"><a href="_data_structures_8h.html">DataStructures.h</a></div><div class="ttdoc">Definnitions des formats de communications des données entre les classes de l&#39;application LC...</div></div>
 </div><!-- fragment --></div><!-- contents -->
@@ -188,7 +193,7 @@ $(document).ready(function(){initNavTree('customxml_8h_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="customxml_8h.html">customxml.h</a></li>
-    <li class="footer">Généré le Dimanche 17 Mai 2015 18:33:53 pour Locker_Control (LC) par
+    <li class="footer">Généré le Dimanche 24 Mai 2015 23:12:52 pour Locker_Control (LC) par
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

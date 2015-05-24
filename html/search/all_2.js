@@ -49,7 +49,7 @@ var searchData=
   ['customtreewidget',['CustomTreeWidget',['../class_custom_tree_widget.html',1,'CustomTreeWidget'],['../class_custom_tree_widget.html#ae24ab113af3b2774d1730a7cd55471e2',1,'CustomTreeWidget::CustomTreeWidget()']]],
   ['customtreewidget_2ecpp',['customtreewidget.cpp',['../customtreewidget_8cpp.html',1,'']]],
   ['customtreewidget_2eh',['customtreewidget.h',['../customtreewidget_8h.html',1,'']]],
-  ['customxml',['CustomXml',['../class_custom_xml.html',1,'CustomXml'],['../class_custom_xml.html#ae54a29e0d5409e42a04989b998dfd992',1,'CustomXml::CustomXml()']]],
+  ['customxml',['CustomXml',['../class_custom_xml.html',1,'CustomXml'],['../class_custom_xml.html#ae54a29e0d5409e42a04989b998dfd992',1,'CustomXml::CustomXml(QString filename, QString Domroot)'],['../class_custom_xml.html#af93bbdb787e82f0cc08d316afa7bec58',1,'CustomXml::CustomXml()']]],
   ['customxml_2ecpp',['customxml.cpp',['../customxml_8cpp.html',1,'']]],
   ['customxml_2eh',['customxml.h',['../customxml_8h.html',1,'']]]
 ];

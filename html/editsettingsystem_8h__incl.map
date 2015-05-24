@@ -1,7 +1,8 @@
 <map id="S:/QT_CREATOR/Locker_Control/editsettingsystem.h" name="S:/QT_CREATOR/Locker_Control/editsettingsystem.h">
-<area shape="rect" id="node5" href="$settingsystem_8h.html" title="settingsystem.h" alt="" coords="208,87,299,109"/>
+<area shape="rect" id="node5" href="$settingsystem_8h.html" title="settingsystem.h" alt="" coords="240,87,331,109"/>
 <area shape="rect" id="node6" href="$showwidgets_8h.html" title="showwidgets.h" alt="" coords="176,157,259,180"/>
-<area shape="rect" id="node8" href="$customxml_8h.html" title="customxml.h" alt="" coords="283,157,359,180"/>
-<area shape="rect" id="node9" href="$csqlite__local__db_8h.html" title="csqlite_local_db.h" alt="" coords="435,157,531,180"/>
-<area shape="rect" id="node10" href="$clms__db_8h.html" title="clms_db.h" alt="" coords="407,228,473,251"/>
+<area shape="rect" id="node7" href="$customxml_8h.html" title="customxml.h" alt="" coords="262,228,338,251"/>
+<area shape="rect" id="node8" href="$csqlite__local__db_8h.html" title="csqlite_local_db.h" alt="" coords="421,228,517,251"/>
+<area shape="rect" id="node9" href="$clms__db_8h.html" title="clms_db.h" alt="" coords="437,299,502,321"/>
+<area shape="rect" id="node10" href="$threadsavedelivery_8h.html" title="threadsavedelivery.h" alt="" coords="334,157,445,180"/>
 </map>

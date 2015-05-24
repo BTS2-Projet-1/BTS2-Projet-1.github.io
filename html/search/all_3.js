@@ -1,6 +1,7 @@
 var searchData=
 [
   ['database_5fautosave_5fneeded',['DataBase_AutoSave_Needed',['../class_c_s_q_lite___local___d_b.html#a3e2286f76a3334debdf2761ee285c17b',1,'CSQLite_Local_DB']]],
+  ['databaseisready',['DatabaseIsReady',['../class_c_s_q_lite___local___d_b.html#a689dde3cd2ba7479ec3ac27a36e57d02',1,'CSQLite_Local_DB']]],
   ['databasestatus',['DataBaseStatus',['../class_c_s_q_lite___local___d_b.html#a5a593d4e0e70f08ce0537f9a10587072',1,'CSQLite_Local_DB']]],
   ['datastructures_2eh',['DataStructures.h',['../_data_structures_8h.html',1,'']]],
   ['default_5fdatabase',['DEFAULT_DATABASE',['../_data_structures_8h.html#a2e7c896e28ab967d0e669668e8665e42',1,'DataStructures.h']]],

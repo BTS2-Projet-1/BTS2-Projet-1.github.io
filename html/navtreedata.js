@@ -1,7 +1,7 @@
 var NAVTREE =
 [
   [ "Locker_Control (LC)", "index.html", [
-    [ "Locker_Control", "md__s_1__q_t__c_r_e_a_t_o_r__locker__control__r_e_a_d_m_e.html", null ],
+    [ "Locker_Control [![Build Status](https://travis-ci.org/BTS2-Projet-1/Locker_Control.svg?branch=master)](https://travis-ci.org/BTS2-Projet-1/Locker_Control)", "md__s_1__q_t__c_r_e_a_t_o_r__locker__control__r_e_a_d_m_e.html", null ],
     [ "Espaces de nommage", null, [
       [ "Liste des espaces de nommage", "namespaces.html", "namespaces" ]
     ] ],
@@ -31,8 +31,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_data_structures_8h.html",
-"class_menu_delivery.html#a07d62281ea306e42aed87bb03a959c99",
-"doorsmanager_8h.html#aae57b0b74bb83f6f3de3235e8a45b8ff"
+"class_maintenance_menu.html#aa14d840e72a986018d25e7a3ba14cbab",
+"deliveryconfirm_8h_source.html"
 ];
 
 var SYNCONMSG = 'cliquez pour désactiver la synchronisation du panel';

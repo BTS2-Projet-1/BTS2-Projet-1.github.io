@@ -1,5 +1,13 @@
 var NAVTREEINDEX2 =
 {
+"deliveryconfirm_8h_source.html":[3,0,24],
+"doorsmanager_8cpp.html":[3,0,25],
+"doorsmanager_8h.html":[3,0,26],
+"doorsmanager_8h.html#a088ab11c86e5efacb3a76dddbd1b20b8":[3,0,26,7],
+"doorsmanager_8h.html#a1f36461cfe4390886ad4a322aeb53798":[3,0,26,5],
+"doorsmanager_8h.html#a7f95a269f961f0cf5ae59bef79ad92a0":[3,0,26,3],
+"doorsmanager_8h.html#a8efb0788b9a12e752c455259dfa5c1ae":[3,0,26,6],
+"doorsmanager_8h.html#aa90954c8066ad12267f1b51d7455e5b2":[3,0,26,4],
 "doorsmanager_8h.html#aae57b0b74bb83f6f3de3235e8a45b8ff":[3,0,26,1],
 "doorsmanager_8h.html#ad5d2e9aac53a0aa398a227214a8d0d96":[3,0,26,2],
 "doorsmanager_8h_source.html":[3,0,26],
@@ -187,6 +195,8 @@ var NAVTREEINDEX2 =
 "threaddeleteextractcode_8h.html":[3,0,65],
 "threaddeleteextractcode_8h_source.html":[3,0,65],
 "threadsavedelivery_8cpp.html":[3,0,66],
+"threadsavedelivery_8cpp.html#a02897e15db6a966bddf22cdc155b8ae4":[3,0,66,1],
+"threadsavedelivery_8cpp.html#ac622e0c9e998657e624aa1f838453110":[3,0,66,0],
 "threadsavedelivery_8h.html":[3,0,67],
 "threadsavedelivery_8h_source.html":[3,0,67]
 };

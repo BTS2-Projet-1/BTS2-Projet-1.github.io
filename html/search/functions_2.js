@@ -27,5 +27,5 @@ var searchData=
   ['customer',['Customer',['../class_customer.html#acac37f40f3e22b871d02e4f210b84926',1,'Customer']]],
   ['custompushbutton',['CustomPushButton',['../class_custom_push_button.html#a9e5f81f0cefdb410423880ee0bfc9b35',1,'CustomPushButton::CustomPushButton(int id, QString numpackage, QString file, QWidget *parent=0)'],['../class_custom_push_button.html#a3f75f492d08fd1f24201dc463bdd0421',1,'CustomPushButton::CustomPushButton(int id, QString text, QWidget *parent=0)']]],
   ['customtreewidget',['CustomTreeWidget',['../class_custom_tree_widget.html#ae24ab113af3b2774d1730a7cd55471e2',1,'CustomTreeWidget']]],
-  ['customxml',['CustomXml',['../class_custom_xml.html#ae54a29e0d5409e42a04989b998dfd992',1,'CustomXml']]]
+  ['customxml',['CustomXml',['../class_custom_xml.html#ae54a29e0d5409e42a04989b998dfd992',1,'CustomXml::CustomXml(QString filename, QString Domroot)'],['../class_custom_xml.html#af93bbdb787e82f0cc08d316afa7bec58',1,'CustomXml::CustomXml()']]]
 ];
