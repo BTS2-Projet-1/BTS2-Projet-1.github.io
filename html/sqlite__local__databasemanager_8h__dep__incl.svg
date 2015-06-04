@@ -24,13 +24,13 @@ if (edges && edges.length) {
                 <circle id="rim" cx="0" cy="0" r="7"/>
                 <circle id="rim2" cx="0" cy="0" r="3.5"/>
                 <g id="zoomPlus">
-                        <use xlink:href="#rim" fill="#404040">
+                        <use xlink:href="#rim" target="_top" fill="#404040">
                                 <set attributeName="fill" to="#808080" begin="zoomplus.mouseover" end="zoomplus.mouseout"/>
                         </use>
                         <path d="M-4,0h8M0,-4v8" fill="none" stroke="white" stroke-width="1.5" pointer-events="none"/>
                 </g>
                 <g id="zoomMin">
-                        <use xlink:href="#rim" fill="#404040">
+                        <use xlink:href="#rim" target="_top" fill="#404040">
                                 <set attributeName="fill" to="#808080" begin="zoomminus.mouseover" end="zoomminus.mouseout"/>
                         </use>
                         <path d="M-4,0h8" fill="none" stroke="white" stroke-width="1.5" pointer-events="none"/>
@@ -39,7 +39,7 @@ if (edges && edges.length) {
                         <path fill="none" stroke="white" stroke-width="1.5" d="M0,-3.0v7 M-2.5,-0.5L0,-3.0L2.5,-0.5"/>
                 </g>
                <g id="resetDef">
-                       <use xlink:href="#rim2" fill="#404040">
+                       <use xlink:href="#rim2" target="_top" fill="#404040">
                                <set attributeName="fill" to="#808080" begin="reset.mouseover" end="reset.mouseout"/>
                        </use>
                </g>
@@ -50,7 +50,7 @@ var viewWidth = 621;
 var viewHeight = 240;
 var sectionId = 'dynsection-1';
 </script>
-<script xlink:href="svgpan.js"/>
+<script xlink:href="svgpan.js" target="_top"/>
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>S:/QT_CREATOR/Locker_Control/sqlite_local_databasemanager.h</title>
@@ -63,7 +63,7 @@ var sectionId = 'dynsection-1';
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="consolewindows_8h.html" target="_top" xlink:title="S:/QT_CREATOR/Locker\l_Control/consolewindows.h">
+<g id="a_node2"><a xlink:href="consolewindows_8h.html" target="_top" target="_top" xlink:title="S:/QT_CREATOR/Locker\l_Control/consolewindows.h">
 <polygon fill="none" stroke="black" points="166.5,-134.5 166.5,-158.5 267.5,-158.5 267.5,-134.5 166.5,-134.5"/>
 <text text-anchor="start" x="174.5" y="-148.9" font-family="Helvetica,sans-Serif" font-size="7.00">S:/QT_CREATOR/Locker</text>
 <text text-anchor="middle" x="217" y="-140.9" font-family="Helvetica,sans-Serif" font-size="7.00">_Control/consolewindows.h</text>
@@ -77,7 +77,7 @@ var sectionId = 'dynsection-1';
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="thread__databasemanager_8h.html" target="_top" xlink:title="S:/QT_CREATOR/Locker\l_Control/thread_databasemanager.h">
+<g id="a_node4"><a xlink:href="thread__databasemanager_8h.html" target="_top" target="_top" xlink:title="S:/QT_CREATOR/Locker\l_Control/thread_databasemanager.h">
 <polygon fill="none" stroke="black" points="240,-65.5 240,-89.5 370,-89.5 370,-65.5 240,-65.5"/>
 <text text-anchor="start" x="248" y="-79.9" font-family="Helvetica,sans-Serif" font-size="7.00">S:/QT_CREATOR/Locker</text>
 <text text-anchor="middle" x="305" y="-71.9" font-family="Helvetica,sans-Serif" font-size="7.00">_Control/thread_databasemanager.h</text>
@@ -91,7 +91,7 @@ var sectionId = 'dynsection-1';
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="thread__localdatabase__autosave_8h.html" target="_top" xlink:title="S:/QT_CREATOR/Locker\l_Control/thread_localdatabase\l_autosave.h">
+<g id="a_node7"><a xlink:href="thread__localdatabase__autosave_8h.html" target="_top" target="_top" xlink:title="S:/QT_CREATOR/Locker\l_Control/thread_localdatabase\l_autosave.h">
 <polygon fill="none" stroke="black" points="380.5,-130.5 380.5,-162.5 491.5,-162.5 491.5,-130.5 380.5,-130.5"/>
 <text text-anchor="start" x="388.5" y="-152.9" font-family="Helvetica,sans-Serif" font-size="7.00">S:/QT_CREATOR/Locker</text>
 <text text-anchor="start" x="388.5" y="-144.9" font-family="Helvetica,sans-Serif" font-size="7.00">_Control/thread_localdatabase</text>
@@ -106,7 +106,7 @@ var sectionId = 'dynsection-1';
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
-<g id="a_node8"><a xlink:href="sqlite__local__databasemanager_8cpp.html" target="_top" xlink:title="S:/QT_CREATOR/Locker\l_Control/sqlite_local\l_databasemanager.cpp">
+<g id="a_node8"><a xlink:href="sqlite__local__databasemanager_8cpp.html" target="_top" target="_top" xlink:title="S:/QT_CREATOR/Locker\l_Control/sqlite_local\l_databasemanager.cpp">
 <polygon fill="none" stroke="black" points="388.5,-61.5 388.5,-93.5 483.5,-93.5 483.5,-61.5 388.5,-61.5"/>
 <text text-anchor="start" x="396.5" y="-83.9" font-family="Helvetica,sans-Serif" font-size="7.00">S:/QT_CREATOR/Locker</text>
 <text text-anchor="start" x="396.5" y="-75.9" font-family="Helvetica,sans-Serif" font-size="7.00">_Control/sqlite_local</text>
@@ -126,7 +126,7 @@ var sectionId = 'dynsection-1';
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="consolewindows_8cpp.html" target="_top" xlink:title="S:/QT_CREATOR/Locker\l_Control/consolewindows.cpp">
+<g id="a_node3"><a xlink:href="consolewindows_8cpp.html" target="_top" target="_top" xlink:title="S:/QT_CREATOR/Locker\l_Control/consolewindows.cpp">
 <polygon fill="none" stroke="black" points="0,-65.5 0,-89.5 108,-89.5 108,-65.5 0,-65.5"/>
 <text text-anchor="start" x="8" y="-79.9" font-family="Helvetica,sans-Serif" font-size="7.00">S:/QT_CREATOR/Locker</text>
 <text text-anchor="middle" x="54" y="-71.9" font-family="Helvetica,sans-Serif" font-size="7.00">_Control/consolewindows.cpp</text>
@@ -145,7 +145,7 @@ var sectionId = 'dynsection-1';
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="main_8cpp.html" target="_top" xlink:title="S:/QT_CREATOR/Locker\l_Control/main.cpp">
+<g id="a_node6"><a xlink:href="main_8cpp.html" target="_top" target="_top" xlink:title="S:/QT_CREATOR/Locker\l_Control/main.cpp">
 <polygon fill="none" stroke="black" points="126.5,-65.5 126.5,-89.5 221.5,-89.5 221.5,-65.5 126.5,-65.5"/>
 <text text-anchor="start" x="134.5" y="-79.9" font-family="Helvetica,sans-Serif" font-size="7.00">S:/QT_CREATOR/Locker</text>
 <text text-anchor="middle" x="174" y="-71.9" font-family="Helvetica,sans-Serif" font-size="7.00">_Control/main.cpp</text>
@@ -164,7 +164,7 @@ var sectionId = 'dynsection-1';
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="thread__databasemanager_8cpp.html" target="_top" xlink:title="S:/QT_CREATOR/Locker\l_Control/thread_databasemanager.cpp">
+<g id="a_node5"><a xlink:href="thread__databasemanager_8cpp.html" target="_top" target="_top" xlink:title="S:/QT_CREATOR/Locker\l_Control/thread_databasemanager.cpp">
 <polygon fill="none" stroke="black" points="236.5,-0.5 236.5,-24.5 373.5,-24.5 373.5,-0.5 236.5,-0.5"/>
 <text text-anchor="start" x="244.5" y="-14.9" font-family="Helvetica,sans-Serif" font-size="7.00">S:/QT_CREATOR/Locker</text>
 <text text-anchor="middle" x="305" y="-6.9" font-family="Helvetica,sans-Serif" font-size="7.00">_Control/thread_databasemanager.cpp</text>
@@ -188,7 +188,7 @@ var sectionId = 'dynsection-1';
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
-<g id="a_node9"><a xlink:href="thread__localdatabase__autosave_8cpp.html" target="_top" xlink:title="S:/QT_CREATOR/Locker\l_Control/thread_localdatabase\l_autosave.cpp">
+<g id="a_node9"><a xlink:href="thread__localdatabase__autosave_8cpp.html" target="_top" target="_top" xlink:title="S:/QT_CREATOR/Locker\l_Control/thread_localdatabase\l_autosave.cpp">
 <polygon fill="none" stroke="black" points="501.5,-61.5 501.5,-93.5 612.5,-93.5 612.5,-61.5 501.5,-61.5"/>
 <text text-anchor="start" x="509.5" y="-83.9" font-family="Helvetica,sans-Serif" font-size="7.00">S:/QT_CREATOR/Locker</text>
 <text text-anchor="start" x="509.5" y="-75.9" font-family="Helvetica,sans-Serif" font-size="7.00">_Control/thread_localdatabase</text>
@@ -205,29 +205,29 @@ var sectionId = 'dynsection-1';
 </svg>
         <g id="navigator" transform="translate(0 0)" fill="#404254">
                 <rect fill="#f2f5e9" fill-opacity="0.5" stroke="#606060" stroke-width=".5" x="0" y="0" width="60" height="60"/>
-                <use id="zoomplus" xlink:href="#zoomPlus" x="17" y="9" onmousedown="handleZoom(evt,'in')"/>
-                <use id="zoomminus" xlink:href="#zoomMin" x="42" y="9" onmousedown="handleZoom(evt,'out')"/>
-                <use id="reset" xlink:href="#resetDef" x="30" y="36" onmousedown="handleReset()"/>
-                <g id="arrowUp" xlink:href="#dirArrow" transform="translate(30 24)" onmousedown="handlePan(0,-1)">
-                  <use xlink:href="#rim" fill="#404040">
+                <use id="zoomplus" xlink:href="#zoomPlus" target="_top" x="17" y="9" onmousedown="handleZoom(evt,'in')"/>
+                <use id="zoomminus" xlink:href="#zoomMin" target="_top" x="42" y="9" onmousedown="handleZoom(evt,'out')"/>
+                <use id="reset" xlink:href="#resetDef" target="_top" x="30" y="36" onmousedown="handleReset()"/>
+                <g id="arrowUp" xlink:href="#dirArrow" target="_top" transform="translate(30 24)" onmousedown="handlePan(0,-1)">
+                  <use xlink:href="#rim" target="_top" fill="#404040">
                         <set attributeName="fill" to="#808080" begin="arrowUp.mouseover" end="arrowUp.mouseout"/>
                   </use>
                   <path fill="none" stroke="white" stroke-width="1.5" d="M0,-3.0v7 M-2.5,-0.5L0,-3.0L2.5,-0.5"/>
                 </g>
-                <g id="arrowRight" xlink:href="#dirArrow" transform="rotate(90) translate(36 -43)" onmousedown="handlePan(1,0)">
-                  <use xlink:href="#rim" fill="#404040">
+                <g id="arrowRight" xlink:href="#dirArrow" target="_top" transform="rotate(90) translate(36 -43)" onmousedown="handlePan(1,0)">
+                  <use xlink:href="#rim" target="_top" fill="#404040">
                         <set attributeName="fill" to="#808080" begin="arrowRight.mouseover" end="arrowRight.mouseout"/>
                   </use>
                   <path fill="none" stroke="white" stroke-width="1.5" d="M0,-3.0v7 M-2.5,-0.5L0,-3.0L2.5,-0.5"/>
                 </g>
-                <g id="arrowDown" xlink:href="#dirArrow" transform="rotate(180) translate(-30 -48)" onmousedown="handlePan(0,1)">
-                  <use xlink:href="#rim" fill="#404040">
+                <g id="arrowDown" xlink:href="#dirArrow" target="_top" transform="rotate(180) translate(-30 -48)" onmousedown="handlePan(0,1)">
+                  <use xlink:href="#rim" target="_top" fill="#404040">
                         <set attributeName="fill" to="#808080" begin="arrowDown.mouseover" end="arrowDown.mouseout"/>
                   </use>
                   <path fill="none" stroke="white" stroke-width="1.5" d="M0,-3.0v7 M-2.5,-0.5L0,-3.0L2.5,-0.5"/>
                 </g>
-                <g id="arrowLeft" xlink:href="#dirArrow" transform="rotate(270) translate(-36 17)" onmousedown="handlePan(-1,0)">
-                  <use xlink:href="#rim" fill="#404040">
+                <g id="arrowLeft" xlink:href="#dirArrow" target="_top" transform="rotate(270) translate(-36 17)" onmousedown="handlePan(-1,0)">
+                  <use xlink:href="#rim" target="_top" fill="#404040">
                         <set attributeName="fill" to="#808080" begin="arrowLeft.mouseover" end="arrowLeft.mouseout"/>
                   </use>
                   <path fill="none" stroke="white" stroke-width="1.5" d="M0,-3.0v7 M-2.5,-0.5L0,-3.0L2.5,-0.5"/>
@@ -235,7 +235,7 @@ var sectionId = 'dynsection-1';
         </g>
         <svg viewBox="0 0 15 15" width="100%" height="30px" preserveAspectRatio="xMaxYMin meet">
          <g id="arrow_out" transform="scale(0.3 0.3)">
-          <a xlink:href="sqlite__local__databasemanager_8h__dep__incl_org.svg" target="_base">
+          <a xlink:href="sqlite__local__databasemanager_8h__dep__incl_org.svg" target="_top" target="_base">
            <rect id="button" ry="5" rx="5" y="6" x="6" height="38" width="38"
                 fill="#f2f5e9" fill-opacity="0.5" stroke="#606060" stroke-width="1.0"/>
            <path id="arrow"

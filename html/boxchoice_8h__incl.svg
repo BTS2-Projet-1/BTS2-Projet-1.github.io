@@ -46,7 +46,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="showwidgets_8h.html" target="_top" xlink:title="showwidgets.h">
+<g id="a_node5"><a xlink:href="showwidgets_8h.html" target="_top" target="_top" xlink:title="showwidgets.h">
 <polygon fill="none" stroke="black" points="385.612,-53.5 385.612,-69.5 447.612,-69.5 447.612,-53.5 385.612,-53.5"/>
 <text text-anchor="middle" x="416.612" y="-59.9" font-family="Helvetica,sans-Serif" font-size="7.00">showwidgets.h</text>
 </a>
@@ -59,7 +59,7 @@
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="drawbox_8h.html" target="_top" xlink:title="drawbox.h">
+<g id="a_node7"><a xlink:href="drawbox_8h.html" target="_top" target="_top" xlink:title="drawbox.h">
 <polygon fill="none" stroke="red" points="231.612,-106.5 231.612,-122.5 279.612,-122.5 279.612,-106.5 231.612,-106.5"/>
 <text text-anchor="middle" x="255.612" y="-112.9" font-family="Helvetica,sans-Serif" font-size="7.00">drawbox.h</text>
 </a>
@@ -72,7 +72,7 @@
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
-<g id="a_node8"><a xlink:href="_data_structures_8h.html" target="_top" xlink:title="Definnitions des formats de communications des données entre les classes de l&#39;application LC...">
+<g id="a_node8"><a xlink:href="_data_structures_8h.html" target="_top" target="_top" xlink:title="Definnitions des formats de communications des données entre les classes de l&#39;application LC...">
 <polygon fill="none" stroke="red" points="104.612,-53.5 104.612,-69.5 174.612,-69.5 174.612,-53.5 104.612,-53.5"/>
 <text text-anchor="middle" x="139.612" y="-59.9" font-family="Helvetica,sans-Serif" font-size="7.00">DataStructures.h</text>
 </a>
@@ -85,7 +85,7 @@
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
-<g id="a_node9"><a xlink:href="menudelivery_8h.html" target="_top" xlink:title="menudelivery.h">
+<g id="a_node9"><a xlink:href="menudelivery_8h.html" target="_top" target="_top" xlink:title="menudelivery.h">
 <polygon fill="none" stroke="black" points="336.112,-106.5 336.112,-122.5 401.112,-122.5 401.112,-106.5 336.112,-106.5"/>
 <text text-anchor="middle" x="368.612" y="-112.9" font-family="Helvetica,sans-Serif" font-size="7.00">menudelivery.h</text>
 </a>
@@ -98,7 +98,7 @@
 </g>
 <!-- Node10 -->
 <g id="node10" class="node"><title>Node10</title>
-<g id="a_node10"><a xlink:href="csqlite__local__db_8h.html" target="_top" xlink:title="csqlite_local_db.h">
+<g id="a_node10"><a xlink:href="csqlite__local__db_8h.html" target="_top" target="_top" xlink:title="csqlite_local_db.h">
 <polygon fill="none" stroke="red" points="103.612,-106.5 103.612,-122.5 175.612,-122.5 175.612,-106.5 103.612,-106.5"/>
 <text text-anchor="middle" x="139.612" y="-112.9" font-family="Helvetica,sans-Serif" font-size="7.00">csqlite_local_db.h</text>
 </a>

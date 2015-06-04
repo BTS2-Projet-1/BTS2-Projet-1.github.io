@@ -26,7 +26,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="siteconfigmanager_8h.html" target="_top" xlink:title="siteconfigmanager.h">
+<g id="a_node3"><a xlink:href="siteconfigmanager_8h.html" target="_top" target="_top" xlink:title="siteconfigmanager.h">
 <polygon fill="none" stroke="black" points="60,-159.5 60,-175.5 140,-175.5 140,-159.5 60,-159.5"/>
 <text text-anchor="middle" x="100" y="-165.9" font-family="Helvetica,sans-Serif" font-size="7.00">siteconfigmanager.h</text>
 </a>
@@ -49,7 +49,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="showwidgets_8h.html" target="_top" xlink:title="showwidgets.h">
+<g id="a_node5"><a xlink:href="showwidgets_8h.html" target="_top" target="_top" xlink:title="showwidgets.h">
 <polygon fill="none" stroke="black" points="83,-53.5 83,-69.5 145,-69.5 145,-53.5 83,-53.5"/>
 <text text-anchor="middle" x="114" y="-59.9" font-family="Helvetica,sans-Serif" font-size="7.00">showwidgets.h</text>
 </a>
@@ -62,7 +62,7 @@
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="maintenancemenu_8h.html" target="_top" xlink:title="maintenancemenu.h">
+<g id="a_node7"><a xlink:href="maintenancemenu_8h.html" target="_top" target="_top" xlink:title="maintenancemenu.h">
 <polygon fill="none" stroke="black" points="26,-106.5 26,-122.5 106,-122.5 106,-106.5 26,-106.5"/>
 <text text-anchor="middle" x="66" y="-112.9" font-family="Helvetica,sans-Serif" font-size="7.00">maintenancemenu.h</text>
 </a>
@@ -75,7 +75,7 @@
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
-<g id="a_node8"><a xlink:href="csqlite__local__db_8h.html" target="_top" xlink:title="csqlite_local_db.h">
+<g id="a_node8"><a xlink:href="csqlite__local__db_8h.html" target="_top" target="_top" xlink:title="csqlite_local_db.h">
 <polygon fill="none" stroke="red" points="162,-106.5 162,-122.5 234,-122.5 234,-106.5 162,-106.5"/>
 <text text-anchor="middle" x="198" y="-112.9" font-family="Helvetica,sans-Serif" font-size="7.00">csqlite_local_db.h</text>
 </a>

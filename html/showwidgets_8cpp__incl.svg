@@ -16,7 +16,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="showwidgets_8h.html" target="_top" xlink:title="showwidgets.h">
+<g id="a_node2"><a xlink:href="showwidgets_8h.html" target="_top" target="_top" xlink:title="showwidgets.h">
 <polygon fill="none" stroke="black" points="18,-53.5 18,-69.5 80,-69.5 80,-53.5 18,-53.5"/>
 <text text-anchor="middle" x="49" y="-59.9" font-family="Helvetica,sans-Serif" font-size="7.00">showwidgets.h</text>
 </a>

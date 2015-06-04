@@ -16,7 +16,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="login_8h.html" target="_top" xlink:title="login.h">
+<g id="a_node2"><a xlink:href="login_8h.html" target="_top" target="_top" xlink:title="login.h">
 <polygon fill="none" stroke="red" points="38.5,-53.5 38.5,-69.5 75.5,-69.5 75.5,-53.5 38.5,-53.5"/>
 <text text-anchor="middle" x="57" y="-59.9" font-family="Helvetica,sans-Serif" font-size="7.00">login.h</text>
 </a>
@@ -99,7 +99,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="showwidgets_8h.html" target="_top" xlink:title="showwidgets.h">
+<g id="a_node4"><a xlink:href="showwidgets_8h.html" target="_top" target="_top" xlink:title="showwidgets.h">
 <polygon fill="none" stroke="red" points="62,-0.5 62,-16.5 124,-16.5 124,-0.5 62,-0.5"/>
 <text text-anchor="middle" x="93" y="-6.9" font-family="Helvetica,sans-Serif" font-size="7.00">showwidgets.h</text>
 </a>

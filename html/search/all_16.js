@@ -26,6 +26,7 @@ var searchData=
   ['_7esqlite_5flocal_5fdatabasemanager',['~SQLite_Local_DatabaseManager',['../class_s_q_lite___local___database_manager.html#ab1ab69099124f5db722ef84049d79efc',1,'SQLite_Local_DatabaseManager']]],
   ['_7estowpackages',['~StowPackages',['../class_stow_packages.html#ae72794bc7847edf6c2e9f0a6562e082c',1,'StowPackages']]],
   ['_7ethread_5fdatabasemanager',['~Thread_Databasemanager',['../class_thread___databasemanager.html#a4e3f0a1ebcb2eecf99129f7fed1b3b0a',1,'Thread_Databasemanager']]],
+  ['_7ethread_5flinphonec',['~Thread_linphonec',['../class_thread__linphonec.html#ab9e85ea10ee2dde8c80449799579d9fa',1,'Thread_linphonec']]],
   ['_7ethread_5flocaldatabase_5fautosave',['~Thread_LocalDatabase_AutoSave',['../class_thread___local_database___auto_save.html#aec189c4b3cb32a0e579d01f07b7f9d2a',1,'Thread_LocalDatabase_AutoSave']]],
   ['_7ethread_5fstatusdoors',['~Thread_StatusDoors',['../class_thread___status_doors.html#a174ce0452503f8ea485ad083ebf9cf1b',1,'Thread_StatusDoors']]],
   ['_7ethreadsavedelivery',['~ThreadSaveDelivery',['../class_thread_save_delivery.html#af1f7fcfa02547a3d29c8e62beaa249ca',1,'ThreadSaveDelivery']]]

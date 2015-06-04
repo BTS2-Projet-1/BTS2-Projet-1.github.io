@@ -33,6 +33,7 @@ var annotated =
     [ "struct_DoorsStatus", "structstruct___doors_status.html", "structstruct___doors_status" ],
     [ "struct_PackagesUseBox", "structstruct___packages_use_box.html", "structstruct___packages_use_box" ],
     [ "Thread_Databasemanager", "class_thread___databasemanager.html", "class_thread___databasemanager" ],
+    [ "Thread_linphonec", "class_thread__linphonec.html", "class_thread__linphonec" ],
     [ "Thread_LocalDatabase_AutoSave", "class_thread___local_database___auto_save.html", "class_thread___local_database___auto_save" ],
     [ "Thread_StatusDoors", "class_thread___status_doors.html", "class_thread___status_doors" ],
     [ "ThreadDeleteExtractCode", "class_thread_delete_extract_code.html", "class_thread_delete_extract_code" ],

@@ -1,9 +1,0 @@
-@startuml
-
-
-QWidget <|-- MaintenanceMenu
-MaintenanceMenu *-- ConsoleWindows
-MaintenanceMenu o-- ConsoleWindows
-ShowWidgets o-- MaintenanceMenu
-
-@enduml

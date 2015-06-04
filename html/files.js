@@ -106,6 +106,10 @@ var files =
     [ "thread_databasemanager.h", "thread__databasemanager_8h.html", [
       [ "Thread_Databasemanager", "class_thread___databasemanager.html", "class_thread___databasemanager" ]
     ] ],
+    [ "thread_linphonec.cpp", "thread__linphonec_8cpp.html", null ],
+    [ "thread_linphonec.h", "thread__linphonec_8h.html", [
+      [ "Thread_linphonec", "class_thread__linphonec.html", "class_thread__linphonec" ]
+    ] ],
     [ "thread_localdatabase_autosave.cpp", "thread__localdatabase__autosave_8cpp.html", null ],
     [ "thread_localdatabase_autosave.h", "thread__localdatabase__autosave_8h.html", [
       [ "Thread_LocalDatabase_AutoSave", "class_thread___local_database___auto_save.html", "class_thread___local_database___auto_save" ]

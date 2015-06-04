@@ -33,7 +33,7 @@
   <td id="projectlogo"><img alt="Logo" src="logibag.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Locker_Control (LC)
-   &#160;<span id="projectnumber">1.4.5</span>
+   &#160;<span id="projectnumber">1.4.6</span>
    </div>
    <div id="projectbrief">Application Locker Control (LC), an automatic boxes manager on Qt in c++.</div>
   </td>
@@ -264,6 +264,9 @@ $(document).ready(function(){initNavTree('functions_func_s.html','');});
 <li>setMode()
 : <a class="el" href="class_key_board.html#abd764aae3f91669e8ad35efc35667e6f">KeyBoard</a>
 </li>
+<li>SetPosAssistance()
+: <a class="el" href="class_show_widgets.html#acc06918511388f3469d0af8d2695dc08">ShowWidgets</a>
+</li>
 <li>SetPosBoxChoice()
 : <a class="el" href="class_show_widgets.html#a44da9f214435933f1c0471b643a12240">ShowWidgets</a>
 </li>
@@ -316,7 +319,8 @@ $(document).ready(function(){initNavTree('functions_func_s.html','');});
 : <a class="el" href="class_show_widgets.html#abdd6508aab642e14181da711f55a810b">ShowWidgets</a>
 </li>
 <li>SetShowWidgets()
-: <a class="el" href="class_box_choice.html#af2fb771376897f6c27f44770ac9d5a74">BoxChoice</a>
+: <a class="el" href="class_assistance.html#ad2611059d3d7f58708d1329ff5178b4c">Assistance</a>
+, <a class="el" href="class_box_choice.html#af2fb771376897f6c27f44770ac9d5a74">BoxChoice</a>
 , <a class="el" href="class_customer.html#a11ba6c36f51d6224947ff89ee507a050">Customer</a>
 , <a class="el" href="class_delivery_confirm.html#ac4c005c65bda8c118de9b271fccb7012">DeliveryConfirm</a>
 , <a class="el" href="class_doors_manager.html#a900b114e04f67945be44e57804c3ad55">DoorsManager</a>
@@ -390,6 +394,9 @@ $(document).ready(function(){initNavTree('functions_func_s.html','');});
 <li>ShowStowPackage()
 : <a class="el" href="class_scan_package.html#a2e0e88260c744b5e5f22bbc451025264">ScanPackage</a>
 </li>
+<li>ShowWAssistance()
+: <a class="el" href="class_show_widgets.html#ac230452a5da05d25be4b40964c9a310a">ShowWidgets</a>
+</li>
 <li>ShowWBoxChoice()
 : <a class="el" href="class_show_widgets.html#ab038ff960339a0f5c89db56992a3235e">ShowWidgets</a>
 </li>
@@ -407,6 +414,9 @@ $(document).ready(function(){initNavTree('functions_func_s.html','');});
 </li>
 <li>ShowWEditSettingSystem()
 : <a class="el" href="class_show_widgets.html#aab5a07f98b97a85fb46e90be4ad6f45c">ShowWidgets</a>
+</li>
+<li>ShowWidgetCurrent()
+: <a class="el" href="class_show_widgets.html#a2c77dee18274c9f252eddc1b8fa5301b">ShowWidgets</a>
 </li>
 <li>ShowWidgets()
 : <a class="el" href="class_show_widgets.html#a5eebbaa78503100fc2983203787a0b5d">ShowWidgets</a>
@@ -463,14 +473,18 @@ $(document).ready(function(){initNavTree('functions_func_s.html','');});
 : <a class="el" href="class_doors_manager.html#a16883e6da454150c1f3778159a956750">DoorsManager</a>
 </li>
 <li>startThread()
-: <a class="el" href="class_thread_delete_extract_code.html#a793c867ce2acb8a55ad32f916b7b3bf4">ThreadDeleteExtractCode</a>
-, <a class="el" href="class_thread_save_delivery.html#a95152e21b678effb4c8e281f3676af45">ThreadSaveDelivery</a>
+: <a class="el" href="class_thread__linphonec.html#a9a9b48e23b63010a34cf45b35280c1aa">Thread_linphonec</a>
+, <a class="el" href="class_thread_delete_extract_code.html#a793c867ce2acb8a55ad32f916b7b3bf4">ThreadDeleteExtractCode</a>
+, <a class="el" href="class_thread_save_delivery.html#a8884a606bd58d71a4d9ddef1734879f1">ThreadSaveDelivery</a>
 </li>
 <li>StartThread_LocalDatabase_AutoSave()
 : <a class="el" href="class_thread___local_database___auto_save.html#a85303c66b12dd217303f045a1111408a">Thread_LocalDatabase_AutoSave</a>
 </li>
 <li>startThreadAutoSave()
 : <a class="el" href="class_s_q_lite___local___database_manager.html#a5ac47d06629c2913972b0db86cb80c1c">SQLite_Local_DatabaseManager</a>
+</li>
+<li>startThreadLinphonec()
+: <a class="el" href="class_assistance.html#a4b8aa3bebc6d1ad2f84eee6024066013">Assistance</a>
 </li>
 <li>startThreadManager()
 : <a class="el" href="class_s_q_lite___local___database_manager.html#ad8c9e0f685b0d37c99952d68bf9c3bf6">SQLite_Local_DatabaseManager</a>
@@ -508,7 +522,7 @@ $(document).ready(function(){initNavTree('functions_func_s.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Généré le Dimanche 24 Mai 2015 23:12:55 pour Locker_Control (LC) par
+    <li class="footer">Généré le Jeudi 4 Juin 2015 14:47:51 pour Locker_Control (LC) par
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

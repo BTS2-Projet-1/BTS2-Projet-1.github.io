@@ -36,7 +36,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="custompushbutton_8h.html" target="_top" xlink:title="custompushbutton.h">
+<g id="a_node4"><a xlink:href="custompushbutton_8h.html" target="_top" target="_top" xlink:title="custompushbutton.h">
 <polygon fill="none" stroke="black" points="164.5,-53.5 164.5,-69.5 244.5,-69.5 244.5,-53.5 164.5,-53.5"/>
 <text text-anchor="middle" x="204.5" y="-59.9" font-family="Helvetica,sans-Serif" font-size="7.00">custompushbutton.h</text>
 </a>

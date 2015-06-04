@@ -16,7 +16,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="deliveryconfirm_8h.html" target="_top" xlink:title="deliveryconfirm.h">
+<g id="a_node2"><a xlink:href="deliveryconfirm_8h.html" target="_top" target="_top" xlink:title="deliveryconfirm.h">
 <polygon fill="none" stroke="red" points="134,-212.5 134,-228.5 206,-228.5 206,-212.5 134,-212.5"/>
 <text text-anchor="middle" x="170" y="-218.9" font-family="Helvetica,sans-Serif" font-size="7.00">deliveryconfirm.h</text>
 </a>
@@ -59,7 +59,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="showwidgets_8h.html" target="_top" xlink:title="showwidgets.h">
+<g id="a_node4"><a xlink:href="showwidgets_8h.html" target="_top" target="_top" xlink:title="showwidgets.h">
 <polygon fill="none" stroke="red" points="62,-106.5 62,-122.5 124,-122.5 124,-106.5 62,-106.5"/>
 <text text-anchor="middle" x="93" y="-112.9" font-family="Helvetica,sans-Serif" font-size="7.00">showwidgets.h</text>
 </a>
@@ -72,7 +72,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="csqlite__local__db_8h.html" target="_top" xlink:title="csqlite_local_db.h">
+<g id="a_node5"><a xlink:href="csqlite__local__db_8h.html" target="_top" target="_top" xlink:title="csqlite_local_db.h">
 <polygon fill="none" stroke="red" points="142,-106.5 142,-122.5 214,-122.5 214,-106.5 142,-106.5"/>
 <text text-anchor="middle" x="178" y="-112.9" font-family="Helvetica,sans-Serif" font-size="7.00">csqlite_local_db.h</text>
 </a>
@@ -85,7 +85,7 @@
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="_data_structures_8h.html" target="_top" xlink:title="Definnitions des formats de communications des données entre les classes de l&#39;application LC...">
+<g id="a_node6"><a xlink:href="_data_structures_8h.html" target="_top" target="_top" xlink:title="Definnitions des formats de communications des données entre les classes de l&#39;application LC...">
 <polygon fill="none" stroke="red" points="194,-0.5 194,-16.5 264,-16.5 264,-0.5 194,-0.5"/>
 <text text-anchor="middle" x="229" y="-6.9" font-family="Helvetica,sans-Serif" font-size="7.00">DataStructures.h</text>
 </a>
@@ -98,7 +98,7 @@
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="clms__db_8h.html" target="_top" xlink:title="clms_db.h">
+<g id="a_node7"><a xlink:href="clms__db_8h.html" target="_top" target="_top" xlink:title="clms_db.h">
 <polygon fill="none" stroke="black" points="204.5,-53.5 204.5,-69.5 253.5,-69.5 253.5,-53.5 204.5,-53.5"/>
 <text text-anchor="middle" x="229" y="-59.9" font-family="Helvetica,sans-Serif" font-size="7.00">clms_db.h</text>
 </a>
@@ -111,7 +111,7 @@
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
-<g id="a_node8"><a xlink:href="stowpackages_8h.html" target="_top" xlink:title="stowpackages.h">
+<g id="a_node8"><a xlink:href="stowpackages_8h.html" target="_top" target="_top" xlink:title="stowpackages.h">
 <polygon fill="none" stroke="red" points="55.5,-159.5 55.5,-175.5 122.5,-175.5 122.5,-159.5 55.5,-159.5"/>
 <text text-anchor="middle" x="89" y="-165.9" font-family="Helvetica,sans-Serif" font-size="7.00">stowpackages.h</text>
 </a>

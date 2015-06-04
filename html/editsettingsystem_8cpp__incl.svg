@@ -16,7 +16,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="editsettingsystem_8h.html" target="_top" xlink:title="editsettingsystem.h">
+<g id="a_node2"><a xlink:href="editsettingsystem_8h.html" target="_top" target="_top" xlink:title="editsettingsystem.h">
 <polygon fill="none" stroke="black" points="120.5,-106.5 120.5,-122.5 199.5,-122.5 199.5,-106.5 120.5,-106.5"/>
 <text text-anchor="middle" x="160" y="-112.9" font-family="Helvetica,sans-Serif" font-size="7.00">editsettingsystem.h</text>
 </a>
@@ -69,7 +69,7 @@
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="settingsystem_8h.html" target="_top" xlink:title="settingsystem.h">
+<g id="a_node6"><a xlink:href="settingsystem_8h.html" target="_top" target="_top" xlink:title="settingsystem.h">
 <polygon fill="none" stroke="red" points="126,-53.5 126,-69.5 194,-69.5 194,-53.5 126,-53.5"/>
 <text text-anchor="middle" x="160" y="-59.9" font-family="Helvetica,sans-Serif" font-size="7.00">settingsystem.h</text>
 </a>
@@ -82,7 +82,7 @@
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="showwidgets_8h.html" target="_top" xlink:title="showwidgets.h">
+<g id="a_node7"><a xlink:href="showwidgets_8h.html" target="_top" target="_top" xlink:title="showwidgets.h">
 <polygon fill="none" stroke="red" points="294,-0.5 294,-16.5 356,-16.5 356,-0.5 294,-0.5"/>
 <text text-anchor="middle" x="325" y="-6.9" font-family="Helvetica,sans-Serif" font-size="7.00">showwidgets.h</text>
 </a>
@@ -115,7 +115,7 @@
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
-<g id="a_node8"><a xlink:href="customxml_8h.html" target="_top" xlink:title="customxml.h">
+<g id="a_node8"><a xlink:href="customxml_8h.html" target="_top" target="_top" xlink:title="customxml.h">
 <polygon fill="none" stroke="red" points="218.5,-0.5 218.5,-16.5 275.5,-16.5 275.5,-0.5 218.5,-0.5"/>
 <text text-anchor="middle" x="247" y="-6.9" font-family="Helvetica,sans-Serif" font-size="7.00">customxml.h</text>
 </a>
@@ -128,7 +128,7 @@
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
-<g id="a_node9"><a xlink:href="csqlite__local__db_8h.html" target="_top" xlink:title="csqlite_local_db.h">
+<g id="a_node9"><a xlink:href="csqlite__local__db_8h.html" target="_top" target="_top" xlink:title="csqlite_local_db.h">
 <polygon fill="none" stroke="red" points="128,-0.5 128,-16.5 200,-16.5 200,-0.5 128,-0.5"/>
 <text text-anchor="middle" x="164" y="-6.9" font-family="Helvetica,sans-Serif" font-size="7.00">csqlite_local_db.h</text>
 </a>
