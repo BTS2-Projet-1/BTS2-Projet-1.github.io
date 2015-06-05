@@ -1,0 +1,10 @@
+digraph "CustomPushButton"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="7",labelfontname="Helvetica",labelfontsize="7"];
+  node [fontname="Helvetica",fontsize="7",shape=record];
+  Node1 [label="{CustomPushButton\n||+ CustomPushButton()\l+ CustomPushButton()\l+ ~CustomPushButton()\l+ mousePressEvent()\l+ setDisabledB()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="7",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{QPushButton\n||}",height=0.2,width=0.4,color="grey75"];
+}
