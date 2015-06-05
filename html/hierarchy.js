@@ -20,6 +20,7 @@ var hierarchy =
     ] ],
     [ "QThread", null, [
       [ "Thread_Databasemanager", "class_thread___databasemanager.html", null ],
+      [ "Thread_linphonec", "class_thread__linphonec.html", null ],
       [ "Thread_LocalDatabase_AutoSave", "class_thread___local_database___auto_save.html", null ],
       [ "Thread_StatusDoors", "class_thread___status_doors.html", null ],
       [ "ThreadDeleteExtractCode", "class_thread_delete_extract_code.html", null ],

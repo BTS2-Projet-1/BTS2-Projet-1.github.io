@@ -16,7 +16,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="boxchoice_8h.html" target="_top" xlink:title="boxchoice.h">
+<g id="a_node2"><a xlink:href="boxchoice_8h.html" target="_top" target="_top" xlink:title="boxchoice.h">
 <polygon fill="none" stroke="red" points="104,-53.5 104,-69.5 158,-69.5 158,-53.5 104,-53.5"/>
 <text text-anchor="middle" x="131" y="-59.9" font-family="Helvetica,sans-Serif" font-size="7.00">boxchoice.h</text>
 </a>
@@ -99,7 +99,7 @@
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="showwidgets_8h.html" target="_top" xlink:title="showwidgets.h">
+<g id="a_node6"><a xlink:href="showwidgets_8h.html" target="_top" target="_top" xlink:title="showwidgets.h">
 <polygon fill="none" stroke="red" points="201,-0.5 201,-16.5 263,-16.5 263,-0.5 201,-0.5"/>
 <text text-anchor="middle" x="232" y="-6.9" font-family="Helvetica,sans-Serif" font-size="7.00">showwidgets.h</text>
 </a>

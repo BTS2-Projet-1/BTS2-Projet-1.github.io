@@ -16,7 +16,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="scanpackage_8h.html" target="_top" xlink:title="scanpackage.h">
+<g id="a_node2"><a xlink:href="scanpackage_8h.html" target="_top" target="_top" xlink:title="scanpackage.h">
 <polygon fill="none" stroke="red" points="83,-53.5 83,-69.5 147,-69.5 147,-53.5 83,-53.5"/>
 <text text-anchor="middle" x="115" y="-59.9" font-family="Helvetica,sans-Serif" font-size="7.00">scanpackage.h</text>
 </a>
@@ -89,7 +89,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="showwidgets_8h.html" target="_top" xlink:title="showwidgets.h">
+<g id="a_node5"><a xlink:href="showwidgets_8h.html" target="_top" target="_top" xlink:title="showwidgets.h">
 <polygon fill="none" stroke="red" points="118,-0.5 118,-16.5 180,-16.5 180,-0.5 118,-0.5"/>
 <text text-anchor="middle" x="149" y="-6.9" font-family="Helvetica,sans-Serif" font-size="7.00">showwidgets.h</text>
 </a>
@@ -102,7 +102,7 @@
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="_data_structures_8h.html" target="_top" xlink:title="Definnitions des formats de communications des données entre les classes de l&#39;application LC...">
+<g id="a_node6"><a xlink:href="_data_structures_8h.html" target="_top" target="_top" xlink:title="Definnitions des formats de communications des données entre les classes de l&#39;application LC...">
 <polygon fill="none" stroke="red" points="198,-0.5 198,-16.5 268,-16.5 268,-0.5 198,-0.5"/>
 <text text-anchor="middle" x="233" y="-6.9" font-family="Helvetica,sans-Serif" font-size="7.00">DataStructures.h</text>
 </a>

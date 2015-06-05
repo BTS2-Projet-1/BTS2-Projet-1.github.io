@@ -16,7 +16,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="consolewindows_8h.html" target="_top" xlink:title="consolewindows.h">
+<g id="a_node2"><a xlink:href="consolewindows_8h.html" target="_top" target="_top" xlink:title="consolewindows.h">
 <polygon fill="none" stroke="red" points="130,-53.5 130,-69.5 202,-69.5 202,-53.5 130,-53.5"/>
 <text text-anchor="middle" x="166" y="-59.9" font-family="Helvetica,sans-Serif" font-size="7.00">consolewindows.h</text>
 </a>

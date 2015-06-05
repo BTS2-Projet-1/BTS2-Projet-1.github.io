@@ -36,7 +36,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="consolewindows_8h.html" target="_top" xlink:title="consolewindows.h">
+<g id="a_node4"><a xlink:href="consolewindows_8h.html" target="_top" target="_top" xlink:title="consolewindows.h">
 <polygon fill="none" stroke="red" points="163,-53.5 163,-69.5 235,-69.5 235,-53.5 163,-53.5"/>
 <text text-anchor="middle" x="199" y="-59.9" font-family="Helvetica,sans-Serif" font-size="7.00">consolewindows.h</text>
 </a>
@@ -99,7 +99,7 @@
 </g>
 <!-- Node10 -->
 <g id="node10" class="node"><title>Node10</title>
-<g id="a_node10"><a xlink:href="country_8h.html" target="_top" xlink:title="country.h">
+<g id="a_node10"><a xlink:href="country_8h.html" target="_top" target="_top" xlink:title="country.h">
 <polygon fill="none" stroke="red" points="334.5,-0.5 334.5,-16.5 381.5,-16.5 381.5,-0.5 334.5,-0.5"/>
 <text text-anchor="middle" x="358" y="-6.9" font-family="Helvetica,sans-Serif" font-size="7.00">country.h</text>
 </a>

@@ -16,7 +16,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="thread__databasemanager_8h.html" target="_top" xlink:title="thread_databasemanager.h">
+<g id="a_node2"><a xlink:href="thread__databasemanager_8h.html" target="_top" target="_top" xlink:title="thread_databasemanager.h">
 <polygon fill="none" stroke="black" points="107,-265.5 107,-281.5 208,-281.5 208,-265.5 107,-265.5"/>
 <text text-anchor="middle" x="157.5" y="-271.9" font-family="Helvetica,sans-Serif" font-size="7.00">thread_databasemanager.h</text>
 </a>
@@ -49,7 +49,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="csqlite__local__db_8h.html" target="_top" xlink:title="csqlite_local_db.h">
+<g id="a_node4"><a xlink:href="csqlite__local__db_8h.html" target="_top" target="_top" xlink:title="csqlite_local_db.h">
 <polygon fill="none" stroke="red" points="97.5,-106.5 97.5,-122.5 169.5,-122.5 169.5,-106.5 97.5,-106.5"/>
 <text text-anchor="middle" x="133.5" y="-112.9" font-family="Helvetica,sans-Serif" font-size="7.00">csqlite_local_db.h</text>
 </a>
@@ -62,7 +62,7 @@
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="_data_structures_8h.html" target="_top" xlink:title="Definnitions des formats de communications des données entre les classes de l&#39;application LC...">
+<g id="a_node7"><a xlink:href="_data_structures_8h.html" target="_top" target="_top" xlink:title="Definnitions des formats de communications des données entre les classes de l&#39;application LC...">
 <polygon fill="none" stroke="red" points="242.5,-53.5 242.5,-69.5 312.5,-69.5 312.5,-53.5 242.5,-53.5"/>
 <text text-anchor="middle" x="277.5" y="-59.9" font-family="Helvetica,sans-Serif" font-size="7.00">DataStructures.h</text>
 </a>
@@ -75,7 +75,7 @@
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
-<g id="a_node8"><a xlink:href="sqlite__local__databasemanager_8h.html" target="_top" xlink:title="sqlite_local_databasemanager.h">
+<g id="a_node8"><a xlink:href="sqlite__local__databasemanager_8h.html" target="_top" target="_top" xlink:title="sqlite_local_databasemanager.h">
 <polygon fill="none" stroke="red" points="99.5,-212.5 99.5,-228.5 215.5,-228.5 215.5,-212.5 99.5,-212.5"/>
 <text text-anchor="middle" x="157.5" y="-218.9" font-family="Helvetica,sans-Serif" font-size="7.00">sqlite_local_databasemanager.h</text>
 </a>
@@ -88,7 +88,7 @@
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
-<g id="a_node9"><a xlink:href="consolewindows_8h.html" target="_top" xlink:title="consolewindows.h">
+<g id="a_node9"><a xlink:href="consolewindows_8h.html" target="_top" target="_top" xlink:title="consolewindows.h">
 <polygon fill="none" stroke="red" points="149.5,-159.5 149.5,-175.5 221.5,-175.5 221.5,-159.5 149.5,-159.5"/>
 <text text-anchor="middle" x="185.5" y="-165.9" font-family="Helvetica,sans-Serif" font-size="7.00">consolewindows.h</text>
 </a>

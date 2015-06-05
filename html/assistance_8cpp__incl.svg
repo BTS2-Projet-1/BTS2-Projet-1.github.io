@@ -16,7 +16,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="assistance_8h.html" target="_top" xlink:title="assistance.h">
+<g id="a_node2"><a xlink:href="assistance_8h.html" target="_top" target="_top" xlink:title="assistance.h">
 <polygon fill="none" stroke="black" points="0,-53.5 0,-69.5 56,-69.5 56,-53.5 0,-53.5"/>
 <text text-anchor="middle" x="28" y="-59.9" font-family="Helvetica,sans-Serif" font-size="7.00">assistance.h</text>
 </a>

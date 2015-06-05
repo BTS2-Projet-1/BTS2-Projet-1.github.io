@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['call',['Call',['../class_assistance.html#a58f61b77a6a82105f543872d3a23fe19',1,'Assistance']]],
   ['cancel',['Cancel',['../class_login.html#ae0fedd5f1f68645c45492123dd9564d4',1,'Login']]],
   ['canceldelivery',['CancelDelivery',['../class_scan_package.html#a0704734be634f7479a63725ee02ab077',1,'ScanPackage']]],
   ['cdoors',['CDoors',['../class_c_doors.html#afb1998acfb81a71dafe73282069d57a7',1,'CDoors']]],

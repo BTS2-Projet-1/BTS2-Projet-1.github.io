@@ -16,7 +16,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="customxml_8h.html" target="_top" xlink:title="customxml.h">
+<g id="a_node2"><a xlink:href="customxml_8h.html" target="_top" target="_top" xlink:title="customxml.h">
 <polygon fill="none" stroke="black" points="112,-106.5 112,-122.5 169,-122.5 169,-106.5 112,-106.5"/>
 <text text-anchor="middle" x="140.5" y="-112.9" font-family="Helvetica,sans-Serif" font-size="7.00">customxml.h</text>
 </a>
@@ -79,7 +79,7 @@
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="_data_structures_8h.html" target="_top" xlink:title="Definnitions des formats de communications des données entre les classes de l&#39;application LC...">
+<g id="a_node7"><a xlink:href="_data_structures_8h.html" target="_top" target="_top" xlink:title="Definnitions des formats de communications des données entre les classes de l&#39;application LC...">
 <polygon fill="none" stroke="black" points="251.5,-53.5 251.5,-69.5 321.5,-69.5 321.5,-53.5 251.5,-53.5"/>
 <text text-anchor="middle" x="286.5" y="-59.9" font-family="Helvetica,sans-Serif" font-size="7.00">DataStructures.h</text>
 </a>
