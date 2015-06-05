@@ -1,0 +1,28 @@
+digraph "E:/BTS2/HOUDAYER_Projects/Locker_Control/showpackagebox.cpp"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="7",labelfontname="Helvetica",labelfontsize="7"];
+  node [fontname="Helvetica",fontsize="7",shape=record];
+  Node1 [label="E:/BTS2/HOUDAYER_Projects\l/Locker_Control/showpackagebox.cpp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="7",style="solid",fontname="Helvetica"];
+  Node2 [label="showpackagebox.h",height=0.2,width=0.4,color="red",URL="$showpackagebox_8h.html"];
+  Node2 -> Node3 [color="midnightblue",fontsize="7",style="solid",fontname="Helvetica"];
+  Node3 [label="QWidget",height=0.2,width=0.4,color="grey75"];
+  Node2 -> Node4 [color="midnightblue",fontsize="7",style="solid",fontname="Helvetica"];
+  Node4 [label="QTimer",height=0.2,width=0.4,color="grey75"];
+  Node1 -> Node5 [color="midnightblue",fontsize="7",style="solid",fontname="Helvetica"];
+  Node5 [label="ui_showpackagebox.h",height=0.2,width=0.4,color="grey75"];
+  Node1 -> Node6 [color="midnightblue",fontsize="7",style="solid",fontname="Helvetica"];
+  Node6 [label="customer.h",height=0.2,width=0.4,color="red",URL="$customer_8h.html"];
+  Node6 -> Node3 [color="midnightblue",fontsize="7",style="solid",fontname="Helvetica"];
+  Node6 -> Node2 [color="midnightblue",fontsize="7",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [color="midnightblue",fontsize="7",style="solid",fontname="Helvetica"];
+  Node7 [label="custompushbutton.h",height=0.2,width=0.4,color="red",URL="$custompushbutton_8h.html"];
+  Node1 -> Node8 [color="midnightblue",fontsize="7",style="solid",fontname="Helvetica"];
+  Node8 [label="QScrollBar",height=0.2,width=0.4,color="grey75"];
+  Node1 -> Node9 [color="midnightblue",fontsize="7",style="solid",fontname="Helvetica"];
+  Node9 [label="QToolTip",height=0.2,width=0.4,color="grey75"];
+  Node1 -> Node10 [color="midnightblue",fontsize="7",style="solid",fontname="Helvetica"];
+  Node10 [label="QDebug",height=0.2,width=0.4,color="grey75"];
+}

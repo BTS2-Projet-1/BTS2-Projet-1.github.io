@@ -1,0 +1,9 @@
+digraph "Graphe hiérarchique des classes"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="7",labelfontname="Helvetica",labelfontsize="7"];
+  node [fontname="Helvetica",fontsize="7",shape=record];
+  rankdir="LR";
+  Node1 [label="struct_Database_Contains",height=0.2,width=0.4,color="black",URL="$structstruct___database___contains.html",tooltip="Structure de donnée de l&#39;application LC, utilisée pour l&#39;enregistrement et lectures des fichiers de s..."];
+}
