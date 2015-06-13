@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.9.1"/>
-<title>Locker_Control (LC):  Fichier source de E:/BTS2/HOUDAYER_Projects/Locker_Control/scanpackage.h</title>
+<title>Locker_Control (LC):  Fichier source de S:/QT_CREATOR/Locker_Control/scanpackage.h</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -33,7 +33,7 @@
   <td id="projectlogo"><img alt="Logo" src="logibag.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Locker_Control (LC)
-   &#160;<span id="projectnumber">1.4.6</span>
+   &#160;<span id="projectnumber">1.4.5</span>
    </div>
    <div id="projectbrief">Application Locker Control (LC), an automatic boxes manager on Qt in c++.</div>
   </td>
@@ -108,78 +108,78 @@ $(document).ready(function(){initNavTree('scanpackage_8h_source.html','');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">E:/BTS2/HOUDAYER_Projects/Locker_Control/scanpackage.h</div>  </div>
+<div class="title">S:/QT_CREATOR/Locker_Control/scanpackage.h</div>  </div>
 </div><!--header-->
 <div class="contents">
 <a href="scanpackage_8h.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef SCANPACKAGE_H</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define SCANPACKAGE_H</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;QWidget&gt;</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;QLabel&gt;</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="showwidgets_8h.html">showwidgets.h</a>&quot;</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_data_structures_8h.html">DataStructures.h</a>&quot;</span></div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="boxchoice_8h.html">boxchoice.h</a>&quot;</span></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="custompushbutton_8h.html">custompushbutton.h</a>&quot;</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespace_ui.html">Ui</a> {</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">class </span><a class="code" href="class_scan_package.html">ScanPackage</a>;</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;}</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
-<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="class_scan_package.html">   15</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_scan_package.html">ScanPackage</a> : <span class="keyword">public</span> QWidget</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;{</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    Q_OBJECT</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="class_scan_package.html#abb814e86d814ec00b3298e016f681078">ScanPackage</a>(<a class="code" href="class_box_choice.html">BoxChoice</a> *,QWidget *parent = 0);</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <a class="code" href="class_scan_package.html#ac9415024f9e95616a492d945163879bb">~ScanPackage</a>();</div>
-<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="class_scan_package.html#a83de045614e54fd0cd27e880fde91bbd">   22</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_scan_package.html#a83de045614e54fd0cd27e880fde91bbd">SetShowWidgets</a>(<a class="code" href="class_show_widgets.html">ShowWidgets</a> *TShowWidgets){m_ShowWidgets = TShowWidgets;}</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_scan_package.html#a28b1aa9f91853542a98de87b81d21bd1">isNumBoxExist</a>(<span class="keywordtype">int</span> numbox);</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keywordtype">int</span>  <a class="code" href="class_scan_package.html#aad38eab330e03b60c96ed5b6411fa975">getIndexListNumBoxExist</a>(<span class="keywordtype">int</span> numbox);</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_scan_package.html#a565dbb7397d7dd780f4870d83a15b906">AddItemListWidget</a>(QString NumPackage);</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_scan_package.html#a201dadb61959395c6e9d0ad8f90fbb39">Refresh</a>();</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_scan_package.html#ae163c531d240273368c8ccb63972a8b8">BuildingListPackages</a>(); <span class="comment">//construction de la QList&lt;struct_PackagesUseBox&gt;</span></div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_scan_package.html#ac3ea867a79d0550db3476c46bc6e4178">retranslateUi</a>();</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_scan_package.html#ac9d9da0a233dad4464f0cdf1c02991a5">isExistNumPackage</a>(QString NumPackage);</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_scan_package.html#a9d068b492d0d49abb0cbdcad9d1fe203">ShowMessageError</a>(QString);</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="keyword">public</span> slots:</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_scan_package.html#a9eba77f1f9ce24f54b3c78172ed2a5b2">StockNumberPackage</a>();<span class="comment">//stock les n°colis dans une qlist</span></div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_scan_package.html#a619ca3e30a8c4549c030f279d384e76d">ValidateDelivery</a>();<span class="comment">//recuperation de la liste des colis et demande de confirmation</span></div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_scan_package.html#a0704734be634f7479a63725ee02ab077">CancelDelivery</a>();<span class="comment">//annule la saisie des colis pour la consigne</span></div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_scan_package.html#add67e1c2317de5884cc5358f0bc49f18">ConfirmValidate</a>();</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_scan_package.html#a2dc6dd1965d342ff25f4604539662bd3">ReturnListPackage</a>();</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_scan_package.html#adec50d2f172142caef4f4081b4618316">ReceiveListBoxSelected</a>(QList&lt;int&gt;);</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_scan_package.html#a9805f5410fccbbfc56bac6084fb6b9ed">DeleteNumPackage</a>(QString package);</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_scan_package.html#a93955172cd5352cb92a8b75dd7ee6e82">Upper</a>(QString str);</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;signals :</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_scan_package.html#af3d61ae4476313140053aa4ce19892fd">SendListPackageBox</a>(QList&lt;struct_PackagesUseBox&gt; );</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_scan_package.html#a2e0e88260c744b5e5f22bbc451025264">ShowStowPackage</a>();</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_scan_package.html#ac82d2e52100e738a717676a622bf9541">TextToUpper</a>(QString);</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="keyword">private</span> slots:</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordtype">void</span> SetManual();</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordtype">void</span> SetScanner();</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keywordtype">void</span> ChangePage();</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordtype">void</span> SetCaract(QChar caract);</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordtype">void</span> SupprCaract();</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#include &lt;QWidget&gt;</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#include &lt;QLabel&gt;</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="showwidgets_8h.html">showwidgets.h</a>&quot;</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_data_structures_8h.html">DataStructures.h</a>&quot;</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="boxchoice_8h.html">boxchoice.h</a>&quot;</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="custompushbutton_8h.html">custompushbutton.h</a>&quot;</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespace_ui.html">Ui</a> {</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">class </span><a class="code" href="class_scan_package.html">ScanPackage</a>;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;}</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
+<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="class_scan_package.html">   27</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_scan_package.html">ScanPackage</a> : <span class="keyword">public</span> QWidget</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;{</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    Q_OBJECT</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="class_scan_package.html#abb814e86d814ec00b3298e016f681078">ScanPackage</a>(<a class="code" href="class_box_choice.html">BoxChoice</a> *,QWidget *parent = 0);</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <a class="code" href="class_scan_package.html#ac9415024f9e95616a492d945163879bb">~ScanPackage</a>();</div>
+<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="class_scan_package.html#a83de045614e54fd0cd27e880fde91bbd">   34</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_scan_package.html#a83de045614e54fd0cd27e880fde91bbd">SetShowWidgets</a>(<a class="code" href="class_show_widgets.html">ShowWidgets</a> *TShowWidgets){m_ShowWidgets = TShowWidgets;}</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_scan_package.html#a28b1aa9f91853542a98de87b81d21bd1">isNumBoxExist</a>(<span class="keywordtype">int</span> numbox);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keywordtype">int</span>  <a class="code" href="class_scan_package.html#aad38eab330e03b60c96ed5b6411fa975">getIndexListNumBoxExist</a>(<span class="keywordtype">int</span> numbox);</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_scan_package.html#a565dbb7397d7dd780f4870d83a15b906">AddItemListWidget</a>(QString NumPackage);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_scan_package.html#a201dadb61959395c6e9d0ad8f90fbb39">Refresh</a>();</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_scan_package.html#ae163c531d240273368c8ccb63972a8b8">BuildingListPackages</a>(); <span class="comment">//construction de la QList&lt;struct_PackagesUseBox&gt;</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_scan_package.html#ac3ea867a79d0550db3476c46bc6e4178">retranslateUi</a>();</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_scan_package.html#ac9d9da0a233dad4464f0cdf1c02991a5">isExistNumPackage</a>(QString NumPackage);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_scan_package.html#a9d068b492d0d49abb0cbdcad9d1fe203">ShowMessageError</a>(QString);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="keyword">public</span> slots:</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_scan_package.html#a9eba77f1f9ce24f54b3c78172ed2a5b2">StockNumberPackage</a>();<span class="comment">//stock les n°colis dans une qlist</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_scan_package.html#a619ca3e30a8c4549c030f279d384e76d">ValidateDelivery</a>();<span class="comment">//recuperation de la liste des colis et demande de confirmation</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_scan_package.html#a0704734be634f7479a63725ee02ab077">CancelDelivery</a>();<span class="comment">//annule la saisie des colis pour la consigne</span></div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_scan_package.html#add67e1c2317de5884cc5358f0bc49f18">ConfirmValidate</a>();</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_scan_package.html#a2dc6dd1965d342ff25f4604539662bd3">ReturnListPackage</a>();</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_scan_package.html#adec50d2f172142caef4f4081b4618316">ReceiveListBoxSelected</a>(QList&lt;int&gt;);</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_scan_package.html#a9805f5410fccbbfc56bac6084fb6b9ed">DeleteNumPackage</a>(QString package);</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_scan_package.html#a93955172cd5352cb92a8b75dd7ee6e82">Upper</a>(QString str);</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    Ui::ScanPackage *ui;</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <a class="code" href="class_show_widgets.html">ShowWidgets</a> *m_ShowWidgets;</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <a class="code" href="class_box_choice.html">BoxChoice</a> *m_WBoxChoice;</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    QLabel *m_labelbox;</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    QList&lt;struct_PackagesUseBox&gt; m_listPackageBox;</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    QList&lt;QString&gt; m_ListPackagesString;</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    QList&lt;int&gt; m_ListBoxselected;</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    QList&lt;CustomPushButton *&gt; m_ListCustPusButton;</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keywordtype">int</span> m_idPushButton;</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordtype">int</span> m_page;</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;};</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="preprocessor">#endif // SCANPACKAGE_H</span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;signals :</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_scan_package.html#af3d61ae4476313140053aa4ce19892fd">SendListPackageBox</a>(QList&lt;struct_PackagesUseBox&gt;);</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_scan_package.html#a2e0e88260c744b5e5f22bbc451025264">ShowStowPackage</a>();</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_scan_package.html#ac82d2e52100e738a717676a622bf9541">TextToUpper</a>(QString);</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="keyword">private</span> slots:</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keywordtype">void</span> SetManual();</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keywordtype">void</span> SetScanner();</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="keywordtype">void</span> ChangePage();</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="keywordtype">void</span> SetCaract(QChar caract);</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keywordtype">void</span> SupprCaract();</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    Ui::ScanPackage *ui;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <a class="code" href="class_show_widgets.html">ShowWidgets</a> *m_ShowWidgets;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <a class="code" href="class_box_choice.html">BoxChoice</a> *m_WBoxChoice;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    QLabel *m_labelbox;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    QList&lt;struct_PackagesUseBox&gt; m_listPackageBox;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    QList&lt;QString&gt; m_ListPackagesString;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    QList&lt;int&gt; m_ListBoxselected;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    QList&lt;CustomPushButton *&gt; m_ListCustPusButton;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="keywordtype">int</span> m_idPushButton;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keywordtype">int</span> m_page;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;};</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="preprocessor">#endif // SCANPACKAGE_H</span></div>
 <div class="ttc" id="class_scan_package_html_ac9415024f9e95616a492d945163879bb"><div class="ttname"><a href="class_scan_package.html#ac9415024f9e95616a492d945163879bb">ScanPackage::~ScanPackage</a></div><div class="ttdeci">~ScanPackage()</div><div class="ttdef"><b>Definition:</b> scanpackage.cpp:61</div></div>
 <div class="ttc" id="namespace_ui_html"><div class="ttname"><a href="namespace_ui.html">Ui</a></div><div class="ttdef"><b>Definition:</b> assistance.h:10</div></div>
 <div class="ttc" id="class_scan_package_html_a2e0e88260c744b5e5f22bbc451025264"><div class="ttname"><a href="class_scan_package.html#a2e0e88260c744b5e5f22bbc451025264">ScanPackage::ShowStowPackage</a></div><div class="ttdeci">void ShowStowPackage()</div></div>
@@ -189,7 +189,7 @@ $(document).ready(function(){initNavTree('scanpackage_8h_source.html','');});
 <div class="ttc" id="showwidgets_8h_html"><div class="ttname"><a href="showwidgets_8h.html">showwidgets.h</a></div></div>
 <div class="ttc" id="class_scan_package_html_add67e1c2317de5884cc5358f0bc49f18"><div class="ttname"><a href="class_scan_package.html#add67e1c2317de5884cc5358f0bc49f18">ScanPackage::ConfirmValidate</a></div><div class="ttdeci">void ConfirmValidate()</div><div class="ttdef"><b>Definition:</b> scanpackage.cpp:363</div></div>
 <div class="ttc" id="boxchoice_8h_html"><div class="ttname"><a href="boxchoice_8h.html">boxchoice.h</a></div></div>
-<div class="ttc" id="class_show_widgets_html"><div class="ttname"><a href="class_show_widgets.html">ShowWidgets</a></div><div class="ttdef"><b>Definition:</b> showwidgets.h:7</div></div>
+<div class="ttc" id="class_show_widgets_html"><div class="ttname"><a href="class_show_widgets.html">ShowWidgets</a></div><div class="ttdoc">Header de la classe ShowWidgets. </div><div class="ttdef"><b>Definition:</b> showwidgets.h:19</div></div>
 <div class="ttc" id="class_scan_package_html_a9eba77f1f9ce24f54b3c78172ed2a5b2"><div class="ttname"><a href="class_scan_package.html#a9eba77f1f9ce24f54b3c78172ed2a5b2">ScanPackage::StockNumberPackage</a></div><div class="ttdeci">void StockNumberPackage()</div><div class="ttdef"><b>Definition:</b> scanpackage.cpp:169</div></div>
 <div class="ttc" id="class_box_choice_html"><div class="ttname"><a href="class_box_choice.html">BoxChoice</a></div><div class="ttdoc">Definition de la classe BoxChoice. </div><div class="ttdef"><b>Definition:</b> boxchoice.h:32</div></div>
 <div class="ttc" id="class_scan_package_html_a565dbb7397d7dd780f4870d83a15b906"><div class="ttname"><a href="class_scan_package.html#a565dbb7397d7dd780f4870d83a15b906">ScanPackage::AddItemListWidget</a></div><div class="ttdeci">void AddItemListWidget(QString NumPackage)</div><div class="ttdef"><b>Definition:</b> scanpackage.cpp:204</div></div>
@@ -202,11 +202,11 @@ $(document).ready(function(){initNavTree('scanpackage_8h_source.html','');});
 <div class="ttc" id="custompushbutton_8h_html"><div class="ttname"><a href="custompushbutton_8h.html">custompushbutton.h</a></div></div>
 <div class="ttc" id="class_scan_package_html_ac82d2e52100e738a717676a622bf9541"><div class="ttname"><a href="class_scan_package.html#ac82d2e52100e738a717676a622bf9541">ScanPackage::TextToUpper</a></div><div class="ttdeci">void TextToUpper(QString)</div></div>
 <div class="ttc" id="class_scan_package_html_a9d068b492d0d49abb0cbdcad9d1fe203"><div class="ttname"><a href="class_scan_package.html#a9d068b492d0d49abb0cbdcad9d1fe203">ScanPackage::ShowMessageError</a></div><div class="ttdeci">void ShowMessageError(QString)</div><div class="ttdef"><b>Definition:</b> scanpackage.cpp:195</div></div>
-<div class="ttc" id="class_scan_package_html"><div class="ttname"><a href="class_scan_package.html">ScanPackage</a></div><div class="ttdef"><b>Definition:</b> scanpackage.h:15</div></div>
+<div class="ttc" id="class_scan_package_html"><div class="ttname"><a href="class_scan_package.html">ScanPackage</a></div><div class="ttdoc">Header de la classe ScanPackage. </div><div class="ttdef"><b>Definition:</b> scanpackage.h:27</div></div>
 <div class="ttc" id="class_scan_package_html_adec50d2f172142caef4f4081b4618316"><div class="ttname"><a href="class_scan_package.html#adec50d2f172142caef4f4081b4618316">ScanPackage::ReceiveListBoxSelected</a></div><div class="ttdeci">void ReceiveListBoxSelected(QList&lt; int &gt;)</div><div class="ttdef"><b>Definition:</b> scanpackage.cpp:121</div></div>
 <div class="ttc" id="class_scan_package_html_aad38eab330e03b60c96ed5b6411fa975"><div class="ttname"><a href="class_scan_package.html#aad38eab330e03b60c96ed5b6411fa975">ScanPackage::getIndexListNumBoxExist</a></div><div class="ttdeci">int getIndexListNumBoxExist(int numbox)</div></div>
 <div class="ttc" id="class_scan_package_html_a2dc6dd1965d342ff25f4604539662bd3"><div class="ttname"><a href="class_scan_package.html#a2dc6dd1965d342ff25f4604539662bd3">ScanPackage::ReturnListPackage</a></div><div class="ttdeci">void ReturnListPackage()</div><div class="ttdef"><b>Definition:</b> scanpackage.cpp:376</div></div>
-<div class="ttc" id="class_scan_package_html_a83de045614e54fd0cd27e880fde91bbd"><div class="ttname"><a href="class_scan_package.html#a83de045614e54fd0cd27e880fde91bbd">ScanPackage::SetShowWidgets</a></div><div class="ttdeci">void SetShowWidgets(ShowWidgets *TShowWidgets)</div><div class="ttdef"><b>Definition:</b> scanpackage.h:22</div></div>
+<div class="ttc" id="class_scan_package_html_a83de045614e54fd0cd27e880fde91bbd"><div class="ttname"><a href="class_scan_package.html#a83de045614e54fd0cd27e880fde91bbd">ScanPackage::SetShowWidgets</a></div><div class="ttdeci">void SetShowWidgets(ShowWidgets *TShowWidgets)</div><div class="ttdef"><b>Definition:</b> scanpackage.h:34</div></div>
 <div class="ttc" id="class_scan_package_html_a201dadb61959395c6e9d0ad8f90fbb39"><div class="ttname"><a href="class_scan_package.html#a201dadb61959395c6e9d0ad8f90fbb39">ScanPackage::Refresh</a></div><div class="ttdeci">void Refresh()</div><div class="ttdef"><b>Definition:</b> scanpackage.cpp:301</div></div>
 <div class="ttc" id="_data_structures_8h_html"><div class="ttname"><a href="_data_structures_8h.html">DataStructures.h</a></div><div class="ttdoc">Definnitions des formats de communications des données entre les classes de l&#39;application LC...</div></div>
 <div class="ttc" id="class_scan_package_html_ac9d9da0a233dad4464f0cdf1c02991a5"><div class="ttname"><a href="class_scan_package.html#ac9d9da0a233dad4464f0cdf1c02991a5">ScanPackage::isExistNumPackage</a></div><div class="ttdeci">bool isExistNumPackage(QString NumPackage)</div><div class="ttdef"><b>Definition:</b> scanpackage.cpp:180</div></div>
@@ -216,7 +216,7 @@ $(document).ready(function(){initNavTree('scanpackage_8h_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="scanpackage_8h.html">scanpackage.h</a></li>
-    <li class="footer">Généré le Vendredi 5 Juin 2015 15:58:40 pour Locker_Control (LC) par
+    <li class="footer">Généré le Samedi 13 Juin 2015 14:29:12 pour Locker_Control (LC) par
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

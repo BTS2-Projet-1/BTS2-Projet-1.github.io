@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.9.1"/>
-<title>Locker_Control (LC):  Fichier source de E:/BTS2/HOUDAYER_Projects/Locker_Control/drawbox.h</title>
+<title>Locker_Control (LC):  Fichier source de S:/QT_CREATOR/Locker_Control/drawbox.h</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -33,7 +33,7 @@
   <td id="projectlogo"><img alt="Logo" src="logibag.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Locker_Control (LC)
-   &#160;<span id="projectnumber">1.4.6</span>
+   &#160;<span id="projectnumber">1.4.5</span>
    </div>
    <div id="projectbrief">Application Locker Control (LC), an automatic boxes manager on Qt in c++.</div>
   </td>
@@ -108,49 +108,49 @@ $(document).ready(function(){initNavTree('drawbox_8h_source.html','');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">E:/BTS2/HOUDAYER_Projects/Locker_Control/drawbox.h</div>  </div>
+<div class="title">S:/QT_CREATOR/Locker_Control/drawbox.h</div>  </div>
 </div><!--header-->
 <div class="contents">
 <a href="drawbox_8h.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef DRAWBOX_H</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define DRAWBOX_H</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;QGraphicsRectItem&gt;</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;QGraphicsSceneMouseEvent&gt;</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;QPainter&gt;</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div>
-<div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="classdraw_box.html">    8</a></span>&#160;<span class="keyword">class </span><a class="code" href="classdraw_box.html">drawBox</a> : <span class="keyword">public</span> QObject, <span class="keyword">public</span> QGraphicsRectItem</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;{</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;   Q_OBJECT</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">private</span> :</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keywordtype">int</span> m_IdRect;</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    </div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="classdraw_box.html#ab962b4b7fa0dd7bd00e18ab64fdba12c">drawBox</a>(<span class="keywordtype">int</span> <span class="keywordtype">id</span> = 0, QGraphicsItem * parent = 0 );</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <a class="code" href="classdraw_box.html#aa351e71f438df71396f72eb4c636ab4e">~drawBox</a>();</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#include &lt;QGraphicsRectItem&gt;</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#include &lt;QGraphicsSceneMouseEvent&gt;</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#include &lt;QPainter&gt;</span></div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
-<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="classdraw_box.html#a1e94400d4a52e328f84813438883ad17">   20</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classdraw_box.html#a1e94400d4a52e328f84813438883ad17">getIdRect</a>(){<span class="keywordflow">return</span> m_IdRect;}</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classdraw_box.html#a46020cd59dba2e55045db9aeb357ff00">mousePressEvent</a> ( QGraphicsSceneMouseEvent  * event );</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="classdraw_box.html">   20</a></span>&#160;<span class="keyword">class </span><a class="code" href="classdraw_box.html">drawBox</a> : <span class="keyword">public</span> QObject, <span class="keyword">public</span> QGraphicsRectItem</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;{</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;   Q_OBJECT</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classdraw_box.html#a560ea9e1901367a1bfb3cba38201261a">setColor</a>(<span class="keywordtype">int</span>);</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classdraw_box.html#a8755c23a415501bcce1f2bbda171e44b">drawRect</a>(<span class="keywordtype">int</span> ,<span class="keywordtype">int</span> , <span class="keywordtype">int</span>, <span class="keywordtype">int</span>);</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">private</span> :</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordtype">int</span> m_IdRect;</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;signals :</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classdraw_box.html#a4f07245bd958a7ccfd18ca5343f26519">MyId</a>(<span class="keywordtype">int</span>);</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    QString m_porte;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;};</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    </div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="classdraw_box.html#ab962b4b7fa0dd7bd00e18ab64fdba12c">drawBox</a>(<span class="keywordtype">int</span> <span class="keywordtype">id</span> = 0, QGraphicsItem * parent = 0 );</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <a class="code" href="classdraw_box.html#aa351e71f438df71396f72eb4c636ab4e">~drawBox</a>();</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="classdraw_box.html#a1e94400d4a52e328f84813438883ad17">   32</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classdraw_box.html#a1e94400d4a52e328f84813438883ad17">getIdRect</a>(){<span class="keywordflow">return</span> m_IdRect;}</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classdraw_box.html#a46020cd59dba2e55045db9aeb357ff00">mousePressEvent</a> ( QGraphicsSceneMouseEvent  * event );</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor">#endif // DRAWBOX_H</span></div>
-<div class="ttc" id="classdraw_box_html"><div class="ttname"><a href="classdraw_box.html">drawBox</a></div><div class="ttdef"><b>Definition:</b> drawbox.h:8</div></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classdraw_box.html#a560ea9e1901367a1bfb3cba38201261a">setColor</a>(<span class="keywordtype">int</span>);</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classdraw_box.html#a8755c23a415501bcce1f2bbda171e44b">drawRect</a>(<span class="keywordtype">int</span> ,<span class="keywordtype">int</span> , <span class="keywordtype">int</span>, <span class="keywordtype">int</span>);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;signals :</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classdraw_box.html#a4f07245bd958a7ccfd18ca5343f26519">MyId</a>(<span class="keywordtype">int</span>);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    QString m_porte;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;};</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="preprocessor">#endif // DRAWBOX_H</span></div>
+<div class="ttc" id="classdraw_box_html"><div class="ttname"><a href="classdraw_box.html">drawBox</a></div><div class="ttdoc">Header de la classe drawBox. </div><div class="ttdef"><b>Definition:</b> drawbox.h:20</div></div>
 <div class="ttc" id="classdraw_box_html_a4f07245bd958a7ccfd18ca5343f26519"><div class="ttname"><a href="classdraw_box.html#a4f07245bd958a7ccfd18ca5343f26519">drawBox::MyId</a></div><div class="ttdeci">void MyId(int)</div></div>
 <div class="ttc" id="classdraw_box_html_a560ea9e1901367a1bfb3cba38201261a"><div class="ttname"><a href="classdraw_box.html#a560ea9e1901367a1bfb3cba38201261a">drawBox::setColor</a></div><div class="ttdeci">void setColor(int)</div><div class="ttdef"><b>Definition:</b> drawbox.cpp:43</div></div>
-<div class="ttc" id="classdraw_box_html_a1e94400d4a52e328f84813438883ad17"><div class="ttname"><a href="classdraw_box.html#a1e94400d4a52e328f84813438883ad17">drawBox::getIdRect</a></div><div class="ttdeci">int getIdRect()</div><div class="ttdef"><b>Definition:</b> drawbox.h:20</div></div>
+<div class="ttc" id="classdraw_box_html_a1e94400d4a52e328f84813438883ad17"><div class="ttname"><a href="classdraw_box.html#a1e94400d4a52e328f84813438883ad17">drawBox::getIdRect</a></div><div class="ttdeci">int getIdRect()</div><div class="ttdef"><b>Definition:</b> drawbox.h:32</div></div>
 <div class="ttc" id="classdraw_box_html_a8755c23a415501bcce1f2bbda171e44b"><div class="ttname"><a href="classdraw_box.html#a8755c23a415501bcce1f2bbda171e44b">drawBox::drawRect</a></div><div class="ttdeci">void drawRect(int, int, int, int)</div><div class="ttdef"><b>Definition:</b> drawbox.cpp:32</div></div>
 <div class="ttc" id="classdraw_box_html_a46020cd59dba2e55045db9aeb357ff00"><div class="ttname"><a href="classdraw_box.html#a46020cd59dba2e55045db9aeb357ff00">drawBox::mousePressEvent</a></div><div class="ttdeci">void mousePressEvent(QGraphicsSceneMouseEvent *event)</div><div class="ttdef"><b>Definition:</b> drawbox.cpp:24</div></div>
 <div class="ttc" id="classdraw_box_html_aa351e71f438df71396f72eb4c636ab4e"><div class="ttname"><a href="classdraw_box.html#aa351e71f438df71396f72eb4c636ab4e">drawBox::~drawBox</a></div><div class="ttdeci">~drawBox()</div><div class="ttdef"><b>Definition:</b> drawbox.cpp:19</div></div>
@@ -161,7 +161,7 @@ $(document).ready(function(){initNavTree('drawbox_8h_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="drawbox_8h.html">drawbox.h</a></li>
-    <li class="footer">Généré le Vendredi 5 Juin 2015 15:58:39 pour Locker_Control (LC) par
+    <li class="footer">Généré le Samedi 13 Juin 2015 14:29:12 pour Locker_Control (LC) par
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

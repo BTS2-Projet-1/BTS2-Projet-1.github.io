@@ -1,0 +1,45 @@
+@startuml
+
+
+autonumber
+ConsoleWindows -> CSQLite_Local_DB : UpdateLocalData()
+activate CSQLite_Local_DB #00CCFF
+
+ alt Database is ready
+
+     database LC_Database
+     loop data list
+
+         loop packages list
+             CSQLite_Local_DB -> LC_Database : SQL_Query(INSERT ExtractCode)
+             activate LC_Database #00CCFF
+             deactivate LC_Database
+         end
+
+         loop extracts codes list
+             CSQLite_Local_DB -> LC_Database : SQL_Query(INSERT Package)
+             activate LC_Database #00A5FF
+             deactivate LC_Database
+         end
+
+         CSQLite_Local_DB -> LC_Database : SQL_Query(UPDATE Box)
+         activate LC_Database #00A5FF
+         deactivate LC_Database
+
+         CSQLite_Local_DB -> LC_Database : SQL_Query(UPDATE Doorlocker)
+         activate LC_Database #00A5FF
+         deactivate LC_Database
+     end
+
+     alt Update success
+         CSQLite_Local_DB --> ConsoleWindows : true database successful updated
+     else
+         CSQLite_Local_DB --> ConsoleWindows : false no database update
+     end
+
+ else
+     CSQLite_Local_DB --> ConsoleWindows : false no database connection
+     deactivate CSQLite_Local_DB
+ end
+
+@enduml

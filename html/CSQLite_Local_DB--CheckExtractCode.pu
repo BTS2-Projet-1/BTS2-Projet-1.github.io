@@ -1,0 +1,35 @@
+@startuml
+
+
+ autonumber
+ ConsoleWindows -> CSQLite_Local_DB : CheckExtractCode()
+ activate CSQLite_Local_DB #AABBFF
+
+ alt Database is ready
+
+     database LC_Database
+     CSQLite_Local_DB -> LC_Database: SQL_Query(SELECT idExtractCode)
+     activate LC_Database #AADDFF
+     deactivate LC_Database
+
+     alt SQL_Query success
+
+         CSQLite_Local_DB -> LC_Database: SQL_Query(SELECT ExtractCodeExpiryTime)
+         activate LC_Database #AADDFF
+         deactivate LC_Database
+
+         alt ExtractCodeExpiryTime > TimeStampNow
+             CSQLite_Local_DB --> ConsoleWindows : 1 ExtractCode exist and is valid
+         else
+            CSQLite_Local_DB --> ConsoleWindows : ExtractCode is invalid
+         end
+
+     else
+         CSQLite_Local_DB --> ConsoleWindows : -1 no database connection
+     end
+ else
+     CSQLite_Local_DB --> ConsoleWindows : -1 no database connection
+     deactivate CSQLite_Local_DB
+ end
+
+@enduml

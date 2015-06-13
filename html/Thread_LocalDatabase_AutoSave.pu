@@ -1,0 +1,13 @@
+@startuml
+
+
+QThread <|-- Thread_LocalDatabase_AutoSave
+
+Thread_LocalDatabase_AutoSave *-- SQLite_Local_DatabaseManager
+SQLite_Local_DatabaseManager o-- Thread_LocalDatabase_AutoSave
+
+CSQLite_Local_DB o-- Thread_LocalDatabase_AutoSave
+
+Thread_LocalDatabase_AutoSave  o-- SQLite_Local_DatabaseManager
+
+@enduml

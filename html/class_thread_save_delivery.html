@@ -33,7 +33,7 @@
   <td id="projectlogo"><img alt="Logo" src="logibag.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Locker_Control (LC)
-   &#160;<span id="projectnumber">1.4.6</span>
+   &#160;<span id="projectnumber">1.4.5</span>
    </div>
    <div id="projectbrief">Application Locker Control (LC), an automatic boxes manager on Qt in c++.</div>
   </td>
@@ -119,13 +119,16 @@ $(document).ready(function(){initNavTree('class_thread_save_delivery.html','');}
 </div><!--header-->
 <div class="contents">
 
+<p>Header de la classe <a class="el" href="class_thread_save_delivery.html" title="Header de la classe ThreadSaveDelivery. ">ThreadSaveDelivery</a>.  
+ <a href="class_thread_save_delivery.html#details">Plus de détails...</a></p>
+
 <p><code>#include &lt;<a class="el" href="threadsavedelivery_8h_source.html">threadsavedelivery.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Graphe d'héritage de ThreadSaveDelivery:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><!-- SVG 0 -->
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_thread_save_delivery__inherit__graph.svg" width="140" height="264"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -143,8 +146,8 @@ Signaux</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Fonctions membres publiques</h2></td></tr>
-<tr class="memitem:a4318a072c450b0b0bf581962e1dea2cd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_thread_save_delivery.html#a4318a072c450b0b0bf581962e1dea2cd">ThreadSaveDelivery</a> (<a class="el" href="class_c_s_q_lite___local___d_b.html">CSQLite_Local_DB</a> *db, <a class="el" href="class_c_l_m_s___d_b.html">CLMS_DB</a> *lms, QObject *parent=0)</td></tr>
-<tr class="separator:a4318a072c450b0b0bf581962e1dea2cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91fd964ea65b94688eb270e164044fd0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_thread_save_delivery.html#a91fd964ea65b94688eb270e164044fd0">ThreadSaveDelivery</a> (<a class="el" href="class_c_s_q_lite___local___d_b.html">CSQLite_Local_DB</a> *db, <a class="el" href="class_c_l_m_s___d_b.html">CLMS_DB</a> *lms, <a class="el" href="class_custom_xml.html">CustomXml</a> *filesavetempxml, QObject *parent=0)</td></tr>
+<tr class="separator:a91fd964ea65b94688eb270e164044fd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1f7fcfa02547a3d29c8e62beaa249ca"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_thread_save_delivery.html#af1f7fcfa02547a3d29c8e62beaa249ca">~ThreadSaveDelivery</a> ()</td></tr>
 <tr class="separator:af1f7fcfa02547a3d29c8e62beaa249ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4975505f89e79a8cfb90a6a6d7d1f1b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_thread_save_delivery.html#a4975505f89e79a8cfb90a6a6d7d1f1b0">run</a> ()</td></tr>
@@ -156,8 +159,14 @@ Fonctions membres publiques</h2></td></tr>
 <tr class="memitem:aa270961d428b43ab4fdf1f64bec8ece3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_thread_save_delivery.html#aa270961d428b43ab4fdf1f64bec8ece3">UpdateSaveTempFile</a> ()</td></tr>
 <tr class="separator:aa270961d428b43ab4fdf1f64bec8ece3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Documentation des constructeurs et destructeur</h2>
-<a class="anchor" id="a4318a072c450b0b0bf581962e1dea2cd"></a>
+<a name="details" id="details"></a><h2 class="groupheader">Description détaillée</h2>
+<div class="textblock"><p>Header de la classe <a class="el" href="class_thread_save_delivery.html" title="Header de la classe ThreadSaveDelivery. ">ThreadSaveDelivery</a>. </p>
+<p>Thread <a class="el" href="class_thread_save_delivery.html" title="Header de la classe ThreadSaveDelivery. ">ThreadSaveDelivery</a> est lancé lors du procéssus de livraison pour récupérer au près du serveur LMS les codes de retrait des livraisons et met à jour la base de données.</p>
+<dl class="section author"><dt>Auteur</dt><dd>GUEDON Damien </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>1 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>8 mai 2015 </dd></dl>
+</div><h2 class="groupheader">Documentation des constructeurs et destructeur</h2>
+<a class="anchor" id="a91fd964ea65b94688eb270e164044fd0"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -172,6 +181,12 @@ Fonctions membres publiques</h2></td></tr>
           <td></td>
           <td class="paramtype"><a class="el" href="class_c_l_m_s___d_b.html">CLMS_DB</a> *&#160;</td>
           <td class="paramname"><em>lms</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_custom_xml.html">CustomXml</a> *&#160;</td>
+          <td class="paramname"><em>filesavetempxml</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -348,8 +363,8 @@ Fonctions membres publiques</h2></td></tr>
 </div>
 </div>
 <hr/>La documentation de cette classe a été générée à partir des fichiers suivants :<ul>
-<li>E:/BTS2/HOUDAYER_Projects/Locker_Control/<a class="el" href="threadsavedelivery_8h_source.html">threadsavedelivery.h</a></li>
-<li>E:/BTS2/HOUDAYER_Projects/Locker_Control/<a class="el" href="threadsavedelivery_8cpp.html">threadsavedelivery.cpp</a></li>
+<li>S:/QT_CREATOR/Locker_Control/<a class="el" href="threadsavedelivery_8h_source.html">threadsavedelivery.h</a></li>
+<li>S:/QT_CREATOR/Locker_Control/<a class="el" href="threadsavedelivery_8cpp.html">threadsavedelivery.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -357,7 +372,7 @@ Fonctions membres publiques</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_thread_save_delivery.html">ThreadSaveDelivery</a></li>
-    <li class="footer">Généré le Vendredi 5 Juin 2015 15:58:57 pour Locker_Control (LC) par
+    <li class="footer">Généré le Samedi 13 Juin 2015 14:29:15 pour Locker_Control (LC) par
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

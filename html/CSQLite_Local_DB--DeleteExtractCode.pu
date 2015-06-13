@@ -1,0 +1,47 @@
+@startuml
+
+
+ autonumber
+ ConsoleWindows -> CSQLite_Local_DB : DeleteExtractCode()
+ activate CSQLite_Local_DB #30DDFF
+
+ alt Database is ready
+
+     database LC_Database
+
+     CSQLite_Local_DB -> LC_Database: SQL_Query(SELECT idBox)
+     activate LC_Database #30DDFF
+     deactivate LC_Database
+
+     CSQLite_Local_DB -> LC_Database: SQL_Query(SELECT idPackage)
+     activate LC_Database #30DDFF
+     deactivate LC_Database
+
+     CSQLite_Local_DB -> LC_Database: SQL_Query(DELETE ExtractCode)
+     activate LC_Database #30DDFF
+     deactivate LC_Database
+
+     loop idPackage
+          CSQLite_Local_DB -> LC_Database: SQL_Query(DELETE idPackage)
+          activate LC_Database #30DDFF
+          deactivate LC_Database
+
+          loop idBox
+               CSQLite_Local_DB -> LC_Database: SQL_Query(UPDATE Box)
+               activate LC_Database #30DDFF
+               deactivate LC_Database
+          end
+     end
+
+     alt Delete success
+         CSQLite_Local_DB -> ConsoleWindows : true deleted
+     else
+         CSQLite_Local_DB -> ConsoleWindows : false no delete
+     end
+
+ else
+     CSQLite_Local_DB -> ConsoleWindows : false no database connection
+     deactivate CSQLite_Local_DB
+ end
+
+@enduml

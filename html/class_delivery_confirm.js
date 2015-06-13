@@ -1,6 +1,6 @@
 var class_delivery_confirm =
 [
-    [ "DeliveryConfirm", "class_delivery_confirm.html#a17470a36b66b2fdb83d87abb6b73aaad", null ],
+    [ "DeliveryConfirm", "class_delivery_confirm.html#a8d534b6ae95468886c3233926ab13584", null ],
     [ "~DeliveryConfirm", "class_delivery_confirm.html#ac39f8516181be296945d626fb0ccdf04", null ],
     [ "FinishDelivery", "class_delivery_confirm.html#a624cfb7856fa7fc6d09558306b059958", null ],
     [ "NewDelivery", "class_delivery_confirm.html#aedf9ca93a85b463d9e945074ba25a6c2", null ],

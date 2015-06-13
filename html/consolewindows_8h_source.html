@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.9.1"/>
-<title>Locker_Control (LC):  Fichier source de E:/BTS2/HOUDAYER_Projects/Locker_Control/consolewindows.h</title>
+<title>Locker_Control (LC):  Fichier source de S:/QT_CREATOR/Locker_Control/consolewindows.h</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -33,7 +33,7 @@
   <td id="projectlogo"><img alt="Logo" src="logibag.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Locker_Control (LC)
-   &#160;<span id="projectnumber">1.4.6</span>
+   &#160;<span id="projectnumber">1.4.5</span>
    </div>
    <div id="projectbrief">Application Locker Control (LC), an automatic boxes manager on Qt in c++.</div>
   </td>
@@ -108,232 +108,234 @@ $(document).ready(function(){initNavTree('consolewindows_8h_source.html','');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">E:/BTS2/HOUDAYER_Projects/Locker_Control/consolewindows.h</div>  </div>
+<div class="title">S:/QT_CREATOR/Locker_Control/consolewindows.h</div>  </div>
 </div><!--header-->
 <div class="contents">
 <a href="consolewindows_8h.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef CONSOLEWINDOWS_H</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define CONSOLEWINDOWS_H</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;QMainWindow&gt;</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;QTimer&gt;</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;QMouseEvent&gt;</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;QList&gt;</span></div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;QStringList&gt;</span></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="country_8h.html">country.h</a>&quot;</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="customer_8h.html">customer.h</a>&quot;</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="login_8h.html">login.h</a>&quot;</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="menudelivery_8h.html">menudelivery.h</a>&quot;</span></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="deliveryconfirm_8h.html">deliveryconfirm.h</a>&quot;</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="scanpackage_8h.html">scanpackage.h</a>&quot;</span></div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="openemptybox_8h.html">openemptybox.h</a>&quot;</span></div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="boxchoice_8h.html">boxchoice.h</a>&quot;</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="deliveryconfirm_8h.html">deliveryconfirm.h</a>&quot;</span></div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="setting_8h.html">setting.h</a>&quot;</span></div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="settingsystem_8h.html">settingsystem.h</a>&quot;</span></div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="showwidgets_8h.html">showwidgets.h</a>&quot;</span></div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="showpackagebox_8h.html">showpackagebox.h</a>&quot;</span></div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="stowpackages_8h.html">stowpackages.h</a>&quot;</span></div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="clms__db_8h.html">clms_db.h</a>&quot;</span></div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="csqlite__local__db_8h.html">csqlite_local_db.h</a>&quot;</span></div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="maintenancemenu_8h.html">maintenancemenu.h</a>&quot;</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="sqlite__local__databasemanager_8h.html">sqlite_local_databasemanager.h</a>&quot;</span></div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="doorsmanager_8h.html">doorsmanager.h</a>&quot;</span></div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="editsettingsystem_8h.html">editsettingsystem.h</a>&quot;</span></div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="siteconfigmanager_8h.html">siteconfigmanager.h</a>&quot;</span></div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="customxml_8h.html">customxml.h</a>&quot;</span></div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="assistance_8h.html">assistance.h</a>&quot;</span></div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="keyword">class </span><a class="code" href="class_console_windows.html">ConsoleWindows</a>;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="keyword">class </span><a class="code" href="class_s_q_lite___local___database_manager.html">SQLite_Local_DatabaseManager</a>;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespace_ui.html">Ui</a> {</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="keyword">class </span><a class="code" href="class_console_windows.html">ConsoleWindows</a>;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;}</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
-<div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="class_console_windows.html">   41</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_console_windows.html">ConsoleWindows</a> : <span class="keyword">public</span> QMainWindow</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;{</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    Q_OBJECT</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="class_console_windows.html#a88d72d35d957d22438e18a30369596f3">ConsoleWindows</a>(QWidget *parent = 0);</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#include &lt;QMainWindow&gt;</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#include &lt;QTimer&gt;</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &lt;QMouseEvent&gt;</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &lt;QList&gt;</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#include &lt;QStringList&gt;</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="country_8h.html">country.h</a>&quot;</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="customer_8h.html">customer.h</a>&quot;</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="login_8h.html">login.h</a>&quot;</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="menudelivery_8h.html">menudelivery.h</a>&quot;</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="deliveryconfirm_8h.html">deliveryconfirm.h</a>&quot;</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="scanpackage_8h.html">scanpackage.h</a>&quot;</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="openemptybox_8h.html">openemptybox.h</a>&quot;</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="boxchoice_8h.html">boxchoice.h</a>&quot;</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="deliveryconfirm_8h.html">deliveryconfirm.h</a>&quot;</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="setting_8h.html">setting.h</a>&quot;</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="settingsystem_8h.html">settingsystem.h</a>&quot;</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="showwidgets_8h.html">showwidgets.h</a>&quot;</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="showpackagebox_8h.html">showpackagebox.h</a>&quot;</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="stowpackages_8h.html">stowpackages.h</a>&quot;</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="clms__db_8h.html">clms_db.h</a>&quot;</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="csqlite__local__db_8h.html">csqlite_local_db.h</a>&quot;</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="maintenancemenu_8h.html">maintenancemenu.h</a>&quot;</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="sqlite__local__databasemanager_8h.html">sqlite_local_databasemanager.h</a>&quot;</span></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="doorsmanager_8h.html">doorsmanager.h</a>&quot;</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="editsettingsystem_8h.html">editsettingsystem.h</a>&quot;</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="siteconfigmanager_8h.html">siteconfigmanager.h</a>&quot;</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="customxml_8h.html">customxml.h</a>&quot;</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="assistance_8h.html">assistance.h</a>&quot;</span></div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_console_windows.html#a110c06ff1344d5f2e877263945a59298">Initialization_Widgets</a>();</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_console_windows.html#a0c0403dd7ee490a9a19e640c32143f07">Init_Show_Widgets</a>();</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_console_windows.html#ab1646ee1ff3f1d86aac5266124edb0ab">eventFilter</a>(QObject *obj, QEvent *event);</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="comment">//evenement change pays</span></div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_console_windows.html#a6b424a5d7283de1dbeeacfffdffa8e8b">changeEvent</a>(QEvent *e);</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="keyword">class </span><a class="code" href="class_console_windows.html">ConsoleWindows</a>;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="keyword">class </span><a class="code" href="class_s_q_lite___local___database_manager.html">SQLite_Local_DatabaseManager</a>;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespace_ui.html">Ui</a> {</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="keyword">class </span><a class="code" href="class_console_windows.html">ConsoleWindows</a>;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;}</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <a class="code" href="class_console_windows.html#ac341d66eb93cdf4822ed54298e0cd038">~ConsoleWindows</a>();</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
+<div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="class_console_windows.html">   56</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_console_windows.html">ConsoleWindows</a> : <span class="keyword">public</span> QMainWindow</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;{</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    Q_OBJECT</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="keyword">public</span> slots:</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_console_windows.html#a39f034fa9d01cce4b6d798c42898ffaa">Show_WConsole</a>();</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_console_windows.html#a38cb4285810e22c1f9d900142b1369ee">SelectPays</a>(<span class="keywordtype">int</span>);</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_console_windows.html#a71d6a5be1d7a0764c482717cb28667c7">EndBuild_Database</a>(<span class="keywordtype">bool</span> Value);</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="class_console_windows.html#a88d72d35d957d22438e18a30369596f3">ConsoleWindows</a>(QWidget *parent = 0);</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_console_windows.html#a110c06ff1344d5f2e877263945a59298">Initialization_Widgets</a>();</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_console_windows.html#a0c0403dd7ee490a9a19e640c32143f07">Init_Show_Widgets</a>();</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;signals:</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_console_windows.html#a09dbdf28f2d23c277f0e857b22e1d8af">refresh</a>();</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_console_windows.html#a4c9b333a871e59b32178f24ba65a3a06">Build_Databse</a>(<span class="keywordtype">int</span>);</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="keyword">private</span> slots:</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keywordtype">void</span> HideB_DeliveryMaintenance();</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keywordtype">void</span> on_B_TakePackage_clicked();</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keywordtype">void</span> on_B_DeliveryAndMaintenace_clicked();</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_console_windows.html#ab1646ee1ff3f1d86aac5266124edb0ab">eventFilter</a>(QObject *obj, QEvent *event);</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="comment">//evenement change pays</span></div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_console_windows.html#a6b424a5d7283de1dbeeacfffdffa8e8b">changeEvent</a>(QEvent *e);</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <a class="code" href="class_console_windows.html#ac341d66eb93cdf4822ed54298e0cd038">~ConsoleWindows</a>();</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    Ui::ConsoleWindows *ui;</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="keyword">public</span> slots:</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_console_windows.html#a39f034fa9d01cce4b6d798c42898ffaa">Show_WConsole</a>();</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_console_windows.html#a38cb4285810e22c1f9d900142b1369ee">SelectPays</a>(<span class="keywordtype">int</span>);</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_console_windows.html#a71d6a5be1d7a0764c482717cb28667c7">EndBuild_Database</a>(<span class="keywordtype">bool</span> Value);</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160; <span class="comment">//positions Widgets</span></div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="keywordtype">int</span> m_position_WLogin;</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="keywordtype">int</span> m_position_WSetting;</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="keywordtype">int</span> m_position_WSettingSystem;</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <span class="keywordtype">int</span> m_position_WCustomer;</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <span class="keywordtype">int</span> m_position_WConsole;</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <span class="keywordtype">int</span> m_position_WMenuDelivery;</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <span class="keywordtype">int</span> m_position_WEmptyBox;</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <span class="keywordtype">int</span> m_position_WBoxChoice;</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="keywordtype">int</span> m_position_WScanPackage;</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <span class="keywordtype">int</span> m_position_WDeliveryComfirm;</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <span class="keywordtype">int</span> m_position_WShowPackageBox;</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    <span class="keywordtype">int</span> m_position_WStowPackages;</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    <span class="keywordtype">int</span> m_position_WMaintenanceMenu;</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <span class="keywordtype">int</span> m_position_WSQLite_Local_DatabaseManager;</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <span class="keywordtype">int</span> m_position_WDoorsManager;</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <span class="keywordtype">int</span> m_position_WEditSettingSystem;</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <span class="keywordtype">int</span> m_position_WSiteConfigManager;</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    <span class="keywordtype">int</span> m_position_WAssistance;</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <a class="code" href="class_show_widgets.html">ShowWidgets</a> m_WidgetsShow;</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160; <span class="comment">//Customer</span></div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    <a class="code" href="class_customer.html">Customer</a> *m_Widget_Customer;</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160; <span class="comment">//Livraison</span></div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <a class="code" href="class_menu_delivery.html">MenuDelivery</a> *m_Widget_MenuDelivery;</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    <a class="code" href="class_open_empty_box.html">OpenEmptyBox</a> *m_Widget_EmptyBox;</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    <a class="code" href="class_box_choice.html">BoxChoice</a> *m_Widget_BoxChoice;</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    <a class="code" href="class_scan_package.html">ScanPackage</a> *m_Widget_ScanPackage;</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    <a class="code" href="class_delivery_confirm.html">DeliveryConfirm</a> *m_Widget_DeliveryComfirm;</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    <a class="code" href="class_show_package_box.html">ShowPackageBox</a> *m_Widget_ShowPackageBox;</div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    <a class="code" href="class_stow_packages.html">StowPackages</a> *m_Widget_StowPackages;</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160; <span class="comment">//Configuration systeme</span></div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <a class="code" href="class_setting.html">Setting</a> *m_Widget_Setting;</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    <a class="code" href="class_setting_system.html">SettingSystem</a> *m_Widget_SettingSystem;</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    <a class="code" href="class_edit_setting_system.html">EditSettingSystem</a> *m_Widget_EditSettingSystem;</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160; <span class="comment">//Maintenance</span></div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    <a class="code" href="class_maintenance_menu.html">MaintenanceMenu</a> *m_Widget_MaintenanceMenu;</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    <a class="code" href="class_s_q_lite___local___database_manager.html">SQLite_Local_DatabaseManager</a> *m_Widget_SQLite_Local_DatabaseManager;</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    <a class="code" href="class_doors_manager.html">DoorsManager</a> *m_Widget_DoorsManager;</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    <a class="code" href="class_site_config_manager.html">SiteConfigManager</a> *m_Widget_SiteConfigManager;</div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160; <span class="comment">//Login</span></div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    <a class="code" href="class_login.html">Login</a> *m_Widget_Login;</div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;</div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160; <span class="comment">//BD Local</span></div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    <a class="code" href="class_c_s_q_lite___local___d_b.html">CSQLite_Local_DB</a> *m_BD;</div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;</div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160; <span class="comment">//CDoors</span></div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    <a class="code" href="class_c_doors.html">CDoors</a> *m_Doors;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;signals:</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_console_windows.html#a09dbdf28f2d23c277f0e857b22e1d8af">refresh</a>();</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_console_windows.html#a4c9b333a871e59b32178f24ba65a3a06">Build_Databse</a>(<span class="keywordtype">int</span>);</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="keyword">private</span> slots:</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <span class="keywordtype">void</span> HideB_DeliveryMaintenance();</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <span class="keywordtype">void</span> on_B_TakePackage_clicked();</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <span class="keywordtype">void</span> on_B_DeliveryAndMaintenace_clicked();</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    Ui::ConsoleWindows *ui;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160; <span class="comment">//positions Widgets</span></div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <span class="keywordtype">int</span> m_position_WLogin;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <span class="keywordtype">int</span> m_position_WSetting;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    <span class="keywordtype">int</span> m_position_WSettingSystem;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    <span class="keywordtype">int</span> m_position_WCustomer;</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <span class="keywordtype">int</span> m_position_WConsole;</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <span class="keywordtype">int</span> m_position_WMenuDelivery;</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <span class="keywordtype">int</span> m_position_WEmptyBox;</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    <span class="keywordtype">int</span> m_position_WBoxChoice;</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    <span class="keywordtype">int</span> m_position_WScanPackage;</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    <span class="keywordtype">int</span> m_position_WDeliveryComfirm;</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <span class="keywordtype">int</span> m_position_WShowPackageBox;</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    <span class="keywordtype">int</span> m_position_WStowPackages;</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    <span class="keywordtype">int</span> m_position_WMaintenanceMenu;</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    <span class="keywordtype">int</span> m_position_WSQLite_Local_DatabaseManager;</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    <span class="keywordtype">int</span> m_position_WDoorsManager;</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    <span class="keywordtype">int</span> m_position_WEditSettingSystem;</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    <span class="keywordtype">int</span> m_position_WSiteConfigManager;</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    <span class="keywordtype">int</span> m_position_WAssistance;</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <a class="code" href="class_show_widgets.html">ShowWidgets</a> m_WidgetsShow;</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160; <span class="comment">//Customer</span></div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    <a class="code" href="class_customer.html">Customer</a> *m_Widget_Customer;</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160; <span class="comment">//Livraison</span></div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    <a class="code" href="class_menu_delivery.html">MenuDelivery</a> *m_Widget_MenuDelivery;</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    <a class="code" href="class_open_empty_box.html">OpenEmptyBox</a> *m_Widget_EmptyBox;</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    <a class="code" href="class_box_choice.html">BoxChoice</a> *m_Widget_BoxChoice;</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    <a class="code" href="class_scan_package.html">ScanPackage</a> *m_Widget_ScanPackage;</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    <a class="code" href="class_delivery_confirm.html">DeliveryConfirm</a> *m_Widget_DeliveryComfirm;</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    <a class="code" href="class_show_package_box.html">ShowPackageBox</a> *m_Widget_ShowPackageBox;</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    <a class="code" href="class_stow_packages.html">StowPackages</a> *m_Widget_StowPackages;</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160; <span class="comment">//Configuration systeme</span></div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    <a class="code" href="class_setting.html">Setting</a> *m_Widget_Setting;</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    <a class="code" href="class_setting_system.html">SettingSystem</a> *m_Widget_SettingSystem;</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    <a class="code" href="class_edit_setting_system.html">EditSettingSystem</a> *m_Widget_EditSettingSystem;</div>
 <div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;</div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160; <span class="comment">//Serveur LMS</span></div>
-<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    <a class="code" href="class_c_l_m_s___d_b.html">CLMS_DB</a> *m_LMS;</div>
-<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;</div>
-<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160; <span class="comment">//Timer pour temps écoulée si pas d&#39;action</span></div>
-<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    QTimer *m_timer;</div>
-<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;    <span class="keywordtype">int</span> m_compteur;</div>
-<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;</div>
-<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160; <span class="comment">//Liste des pays</span></div>
-<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    QList&lt;QIcon&gt; m_flags;</div>
-<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;    QStringList m_pays;</div>
-<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;</div>
-<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160; <span class="comment">// Assistance</span></div>
-<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;    <a class="code" href="class_assistance.html">Assistance</a> *m_Widget_Assistance;</div>
-<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;</div>
-<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160; <span class="comment">//Traduction</span></div>
-<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;    <a class="code" href="class_country.html">Country</a> *m_country;</div>
-<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;</div>
-<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;    <a class="code" href="class_custom_xml.html">CustomXml</a> *m_fileSaveTemlist;</div>
-<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;</div>
-<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;</div>
-<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;</div>
-<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;};</div>
-<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;</div>
-<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;<span class="preprocessor">#endif // CONSOLEWINDOWS_H</span></div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160; <span class="comment">//Maintenance</span></div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    <a class="code" href="class_maintenance_menu.html">MaintenanceMenu</a> *m_Widget_MaintenanceMenu;</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    <a class="code" href="class_s_q_lite___local___database_manager.html">SQLite_Local_DatabaseManager</a> *m_Widget_SQLite_Local_DatabaseManager;</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    <a class="code" href="class_doors_manager.html">DoorsManager</a> *m_Widget_DoorsManager;</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    <a class="code" href="class_site_config_manager.html">SiteConfigManager</a> *m_Widget_SiteConfigManager;</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160; <span class="comment">//Login</span></div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    <a class="code" href="class_login.html">Login</a> *m_Widget_Login;</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160; <span class="comment">//BD Local</span></div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;    <a class="code" href="class_c_s_q_lite___local___d_b.html">CSQLite_Local_DB</a> *m_BD;</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160; <span class="comment">//CDoors</span></div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;    <a class="code" href="class_c_doors.html">CDoors</a> *m_Doors;</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160; <span class="comment">//Serveur LMS</span></div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;    <a class="code" href="class_c_l_m_s___d_b.html">CLMS_DB</a> *m_LMS;</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160; <span class="comment">//Timer pour temps écoulée si pas d&#39;action</span></div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;    QTimer *m_timer;</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;    <span class="keywordtype">int</span> m_compteur;</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160; <span class="comment">//Liste des pays</span></div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    QList&lt;QIcon&gt; m_flags;</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    QStringList m_pays;</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160; <span class="comment">// Assistance</span></div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;    <a class="code" href="class_assistance.html">Assistance</a> *m_Widget_Assistance;</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160; <span class="comment">//Traduction</span></div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    <a class="code" href="class_country.html">Country</a> *m_country;</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160; <span class="comment">//fichiers xml</span></div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;    <a class="code" href="class_custom_xml.html">CustomXml</a> *m_fileSaveTemlist;</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;    <a class="code" href="class_custom_xml.html">CustomXml</a> *m_fileConfig;</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;};</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;<span class="preprocessor">#endif // CONSOLEWINDOWS_H</span></div>
 <div class="ttc" id="openemptybox_8h_html"><div class="ttname"><a href="openemptybox_8h.html">openemptybox.h</a></div></div>
 <div class="ttc" id="class_c_l_m_s___d_b_html"><div class="ttname"><a href="class_c_l_m_s___d_b.html">CLMS_DB</a></div><div class="ttdef"><b>Definition:</b> clms_db.h:6</div></div>
 <div class="ttc" id="customer_8h_html"><div class="ttname"><a href="customer_8h.html">customer.h</a></div></div>
 <div class="ttc" id="editsettingsystem_8h_html"><div class="ttname"><a href="editsettingsystem_8h.html">editsettingsystem.h</a></div></div>
-<div class="ttc" id="class_console_windows_html_a71d6a5be1d7a0764c482717cb28667c7"><div class="ttname"><a href="class_console_windows.html#a71d6a5be1d7a0764c482717cb28667c7">ConsoleWindows::EndBuild_Database</a></div><div class="ttdeci">void EndBuild_Database(bool Value)</div><div class="ttdef"><b>Definition:</b> consolewindows.cpp:300</div></div>
+<div class="ttc" id="class_console_windows_html_a71d6a5be1d7a0764c482717cb28667c7"><div class="ttname"><a href="class_console_windows.html#a71d6a5be1d7a0764c482717cb28667c7">ConsoleWindows::EndBuild_Database</a></div><div class="ttdeci">void EndBuild_Database(bool Value)</div><div class="ttdef"><b>Definition:</b> consolewindows.cpp:321</div></div>
 <div class="ttc" id="class_s_q_lite___local___database_manager_html"><div class="ttname"><a href="class_s_q_lite___local___database_manager.html">SQLite_Local_DatabaseManager</a></div><div class="ttdoc">classe SQLite_Local_DatabaseManager, gestion des actions et interractions entre l&#39;interface de mainte...</div><div class="ttdef"><b>Definition:</b> sqlite_local_databasemanager.h:72</div></div>
 <div class="ttc" id="class_site_config_manager_html"><div class="ttname"><a href="class_site_config_manager.html">SiteConfigManager</a></div><div class="ttdef"><b>Definition:</b> siteconfigmanager.h:10</div></div>
-<div class="ttc" id="class_open_empty_box_html"><div class="ttname"><a href="class_open_empty_box.html">OpenEmptyBox</a></div><div class="ttdef"><b>Definition:</b> openemptybox.h:20</div></div>
+<div class="ttc" id="class_open_empty_box_html"><div class="ttname"><a href="class_open_empty_box.html">OpenEmptyBox</a></div><div class="ttdoc">Header de la classe OpenEmptyBox. </div><div class="ttdef"><b>Definition:</b> openemptybox.h:32</div></div>
 <div class="ttc" id="class_doors_manager_html"><div class="ttname"><a href="class_doors_manager.html">DoorsManager</a></div><div class="ttdoc">classe DoorsManager, hérite de QWidget pour la gestion de l&#39;IHM. La classe DoorsManager permet à l&#39;ut...</div><div class="ttdef"><b>Definition:</b> doorsmanager.h:56</div></div>
 <div class="ttc" id="showpackagebox_8h_html"><div class="ttname"><a href="showpackagebox_8h.html">showpackagebox.h</a></div></div>
-<div class="ttc" id="class_console_windows_html_a110c06ff1344d5f2e877263945a59298"><div class="ttname"><a href="class_console_windows.html#a110c06ff1344d5f2e877263945a59298">ConsoleWindows::Initialization_Widgets</a></div><div class="ttdeci">void Initialization_Widgets()</div><div class="ttdef"><b>Definition:</b> consolewindows.cpp:80</div></div>
+<div class="ttc" id="class_console_windows_html_a110c06ff1344d5f2e877263945a59298"><div class="ttname"><a href="class_console_windows.html#a110c06ff1344d5f2e877263945a59298">ConsoleWindows::Initialization_Widgets</a></div><div class="ttdeci">void Initialization_Widgets()</div><div class="ttdef"><b>Definition:</b> consolewindows.cpp:100</div></div>
 <div class="ttc" id="namespace_ui_html"><div class="ttname"><a href="namespace_ui.html">Ui</a></div><div class="ttdef"><b>Definition:</b> assistance.h:10</div></div>
-<div class="ttc" id="class_customer_html"><div class="ttname"><a href="class_customer.html">Customer</a></div><div class="ttdef"><b>Definition:</b> customer.h:16</div></div>
-<div class="ttc" id="class_edit_setting_system_html"><div class="ttname"><a href="class_edit_setting_system.html">EditSettingSystem</a></div><div class="ttdef"><b>Definition:</b> editsettingsystem.h:19</div></div>
-<div class="ttc" id="class_console_windows_html_a0c0403dd7ee490a9a19e640c32143f07"><div class="ttname"><a href="class_console_windows.html#a0c0403dd7ee490a9a19e640c32143f07">ConsoleWindows::Init_Show_Widgets</a></div><div class="ttdeci">void Init_Show_Widgets()</div><div class="ttdef"><b>Definition:</b> consolewindows.cpp:164</div></div>
+<div class="ttc" id="class_customer_html"><div class="ttname"><a href="class_customer.html">Customer</a></div><div class="ttdoc">Header de la classe Customer. </div><div class="ttdef"><b>Definition:</b> customer.h:28</div></div>
+<div class="ttc" id="class_edit_setting_system_html"><div class="ttname"><a href="class_edit_setting_system.html">EditSettingSystem</a></div><div class="ttdoc">Header de la classe EditSettingSystem. </div><div class="ttdef"><b>Definition:</b> editsettingsystem.h:32</div></div>
+<div class="ttc" id="class_console_windows_html_a0c0403dd7ee490a9a19e640c32143f07"><div class="ttname"><a href="class_console_windows.html#a0c0403dd7ee490a9a19e640c32143f07">ConsoleWindows::Init_Show_Widgets</a></div><div class="ttdeci">void Init_Show_Widgets()</div><div class="ttdef"><b>Definition:</b> consolewindows.cpp:184</div></div>
 <div class="ttc" id="setting_8h_html"><div class="ttname"><a href="setting_8h.html">setting.h</a></div></div>
 <div class="ttc" id="country_8h_html"><div class="ttname"><a href="country_8h.html">country.h</a></div></div>
 <div class="ttc" id="doorsmanager_8h_html"><div class="ttname"><a href="doorsmanager_8h.html">doorsmanager.h</a></div></div>
-<div class="ttc" id="class_login_html"><div class="ttname"><a href="class_login.html">Login</a></div><div class="ttdef"><b>Definition:</b> login.h:14</div></div>
+<div class="ttc" id="class_login_html"><div class="ttname"><a href="class_login.html">Login</a></div><div class="ttdoc">Header de la classe Login. </div><div class="ttdef"><b>Definition:</b> login.h:26</div></div>
 <div class="ttc" id="class_console_windows_html_a88d72d35d957d22438e18a30369596f3"><div class="ttname"><a href="class_console_windows.html#a88d72d35d957d22438e18a30369596f3">ConsoleWindows::ConsoleWindows</a></div><div class="ttdeci">ConsoleWindows(QWidget *parent=0)</div><div class="ttdef"><b>Definition:</b> consolewindows.cpp:7</div></div>
-<div class="ttc" id="class_country_html"><div class="ttname"><a href="class_country.html">Country</a></div><div class="ttdef"><b>Definition:</b> country.h:8</div></div>
-<div class="ttc" id="class_console_windows_html_a39f034fa9d01cce4b6d798c42898ffaa"><div class="ttname"><a href="class_console_windows.html#a39f034fa9d01cce4b6d798c42898ffaa">ConsoleWindows::Show_WConsole</a></div><div class="ttdeci">void Show_WConsole()</div><div class="ttdef"><b>Definition:</b> consolewindows.cpp:236</div></div>
+<div class="ttc" id="class_country_html"><div class="ttname"><a href="class_country.html">Country</a></div><div class="ttdoc">Header de la classe Country. </div><div class="ttdef"><b>Definition:</b> country.h:20</div></div>
+<div class="ttc" id="class_console_windows_html_a39f034fa9d01cce4b6d798c42898ffaa"><div class="ttname"><a href="class_console_windows.html#a39f034fa9d01cce4b6d798c42898ffaa">ConsoleWindows::Show_WConsole</a></div><div class="ttdeci">void Show_WConsole()</div><div class="ttdef"><b>Definition:</b> consolewindows.cpp:257</div></div>
 <div class="ttc" id="showwidgets_8h_html"><div class="ttname"><a href="showwidgets_8h.html">showwidgets.h</a></div></div>
 <div class="ttc" id="class_console_windows_html_a09dbdf28f2d23c277f0e857b22e1d8af"><div class="ttname"><a href="class_console_windows.html#a09dbdf28f2d23c277f0e857b22e1d8af">ConsoleWindows::refresh</a></div><div class="ttdeci">void refresh()</div></div>
 <div class="ttc" id="boxchoice_8h_html"><div class="ttname"><a href="boxchoice_8h.html">boxchoice.h</a></div></div>
-<div class="ttc" id="class_show_widgets_html"><div class="ttname"><a href="class_show_widgets.html">ShowWidgets</a></div><div class="ttdef"><b>Definition:</b> showwidgets.h:7</div></div>
+<div class="ttc" id="class_show_widgets_html"><div class="ttname"><a href="class_show_widgets.html">ShowWidgets</a></div><div class="ttdoc">Header de la classe ShowWidgets. </div><div class="ttdef"><b>Definition:</b> showwidgets.h:19</div></div>
 <div class="ttc" id="csqlite__local__db_8h_html"><div class="ttname"><a href="csqlite__local__db_8h.html">csqlite_local_db.h</a></div></div>
 <div class="ttc" id="menudelivery_8h_html"><div class="ttname"><a href="menudelivery_8h.html">menudelivery.h</a></div></div>
 <div class="ttc" id="class_box_choice_html"><div class="ttname"><a href="class_box_choice.html">BoxChoice</a></div><div class="ttdoc">Definition de la classe BoxChoice. </div><div class="ttdef"><b>Definition:</b> boxchoice.h:32</div></div>
-<div class="ttc" id="class_menu_delivery_html"><div class="ttname"><a href="class_menu_delivery.html">MenuDelivery</a></div><div class="ttdef"><b>Definition:</b> menudelivery.h:12</div></div>
+<div class="ttc" id="class_menu_delivery_html"><div class="ttname"><a href="class_menu_delivery.html">MenuDelivery</a></div><div class="ttdoc">Header de la classe MenuDelivery. </div><div class="ttdef"><b>Definition:</b> menudelivery.h:24</div></div>
 <div class="ttc" id="class_maintenance_menu_html"><div class="ttname"><a href="class_maintenance_menu.html">MaintenanceMenu</a></div><div class="ttdoc">classe MaintenanceMenu, Gestion du menu de maintenance de Locker Control  Projet Locker Control sur g...</div><div class="ttdef"><b>Definition:</b> maintenancemenu.h:36</div></div>
-<div class="ttc" id="class_console_windows_html_ac341d66eb93cdf4822ed54298e0cd038"><div class="ttname"><a href="class_console_windows.html#ac341d66eb93cdf4822ed54298e0cd038">ConsoleWindows::~ConsoleWindows</a></div><div class="ttdeci">~ConsoleWindows()</div><div class="ttdef"><b>Definition:</b> consolewindows.cpp:70</div></div>
+<div class="ttc" id="class_console_windows_html_ac341d66eb93cdf4822ed54298e0cd038"><div class="ttname"><a href="class_console_windows.html#ac341d66eb93cdf4822ed54298e0cd038">ConsoleWindows::~ConsoleWindows</a></div><div class="ttdeci">~ConsoleWindows()</div><div class="ttdef"><b>Definition:</b> consolewindows.cpp:71</div></div>
 <div class="ttc" id="deliveryconfirm_8h_html"><div class="ttname"><a href="deliveryconfirm_8h.html">deliveryconfirm.h</a></div></div>
 <div class="ttc" id="scanpackage_8h_html"><div class="ttname"><a href="scanpackage_8h.html">scanpackage.h</a></div></div>
-<div class="ttc" id="class_delivery_confirm_html"><div class="ttname"><a href="class_delivery_confirm.html">DeliveryConfirm</a></div><div class="ttdef"><b>Definition:</b> deliveryconfirm.h:17</div></div>
-<div class="ttc" id="class_stow_packages_html"><div class="ttname"><a href="class_stow_packages.html">StowPackages</a></div><div class="ttdef"><b>Definition:</b> stowpackages.h:22</div></div>
+<div class="ttc" id="class_delivery_confirm_html"><div class="ttname"><a href="class_delivery_confirm.html">DeliveryConfirm</a></div><div class="ttdoc">Header de la classe DeliveryConfirm. </div><div class="ttdef"><b>Definition:</b> deliveryconfirm.h:29</div></div>
+<div class="ttc" id="class_stow_packages_html"><div class="ttname"><a href="class_stow_packages.html">StowPackages</a></div><div class="ttdoc">Header de la classe StowPackages. </div><div class="ttdef"><b>Definition:</b> stowpackages.h:35</div></div>
 <div class="ttc" id="sqlite__local__databasemanager_8h_html"><div class="ttname"><a href="sqlite__local__databasemanager_8h.html">sqlite_local_databasemanager.h</a></div></div>
 <div class="ttc" id="maintenancemenu_8h_html"><div class="ttname"><a href="maintenancemenu_8h.html">maintenancemenu.h</a></div></div>
 <div class="ttc" id="siteconfigmanager_8h_html"><div class="ttname"><a href="siteconfigmanager_8h.html">siteconfigmanager.h</a></div></div>
 <div class="ttc" id="assistance_8h_html"><div class="ttname"><a href="assistance_8h.html">assistance.h</a></div></div>
-<div class="ttc" id="class_console_windows_html"><div class="ttname"><a href="class_console_windows.html">ConsoleWindows</a></div><div class="ttdef"><b>Definition:</b> consolewindows.h:41</div></div>
+<div class="ttc" id="class_console_windows_html"><div class="ttname"><a href="class_console_windows.html">ConsoleWindows</a></div><div class="ttdoc">Header de la classe ConsoleWindows. </div><div class="ttdef"><b>Definition:</b> consolewindows.h:56</div></div>
 <div class="ttc" id="class_console_windows_html_a4c9b333a871e59b32178f24ba65a3a06"><div class="ttname"><a href="class_console_windows.html#a4c9b333a871e59b32178f24ba65a3a06">ConsoleWindows::Build_Databse</a></div><div class="ttdeci">void Build_Databse(int)</div></div>
-<div class="ttc" id="class_console_windows_html_a6b424a5d7283de1dbeeacfffdffa8e8b"><div class="ttname"><a href="class_console_windows.html#a6b424a5d7283de1dbeeacfffdffa8e8b">ConsoleWindows::changeEvent</a></div><div class="ttdeci">void changeEvent(QEvent *e)</div><div class="ttdef"><b>Definition:</b> consolewindows.cpp:311</div></div>
-<div class="ttc" id="class_console_windows_html_a38cb4285810e22c1f9d900142b1369ee"><div class="ttname"><a href="class_console_windows.html#a38cb4285810e22c1f9d900142b1369ee">ConsoleWindows::SelectPays</a></div><div class="ttdeci">void SelectPays(int)</div><div class="ttdef"><b>Definition:</b> consolewindows.cpp:279</div></div>
+<div class="ttc" id="class_console_windows_html_a6b424a5d7283de1dbeeacfffdffa8e8b"><div class="ttname"><a href="class_console_windows.html#a6b424a5d7283de1dbeeacfffdffa8e8b">ConsoleWindows::changeEvent</a></div><div class="ttdeci">void changeEvent(QEvent *e)</div><div class="ttdef"><b>Definition:</b> consolewindows.cpp:332</div></div>
+<div class="ttc" id="class_console_windows_html_a38cb4285810e22c1f9d900142b1369ee"><div class="ttname"><a href="class_console_windows.html#a38cb4285810e22c1f9d900142b1369ee">ConsoleWindows::SelectPays</a></div><div class="ttdeci">void SelectPays(int)</div><div class="ttdef"><b>Definition:</b> consolewindows.cpp:300</div></div>
 <div class="ttc" id="clms__db_8h_html"><div class="ttname"><a href="clms__db_8h.html">clms_db.h</a></div></div>
 <div class="ttc" id="login_8h_html"><div class="ttname"><a href="login_8h.html">login.h</a></div></div>
 <div class="ttc" id="class_c_doors_html"><div class="ttname"><a href="class_c_doors.html">CDoors</a></div><div class="ttdef"><b>Definition:</b> cdoors.h:7</div></div>
-<div class="ttc" id="class_setting_system_html"><div class="ttname"><a href="class_setting_system.html">SettingSystem</a></div><div class="ttdef"><b>Definition:</b> settingsystem.h:22</div></div>
+<div class="ttc" id="class_setting_system_html"><div class="ttname"><a href="class_setting_system.html">SettingSystem</a></div><div class="ttdoc">Header de la classe SettingSystem. </div><div class="ttdef"><b>Definition:</b> settingsystem.h:34</div></div>
 <div class="ttc" id="class_c_s_q_lite___local___d_b_html"><div class="ttname"><a href="class_c_s_q_lite___local___d_b.html">CSQLite_Local_DB</a></div><div class="ttdoc">classe CSQLite_Local_DB, gestion des communications entre une base de données locale de type SQLite...</div><div class="ttdef"><b>Definition:</b> csqlite_local_db.h:56</div></div>
 <div class="ttc" id="stowpackages_8h_html"><div class="ttname"><a href="stowpackages_8h.html">stowpackages.h</a></div></div>
-<div class="ttc" id="class_scan_package_html"><div class="ttname"><a href="class_scan_package.html">ScanPackage</a></div><div class="ttdef"><b>Definition:</b> scanpackage.h:15</div></div>
-<div class="ttc" id="class_console_windows_html_ab1646ee1ff3f1d86aac5266124edb0ab"><div class="ttname"><a href="class_console_windows.html#ab1646ee1ff3f1d86aac5266124edb0ab">ConsoleWindows::eventFilter</a></div><div class="ttdeci">bool eventFilter(QObject *obj, QEvent *event)</div><div class="ttdef"><b>Definition:</b> consolewindows.cpp:242</div></div>
-<div class="ttc" id="class_show_package_box_html"><div class="ttname"><a href="class_show_package_box.html">ShowPackageBox</a></div><div class="ttdef"><b>Definition:</b> showpackagebox.h:21</div></div>
+<div class="ttc" id="class_scan_package_html"><div class="ttname"><a href="class_scan_package.html">ScanPackage</a></div><div class="ttdoc">Header de la classe ScanPackage. </div><div class="ttdef"><b>Definition:</b> scanpackage.h:27</div></div>
+<div class="ttc" id="class_console_windows_html_ab1646ee1ff3f1d86aac5266124edb0ab"><div class="ttname"><a href="class_console_windows.html#ab1646ee1ff3f1d86aac5266124edb0ab">ConsoleWindows::eventFilter</a></div><div class="ttdeci">bool eventFilter(QObject *obj, QEvent *event)</div><div class="ttdef"><b>Definition:</b> consolewindows.cpp:263</div></div>
+<div class="ttc" id="class_show_package_box_html"><div class="ttname"><a href="class_show_package_box.html">ShowPackageBox</a></div><div class="ttdef"><b>Definition:</b> showpackagebox.h:33</div></div>
 <div class="ttc" id="customxml_8h_html"><div class="ttname"><a href="customxml_8h.html">customxml.h</a></div></div>
 <div class="ttc" id="class_assistance_html"><div class="ttname"><a href="class_assistance.html">Assistance</a></div><div class="ttdef"><b>Definition:</b> assistance.h:14</div></div>
-<div class="ttc" id="class_custom_xml_html"><div class="ttname"><a href="class_custom_xml.html">CustomXml</a></div><div class="ttdef"><b>Definition:</b> customxml.h:11</div></div>
+<div class="ttc" id="class_custom_xml_html"><div class="ttname"><a href="class_custom_xml.html">CustomXml</a></div><div class="ttdoc">Header de la classe CustomXml. </div><div class="ttdef"><b>Definition:</b> customxml.h:23</div></div>
 <div class="ttc" id="settingsystem_8h_html"><div class="ttname"><a href="settingsystem_8h.html">settingsystem.h</a></div></div>
-<div class="ttc" id="class_setting_html"><div class="ttname"><a href="class_setting.html">Setting</a></div><div class="ttdef"><b>Definition:</b> setting.h:11</div></div>
+<div class="ttc" id="class_setting_html"><div class="ttname"><a href="class_setting.html">Setting</a></div><div class="ttdoc">Header de la classe Setting. </div><div class="ttdef"><b>Definition:</b> setting.h:23</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="consolewindows_8h.html">consolewindows.h</a></li>
-    <li class="footer">Généré le Vendredi 5 Juin 2015 15:58:39 pour Locker_Control (LC) par
+    <li class="footer">Généré le Samedi 13 Juin 2015 14:29:12 pour Locker_Control (LC) par
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

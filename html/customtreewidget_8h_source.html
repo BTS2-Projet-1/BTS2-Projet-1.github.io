@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.9.1"/>
-<title>Locker_Control (LC):  Fichier source de E:/BTS2/HOUDAYER_Projects/Locker_Control/customtreewidget.h</title>
+<title>Locker_Control (LC):  Fichier source de S:/QT_CREATOR/Locker_Control/customtreewidget.h</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -33,7 +33,7 @@
   <td id="projectlogo"><img alt="Logo" src="logibag.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Locker_Control (LC)
-   &#160;<span id="projectnumber">1.4.6</span>
+   &#160;<span id="projectnumber">1.4.5</span>
    </div>
    <div id="projectbrief">Application Locker Control (LC), an automatic boxes manager on Qt in c++.</div>
   </td>
@@ -108,57 +108,57 @@ $(document).ready(function(){initNavTree('customtreewidget_8h_source.html','');}
 
 <div class="header">
   <div class="headertitle">
-<div class="title">E:/BTS2/HOUDAYER_Projects/Locker_Control/customtreewidget.h</div>  </div>
+<div class="title">S:/QT_CREATOR/Locker_Control/customtreewidget.h</div>  </div>
 </div><!--header-->
 <div class="contents">
 <a href="customtreewidget_8h.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef CUSTOMTREEWIDGET_H</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define CUSTOMTREEWIDGET_H</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;QTreeWidget&gt;</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;QTreeWidgetItem&gt;</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="custompushbutton_8h.html">custompushbutton.h</a>&quot;</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div>
-<div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="class_custom_tree_widget.html">    8</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_custom_tree_widget.html">CustomTreeWidget</a></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;{</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        <a class="code" href="class_custom_tree_widget.html#ae24ab113af3b2774d1730a7cd55471e2">CustomTreeWidget</a>(QTreeWidget *treewidget);</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        <a class="code" href="class_custom_tree_widget.html#a2a082e756efd517f3a71e7e67e1f32f6">~CustomTreeWidget</a>();</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_custom_tree_widget.html#a4abeb5cd859226e4cbe2b83e941c3aea">AddItem</a>(<span class="keywordtype">int</span> numberbox, <a class="code" href="class_custom_push_button.html">CustomPushButton</a> *button);</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_custom_tree_widget.html#a8c4ea47a57e7301097702c7aa04d2c58">EditedItem_ColumnStatusOfDoor</a>(<span class="keywordtype">int</span> numberbox ,QString textedited , QColor color);</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_custom_tree_widget.html#a4919b08a8230f1afc200c00f947d031d">ButtonVisible</a>(<span class="keywordtype">int</span> numberbox, <span class="keywordtype">bool</span>);</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_custom_tree_widget.html#ae144f5edf4f360d34230c84f2d6d06f2">ClearListItem</a>();</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_custom_tree_widget.html#a280ffd761d408605f79546e8cf0b3a37">RemoveLastItem</a>();</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="class_custom_tree_widget.html#a04467023e71a82a7f292101ee3d1f1f6">isDoorsClose</a>(QList&lt;int&gt; listbox);        </div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">private</span> :</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <span class="keywordtype">int</span> getIndexListItem(<span class="keywordtype">int</span> numberbox);</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        QTreeWidget *m_TreeWidget;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        QList&lt;QTreeWidgetItem *&gt; m_listItemTreeWidget;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        QList&lt;CustomPushButton * &gt; m_listButtonOpen;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;};</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#endif // CUSTOMTREEWIDGET_H</span></div>
-<div class="ttc" id="class_custom_tree_widget_html_a280ffd761d408605f79546e8cf0b3a37"><div class="ttname"><a href="class_custom_tree_widget.html#a280ffd761d408605f79546e8cf0b3a37">CustomTreeWidget::RemoveLastItem</a></div><div class="ttdeci">void RemoveLastItem()</div><div class="ttdef"><b>Definition:</b> customtreewidget.cpp:91</div></div>
-<div class="ttc" id="class_custom_tree_widget_html_a2a082e756efd517f3a71e7e67e1f32f6"><div class="ttname"><a href="class_custom_tree_widget.html#a2a082e756efd517f3a71e7e67e1f32f6">CustomTreeWidget::~CustomTreeWidget</a></div><div class="ttdeci">~CustomTreeWidget()</div><div class="ttdef"><b>Definition:</b> customtreewidget.cpp:19</div></div>
-<div class="ttc" id="class_custom_tree_widget_html"><div class="ttname"><a href="class_custom_tree_widget.html">CustomTreeWidget</a></div><div class="ttdef"><b>Definition:</b> customtreewidget.h:8</div></div>
-<div class="ttc" id="class_custom_tree_widget_html_a4919b08a8230f1afc200c00f947d031d"><div class="ttname"><a href="class_custom_tree_widget.html#a4919b08a8230f1afc200c00f947d031d">CustomTreeWidget::ButtonVisible</a></div><div class="ttdeci">void ButtonVisible(int numberbox, bool)</div><div class="ttdef"><b>Definition:</b> customtreewidget.cpp:61</div></div>
-<div class="ttc" id="class_custom_tree_widget_html_a8c4ea47a57e7301097702c7aa04d2c58"><div class="ttname"><a href="class_custom_tree_widget.html#a8c4ea47a57e7301097702c7aa04d2c58">CustomTreeWidget::EditedItem_ColumnStatusOfDoor</a></div><div class="ttdeci">void EditedItem_ColumnStatusOfDoor(int numberbox, QString textedited, QColor color)</div><div class="ttdef"><b>Definition:</b> customtreewidget.cpp:48</div></div>
-<div class="ttc" id="class_custom_tree_widget_html_a4abeb5cd859226e4cbe2b83e941c3aea"><div class="ttname"><a href="class_custom_tree_widget.html#a4abeb5cd859226e4cbe2b83e941c3aea">CustomTreeWidget::AddItem</a></div><div class="ttdeci">void AddItem(int numberbox, CustomPushButton *button)</div><div class="ttdef"><b>Definition:</b> customtreewidget.cpp:24</div></div>
-<div class="ttc" id="class_custom_tree_widget_html_ae24ab113af3b2774d1730a7cd55471e2"><div class="ttname"><a href="class_custom_tree_widget.html#ae24ab113af3b2774d1730a7cd55471e2">CustomTreeWidget::CustomTreeWidget</a></div><div class="ttdeci">CustomTreeWidget(QTreeWidget *treewidget)</div><div class="ttdef"><b>Definition:</b> customtreewidget.cpp:8</div></div>
-<div class="ttc" id="class_custom_tree_widget_html_ae144f5edf4f360d34230c84f2d6d06f2"><div class="ttname"><a href="class_custom_tree_widget.html#ae144f5edf4f360d34230c84f2d6d06f2">CustomTreeWidget::ClearListItem</a></div><div class="ttdeci">void ClearListItem()</div><div class="ttdef"><b>Definition:</b> customtreewidget.cpp:85</div></div>
-<div class="ttc" id="class_custom_push_button_html"><div class="ttname"><a href="class_custom_push_button.html">CustomPushButton</a></div><div class="ttdef"><b>Definition:</b> custompushbutton.h:8</div></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#include &lt;QTreeWidget&gt;</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#include &lt;QTreeWidgetItem&gt;</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="custompushbutton_8h.html">custompushbutton.h</a>&quot;</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="class_custom_tree_widget.html">   21</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_custom_tree_widget.html">CustomTreeWidget</a></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;{</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <a class="code" href="class_custom_tree_widget.html#ae24ab113af3b2774d1730a7cd55471e2">CustomTreeWidget</a>(QTreeWidget *treewidget);</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <a class="code" href="class_custom_tree_widget.html#a2a082e756efd517f3a71e7e67e1f32f6">~CustomTreeWidget</a>();</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_custom_tree_widget.html#a4abeb5cd859226e4cbe2b83e941c3aea">AddItem</a>(<span class="keywordtype">int</span> numberbox, <a class="code" href="class_custom_push_button.html">CustomPushButton</a> *button);</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_custom_tree_widget.html#a8c4ea47a57e7301097702c7aa04d2c58">EditedItem_ColumnStatusOfDoor</a>(<span class="keywordtype">int</span> numberbox ,QString textedited , QColor color);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_custom_tree_widget.html#a4919b08a8230f1afc200c00f947d031d">ButtonVisible</a>(<span class="keywordtype">int</span> numberbox, <span class="keywordtype">bool</span>);</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_custom_tree_widget.html#ae144f5edf4f360d34230c84f2d6d06f2">ClearListItem</a>();</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_custom_tree_widget.html#a280ffd761d408605f79546e8cf0b3a37">RemoveLastItem</a>();</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="class_custom_tree_widget.html#a04467023e71a82a7f292101ee3d1f1f6">isDoorsClose</a>(QList&lt;int&gt; listbox);        </div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="keyword">private</span> :</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="keywordtype">int</span> getIndexListItem(<span class="keywordtype">int</span> numberbox);</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        QTreeWidget *m_TreeWidget;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        QList&lt;QTreeWidgetItem *&gt; m_listItemTreeWidget;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        QList&lt;CustomPushButton * &gt; m_listButtonOpen;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;};</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="preprocessor">#endif // CUSTOMTREEWIDGET_H</span></div>
+<div class="ttc" id="class_custom_tree_widget_html_a280ffd761d408605f79546e8cf0b3a37"><div class="ttname"><a href="class_custom_tree_widget.html#a280ffd761d408605f79546e8cf0b3a37">CustomTreeWidget::RemoveLastItem</a></div><div class="ttdeci">void RemoveLastItem()</div><div class="ttdef"><b>Definition:</b> customtreewidget.cpp:92</div></div>
+<div class="ttc" id="class_custom_tree_widget_html_a2a082e756efd517f3a71e7e67e1f32f6"><div class="ttname"><a href="class_custom_tree_widget.html#a2a082e756efd517f3a71e7e67e1f32f6">CustomTreeWidget::~CustomTreeWidget</a></div><div class="ttdeci">~CustomTreeWidget()</div><div class="ttdef"><b>Definition:</b> customtreewidget.cpp:17</div></div>
+<div class="ttc" id="class_custom_tree_widget_html"><div class="ttname"><a href="class_custom_tree_widget.html">CustomTreeWidget</a></div><div class="ttdoc">Header de la classe CustomTreeWidget. </div><div class="ttdef"><b>Definition:</b> customtreewidget.h:21</div></div>
+<div class="ttc" id="class_custom_tree_widget_html_a4919b08a8230f1afc200c00f947d031d"><div class="ttname"><a href="class_custom_tree_widget.html#a4919b08a8230f1afc200c00f947d031d">CustomTreeWidget::ButtonVisible</a></div><div class="ttdeci">void ButtonVisible(int numberbox, bool)</div><div class="ttdef"><b>Definition:</b> customtreewidget.cpp:62</div></div>
+<div class="ttc" id="class_custom_tree_widget_html_a8c4ea47a57e7301097702c7aa04d2c58"><div class="ttname"><a href="class_custom_tree_widget.html#a8c4ea47a57e7301097702c7aa04d2c58">CustomTreeWidget::EditedItem_ColumnStatusOfDoor</a></div><div class="ttdeci">void EditedItem_ColumnStatusOfDoor(int numberbox, QString textedited, QColor color)</div><div class="ttdef"><b>Definition:</b> customtreewidget.cpp:49</div></div>
+<div class="ttc" id="class_custom_tree_widget_html_a4abeb5cd859226e4cbe2b83e941c3aea"><div class="ttname"><a href="class_custom_tree_widget.html#a4abeb5cd859226e4cbe2b83e941c3aea">CustomTreeWidget::AddItem</a></div><div class="ttdeci">void AddItem(int numberbox, CustomPushButton *button)</div><div class="ttdef"><b>Definition:</b> customtreewidget.cpp:22</div></div>
+<div class="ttc" id="class_custom_tree_widget_html_ae24ab113af3b2774d1730a7cd55471e2"><div class="ttname"><a href="class_custom_tree_widget.html#ae24ab113af3b2774d1730a7cd55471e2">CustomTreeWidget::CustomTreeWidget</a></div><div class="ttdeci">CustomTreeWidget(QTreeWidget *treewidget)</div><div class="ttdef"><b>Definition:</b> customtreewidget.cpp:10</div></div>
+<div class="ttc" id="class_custom_tree_widget_html_ae144f5edf4f360d34230c84f2d6d06f2"><div class="ttname"><a href="class_custom_tree_widget.html#ae144f5edf4f360d34230c84f2d6d06f2">CustomTreeWidget::ClearListItem</a></div><div class="ttdeci">void ClearListItem()</div><div class="ttdef"><b>Definition:</b> customtreewidget.cpp:86</div></div>
+<div class="ttc" id="class_custom_push_button_html"><div class="ttname"><a href="class_custom_push_button.html">CustomPushButton</a></div><div class="ttdoc">Header de la classe CustomPushButton. </div><div class="ttdef"><b>Definition:</b> custompushbutton.h:21</div></div>
 <div class="ttc" id="custompushbutton_8h_html"><div class="ttname"><a href="custompushbutton_8h.html">custompushbutton.h</a></div></div>
-<div class="ttc" id="class_custom_tree_widget_html_a04467023e71a82a7f292101ee3d1f1f6"><div class="ttname"><a href="class_custom_tree_widget.html#a04467023e71a82a7f292101ee3d1f1f6">CustomTreeWidget::isDoorsClose</a></div><div class="ttdeci">bool isDoorsClose(QList&lt; int &gt; listbox)</div><div class="ttdef"><b>Definition:</b> customtreewidget.cpp:112</div></div>
+<div class="ttc" id="class_custom_tree_widget_html_a04467023e71a82a7f292101ee3d1f1f6"><div class="ttname"><a href="class_custom_tree_widget.html#a04467023e71a82a7f292101ee3d1f1f6">CustomTreeWidget::isDoorsClose</a></div><div class="ttdeci">bool isDoorsClose(QList&lt; int &gt; listbox)</div><div class="ttdef"><b>Definition:</b> customtreewidget.cpp:113</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="customtreewidget_8h.html">customtreewidget.h</a></li>
-    <li class="footer">Généré le Vendredi 5 Juin 2015 15:58:39 pour Locker_Control (LC) par
+    <li class="footer">Généré le Samedi 13 Juin 2015 14:29:12 pour Locker_Control (LC) par
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

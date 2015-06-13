@@ -1,0 +1,25 @@
+@startuml
+
+
+QWidget <|-- SQLite_Local_DatabaseManager
+
+SQLite_Local_DatabaseManager *-- ConsoleWindows
+SQLite_Local_DatabaseManager o-- ConsoleWindows
+
+Thread_Databasemanager *-- SQLite_Local_DatabaseManager
+Thread_Databasemanager_AutoSave *-- SQLite_Local_DatabaseManager
+SQLite_Local_DatabaseManager o-- Thread_Databasemanager
+SQLite_Local_DatabaseManager o-- Thread_Databasemanager_AutoSave
+
+CSQLite_Local_DB *-- ConsoleWindows
+CSQLite_Local_DB o-- ConsoleWindows
+
+ShowWidgets o-- SQLite_Local_DatabaseManager
+
+ConsoleWindows o-- SQLite_Local_DatabaseManager
+CSQLite_Local_DB o-- SQLite_Local_DatabaseManager
+
+Thread_Databasemanager  o-- SQLite_Local_DatabaseManager
+Thread_Databasemanager_AutoSave o-- SQLite_Local_DatabaseManager
+
+@enduml

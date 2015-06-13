@@ -1,0 +1,14 @@
+@startuml
+
+
+autonumber
+ConsoleWindows -> CSQLite_Local_DB : ~CSQLite_Local_DB()
+activate CSQLite_Local_DB #0000FF
+
+CSQLite_Local_DB -> CSQLite_Local_DB : if database opened\n then, close database
+activate CSQLite_Local_DB #00A0FF
+
+deactivate CSQLite_Local_DB
+destroy CSQLite_Local_DB
+
+@enduml

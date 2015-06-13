@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.9.1"/>
-<title>Locker_Control (LC):  Fichier source de E:/BTS2/HOUDAYER_Projects/Locker_Control/setting.h</title>
+<title>Locker_Control (LC):  Fichier source de S:/QT_CREATOR/Locker_Control/setting.h</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -33,7 +33,7 @@
   <td id="projectlogo"><img alt="Logo" src="logibag.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Locker_Control (LC)
-   &#160;<span id="projectnumber">1.4.6</span>
+   &#160;<span id="projectnumber">1.4.5</span>
    </div>
    <div id="projectbrief">Application Locker Control (LC), an automatic boxes manager on Qt in c++.</div>
   </td>
@@ -108,52 +108,53 @@ $(document).ready(function(){initNavTree('setting_8h_source.html','');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">E:/BTS2/HOUDAYER_Projects/Locker_Control/setting.h</div>  </div>
+<div class="title">S:/QT_CREATOR/Locker_Control/setting.h</div>  </div>
 </div><!--header-->
 <div class="contents">
 <a href="setting_8h.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef SETTING_H</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define SETTING_H</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;QWidget&gt;</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="showwidgets_8h.html">showwidgets.h</a>&quot;</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespace_ui.html">Ui</a> {</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">class </span><a class="code" href="class_setting.html">Setting</a>;</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;}</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
-<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="class_setting.html">   11</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_setting.html">Setting</a> : <span class="keyword">public</span> QWidget</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;{</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    Q_OBJECT</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="class_setting.html#a419079db5fab959f5b65bf0fd963e4da">Setting</a>(QWidget *parent = 0);</div>
-<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="class_setting.html#ab71571183465087e0ddcab1a89c99003">   17</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_setting.html#ab71571183465087e0ddcab1a89c99003">SetShowWidgets</a>(<a class="code" href="class_show_widgets.html">ShowWidgets</a> *TShowWidgets){m_ShowWidgets = TShowWidgets;}</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#include &lt;QWidget&gt;</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="showwidgets_8h.html">showwidgets.h</a>&quot;</span></div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <a class="code" href="class_setting.html#a328f6cad583dff1270fa5424dff8fee6">~Setting</a>();</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_setting.html#ab9d84220400e473de2d1bc8095f62826">retranslateUi</a>();</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keyword">public</span> slots:</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_setting.html#a734669f10ea46b3ed3aa1270cef4216a">ReturnHome</a>();</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_setting.html#aeeaaa915e45a30644728aa257c6cb2af">ShowMaintenanceMenu</a>();</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keyword">private</span> slots:</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordtype">void</span> ShowSettingSystem();</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    Ui::Setting *ui;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <a class="code" href="class_show_widgets.html">ShowWidgets</a> *m_ShowWidgets;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;};</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespace_ui.html">Ui</a> {</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keyword">class </span><a class="code" href="class_setting.html">Setting</a>;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;}</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="class_setting.html">   23</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_setting.html">Setting</a> : <span class="keyword">public</span> QWidget</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;{</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    Q_OBJECT</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="class_setting.html#a419079db5fab959f5b65bf0fd963e4da">Setting</a>(QWidget *parent = 0);</div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="class_setting.html#ab71571183465087e0ddcab1a89c99003">   29</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_setting.html#ab71571183465087e0ddcab1a89c99003">SetShowWidgets</a>(<a class="code" href="class_show_widgets.html">ShowWidgets</a> *TShowWidgets){m_ShowWidgets = TShowWidgets;}</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <a class="code" href="class_setting.html#a328f6cad583dff1270fa5424dff8fee6">~Setting</a>();</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_setting.html#ab9d84220400e473de2d1bc8095f62826">retranslateUi</a>();</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor">#endif // SETTING_H</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="keyword">public</span> slots:</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_setting.html#a734669f10ea46b3ed3aa1270cef4216a">ReturnHome</a>();</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_setting.html#aeeaaa915e45a30644728aa257c6cb2af">ShowMaintenanceMenu</a>();</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="keyword">private</span> slots:</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordtype">void</span> ShowSettingSystem();</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    Ui::Setting *ui;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <a class="code" href="class_show_widgets.html">ShowWidgets</a> *m_ShowWidgets;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;};</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="preprocessor">#endif // SETTING_H</span></div>
 <div class="ttc" id="namespace_ui_html"><div class="ttname"><a href="namespace_ui.html">Ui</a></div><div class="ttdef"><b>Definition:</b> assistance.h:10</div></div>
 <div class="ttc" id="class_setting_html_aeeaaa915e45a30644728aa257c6cb2af"><div class="ttname"><a href="class_setting.html#aeeaaa915e45a30644728aa257c6cb2af">Setting::ShowMaintenanceMenu</a></div><div class="ttdeci">void ShowMaintenanceMenu()</div><div class="ttdef"><b>Definition:</b> setting.cpp:19</div></div>
 <div class="ttc" id="class_setting_html_a419079db5fab959f5b65bf0fd963e4da"><div class="ttname"><a href="class_setting.html#a419079db5fab959f5b65bf0fd963e4da">Setting::Setting</a></div><div class="ttdeci">Setting(QWidget *parent=0)</div><div class="ttdef"><b>Definition:</b> setting.cpp:4</div></div>
 <div class="ttc" id="showwidgets_8h_html"><div class="ttname"><a href="showwidgets_8h.html">showwidgets.h</a></div></div>
-<div class="ttc" id="class_setting_html_ab71571183465087e0ddcab1a89c99003"><div class="ttname"><a href="class_setting.html#ab71571183465087e0ddcab1a89c99003">Setting::SetShowWidgets</a></div><div class="ttdeci">void SetShowWidgets(ShowWidgets *TShowWidgets)</div><div class="ttdef"><b>Definition:</b> setting.h:17</div></div>
-<div class="ttc" id="class_show_widgets_html"><div class="ttname"><a href="class_show_widgets.html">ShowWidgets</a></div><div class="ttdef"><b>Definition:</b> showwidgets.h:7</div></div>
+<div class="ttc" id="class_setting_html_ab71571183465087e0ddcab1a89c99003"><div class="ttname"><a href="class_setting.html#ab71571183465087e0ddcab1a89c99003">Setting::SetShowWidgets</a></div><div class="ttdeci">void SetShowWidgets(ShowWidgets *TShowWidgets)</div><div class="ttdef"><b>Definition:</b> setting.h:29</div></div>
+<div class="ttc" id="class_show_widgets_html"><div class="ttname"><a href="class_show_widgets.html">ShowWidgets</a></div><div class="ttdoc">Header de la classe ShowWidgets. </div><div class="ttdef"><b>Definition:</b> showwidgets.h:19</div></div>
 <div class="ttc" id="class_setting_html_a734669f10ea46b3ed3aa1270cef4216a"><div class="ttname"><a href="class_setting.html#a734669f10ea46b3ed3aa1270cef4216a">Setting::ReturnHome</a></div><div class="ttdeci">void ReturnHome()</div><div class="ttdef"><b>Definition:</b> setting.cpp:29</div></div>
 <div class="ttc" id="class_setting_html_a328f6cad583dff1270fa5424dff8fee6"><div class="ttname"><a href="class_setting.html#a328f6cad583dff1270fa5424dff8fee6">Setting::~Setting</a></div><div class="ttdeci">~Setting()</div><div class="ttdef"><b>Definition:</b> setting.cpp:14</div></div>
-<div class="ttc" id="class_setting_html"><div class="ttname"><a href="class_setting.html">Setting</a></div><div class="ttdef"><b>Definition:</b> setting.h:11</div></div>
+<div class="ttc" id="class_setting_html"><div class="ttname"><a href="class_setting.html">Setting</a></div><div class="ttdoc">Header de la classe Setting. </div><div class="ttdef"><b>Definition:</b> setting.h:23</div></div>
 <div class="ttc" id="class_setting_html_ab9d84220400e473de2d1bc8095f62826"><div class="ttname"><a href="class_setting.html#ab9d84220400e473de2d1bc8095f62826">Setting::retranslateUi</a></div><div class="ttdeci">void retranslateUi()</div><div class="ttdef"><b>Definition:</b> setting.cpp:34</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -161,7 +162,7 @@ $(document).ready(function(){initNavTree('setting_8h_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="setting_8h.html">setting.h</a></li>
-    <li class="footer">Généré le Vendredi 5 Juin 2015 15:58:40 pour Locker_Control (LC) par
+    <li class="footer">Généré le Samedi 13 Juin 2015 14:29:12 pour Locker_Control (LC) par
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

@@ -1,0 +1,15 @@
+@startuml
+
+
+QWidget <|-- DoorsManager
+
+DoorsManager *-- ConsoleWindows
+ConsoleWindows o-- DoorsManager
+DoorsManager o-- ConsoleWindows
+
+CSQLite_Local_DB o-- DoorsManager
+ShowWidgets o-- DoorsManager
+
+CDoors o-- DoorsManager
+
+@enduml

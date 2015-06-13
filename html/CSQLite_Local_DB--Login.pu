@@ -1,0 +1,55 @@
+@startuml
+
+
+autonumber
+ConsoleWindows-> CSQLite_Local_DB  : Login()
+activate CSQLite_Local_DB #0000FF
+
+alt Database is ready
+     database LC_Database
+     CSQLite_Local_DB  -> CSQLite_Local_DB : HashingPassword()
+     CSQLite_Local_DB -> LC_Database : SQL_Query(SELECT UserType FROM User)
+     activate LC_Database #00A5FF
+     deactivate LC_Database
+     
+     alt UserCompanyPass, UserPersonalPass,\n UserPassWord, NOT found in database
+         CSQLite_Local_DB  --> ConsoleWindows : (UNDEFINED_USER) -4
+     else
+
+         alt Livreur (0) or Maintenance (1) user
+         CSQLite_Local_DB  --> ConsoleWindows : UserType
+
+         else
+
+             alt UserCompanyPass is OK
+             else
+                  CSQLite_Local_DB -> LC_Database : SQL_Query(SELECT UserCompanyPass FROM User)
+                  activate LC_Database #11A5FF
+                  deactivate LC_Database
+                  CSQLite_Local_DB  --> ConsoleWindows:  (UNDEFINED_COMPANY_PASS) -3
+             end
+
+             alt UserPersonalPass is OK
+             else
+                  CSQLite_Local_DB -> LC_Database : SQL_Query(SELECT UserPersonalPass FROM User)
+                  activate LC_Database #00CCFF
+                  deactivate LC_Database
+                  CSQLite_Local_DB  --> ConsoleWindows: (UNDEFINED_PERSONAL_PASS) -3
+             end
+
+             alt UserPassWord is OK
+             else
+                  CSQLite_Local_DB -> LC_Database : SQL_Query(SELECT UserPassWord FROM User)
+                  activate LC_Database #10DDFF
+                  deactivate LC_Database
+                  CSQLite_Local_DB  --> ConsoleWindows: (UNDEFINED_PASSWORD) -1
+             end
+         end
+     end
+
+else
+     CSQLite_Local_DB  --> ConsoleWindows : (No database connection) -5
+     deactivate CSQLite_Local_DB
+end
+
+@enduml

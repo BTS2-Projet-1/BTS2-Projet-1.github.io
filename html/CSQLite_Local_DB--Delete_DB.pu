@@ -1,0 +1,20 @@
+@startuml
+
+
+autonumber
+CSQLite_Local_DB -> CSQLite_Local_DB  : Delete_DB()
+activate CSQLite_Local_DB #0000FF
+
+alt DataBaseIsReady
+    CSQLite_Local_DB -> CSQLite_Local_DB : close()
+    activate CSQLite_Local_DB #00A0FF
+    deactivate CSQLite_Local_DB
+    CSQLite_Local_DB -> CSQLite_Local_DB : RemoveFile()
+    activate CSQLite_Local_DB #10BBFF
+    deactivate CSQLite_Local_DB
+    deactivate CSQLite_Local_DB
+else
+    CSQLite_Local_DB --> CSQLite_Local_DB : ReturnError()
+end
+
+@enduml
